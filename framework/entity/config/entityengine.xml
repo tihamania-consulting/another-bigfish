@@ -484,9 +484,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"

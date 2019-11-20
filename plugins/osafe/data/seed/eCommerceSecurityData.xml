@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the OSafe Component." permissionId="OSAFE_VIEW"/>
+    <SecurityPermission description="Create operations in the OSafe Component." permissionId="OSAFE_CREATE"/>
+    <SecurityPermission description="Update operations in the OSafe Component." permissionId="OSAFE_UPDATE"/>
+    <SecurityPermission description="Delete operations in the OSafe Component." permissionId="OSAFE_DELETE"/>
+    <SecurityPermission description="ALL operations in the OSafe Component." permissionId="OSAFE_ADMIN"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="FULLADMIN" permissionId="OSAFE_ADMIN"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="FLEXADMIN" permissionId="OSAFE_CREATE"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="FLEXADMIN" permissionId="OSAFE_DELETE"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="FLEXADMIN" permissionId="OSAFE_UPDATE"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="FLEXADMIN" permissionId="OSAFE_VIEW"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="VIEWADMIN" permissionId="OSAFE_VIEW"/>
+    <SecurityGroupPermission fromDate="2001-05-13 12:00:00.0" groupId="BIZADMIN" permissionId="OSAFE_ADMIN"/>
+</entity-engine-xml>

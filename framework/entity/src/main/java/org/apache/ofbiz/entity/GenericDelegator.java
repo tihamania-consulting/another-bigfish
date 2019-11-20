@@ -1409,6 +1409,10 @@ public class GenericDelegator implements Delegator {
         return findOne(entityName, UtilMisc.toMap(fields), useCache);
     }
 
+    public GenericValue findOne(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException {
+     return findOne(entityName, fields, false);
+    }
+
     /* (non-Javadoc)
      * @see org.apache.ofbiz.entity.Delegator#findOne(java.lang.String, java.util.Map, boolean)
      */
@@ -1526,6 +1530,16 @@ public class GenericDelegator implements Delegator {
     @Override
     public List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields, List<String> orderBy, boolean useCache) throws GenericEntityException {
         return this.findList(entityName, EntityCondition.makeCondition(fields), null, orderBy, null, useCache);
+    }
+
+    @Override
+    public List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields, List<String> orderBy) throws GenericEntityException {
+        return this.findList(entityName, EntityCondition.makeCondition(fields), null, orderBy, null, false);
+    }
+
+    @Override
+    public List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException {
+        return this.findList(entityName, EntityCondition.makeCondition(fields), null, null, null, false);
     }
 
     /* (non-Javadoc)

@@ -276,6 +276,10 @@ public interface Delegator {
      */
     List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields, List<String> orderBy, boolean useCache) throws GenericEntityException;
 
+    List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields, List<String> orderBy) throws GenericEntityException;
+
+    List<GenericValue> findByAnd(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException;
+
     /**
      * Find a Generic Entity by its Primary Key and only returns the values
      * requested by the passed keys (names).
@@ -379,6 +383,8 @@ public interface Delegator {
      * @return The GenericValue corresponding to the primaryKey
      */
     GenericValue findOne(String entityName, Map<String, ? extends Object> fields, boolean useCache) throws GenericEntityException;
+
+    GenericValue findOne(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException;
 
     Cache getCache();
 
