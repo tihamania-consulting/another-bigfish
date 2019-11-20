@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entity-engine-xml>
+    <SecurityGroup description="oSAFE Admin"                  groupId="FULLADMIN"/>
+    <SecurityGroup description="oSAFE Admin"                  groupId="FLEXADMIN"/>
+    <SecurityGroup description="oSAFE Admin"                  groupId="VIEWADMIN"/>
+    <SecurityGroup description="oSAFE Admin"                  groupId="BIZADMIN"/>
     <SecurityPermission description="View operations in the OSafe Component." permissionId="OSAFE_VIEW"/>
     <SecurityPermission description="Create operations in the OSafe Component." permissionId="OSAFE_CREATE"/>
     <SecurityPermission description="Update operations in the OSafe Component." permissionId="OSAFE_UPDATE"/>
