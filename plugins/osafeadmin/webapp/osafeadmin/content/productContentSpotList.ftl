@@ -43,13 +43,13 @@
                 <#if statusId == "CTNT_PUBLISHED" >
                     <#assign lastModifiedDate = "" />
               		<#if thisContent.lastModifiedDate?has_content>
-                        ${thisContent.lastModifiedDate?string(preferredDateFormat)}
+                        ${thisContent.lastModifiedDate?string('dd/MM/yyyy')}
               		</#if>
                 </#if>
             </td>
                     
             <td class="dateCol <#if !hasNext>lastRow</#if> lastCol">
-                ${(thisContent.createdDate?string(preferredDateFormat))!""}
+                ${(thisContent.createdDate?string('dd/MM/yyyy'))!""}
             </td>
                     
             <td class="actionCol <#if !hasNext>lastRow</#if> lastCol">

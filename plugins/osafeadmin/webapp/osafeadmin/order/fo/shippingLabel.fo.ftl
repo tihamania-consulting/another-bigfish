@@ -254,7 +254,7 @@ under the License.
                     				</fo:table-row >
                     				<fo:table-row >
                     					<fo:table-cell text-align="start">
-                    						<fo:block margin-top="2mm" text-indent="2mm" font-weight="bold">${uiLabelMap.InvoiceDateCaption} <#if invoice?has_content>${(invoice.invoiceDate?string(preferredDateFormat))!""}</#if></fo:block>
+                    						<fo:block margin-top="2mm" text-indent="2mm" font-weight="bold">${uiLabelMap.InvoiceDateCaption} <#if invoice?has_content>${(invoice.invoiceDate?string('dd/MM/yyyy'))!""}</#if></fo:block>
                     					</fo:table-cell>
                     				</fo:table-row >
                     				<fo:table-row >
@@ -445,7 +445,7 @@ under the License.
                                    <fo:block font-size="10pt" text-align="right" font-weight="bold">${uiLabelMap.OrderDateCaption}</fo:block>
                                 </fo:table-cell >
                                 <fo:table-cell >
-                                   <fo:block font-size="10pt" text-indent="1mm">${(orderHeader.entryDate?string(preferredDateFormat))!""}</fo:block>
+                                   <fo:block font-size="10pt" text-indent="1mm">${(orderHeader.entryDate?string('dd/MM/yyyy'))!""}</fo:block>
                                 </fo:table-cell >
                                </fo:table-row>
                                <fo:table-row>

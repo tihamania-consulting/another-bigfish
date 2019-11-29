@@ -25,7 +25,7 @@
 	      <label>${uiLabelMap.ShipDateCaption}</label>
 	     </div>
 	     <#if orderItemShipDate?has_content>
-	          <#assign orderItemShipDate = orderItemShipDate?string(preferredDateFormat)!""/>
+	          <#assign orderItemShipDate = orderItemShipDate?string('dd/MM/yyyy')!""/>
 	      </#if>
 	     <div class="infoValue medium">
 	       <#if orderItemShipDate?has_content>${orderItemShipDate!""}</#if>

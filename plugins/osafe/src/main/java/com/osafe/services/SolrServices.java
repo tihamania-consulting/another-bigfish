@@ -1,12 +1,7 @@
 package com.osafe.services;
 
 import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.io.BufferedInputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
@@ -15,10 +10,10 @@ import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.net.URLEncoder;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
@@ -27,10 +22,15 @@ import java.util.ResourceBundle;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
 
+import org.apache.commons.io.IOUtils;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.ofbiz.solr.SolrUtil;
+import org.apache.solr.client.solrj.impl.HttpSolrClient;
+import org.apache.solr.common.SolrInputDocument;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
@@ -68,13 +68,46 @@ import org.supercsv.prefs.CsvPreference;
 //import au.com.bytecode.opencsv.CSVReader;
 
 import com.osafe.solr.SolrConstants;
-import com.osafe.util.SerializationUtils;
 import com.osafe.util.Util;
 
 public class SolrServices {
 
     public static final String module = SolrServices.class.getName();
     private static final ResourceBundle OSAFE_PROPS = UtilProperties.getResourceBundle("OsafeProperties.xml", Locale.getDefault());
+    private  static final String FIELD_NAME_ID = "id";
+    private  static final String FIELD_NAME_ROW_TYPE = "rowType";
+    private  static final String FIELD_NAME_PRODUCT_ID = "productId";
+    private  static final String FIELD_NAME_NAME = "name";
+    private  static final String FIELD_NAME_INTERNAL_NAME = "internalName";
+    private  static final String FIELD_NAME_DESCRIPTION = "description";
+    private  static final String FIELD_NAME_CATEGORY_DESC = "categoryDescription";
+    private  static final String FIELD_NAME_CATEGORY_PDP_DESC = "categoryPdpDescription";
+    private  static final String FIELD_NAME_CATEGORY_ID = "productCategoryId";
+    private  static final String FIELD_NAME_TOP_MOST_CATEGORY_ID = "topMostProductCategoryId";
+    private  static final String FIELD_NAME_CATEGORY_LEVEL = "categoryLevel";
+    private  static final String FIELD_NAME_CATEGORY_NAME = "categoryName";
+    private  static final String FIELD_NAME_CATEGORY_IMAGE_URL = "categoryImageUrl";
+    private  static final String FIELD_NAME_IMAGE_SMALL_URL = "productImageSmallUrl";
+    private  static final String FIELD_NAME_IMAGE_SMALL_ALT = "productImageSmallAlt";
+    private  static final String FIELD_NAME_IMAGE_SMALL_ATL_URL = "productImageSmallAltUrl";
+    private  static final String FIELD_NAME_IMAGE_MEDIUM_URL = "productImageMediumUrl";
+    private  static final String FIELD_NAME_IMAGE_LARGE_URL = "productImageLargeUrl";
+    private  static final String FIELD_NAME_FEATURE_GROUP_ID = "productFeatureGroupId";
+    private  static final String FIELD_NAME_FEATURE_GROUP_DESC = "productFeatureGroupDescription";
+    private  static final String FIELD_NAME_PRODUCT_FACET_GROUP = "productCategoryFacetGroups";
+    private  static final String FIELD_NAME_LIST_PRICE = "listPrice";
+    private  static final String FIELD_NAME_PRICE = "price";
+    private  static final String FIELD_NAME_RECCURENCE_PRICE = "recurrencePrice";
+    private  static final String FIELD_NAME_CUSTOMER_RATING = "customerRating";
+    private  static final String FIELD_NAME_SEQ_NUM = "sequenceNum";
+    private  static final String FIELD_NAME_TOTAL_TIMES_VIEWED = "totalTimesViewed";
+    private  static final String FIELD_NAME_TOTAL_QUANTITY = "totalQuantityOrdered";
+    private  static final String FIELD_NAME_PRODUCT_FACILITY_IDS = "productFacilityIds";
+    private  static final String FIELD_NAME_INTRO_DATE = "introductionDate";
+    private  static final String FIELD_NAME_DISCOTUNIATION_DATE = "salesDiscontinuationDate";
+    private  static final String FIELD_NAME_DISCOTUNIATION_DATE_NULL_FLAG = "salesDiscontinuationDateNullFlag";
+    private  static final String FIELD_NAME_MANUFACTURER_NAME = "manufacturerName";
+    private  static final String FIELD_NAME_MANUFACTURER_ID_NO = "manufacturerIdNo";
 
     @SuppressWarnings("unchecked")
     public static Map genProductsIndex(DispatchContext dctx, Map context) throws GenericTransactionException 
@@ -87,7 +120,7 @@ public class SolrServices {
         Delegator delegator = dctx.getDelegator();
         LocalDispatcher dispatcher = dctx.getDispatcher();
 
-        List<ProductDocument> documentList = new ArrayList();
+        List<SolrInputDocument> documentList = new ArrayList();
         
         List<String> headerColumns = getHeaderColumns();
 
@@ -119,10 +152,10 @@ public class SolrServices {
             productFeatureCatGrpApplFieldSet.add("facetValueMax");
             List<GenericValue> productFeatureCatGrpApplsList = delegator.findList("ProductFeatureCatGrpAppl", null, productFeatureCatGrpApplFieldSet, null, null, false); 
             productFeatureCatGrpApplsList = EntityUtil.filterByDate(productFeatureCatGrpApplsList);
-            
-            ProductDocument productDocument = null;
-            ProductDocument productCategoryDocument = null;
-            ProductDocument facetGroupDocument = null;
+
+            SolrInputDocument productDocument = null;
+            SolrInputDocument productCategoryDocument = null;
+            SolrInputDocument facetGroupDocument = null;
             Map<String, Object> results = null;
             String productId = null;
             String productCategoryId = null;
@@ -150,28 +183,28 @@ public class SolrServices {
                 if ("CATALOG_CATEGORY".equals(workingCategory.getString("productCategoryTypeId"))) 
                 {
                     // Add "Product Category" SOLR documents
-                    productCategoryDocument = new ProductDocument();
+                    productCategoryDocument = new SolrInputDocument();
                     productCategoryId = (String) workingCategory.getString("productCategoryId");
-                    productCategoryDocument.setId(SolrConstants.ROW_TYPE_PRODUCT_CATEGORY + "_" + productCategoryId);
-                    productCategoryDocument.setRowType(SolrConstants.ROW_TYPE_PRODUCT_CATEGORY);
+                    productCategoryDocument.setField(FIELD_NAME_ID, SolrConstants.ROW_TYPE_PRODUCT_CATEGORY + "_" + productCategoryId);
+                    productCategoryDocument.setField(FIELD_NAME_ROW_TYPE, SolrConstants.ROW_TYPE_PRODUCT_CATEGORY);
                     categoryContentWrapper = new CategoryContentWrapper(dispatcher, workingCategory, locale, "text/html");
 
                     categoryTrail = (List<String>) workingCategoryMap.get("categoryTrail");
                     categoryLevel = categoryTrail.size() - 1;
                     productCategoryIdPath = StringUtils.join(categoryTrail, " ");
-                    productCategoryDocument.setProductCategoryId(productCategoryIdPath);
-                    productCategoryDocument.setCategoryLevel(categoryLevel);
-                    productCategoryDocument.setCategoryName(workingCategory.getString("categoryName"));
+                    productCategoryDocument.setField(FIELD_NAME_CATEGORY_ID, productCategoryIdPath);
+                    productCategoryDocument.setField(FIELD_NAME_CATEGORY_LEVEL, categoryLevel);
+                    productCategoryDocument.setField(FIELD_NAME_CATEGORY_NAME, workingCategory.getString("categoryName"));
                     String categoryImageUrl = workingCategory.getString("categoryImageUrl");
                     if (UtilValidate.isNotEmpty(categoryImageUrl)) 
                     {
-                        productCategoryDocument.setCategoryImageUrl(categoryImageUrl);
+                        productCategoryDocument.setField(FIELD_NAME_CATEGORY_IMAGE_URL, categoryImageUrl);
                     }
                     // Category_DESCRIPTION
                     categoryDescription = workingCategory.getString("longDescription");
                     if (UtilValidate.isNotEmpty(categoryDescription) && !"null".equalsIgnoreCase(categoryDescription)) 
                     {
-                        productCategoryDocument.setCategoryDescription(categoryDescription.toString());
+                        productCategoryDocument.setField(FIELD_NAME_CATEGORY_DESC, categoryDescription.toString());
                     }
 
                     documentList.add(productCategoryDocument);
@@ -200,19 +233,19 @@ public class SolrServices {
                                 if (ProductWorker.isSellable(product)) 
                                 {
                                     productContentWrapper = new ProductContentWrapper(dispatcher, product, locale, "text/html");
-                                    productDocument = new ProductDocument();
+                                    productDocument = new SolrInputDocument();
                                     productId = product.getString("productId");
                                     productDocumentId = SolrConstants.ROW_TYPE_PRODUCT + "_" + productId;
-                                    productDocument.setId(productDocumentId);
-                                    productDocument.setProductId(productId);
-                                    productDocument.setRowType(SolrConstants.ROW_TYPE_PRODUCT);
-                                    productDocument.setName(productContentWrapper.get("PRODUCT_NAME", "html").toString());
-                                    productDocument.setInternalName(product.getString("internalName"));
-                                    
+                                    productDocument.setField(FIELD_NAME_ID, productDocumentId);
+                                    productDocument.setField(FIELD_NAME_PRODUCT_ID, productId);
+                                    productDocument.setField(FIELD_NAME_ROW_TYPE, SolrConstants.ROW_TYPE_PRODUCT);
+                                    productDocument.setField(FIELD_NAME_NAME, productContentWrapper.get("PRODUCT_NAME", "html").toString());
+                                    productDocument.setField(FIELD_NAME_INTERNAL_NAME,  product.getString("internalName"));
+
                                     GenericValue goodIdentification = delegator.findOne("GoodIdentification", UtilMisc.toMap("productId", productId, "goodIdentificationTypeId", "MANUFACTURER_ID_NO"));
                                     if(UtilValidate.isNotEmpty(goodIdentification))
                                     {
-                                    	productDocument.setManufacturerIdNo(goodIdentification.getString("idValue"));
+                                    	productDocument.setField(FIELD_NAME_MANUFACTURER_ID_NO, goodIdentification.getString("idValue"));
                                     }
                                     
                                     String manufacturerPartyId = product.getString("manufacturerPartyId");
@@ -222,21 +255,21 @@ public class SolrServices {
                                     	if(UtilValidate.isNotEmpty(manufacturerParty))
                                     	{
                                     		PartyContentWrapper partyContentWrapper = new PartyContentWrapper(dispatcher, manufacturerParty, locale, "text/html");
-                                    		productDocument.setManufacturerName(partyContentWrapper.get("PROFILE_NAME", "html").toString());
+                                    		productDocument.setField(FIELD_NAME_MANUFACTURER_NAME,  partyContentWrapper.get("PROFILE_NAME", "html").toString());
                                     	}
                                     }
                                     
                                     if(UtilValidate.isNotEmpty(product.getTimestamp("introductionDate")))
                                     {
-                                    	productDocument.setIntroductionDate(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(product.getTimestamp("introductionDate").getTime())));
+                                    	productDocument.setField(FIELD_NAME_INTRO_DATE,  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(product.getTimestamp("introductionDate").getTime())));
                                     }
                                     
-                                    productDocument.setSalesDiscontinuationDateNullFlag(0);
+                                    productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE_NULL_FLAG, 0);
                                     Timestamp salesDiscoDateTs = product.getTimestamp("salesDiscontinuationDate");
                                     if(UtilValidate.isNotEmpty(salesDiscoDateTs))
                                     {
-                                    	productDocument.setSalesDiscontinuationDate(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
-                                    	productDocument.setSalesDiscontinuationDateNullFlag(1);
+                                    	productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE , new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
+                                    	productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE_NULL_FLAG, 1);
                                     }
                                     String SORT_OPTIONS  = Util.getProductStoreParm(productStoreId, "PLP_AVAILABLE_SORT");
                                     if(UtilValidate.isNotEmpty(SORT_OPTIONS) && SORT_OPTIONS.contains("DISCO_DATE"))
@@ -261,14 +294,14 @@ public class SolrServices {
 	                                    					if(UtilValidate.isEmpty(salesDiscoDateTs))
 	                                                        {
 	                                    						salesDiscoDateTs = productVariant.getTimestamp("salesDiscontinuationDate");
-	                                    						productDocument.setSalesDiscontinuationDate(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
-			                                                	productDocument.setSalesDiscontinuationDateNullFlag(1);
+	                                    						productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE ,new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
+			                                                	productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE_NULL_FLAG,1);
 	                                                        }
 	                                    					else if(UtilValidate.isNotEmpty(salesDiscoDateTs) && salesDiscoDateTs.after(productVariant.getTimestamp("salesDiscontinuationDate")))
 		                                    				{
 	                                    						salesDiscoDateTs = productVariant.getTimestamp("salesDiscontinuationDate");
-			                                                	productDocument.setSalesDiscontinuationDate(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
-			                                                	productDocument.setSalesDiscontinuationDateNullFlag(1);
+			                                                	productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE ,new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'").format(new java.util.Date(salesDiscoDateTs.getTime())));
+			                                                	productDocument.setField(FIELD_NAME_DISCOTUNIATION_DATE_NULL_FLAG,1);
 		                                    				}
 	                                    					break;
 	                                    				}
@@ -278,32 +311,32 @@ public class SolrServices {
 	                                    }
                                     }
                                     
-                                    productDocument.setSequenceNum(productCategoryMember.getString("sequenceNum"));
-                                    productDocument.setCategoryName(workingCategory.getString("categoryName"));
+                                    productDocument.setField(FIELD_NAME_SEQ_NUM ,productCategoryMember.getString("sequenceNum"));
+                                    productDocument.setField(FIELD_NAME_CATEGORY_NAME , workingCategory.getString("categoryName"));
                                     
                                     if (UtilValidate.isNotEmpty(categoryDescription) && !"null".equalsIgnoreCase(categoryDescription.toString())) 
                                     {
-                                    	productDocument.setCategoryDescription(categoryDescription.toString());
+                                    	productDocument.setField(FIELD_NAME_CATEGORY_DESC ,categoryDescription.toString());
                                     }
                                     // LONG_DESCRIPTION
                                     String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", locale, dispatcher, "html");
                                     if (UtilValidate.isNotEmpty(longDescription)) 
                                     {
-                                        productDocument.setDescription(longDescription);
+                                        productDocument.setField(FIELD_NAME_DESCRIPTION ,longDescription);
                                     }
 
                                     // SMALL_IMAGE_URL
                                     imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "url");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
-                                        productDocument.setProductImageSmallUrl(imageUrl.toString());
+                                        productDocument.setField(FIELD_NAME_IMAGE_SMALL_URL, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT
                                     imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT", "url");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
-                                        productDocument.setProductImageSmallAlt(imageUrl.toString());
+                                        productDocument.setField(FIELD_NAME_IMAGE_SMALL_ALT, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT_URL
@@ -312,21 +345,21 @@ public class SolrServices {
                                     {
                                     	if (UtilValidate.isNotEmpty(imageUrl.toString()))
                                     	{
-                                            productDocument.setProductImageSmallAltUrl(imageUrl.toString());
+                                            productDocument.setField(FIELD_NAME_IMAGE_SMALL_ATL_URL, imageUrl.toString());
                                     	}
                                     }
                                     // MEDIUM_IMAGE_URL
                                     imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL", "url");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
-                                        productDocument.setProductImageMediumUrl(imageUrl.toString());
+                                        productDocument.setField(FIELD_NAME_IMAGE_MEDIUM_URL, imageUrl.toString());
                                     }
 
                                     // LARGE_IMAGE_URL
                                     imageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
-                                        productDocument.setProductImageLargeUrl(imageUrl.toString());
+                                        productDocument.setField(FIELD_NAME_IMAGE_LARGE_URL, imageUrl.toString());
                                     }
 
                                     results = dispatcher.runSync("getProductFeaturesByType", UtilMisc.toMap("productId", productId));
@@ -432,13 +465,8 @@ public class SolrServices {
                                                 featureValues.set(i, val);
                                             }
 
-                                            productDocument.addProductFeature(productFeatureType, featureValues);
-                                            if (!prodFeatureColNames.contains(productFeatureType)) 
-                                            {
-                                                headerColumns.add("productFeature");
-                                                cellProcessors.add(new ProductFeatureCellProcessor(productFeatureType));
-                                                prodFeatureColNames.add(productFeatureType);
-                                            }
+                                            productDocument.setField(productFeatureType, StringUtils.join(featureValues, " "));
+
                                         }
                                          catch (Exception ee)
                                          {
@@ -450,12 +478,12 @@ public class SolrServices {
                                     // Product Prices
                                     String currencyUomId = productStore.getString("defaultCurrencyUomId");
                                     results = dispatcher.runSync("calculateProductPrice", UtilMisc.toMap("product", product, "currencyUomId", currencyUomId));
-                                    productDocument.setListPrice((BigDecimal) results.get("listPrice"));
-                                    productDocument.setPrice((BigDecimal) results.get("price"));
+                                    productDocument.setField(FIELD_NAME_LIST_PRICE, ((BigDecimal) results.get("listPrice")).floatValue());
+                                    productDocument.setField(FIELD_NAME_PRICE, ((BigDecimal) results.get("price")).floatValue());
 
                                     // Product RECURRENCE Prices
                                     results = dispatcher.runSync("calculateProductPrice", UtilMisc.toMap("product", product, "currencyUomId", currencyUomId,"productPricePurposeId","RECURRING_CHARGE"));
-                                    productDocument.setRecurrencePrice((BigDecimal) results.get("price"));
+                                    productDocument.setField(FIELD_NAME_RECCURENCE_PRICE, ((BigDecimal) results.get("price")).floatValue());
 
                                     GenericValue ProductCalculatedInfo = delegator.findOne("ProductCalculatedInfo", UtilMisc.toMap("productId", productId), false);
                                     // Product Ratings
@@ -467,7 +495,7 @@ public class SolrServices {
                                     {
                                         averageProductRating = BigDecimal.ZERO;
                                     }
-                                    productDocument.setCustomerRating(averageProductRating);
+                                    productDocument.setField(FIELD_NAME_CUSTOMER_RATING, averageProductRating.floatValue());
 
                                     // Product Quantity Ordered
                                    if(UtilValidate.isNotEmpty(ProductCalculatedInfo) && ProductCalculatedInfo.getDouble("totalQuantityOrdered")!= null)
@@ -478,7 +506,7 @@ public class SolrServices {
                                    {
                                        totalQuantityOrdered = 0.00;
                                    }
-                                   productDocument.setTotalQuantityOrdered(totalQuantityOrdered);
+                                   productDocument.setField(FIELD_NAME_TOTAL_QUANTITY, totalQuantityOrdered.floatValue());
                                    // Product View Count
                                    if(UtilValidate.isNotEmpty(ProductCalculatedInfo) && ProductCalculatedInfo.getLong("totalTimesViewed")!= null)
                                    {
@@ -488,7 +516,7 @@ public class SolrServices {
                                    {
                                        totalTimesViewed = 0L;
                                    }
-                                   productDocument.setTotalTimesViewed(totalTimesViewed);
+                                   productDocument.setField(FIELD_NAME_TOTAL_TIMES_VIEWED, totalTimesViewed);
 
                                    // Product Facilities
                                    List<GenericValue>  productFacilityList = delegator.findList("ProductFacility", EntityCondition.makeCondition("productId", EntityOperator.EQUALS, productId), UtilMisc.toSet("facilityId"), null, null, false);
@@ -498,7 +526,7 @@ public class SolrServices {
                                 	   productFacilityIdList.add(productFacility.getString("facilityId"));
                                    }
                                    String productFacilityIds = StringUtils.join(productFacilityIdList, " ");
-                                   productDocument.setProductFacilityIds(productFacilityIds);
+                                   productDocument.setField(FIELD_NAME_PRODUCT_FACILITY_IDS, productFacilityIds);
 
                                     
                                    List<GenericValue> rollups = null;
@@ -520,9 +548,9 @@ public class SolrServices {
                                     {
                                         String topMostProductCategoryId = gvTopMostCategory.getString("productCategoryId");
                                         productDocumentId = SolrConstants.ROW_TYPE_PRODUCT + "_" + productId + "_" + topMostProductCategoryId + "_" + productCategoryMember.getString("productCategoryId");
-                                        productDocument.setId(productDocumentId);
-                                        productDocument.setProductCategoryId(productCategoryMember.getString("productCategoryId"));
-                                        productDocument.setTopMostProductCategoryId(topMostProductCategoryId);
+                                        productDocument.setField(FIELD_NAME_ID, productDocumentId);
+                                        productDocument.setField(FIELD_NAME_CATEGORY_ID, productCategoryMember.getString("productCategoryId"));
+                                        productDocument.setField(FIELD_NAME_TOP_MOST_CATEGORY_ID, topMostProductCategoryId);
                                     }
 
                                     // Find "Facet Groups" available for each "Product Category"
@@ -579,14 +607,14 @@ public class SolrServices {
 
                                             if(productFeatureGroupAppls.size() > 0) 
                                             {
-                                            	facetGroupDocument = new ProductDocument();
-                                                facetGroupDocument.setId(SolrConstants.ROW_TYPE_FACET_GROUP + "_" + productCategoryId + "_" + productFeatureGroupId);
-                                                facetGroupDocument.setRowType(SolrConstants.ROW_TYPE_FACET_GROUP);
-                                                facetGroupDocument.setProductCategoryId(productCategoryId);
-                                                facetGroupDocument.setProductFeatureGroupFacetValueMin(facetValueMin);
-                                                facetGroupDocument.setProductFeatureGroupFacetValueMax(facetValueMax);
-                                                facetGroupDocument.setProductFeatureGroupDescription(productFeatureGroupDescription);
-                                                facetGroupDocument.setProductFeatureGroupId(productFeatureGroupId);
+                                            	facetGroupDocument = new SolrInputDocument();
+                                                facetGroupDocument.setField(FIELD_NAME_ID, SolrConstants.ROW_TYPE_FACET_GROUP + "_" + productCategoryId + "_" + productFeatureGroupId);
+                                                facetGroupDocument.setField(FIELD_NAME_ROW_TYPE, SolrConstants.ROW_TYPE_FACET_GROUP);
+                                                facetGroupDocument.setField(FIELD_NAME_CATEGORY_ID, productCategoryId);
+                                                //facetGroupDocument.setProductFeatureGroupFacetValueMin(facetValueMin);
+                                                //facetGroupDocument.setProductFeatureGroupFacetValueMax(facetValueMax);
+                                                facetGroupDocument.setField(FIELD_NAME_FEATURE_GROUP_DESC, productFeatureGroupDescription);
+                                                facetGroupDocument.setField(FIELD_NAME_FEATURE_GROUP_ID, productFeatureGroupId);
 
                                                 productFeatureGroupAppls = EntityUtil.orderBy(productFeatureGroupAppls, UtilMisc.toList("sequenceNum"));
                                                 for (GenericValue productFeatureGroupAppl : productFeatureGroupAppls) 
@@ -599,7 +627,7 @@ public class SolrServices {
 
                                                 String productFeatureTypeIds = StringUtils.join(UtilMisc.toList(productFeatureTypeMap.keySet()), " ");
 
-                                                facetGroupDocument.setProductCategoryFacetGroups(productFeatureTypeIds);
+                                                facetGroupDocument.setField(FIELD_NAME_PRODUCT_FACET_GROUP,productFeatureTypeIds);
                                                 documentList.add(facetGroupDocument);
                                             }
                                             
@@ -618,45 +646,21 @@ public class SolrServices {
 
             if (UtilValidate.isNotEmpty(documentList)) 
             {
-                // Generate CSV File
-                String[] columnNames = (String[]) headerColumns.toArray(new String[headerColumns.size()]);
-                String filename = FlexibleStringExpander.expandString(OSAFE_PROPS.getString("solrProductIndexFile"), context);
-
-                Debug.log("solrProductIndexFile=" + filename, module);
-
-                PrintWriter writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filename), "UTF-8")));
-				CsvBeanWriter cbw = new CsvBeanWriter(writer, CsvPreference.EXCEL_PREFERENCE);
-
-                CellProcessor[] cp = (CellProcessor[]) cellProcessors.toArray(new CellProcessor[cellProcessors.size()]);
-                for (ProductDocument doc : documentList) 
-                {
-                    cbw.write(doc, columnNames, cp);
-                }
-                cbw.close();
-                writer.flush();
 
                 String solrServer = OSAFE_PROPS.getString("solrIndexServer");
 
                 Debug.log("solrServer=" + solrServer, module);
 
                 // Delete previous index using Http Client
-                String deleteAllUrl = solrServer + "/update?stream.body=<delete><query>*:*</query></delete>&commit=true";
-                HttpClient hc = new HttpClient(deleteAllUrl);
-                String deleteResponse = hc.get();
-                Debug.log(deleteResponse, module);
+                HttpSolrClient updateClient = SolrUtil.getHttpSolrClient("solrdefault");
 
-                // Import CSV file using Http Client
-                int index = prodFeatureColNames.size();
-                for (String prodFeatureType : prodFeatureColNames) 
-                {
-                    columnNames[columnNames.length - index] = prodFeatureType;
-                    index--;
-                }
-                String importUrl = solrServer + "/update/csv?stream.file=" + filename + "&stream.contentType=text/plain;charset=utf-8&header=false&commit=true&fieldnames=" + StringUtils.join(columnNames, ",");
-                Debug.log(importUrl, module);
-                hc = new HttpClient(importUrl);
-                String importResponse = hc.get();
-                Debug.log(importResponse, module);
+                updateClient.deleteByQuery("*:*");
+
+                //Saving the document
+                updateClient.commit();
+
+                updateClient.add(documentList);
+                updateClient.commit();
             }
         } 
         catch (Exception e) 
@@ -1159,7 +1163,7 @@ public class SolrServices {
                 // Delete previous index using Http Client
                 String deleteAllUrl = solrServer + "/update?stream.body=<delete><query>*:*</query></delete>&commit=true";
                 HttpClient hc = new HttpClient(deleteAllUrl);
-                String deleteResponse = hc.get();
+                String deleteResponse = hc.post();
                 Debug.log(deleteResponse, module);
 
                 // Import CSV file using Http Client
@@ -1172,7 +1176,7 @@ public class SolrServices {
                 String importUrl = solrServer + "/update/csv?stream.file=" + filename + "&stream.contentType=text/plain;charset=utf-8&header=false&commit=true&fieldnames=" + StringUtils.join(columnNames, ",");
                 Debug.log(importUrl, module);
                 hc = new HttpClient(importUrl);
-                String importResponse = hc.get();
+                String importResponse = hc.post();
                 Debug.log(importResponse, module);
             }
         } 
@@ -1676,9 +1680,9 @@ public class SolrServices {
 
                  // Delete previous index using Http Client
                  String deleteAllUrl = solrServer + "/update?stream.body=<delete><query>*:*</query></delete>&commit=true";
-                 HttpClient hc = new HttpClient(deleteAllUrl);
-                 String deleteResponse = hc.get();
-                 Debug.log(deleteResponse, module);
+                 HttpSolrClient hc = new HttpSolrClient.Builder(solrServer).build();
+                 HttpResponse deleteResponse = hc.getHttpClient().execute(new HttpPost(deleteAllUrl));
+                 Debug.log(IOUtils.toString(deleteResponse.getEntity().getContent(), Charset.defaultCharset()), module);
 
                  // Import CSV file using Http Client
                  int index = prodFeatureColNames.size();
@@ -1689,9 +1693,8 @@ public class SolrServices {
                  }
                  String importUrl = solrServer + "/update/csv?stream.file=" + filename + "&stream.contentType=text/plain;charset=utf-8&header=false&commit=true&fieldnames=" + StringUtils.join(columnNames, ",");
                  Debug.log(importUrl, module);
-                 hc = new HttpClient(importUrl);
-                 String importResponse = hc.get();
-                 Debug.log(importResponse, module);
+                 HttpResponse importResponse = hc.getHttpClient().execute(new HttpPost(importUrl));
+                 Debug.log(IOUtils.toString(importResponse.getEntity().getContent(), Charset.defaultCharset()), module);
              }
          } 
          catch (Exception e) 

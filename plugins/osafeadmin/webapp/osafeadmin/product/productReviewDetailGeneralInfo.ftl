@@ -52,7 +52,7 @@
                 <label>${uiLabelMap.DatePostedCaption}</label>
             </div>
             <div class="infoValue">
-                ${review.postedDateTime?string(preferredDateFormat)}
+                ${review.postedDateTime?string('dd/MM/yyyy')}
             </div>
         </div>
     </div>

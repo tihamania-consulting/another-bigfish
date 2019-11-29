@@ -508,7 +508,7 @@ public class SolrEvents
             int ratingMax = NumberUtils.toInt(OSAFE_PROPS.getString("customerRatingMax"), 5);
             for (int i = ratingStart; i >= ratingEnd; i--) 
             {
-                solrQueryFacet.addFacetQuery("customerRating:[" + i + " " + ratingMax + "]");
+                solrQueryFacet.addFacetQuery("customerRating:[" + i + " TO " + ratingMax + "]");
             }
 
             // Paging and how many rows to display

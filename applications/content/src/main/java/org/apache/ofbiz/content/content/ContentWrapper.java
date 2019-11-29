@@ -26,6 +26,11 @@ import org.apache.ofbiz.base.util.StringUtil;
 
 public interface ContentWrapper {
 
-    public StringUtil.StringWrapper get(String contentTypeId, String encoderType); 
+    default StringUtil.StringWrapper get(String contentTypeId) {
+        return get(contentTypeId, "html");
+    }
+
+
+    public StringUtil.StringWrapper get(String contentTypeId, String encoderType);
 
 }

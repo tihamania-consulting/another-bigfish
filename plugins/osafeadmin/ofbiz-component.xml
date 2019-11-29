@@ -32,6 +32,6 @@
         location="webapp/osafeadmin"
         mount-point="/osafe-admin"
         base-permission="OSAFEADMIN"
-        app-bar-display="false"/>
+        app-bar-display="true"/>
 
 </ofbiz-component>

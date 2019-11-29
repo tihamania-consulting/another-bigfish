@@ -25,8 +25,8 @@
                 <td class="usageCol <#if !hasNext>lastRow</#if>">${productPromo.productPromoCodeUserEntered!""}</td>
                 <td class="usageCol <#if !hasNext>lastRow</#if>">${productPromo.useLimitPerCode!""}</td>
                 <td class="usageCol <#if !hasNext>lastRow</#if>">${productPromo.productPromoCodeUseLimitPerCustomer!""}</td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeFromDate?string(preferredDateFormat))!""}</td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeThruDate?string(preferredDateFormat))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeFromDate?string('dd/MM/yyyy'))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeThruDate?string('dd/MM/yyyy'))!""}</td>
                 <td class="statusCol <#if !hasNext>lastRow</#if>"><#if isProductPromoCodeActive?exists && productPromo.productPromoCodeId?has_content><#if isProductPromoCodeActive>${uiLabelMap.ActiveLabel} <#else>${uiLabelMap.InActiveLabel}</#if></#if></td>
                 <td class="usageCol <#if !hasNext>lastRow</#if>">
                   <#if productPromo.productPromoCodeId?has_content>

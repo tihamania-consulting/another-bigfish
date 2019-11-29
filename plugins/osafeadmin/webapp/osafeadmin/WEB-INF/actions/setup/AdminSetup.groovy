@@ -239,9 +239,9 @@ if (UtilValidate.isNotEmpty(roundCurrency) && OsafeAdminUtil.isNumber(roundCurre
 }
 globalContext.currencyRounding =currencyRounding;
 
-preferredDateFormat = globalContext.FORMAT_DATE;
+preferredDateFormat = "dd/MM/yy";
 preferredDateTimeFormat = globalContext.FORMAT_DATE_TIME;
-globalContext.preferredDateFormat = OsafeAdminUtil.isValidDateFormat(preferredDateFormat)?preferredDateFormat:"MM/dd/yy";
+globalContext.preferredDateFormat = 'dd/MM/yy';
 globalContext.preferredDateTimeFormat = OsafeAdminUtil.isValidDateFormat(preferredDateTimeFormat)?preferredDateTimeFormat:"MM/dd/yy h:mma";
 globalContext.preferredTimeFormat = "h:mma";
 

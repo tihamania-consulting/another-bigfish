@@ -37,12 +37,12 @@
             <tr class="dataRow <#if rowClass == "2">even<#else>odd</#if>">
                 <td class="nameCol <#if !hasNext>lastRow</#if> firstCol" ><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")><a href="<@ofbizUrl>promotionDetail?productPromoId=${productPromo.productPromoId!""}</@ofbizUrl>">${productPromo.promoName!""}</a></#if></td>
                 <td class="descCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")>${productPromo.promoText!""}</#if></td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")>${(productPromo.productStorePromoApplFromDate?string(preferredDateFormat))!""}</#if></td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")>${(productPromo.productStorePromoApplThruDate?string(preferredDateFormat))!""}</#if></td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")>${(productPromo.productStorePromoApplFromDate?string('dd/MM/yyyy'))!""}</#if></td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")>${(productPromo.productStorePromoApplThruDate?string('dd/MM/yyyy'))!""}</#if></td>
                 <td class="statusCol <#if !hasNext>lastRow</#if>"><#if !alreadyShownProductPromoIdList.contains(productPromo.productPromoId!"")><#if isProductStorePromoActive?exists><#if isProductStorePromoActive>${uiLabelMap.ActiveLabel} <#else>${uiLabelMap.InActiveLabel}</#if></#if></#if></td>
                 <td class="nameCol <#if !hasNext>lastRow</#if>" ><a href="<@ofbizUrl>promotionCodeDetail?productPromoCodeId=${productPromo.productPromoCodeId!""}</@ofbizUrl>">${productPromo.productPromoCodeId!""}</a></td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeFromDate?string(preferredDateFormat))!""}</td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeThruDate?string(preferredDateFormat))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeFromDate?string('dd/MM/yyyy'))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(productPromo.productPromoCodeThruDate?string('dd/MM/yyyy'))!""}</td>
                 <td class="statusCol <#if !hasNext>lastRow</#if>"><#if isProductPromoCodeActive?exists && productPromo.productPromoCodeId?has_content><#if isProductPromoCodeActive>${uiLabelMap.ActiveLabel} <#else>${uiLabelMap.InActiveLabel}</#if></#if></td>
                 <td class="usageCol <#if !hasNext>lastRow</#if>">
                   <#if productPromo.productPromoCodeId?has_content>

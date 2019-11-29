@@ -41,8 +41,8 @@
 	    <td class="descCol"><a class="${levelClass}" href="<@ofbizUrl>categoryDetail?productCategoryId=${category.productCategoryId}&amp;parentProductCategoryId=${category.parentProductCategoryId?if_exists}&amp;activeFromDate=${category.fromDate?if_exists}</@ofbizUrl>"><#if categoryName?has_content>${categoryName}<#else>${categoryDescription?default("")}</#if></a></td>
 	    <td class="seqCol">&nbsp;</td>
 	    <td class="descCol" colspan="0">&nbsp;</td>
-        <td class="dateCol">${(category.fromDate?string(preferredDateFormat))!""}</td>
-        <td class="dateCol">${(category.thruDate?string(preferredDateFormat))!""}</td>
+        <td class="dateCol">${(category.fromDate?string('dd/MM/yyyy'))!""}</td>
+        <td class="dateCol">${(category.thruDate?string('dd/MM/yyyy'))!""}</td>
         <td class="actionCol">
 	          <div class="actionIconMenu">
 	            <a class="toolIcon" href="javascript:void(o);"></a>
@@ -50,10 +50,10 @@
 	            <div class="actionIcon">
 	              <#if category.categoryImageUrl?has_content>
 	                  <img class="actionIconMenuImage" src="<@ofbizContentUrl>${category.categoryImageUrl}</@ofbizContentUrl>" alt="${category.categoryImageUrl}"/>
-	              </#if>            
+	              </#if>
 	            <ul>
                   <li><a href="<@ofbizUrl>categoryImageDetail?productCategoryId=${category.productCategoryId?if_exists}</@ofbizUrl>"><span class="imageIcon"></span>${uiLabelMap.CategoryImageTooltip}</a></li>
-        	      <#if categoryMembers?has_content> 
+        	      <#if categoryMembers?has_content>
                     <#assign productCategoryTooltip = Static["org.apache.ofbiz.base.util.UtilProperties"].getMessage("OSafeAdminUiLabels", "ProductCategoryTooltip", [prodCatMembershipCount!0], locale )>
                     <#assign productSequenceTooltip = Static["org.apache.ofbiz.base.util.UtilProperties"].getMessage("OSafeAdminUiLabels", "ProductSequenceTooltip", [prodCatMembershipCount!0], locale )>
 		            <li><a href="<@ofbizUrl>productManagement?categoryId=${category.productCategoryId!}&preRetrieved='Y'</@ofbizUrl>"><span class="productIcon"></span>${productCategoryTooltip!}</a></li>
@@ -64,7 +64,7 @@
 		        </ul>
 		       </div>
 		       </div>
-		      </div>             
+		      </div>
         </td>
 	  </tr>
 	</#if>
@@ -74,8 +74,8 @@
 	    <td class="descCol">&nbsp;</td>
 	    <td class="seqCol">${category.sequenceNum?if_exists}</td>
 	    <td class="descCol" colspan="0"><a class="${levelClass}" href="<@ofbizUrl>categoryDetail?productCategoryId=${category.productCategoryId}&amp;parentProductCategoryId=${category.parentProductCategoryId?if_exists}&amp;activeFromDate=${category.fromDate?if_exists}</@ofbizUrl>"><#if categoryName?has_content>${categoryName}<#else>${categoryDescription?default("")}</#if></a></td>
-        <td class="dateCol">${(category.fromDate?string(preferredDateFormat))!""}</td>
-        <td class="dateCol">${(category.thruDate?string(preferredDateFormat))!""}</td>
+        <td class="dateCol">${(category.fromDate?string('dd/MM/yyyy'))!""}</td>
+        <td class="dateCol">${(category.thruDate?string('dd/MM/yyyy'))!""}</td>
         <td class="actionCol">
 	          <div class="actionIconMenu">
 	            <a class="toolIcon" href="javascript:void(o);"></a>

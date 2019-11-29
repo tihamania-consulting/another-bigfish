@@ -384,6 +384,8 @@ public interface Delegator {
      */
     GenericValue findOne(String entityName, Map<String, ? extends Object> fields, boolean useCache) throws GenericEntityException;
 
+    GenericValue findByPrimaryKeyCache(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException;
+
     GenericValue findOne(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException;
 
     Cache getCache();

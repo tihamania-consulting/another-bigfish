@@ -1474,7 +1474,12 @@ public class GenericDelegator implements Delegator {
         }
     }
 
-    /* (non-Javadoc)
+    @Override
+    public GenericValue findByPrimaryKeyCache(String entityName, Map<String, ? extends Object> fields) throws GenericEntityException {
+        return findOne(entityName, fields, true);
+    }
+
+        /* (non-Javadoc)
      * @see org.apache.ofbiz.entity.Delegator#findByPrimaryKeyPartial(org.apache.ofbiz.entity.GenericPK, java.util.Set)
      */
     @Override

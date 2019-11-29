@@ -81,23 +81,23 @@ if (UtilValidate.isNotEmpty(gvProductCategory))
         context.metaDescription = gvProductCategory.longDescription;
     }
     //override Meta title, Description and Keywords
-    String metaTitle = currentProductCategoryContentWrapper.get("HTML_PAGE_TITLE");
+    String metaTitle = currentProductCategoryContentWrapper.get("HTML_PAGE_TITLE", "html");
     if(UtilValidate.isNotEmpty(metaTitle)) 
     {
         context.metaTitle = metaTitle;
     }
-    String metaKeywords = currentProductCategoryContentWrapper.get("HTML_PAGE_META_KEY");
+    String metaKeywords = currentProductCategoryContentWrapper.get("HTML_PAGE_META_KEY", "html");
     if(UtilValidate.isNotEmpty(metaKeywords)) 
     {
         context.metaKeywords = metaKeywords;
     }
-    String metaDescription = currentProductCategoryContentWrapper.get("HTML_PAGE_META_DESC");
+    String metaDescription = currentProductCategoryContentWrapper.get("HTML_PAGE_META_DESC", "html");
     if(UtilValidate.isNotEmpty(metaDescription)) 
     {
         context.metaDescription = metaDescription;
     }
     
-    String canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL");
+    String canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL", "url");
     if(UtilValidate.isNotEmpty(canonicalUrl)) 
     {
         context.canonicalUrl = canonicalUrl;

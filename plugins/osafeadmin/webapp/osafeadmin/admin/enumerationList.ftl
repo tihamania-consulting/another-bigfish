@@ -29,10 +29,10 @@
              </#if>
              <td class="seqCol <#if !hasNext>lastRow</#if>">${thisEnum.sequenceId?if_exists}</td>
             <td class="dateCol <#if !hasNext>lastRow</#if>">
-                ${(thisEnum.createdStamp?string(preferredDateFormat))!""}
+                ${(thisEnum.createdStamp?string('dd/MM/yyyy'))!""}
             </td>
             <td class="dateCol <#if !hasNext>lastRow</#if> lastCol">
-                ${(thisEnum.lastUpdatedStamp?string(preferredDateFormat))!""}
+                ${(thisEnum.lastUpdatedStamp?string('dd/MM/yyyy'))!""}
             </td>
         </tr>
         <#-- toggle the row color -->

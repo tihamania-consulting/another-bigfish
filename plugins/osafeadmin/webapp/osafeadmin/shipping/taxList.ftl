@@ -21,8 +21,8 @@
       <td class="nameCol <#if !hasNext>lastRow</#if>">${taxAuthRateProduct.productCategoryId!uiLabelMap.AllLabel}</td>
       <td class="nameCol <#if !hasNext>lastRow</#if>">${taxAuthRateProduct.taxShipping!}</td>
       <td class="nameCol <#if !hasNext>lastRow</#if>">${taxAuthRateProduct.taxPercentage!}</td>
-      <td class="dateCol <#if !hasNext>lastRow</#if>">${(taxAuthRateProduct.fromDate?string(preferredDateFormat))!""}</td>
-      <td class="dateCol <#if !hasNext>lastRow</#if>">${(taxAuthRateProduct.thruDate?string(preferredDateFormat))!""}</td>
+      <td class="dateCol <#if !hasNext>lastRow</#if>">${(taxAuthRateProduct.fromDate?string('dd/MM/yyyy'))!""}</td>
+      <td class="dateCol <#if !hasNext>lastRow</#if>">${(taxAuthRateProduct.thruDate?string('dd/MM/yyyy'))!""}</td>
       <#assign geoAssocList = delegator.findByAnd("GeoAssoc" Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("geoId", taxAuthRateProduct.taxAuthGeoId))!"" />
       <td class="actionCol <#if !hasNext>lastRow</#if>">
         <#if geoAssocList?has_content>

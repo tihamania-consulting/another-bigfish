@@ -38,8 +38,8 @@
         <td class="descCol"><#-- a class="${levelClass}" href="<@ofbizUrl>categoryDetail?productCategoryId=${category.productCategoryId}&amp;parentProductCategoryId=${category.parentProductCategoryId?if_exists}&amp;activeFromDate=${category.fromDate?if_exists}</@ofbizUrl>"--><#if categoryName?has_content>${categoryName}<#else>${categoryDescription?default("")}</#if><#--</a--></td>
         <td class="seqCol">&nbsp;</td>
         <td class="descCol" colspan="0">&nbsp;</td>
-        <td class="dateCol">${(category.fromDate?string(preferredDateFormat))!""}</td>
-        <td class="dateCol">${(category.thruDate?string(preferredDateFormat))!""}</td>
+        <td class="dateCol">${(category.fromDate?string('dd/MM/yyyy'))!""}</td>
+        <td class="dateCol">${(category.thruDate?string('dd/MM/yyyy'))!""}</td>
         <td class="actionCol">
         <#assign productCategoryRollup = delegator.findByAnd("ProductCategoryRollup", {"parentProductCategoryId" : category.productCategoryId})>
           <#if !productCategoryRollup?has_content>
@@ -54,8 +54,8 @@
         <td class="descCol">&nbsp;</td>
         <td class="seqCol">${category.sequenceNum?if_exists}</td>
         <td class="descCol" colspan="0"><#-- a class="${levelClass}" href="<@ofbizUrl>categoryDetail?productCategoryId=${category.productCategoryId}&amp;parentProductCategoryId=${category.parentProductCategoryId?if_exists}&amp;activeFromDate=${category.fromDate?if_exists}</@ofbizUrl>"--><#if categoryName?has_content>${categoryName}<#else>${categoryDescription?default("")}</#if><#-- /a--></td>
-        <td class="dateCol">${(category.fromDate?string(preferredDateFormat))!""}</td>
-        <td class="dateCol">${(category.thruDate?string(preferredDateFormat))!""}</td>
+        <td class="dateCol">${(category.fromDate?string('dd/MM/yyyy'))!""}</td>
+        <td class="dateCol">${(category.thruDate?string('dd/MM/yyyy'))!""}</td>
         <td class="actionCol">
           <a class="editLink" href="<@ofbizUrl>${facetGroupDetail!}?productCategoryId=${category.productCategoryId}</@ofbizUrl>">${uiLabelMap.EditLabel}</a>
         </td>

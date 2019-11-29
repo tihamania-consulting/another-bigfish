@@ -762,17 +762,17 @@ if(UtilValidate.isNotEmpty(productId))
 	    }
 	}
     
-    plpLabelContent = productContentIdMap.get("PLP_LABEL");
+    plpLabelContent = productContentIdMap.get("PLP_LABEL", "html");
 	if (UtilValidate.isNotEmpty(plpLabelContent))
 	{
-	    plpLabel = productContentWrapper.get("PLP_LABEL");
+	    plpLabel = productContentWrapper.get("PLP_LABEL", "html");
 	}
    
     //SET PRODUCT LONG DESCRIPTION
-    productContentId = productContentIdMap.get("LONG_DESCRIPTION");
+    productContentId = productContentIdMap.get("LONG_DESCRIPTION", "html");
     if (UtilValidate.isNotEmpty(productContentId))
     {
-    	productLongDesc = productContentWrapper.get("LONG_DESCRIPTION");
+    	productLongDesc = productContentWrapper.get("LONG_DESCRIPTION", "html");
     	productLongDesc = StringEscapeUtils.unescapeHtml(productLongDesc.toString());
  	    productLongDesc = productLongDesc;
     }

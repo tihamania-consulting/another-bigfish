@@ -6,10 +6,10 @@
 <!-- Solr -->
 <!-- *************************************** -->
     <property key="solrSearchServer">
-        <value xml:lang="en">http://localhost:8080/solr</value>
+        <value xml:lang="en">http://localhost:8080/solr/solrdefault</value>
     </property>
     <property key="solrIndexServer">
-        <value xml:lang="en">http://localhost:8080/solr</value>
+        <value xml:lang="en">http://localhost:8080/solr/solrdefault</value>
     </property>
     <property key="solrProductIndexFile">
         <value xml:lang="en">${sys:getProperty('ofbiz.home')}/plugins/solr/import/productsToIndex.csv</value>

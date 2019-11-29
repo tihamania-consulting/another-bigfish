@@ -12,18 +12,18 @@
   <div class="entry daterange">
     <label>${uiLabelMap.PeriodCaption}</label>
     <div class="entryInput from">
-      <input class="dateEntry" type="text" name="dateFrom" maxlength="40" value="${parameters.dateFrom!weekStart?string(entryDateTimeFormat)!""}"/>
+      <input class="dateEntry" type="text" name="dateFrom" maxlength="40" value="${parameters.dateFrom!weekStart?string('dd/MM/yyyy')!""}"/>
     </div>
     <label class="tolabel">${uiLabelMap.ToCaption}</label>
     <div class="entryInput to">
-      <input class="dateEntry" type="text" name="dateTo" maxlength="40" value="${parameters.dateTo!nowTimestamp?string(entryDateTimeFormat)!""}"/>
+      <input class="dateEntry" type="text" name="dateTo" maxlength="40" value="${parameters.dateTo!nowTimestamp?string('dd/MM/yyyy')!""}"/>
     </div>
   </div>
   <div class="dateSelectButtons">
-    <input type="button" class="standardBtn dateSelect" name="TodayBtn" value="${uiLabelMap.TodayBtn}" onClick="setDateRange('${nowTimestamp?string(entryDateTimeFormat)}','${nowTimestamp?string(entryDateTimeFormat)}',${searchFormName!""});"/>
-    <input type="button" class="standardBtn dateSelect" name="ThisWeekBtn" value="${uiLabelMap.LastSevenDaysBtn}" onClick="setDateRange('${weekStart?string(entryDateTimeFormat)}','${nowTimestamp?string(entryDateTimeFormat)}',${searchFormName!""});"/>
-    <input type="button" class="standardBtn dateSelect" name="MonthToDateBtn" value="${uiLabelMap.LastThirtyDaysBtn}" onClick="setDateRange('${monthStart?string(entryDateTimeFormat)}','${nowTimestamp?string(entryDateTimeFormat)}',${searchFormName!""});"/>
-    <input type="button" class="standardBtn dateSelect" name="DateAllBtn" value="${uiLabelMap.DateAllBtn}" onClick="setDateRange('${productDateStart?string(entryDateTimeFormat)}','${nowTimestamp?string(entryDateTimeFormat)}',${searchFormName!""});"/>
+    <input type="button" class="standardBtn dateSelect" name="TodayBtn" value="${uiLabelMap.TodayBtn}" onClick="setDateRange('${nowTimestamp?string('dd/MM/yyyy')}','${nowTimestamp?string('dd/MM/yyyy')}',${searchFormName!""});"/>
+    <input type="button" class="standardBtn dateSelect" name="ThisWeekBtn" value="${uiLabelMap.LastSevenDaysBtn}" onClick="setDateRange('${weekStart?string('dd/MM/yyyy')}','${nowTimestamp?string('dd/MM/yyyy')}',${searchFormName!""});"/>
+    <input type="button" class="standardBtn dateSelect" name="MonthToDateBtn" value="${uiLabelMap.LastThirtyDaysBtn}" onClick="setDateRange('${monthStart?string('dd/MM/yyyy')}','${nowTimestamp?string('dd/MM/yyyy')}',${searchFormName!""});"/>
+    <input type="button" class="standardBtn dateSelect" name="DateAllBtn" value="${uiLabelMap.DateAllBtn}" onClick="setDateRange('${productDateStart?string('dd/MM/yyyy')}','${nowTimestamp?string('dd/MM/yyyy')}',${searchFormName!""});"/>
 </div>
 </div>
 <!-- end searchBox -->

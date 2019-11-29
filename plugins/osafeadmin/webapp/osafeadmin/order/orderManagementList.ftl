@@ -74,7 +74,7 @@
                             <span class="pickupStoreIndicator"></span>
                         </#if>
                     </td>
-                    <td class="dateCol <#if !orderHeader_has_next>lastRow</#if>">${orderHeader.getTimestamp("orderDate")?string(preferredDateFormat)}</td>
+                    <td class="dateCol <#if !orderHeader_has_next>lastRow</#if>">${orderHeader.getTimestamp("orderDate")?string('dd/MM/yyyy')}</td>
                     <td class="idCol <#if !orderHeader_has_next>lastRow</#if>">
                         <#if displayParty?has_content>
                             <a href="<@ofbizUrl>customerDetail?partyId=${displayParty.partyId}</@ofbizUrl>">${displayParty.partyId}</a>

@@ -8,7 +8,7 @@
     <#if currentStatus?has_content && currentStatus.statusId == "ORDER_COMPLETED">
         <#assign shipDate = shipGroup.estimatedShipDate!""/>
         <#if shipDate?has_content>
-            <#assign estimatedShipDate = shipDate?string(entryDateTimeFormat)!""/>
+            <#assign estimatedShipDate = shipDate?string('dd/MM/yyyy')!""/>
         </#if>
     </#if>
 </#if>

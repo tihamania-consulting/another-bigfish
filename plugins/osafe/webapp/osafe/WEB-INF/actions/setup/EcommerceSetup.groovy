@@ -35,7 +35,7 @@ if (UtilValidate.isNotEmpty(productStore))
 globalContext.productStore = productStore;
 globalContext.productStoreId = productStore.productStoreId;
 
-preferredDateFormat = Util.getProductStoreParm(request,"FORMAT_DATE");
+preferredDateFormat = "dd/MM/yyyy";
 preferredDateTimeFormat = Util.getProductStoreParm(request,"FORMAT_DATE_TIME");
 
 currencyRounding=2;
@@ -45,7 +45,7 @@ if (UtilValidate.isNotEmpty(roundCurrency) && Util.isNumber(roundCurrency))
 	currencyRounding = Integer.parseInt(roundCurrency);
 }
 globalContext.currencyRounding =currencyRounding;
-globalContext.preferredDateFormat = Util.isValidDateFormat(preferredDateFormat)?preferredDateFormat:"MM/dd/yy";
+globalContext.preferredDateFormat = "dd/MM/yyyy";
 globalContext.preferredDateTimeFormat = Util.isValidDateFormat(preferredDateTimeFormat)?preferredDateTimeFormat:"MM/dd/yy h:mma";
 
 

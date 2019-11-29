@@ -5,10 +5,10 @@
     <#assign promoCodeUseLimitPerCustomer = productPromoCode.useLimitPerCustomer!"" />
     <#assign promoCodeUserEntered = productPromoCode.userEntered!"" />
     <#if productPromoCode.fromDate?has_content>
-      <#assign promoCodeFromDate = (productPromoCode.fromDate)?string(entryDateTimeFormat)>
+      <#assign promoCodeFromDate = (productPromoCode.fromDate)?string('dd/MM/yyyy')>
     </#if>
     <#if productPromoCode.thruDate?has_content>
-      <#assign promoCodeThruDate = (productPromoCode.thruDate)?string(entryDateTimeFormat)>
+      <#assign promoCodeThruDate = (productPromoCode.thruDate)?string('dd/MM/yyyy')>
     </#if>
     
   </#if> 
@@ -70,7 +70,7 @@
       </div>
       <div class="infoValue small">
         <div class="entryInput from">
-          <input class="dateEntry" type="text" id="promoCodeFromDate" name="promoCodeFromDate" maxlength="40" value="${parameters.promoCodeFromDate!promoCodeFromDate!nowTimestamp?string(entryDateTimeFormat)!""}"/>
+          <input class="dateEntry" type="text" id="promoCodeFromDate" name="promoCodeFromDate" maxlength="40" value="${parameters.promoCodeFromDate!promoCodeFromDate!nowTimestamp?string('dd/MM/yyyy')!""}"/>
         </div>
       </div>
     </div>

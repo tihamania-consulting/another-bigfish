@@ -16,8 +16,8 @@
             <tr class="dataRow <#if rowClass == "2">even<#else>odd</#if>">
                 <td class="nameCol <#if !hasNext>lastRow</#if> firstCol" ><a href="<@ofbizUrl>priceRuleDetail?priceRuleId=${priceRule.productPriceRuleId!""}</@ofbizUrl>">${priceRule.ruleName!""}</a></td>
                 <td class="descCol <#if !hasNext>lastRow</#if>">${priceRule.description!""}</td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(priceRule.fromDate?string(preferredDateFormat))!""}</td>
-                <td class="dateCol <#if !hasNext>lastRow</#if>">${(priceRule.thruDate?string(preferredDateFormat))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(priceRule.fromDate?string('dd/MM/yyyy'))!""}</td>
+                <td class="dateCol <#if !hasNext>lastRow</#if>">${(priceRule.thruDate?string('dd/MM/yyyy'))!""}</td>
                 <td class="statusCol <#if !hasNext>lastRow</#if> lastCol"><#if isPriceRuleActive>${uiLabelMap.ActiveLabel} <#else>${uiLabelMap.InActiveLabel}</#if></td>
             </tr>
             <#-- toggle the row color -->

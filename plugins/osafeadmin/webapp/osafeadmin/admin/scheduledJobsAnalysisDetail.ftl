@@ -32,9 +32,9 @@
                         <#assign status = "&srch${statusDescription!}" + "=" + "Y">
                         <#assign scheduledJobParams = initializedCB + preRetrieved + status>
                         <#if jobType.status.equalsIgnoreCase(uiLabelMap.FinishedWithinLabel)>
-                            <#assign scheduledJobParams = scheduledJobParams + "&srchEndDateFrom"  + "=" + "${StringUtil.wrapString(finishDateTime?if_exists?string(entryDateTimeFormat))}">
+                            <#assign scheduledJobParams = scheduledJobParams + "&srchEndDateFrom"  + "=" + "${StringUtil.wrapString(finishDateTime?if_exists?string('dd/MM/yyyy'))}">
                         <#elseif jobType.status.equalsIgnoreCase(uiLabelMap.FinishedExclLabel)>
-                            <#assign scheduledJobParams = scheduledJobParams + "&srchEndDateTo"  + "=" + "${StringUtil.wrapString(finishDateTime?if_exists?string(entryDateTimeFormat))}">
+                            <#assign scheduledJobParams = scheduledJobParams + "&srchEndDateTo"  + "=" + "${StringUtil.wrapString(finishDateTime?if_exists?string('dd/MM/yyyy'))}">
                         </#if>
 
                         <#if jobType.rowCount?has_content && jobType.rowCount?number != 0>
