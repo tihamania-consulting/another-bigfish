@@ -14,38 +14,38 @@
 <div style="float:left;"><!-- container 1 -->
   <ul class="topLevel">
    <li class="subLevel navfirstitem"><strong>Shop By Category</strong></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/active">Active</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses">Blouses</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/denim">Denim</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses">Dresses</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/leggings">Leggings</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants">Pants</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/rompers">Rompers</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/shorts">Shorts</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/skirts">Skirts</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/sweaters">Sweaters</a></li>
-   <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/apparel/swim">Swim</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/active">Active</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/blouses">Blouses</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/denim">Denim</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/dresses">Dresses</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/leggings">Leggings</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/pants">Pants</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/rompers">Rompers</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/shorts">Shorts</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/skirts">Skirts</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/sweaters">Sweaters</a></li>
+   <li class="subLevel navlastitem"><a class="subLevel" href="/apparel/swim">Swim</a></li>
   </ul>
 </div>
 
 <div><!-- container 2 -->
   <ul class="topLevel">
     <li class="subLevel navfirstitem"><strong>Best Sellers</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/shorts/tailored-shorts-black">Tailored Shorts</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/shorts/tailored-shorts-black">Tailored Shorts</a></li>
     <li class="subLevel "><strong class="subLevel">New Arrivals</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/active/bow-tee-black">Bow Tee</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
-    <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
+    <li class="subLevel "><a class="subLevel" href="/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/active/bow-tee-black">Bow Tee</a></li>
+    <li class="subLevel "><a class="subLevel" href="/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
+    <li class="subLevel navlastitem"><a class="subLevel" href="/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
   </ul>
 </div>
 
@@ -340,13 +340,7 @@
     <Content contentId="HPS_01" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_01" statusId="CTNT_PUBLISHED" contentName="Home Page Spot 1" description="Home Page Spot 1" localeString="en_US" createdDate="2012-01-13 16:37:39.0" lastModifiedDate="2012-09-25 11:02:18.0" lastUpdatedStamp="2013-12-03 13:42:46.0" lastUpdatedTxStamp="2013-12-03 13:42:45.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <XContentXref bfContentId="HPS_01" productStoreId="BF_STORE" contentId="HPS_01" contentTypeId="BF_HOME_PAGE" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:53.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <ElectronicText dataResourceId="HPS_01" lastUpdatedStamp="2013-11-13 14:29:05.0" lastUpdatedTxStamp="2013-11-13 14:29:05.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0">
-        <textData><![CDATA[<div class="defaultDevice">
-      <div class="mobileMessage">
-            <h3>Responsive Site for Small Devices:</h3>
-            <p>Resize Your browser this Web site will adapt accordingly.</p>
-            <h6>*This feature will work in IE9+, Firefox 3.5+, Safari 4+, Chrome 4+ and mobile browsers.</h6>
-      </div>
- </div>]]></textData>
+        <textData><![CDATA[<div />]]></textData>
     </ElectronicText>
     <DataResource dataResourceId="HPS_02" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" localeString="en_US" createdDate="2012-01-13 16:38:47.0" lastModifiedDate="2013-11-13 14:29:15.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-11-13 14:29:15.0" lastUpdatedTxStamp="2013-11-13 14:29:15.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <Content contentId="HPS_02" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_02" statusId="CTNT_PUBLISHED" contentName="Home Page Spot 2" description="Home Page Spot 2" localeString="en_US" createdDate="2012-01-13 16:38:47.0" lastModifiedDate="2012-06-18 04:54:07.0" lastUpdatedStamp="2013-12-03 13:42:46.0" lastUpdatedTxStamp="2013-12-03 13:42:45.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
@@ -413,9 +407,9 @@
  <#--Carousel Images -->
  
  <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/versace-shoe-1.png"/>
- <#assign CAROUSEL_IMAGE_HREF_1="/online/shop/shoes/suede-platform-pumps"/>
+ <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
  <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/versace-shoe-2.png"/>
- <#assign CAROUSEL_IMAGE_HREF_2="/online/shop/shoes/suede-wedge-espadrilles"/>
+ <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
  <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/versace-shoe-3.png"/>
  <#assign CAROUSEL_IMAGE_HREF_3=""/>
  <#assign CAROUSEL_IMAGE_URL_4=""/>
@@ -522,7 +516,7 @@
     <Content contentId="HPS_05" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_05" statusId="CTNT_PUBLISHED" contentName="Home Page Spot 5" description="Home Page Spot 5" localeString="en_US" createdDate="2012-04-23 13:00:03.0" lastModifiedDate="2012-04-30 06:46:39.0" lastUpdatedStamp="2013-12-03 13:42:46.0" lastUpdatedTxStamp="2013-12-03 13:42:45.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <XContentXref bfContentId="HPS_05" productStoreId="BF_STORE" contentId="HPS_05" contentTypeId="BF_HOME_PAGE" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:53.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <ElectronicText dataResourceId="HPS_05" lastUpdatedStamp="2013-11-13 14:29:57.0" lastUpdatedTxStamp="2013-11-13 14:29:57.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0">
-        <textData><![CDATA[<#assign SHOP_SUB_URL="/online/shop" />
+        <textData><![CDATA[<#assign SHOP_SUB_URL="" />
 
 <div class="homeGalleryRow">
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/blouses/34-sleeve-and-button-down--pink">
@@ -600,69 +594,73 @@
     <ElectronicText dataResourceId="HPS_09" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0">
         <textData><![CDATA[<#--Carousel Settings/Options-->
  
+ <!--<img src="/osafe_theme/images/user_content/images/homespot1.jpg" alt="Home Spot 1"/>-->
+ <#--Carousel Settings/Options-->
+
  <#--Width of Carousel Container Container & Image -->
- <#assign CAROUSEL_WIDTH="411"/>
- 
+ <#assign CAROUSEL_WIDTH="616"/>
+
  <#--Height of Carousel Container Container & Image -->
- <#assign CAROUSEL_HEIGHT="411"/>
- 
+ <#assign CAROUSEL_HEIGHT="430"/>
+
  <#--Carousel Images Scroll Automatically "true" or "false" -->
  <#assign CAROUSEL_AUTO="true"/>
- 
+
  <#--Carousel will start over after last slide shows "true" or "false" -->
  <#assign CAROUSEL_CONTINUOUS="true"/>
- 
+
  <#--Carousel image display time in Milliseconds -->
- <#assign CAROUSEL_INTERVAL="4500"/>
- 
+ <#assign CAROUSEL_INTERVAL="3000"/>
+
  <#--Carousel starts when all images are loaded "true" or "false" ("true" is recommended) -->
  <#assign CAROUSEL_LOADING="true"/>
- 
+
  <#-- Navigation on the right and left of carousel.  Arrow images defined in CSS -->
- <#assign CAROUSEL_ARROWS="false"/>
- 
+ <#assign CAROUSEL_ARROWS="true"/>
+
  <#-- Button Navigation on the Bottom of Carousel "true" or "false" -->
  <#assign CAROUSEL_BUTTONS="false"/>
- 
+
  <#-- Converts Buttons to Numbers (Note: CAROUSEL_BUTTONS must be "true" to function) -->
  <#assign CAROUSEL_BTN_NUMBERS="false"/>
- 
+
  <#-- Trace x and y coordinates for the mouse "true" or "false" -->
  <#assign CAROUSEL_MOUSE_TRACE="false"/>
- 
+
  <#-- Pause Carousel while hovering over individual image "true" or "false" ("true" is recommended) -->
  <#assign CAROUSEL_PAUSE_ON_HOVER="true"/>
- 
+
  <#-- Stop Carousel on mouse click "true" or "false" -->
  <#assign CAROUSEL_STOP_ON_CLICK="false"/>
- 
+
  <#-- Type of Transition (hslide,vslide,fade) -->
  <#assign CAROUSEL_TRANSITION="fade"/>
- 
+
  <#-- Delay Length Between Transitions in Milliseconds (Default = "0") -->
  <#assign CAROUSEL_TRANSITION_DELAY="0"/>
- 
- 
+
+
  <#-- Speed of Transitions in Milliseconds (Default = "1000") -->
- <#assign CAROUSEL_TRANSITION_SPEED="1000"/>
- 
- 
+ <#assign CAROUSEL_TRANSITION_SPEED="2000"/>
+
+
  <#--Carousel Images -->
- 
- <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/center-middle-carousel.png"/>
- <#assign CAROUSEL_IMAGE_HREF_1=""/>
- <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/test-shoe1.png"/>
- <#assign CAROUSEL_IMAGE_HREF_2=""/>
- <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/test-shoe2.png"/>
+
+ <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/versace-shoe-1.png"/>
+ <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
+ <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/versace-shoe-2.png"/>
+ <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
+ <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/versace-shoe-3.png"/>
  <#assign CAROUSEL_IMAGE_HREF_3=""/>
  <#assign CAROUSEL_IMAGE_URL_4=""/>
  <#assign CAROUSEL_IMAGE_HREF_4=""/>
  <#assign CAROUSEL_IMAGE_URL_5=""/>
  <#assign CAROUSEL_IMAGE_HREF_5=""/>
- 
+
  <#-- Below is Carousel Code // All Adjustments should be made above -->
- 
- 
+
+ <div class="defaultDevice">
+
  <script type="text/javascript">
  Event.onDOMReady(function()
  {
@@ -687,45 +685,58 @@
      });
  });
  </script>
- 
- <div style="width: 411px; margin: auto;">
-  <div id="showcase" class="showcase">
-   <!-- Each child div in #showcase represents a slide -->
-    <#if CAROUSEL_IMAGE_URL_1?has_content>
-     <div class="showcase-slide">
-        <div class="showcase-content"> <a href="${CAROUSEL_IMAGE_HREF_1}" target="_blank"><img src="${CAROUSEL_IMAGE_URL_1}" alt="01" /></a>
-        </div>
-     </div>
-    </#if>
- 
-    <#if CAROUSEL_IMAGE_URL_2?has_content>
-      <div class="showcase-slide">
-       <div class="showcase-content"> <a href="${CAROUSEL_IMAGE_HREF_2}" target="_blank"><img src="${CAROUSEL_IMAGE_URL_2}" alt="02" /></a>
-       </div>
+
+ <div style="margin: auto;">
+      <a id="awOnePageButton" href="#showcase">
+           <span class="view-page">View As One Page</span>
+           <span class="view-slide">View As Slideshow</span>
+      </a>
+      <div id="showcase" class="showcase">
+
+           <!-- Each child div in #showcase represents a slide -->
+           <#if CAROUSEL_IMAGE_URL_1?has_content>
+                <div class="showcase-slide">
+                     <div class="showcase-content">
+                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}" alt="01" /></a>
+                     </div>
+                </div>
+           </#if>
+
+           <#if CAROUSEL_IMAGE_URL_2?has_content>
+                <div class="showcase-slide">
+                     <div class="showcase-content">
+                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}" alt="02" /></a>
+                     </div>
+                </div>
+           </#if>
+
+           <#if CAROUSEL_IMAGE_URL_3?has_content>
+                <div class="showcase-slide">
+                     <div class="showcase-content">
+                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}" alt="03" /></a>
+                     </div>
+                </div>
+           </#if>
+
+           <#if CAROUSEL_IMAGE_URL_4?has_content>
+                <div class="showcase-slide">
+                     <div class="showcase-content">
+                          <a href="${CAROUSEL_IMAGE_HREF_4}"><img src="${CAROUSEL_IMAGE_URL_4}" alt="04" /></a>
+                     </div>
+                </div>
+           </#if>
+
+           <#if CAROUSEL_IMAGE_URL_5?has_content>
+                <div class="showcase-slide">
+                     <div class="showcase-content">
+                          <a href="${CAROUSEL_IMAGE_HREF_5}"><img src="${CAROUSEL_IMAGE_URL_5}" alt="05" /></a>
+                     </div>
+                </div>
+           </#if>
+
       </div>
-    </#if>
- 
-    <#if CAROUSEL_IMAGE_URL_3?has_content>
-      <div class="showcase-slide">
-       <div class="showcase-content"> <a href="${CAROUSEL_IMAGE_HREF_3}" target="_blank"><img src="${CAROUSEL_IMAGE_URL_3}" alt="03" /></a>
-       </div>
-      </div>
-    </#if>
- 
-    <#if CAROUSEL_IMAGE_URL_4?has_content>
-      <div class="showcase-slide">
-       <div class="showcase-content"> <a href="${CAROUSEL_IMAGE_HREF_4}" target="_blank"><img src="${CAROUSEL_IMAGE_URL_4}" alt="04" /></a>
-       </div>
-      </div>
-    </#if>
- 
-    <#if CAROUSEL_IMAGE_URL_5?has_content>
-      <div class="showcase-slide">
-       <div class="showcase-content"> <a href="${CAROUSEL_IMAGE_HREF_5}" target="_blank"><img src="${CAROUSEL_IMAGE_URL_5}" alt="05" /></a>
-       </div>
-      </div>
-    </#if>
-  </div>
+ </div>
+ <div id="awOnePageButton"></div>
  </div>]]></textData>
     </ElectronicText>
     <DataResource dataResourceId="HPS_10" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_DEACTIVATED" localeString="en_US" createdDate="2012-04-23 13:08:04.0" lastModifiedDate="2012-04-23 15:18:25.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
@@ -774,11 +785,11 @@
         <textData><![CDATA[      <div class="footerColumn">
            <h3>OUR PRODUCTS</h3>
            <ul class="footerLinks">
-                <li><a href="/online/shop/apparel/dresses">Women's Apparel</a></li>
-                <li><a href="/online/shop/handbags-/-shoes/handbags">Handbags / Shoes</a></li>
-                <li><a href="/online/shop/jewelry-/-accessories">Jewelry / Accessories</a></li>
-                <li><a href="/online/shop/sample-sale">Sample Sale</a></li>
-                <li><a href="/online/shop/top-trends">Top Trends</a></li>
+                <li><a href="/apparel/dresses">Women's Apparel</a></li>
+                <li><a href="/handbags-/-shoes/handbags">Handbags / Shoes</a></li>
+                <li><a href="/jewelry-/-accessories">Jewelry / Accessories</a></li>
+                <li><a href="/sample-sale">Sample Sale</a></li>
+                <li><a href="/top-trends">Top Trends</a></li>
            </ul>
       </div>
  
@@ -1664,7 +1675,7 @@ Repack the gift in its original packaging, if possible, with the original receip
     <XContentXref bfContentId="E_COMMON_HEADER" productStoreId="BF_STORE" contentId="E_COMMON_HEADER" contentTypeId="BF_EMAIL_TEMPLATE" lastUpdatedStamp="2013-05-09 11:22:42.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:53.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <ElectronicText dataResourceId="E_COMMON_HEADER" lastUpdatedStamp="2013-12-17 12:03:29.0" lastUpdatedTxStamp="2013-12-17 12:03:29.0" createdStamp="2011-09-30 15:12:14.0" createdTxStamp="2011-09-30 15:12:13.0">
         <textData><![CDATA[<#assign HOME_SUB_URL="/online/control/main" />
-<#assign SHOP_SUB_URL="/online/shop" />
+<#assign SHOP_SUB_URL="" />
 <#assign RINGS="${HTTP_HOST!}${SHOP_SUB_URL!}/rings" />
 <#assign NECKLACE="${HTTP_HOST!}${SHOP_SUB_URL!}/necklace" />
 <#assign BRACELET="${HTTP_HOST!}${SHOP_SUB_URL!}/bracelet-and-anklets" />
@@ -3258,38 +3269,38 @@ Repack the gift in its original packaging, if possible, with the original receip
 <div style="float:left;"><!-- container 1 -->
   <ul class="topLevel">
    <li class="subLevel navfirstitem"><strong>Shop By Category</strong></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/active">Active</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses">Blouses</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/denim">Denim</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses">Dresses</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/leggings">Leggings</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants">Pants</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/rompers">Rompers</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/shorts">Shorts</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/skirts">Skirts</a></li>
-   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/sweaters">Sweaters</a></li>
-   <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/apparel/swim">Swim</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/active">Active</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/blouses">Blouses</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/denim">Denim</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/dresses">Dresses</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/leggings">Leggings</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/pants">Pants</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/rompers">Rompers</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/shorts">Shorts</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/apparel/skirts">Skirts</a></li>
+   <li class="subLevel "><a class="subLevel" href="/apparel/sweaters">Sweaters</a></li>
+   <li class="subLevel navlastitem"><a class="subLevel" href="/apparel/swim">Swim</a></li>
   </ul>
 </div>
 
 <div><!-- container 2 -->
   <ul class="topLevel">
     <li class="subLevel navfirstitem"><strong>Best Sellers</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/shorts/tailored-shorts-black">Tailored Shorts</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/shorts/tailored-shorts-black">Tailored Shorts</a></li>
     <li class="subLevel "><strong class="subLevel">New Arrivals</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/online/shop/active/bow-tee-black">Bow Tee</a></li>
-    <li class="subLevel "><a class="subLevel" href="/online/shop/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
-    <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
+    <li class="subLevel "><a class="subLevel" href="/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/active/bow-tee-black">Bow Tee</a></li>
+    <li class="subLevel "><a class="subLevel" href="/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
+    <li class="subLevel navlastitem"><a class="subLevel" href="/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
   </ul>
 </div>
 

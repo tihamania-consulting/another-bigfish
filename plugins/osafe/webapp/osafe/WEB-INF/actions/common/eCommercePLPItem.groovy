@@ -1184,7 +1184,7 @@ if(UtilValidate.isNotEmpty(productId))
 	        productVariantSelectContentWrapper = ProductContentWrapper.makeProductContentWrapper(productFeatureSelectVariantProduct, request);
 	        if (UtilValidate.isNotEmpty(productVariantSelectContentWrapper))
 	        {
-	            productContentList = delegator.findByAnd("ProductContent", UtilMisc.toMap("productId",productFeatureSelectVariantId, "productContentTypeId", "SMALL_IMAGE_URL"));
+	            productContentList = delegator.findByAnd("ProductContent", UtilMisc.toMap("productId",productFeatureSelectVariantId, "productContentTypeId", "SMALL_IMAGE_URL", "url"));
 	            productContentList = EntityUtil.filterByDate(productContentList,true);
         		if (UtilValidate.isNotEmpty(productContentList))
         		{
@@ -1192,7 +1192,7 @@ if(UtilValidate.isNotEmpty(productId))
     		  	    productContentId = productContent.contentId;
     		        if (UtilValidate.isNotEmpty(productContentId))
     		        {
-    			        productVariantSelectSmallURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_URL");
+    			        productVariantSelectSmallURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_URL", "url");
 
     		            productContentList = delegator.findByAnd("ProductContent", UtilMisc.toMap("productId",productFeatureSelectVariantId, "productContentTypeId", "SMALL_IMAGE_ALT_URL"));
     		            productContentList = EntityUtil.filterByDate(productContentList,true);
@@ -1202,7 +1202,7 @@ if(UtilValidate.isNotEmpty(productId))
             		  	    productContentId = productContent.contentId;
         			        if (UtilValidate.isNotEmpty(productContentId))
         			        {
-             			        productVariantSelectSmallAltURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_ALT_URL");
+             			        productVariantSelectSmallAltURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_ALT_URL", "url");
         			        }
     	        			
     	        		}
@@ -1536,7 +1536,7 @@ if(UtilValidate.isNotEmpty(productId))
 	  context.plpManufacturerPartyContentWrapper = partyContentWrapper;
 	  context.plpManufacturerDescription = partyContentWrapper.get("DESCRIPTION");
 	  context.plpManufacturerProfileName = partyContentWrapper.get("PROFILE_NAME");
-	  context.plpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL");
+	  context.plpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL", "url");
 	}
 
     context.plpProductName = productName;

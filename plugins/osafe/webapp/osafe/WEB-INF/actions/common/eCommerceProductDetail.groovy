@@ -657,7 +657,7 @@ if (UtilValidate.isNotEmpty(productId))
           context.partyContentWrapper = partyContentWrapper;
           context.pdpManufacturerDescription = partyContentWrapper.get("DESCRIPTION");
           context.pdpManufacturerProfileName = partyContentWrapper.get("PROFILE_NAME");
-          context.pdpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL");
+          context.pdpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL", "string");
         }
         
      // first make sure this isn't a variant that has an associated virtual product, if it does show that instead of the variant

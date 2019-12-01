@@ -122,7 +122,6 @@
     <service-resource type="model" loader="main" location="servicedef/services_scheduledJobs.xml"/>
     <service-resource type="model" loader="main" location="servicedef/services_custom.xml"/>
     <service-resource type="eca" loader="main" location="servicedef/secas.xml"/>
-    <service-resource type="eca" loader="main" location="servicedef/secas_custom.xml"/>
 
     <!-- web applications; will be mounted when using the embedded container -->
     <webapp name="osafe"

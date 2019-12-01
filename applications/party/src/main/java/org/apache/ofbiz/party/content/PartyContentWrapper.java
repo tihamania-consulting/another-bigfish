@@ -83,6 +83,10 @@ public class PartyContentWrapper implements ContentWrapper {
         return getPartyContentAsText(party, contentTypeId, locale, mimeTypeId, party.getDelegator(), dispatcher, useCache, encoderType);
     }
 
+    public String get(String contentTypeId, boolean useCache) {
+        return getPartyContentAsText(party, contentTypeId, locale, mimeTypeId, party.getDelegator(), dispatcher, useCache, "string");
+    }
+
     public StringUtil.StringWrapper get(String contentTypeId, String encoderType) {
         return StringUtil.makeStringWrapper(get(contentTypeId, true, encoderType));
     }

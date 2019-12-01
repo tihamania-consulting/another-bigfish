@@ -97,7 +97,7 @@ if (UtilValidate.isNotEmpty(gvProductCategory))
         context.metaDescription = metaDescription;
     }
     
-    String canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL", "url");
+    String canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL");
     if(UtilValidate.isNotEmpty(canonicalUrl)) 
     {
         context.canonicalUrl = canonicalUrl;

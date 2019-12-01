@@ -115,10 +115,10 @@ if (UtilValidate.isNotEmpty(rowOrderItem))
 	}
 
 	//Product Image URL
-	productImageUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher);
+	productImageUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher, "url");
 	if(UtilValidate.isEmpty(productImageUrl) && UtilValidate.isNotEmpty(virtualProduct))
 	{
-		productImageUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher);
+		productImageUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher, "url");
 	}
 	//If the string is a literal "null" make it an "" empty string then all normal logic can stay the same
 	if(UtilValidate.isNotEmpty(productImageUrl) && "null".equals(productImageUrl))

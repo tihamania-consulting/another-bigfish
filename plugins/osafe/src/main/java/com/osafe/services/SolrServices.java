@@ -326,21 +326,21 @@ public class SolrServices {
                                     }
 
                                     // SMALL_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "url");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_URL");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_SMALL_URL, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT", "url");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_SMALL_ALT, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT_URL
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL", "url");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                     	if (UtilValidate.isNotEmpty(imageUrl.toString()))
@@ -349,14 +349,14 @@ public class SolrServices {
                                     	}
                                     }
                                     // MEDIUM_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL", "url");
+                                    imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_MEDIUM_URL, imageUrl.toString());
                                     }
 
                                     // LARGE_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url");
+                                    imageUrl = productContentWrapper.get("LARGE_IMAGE_URL");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_LARGE_URL, imageUrl.toString());
