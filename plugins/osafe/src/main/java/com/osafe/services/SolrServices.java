@@ -478,12 +478,15 @@ public class SolrServices {
                                     // Product Prices
                                     String currencyUomId = productStore.getString("defaultCurrencyUomId");
                                     results = dispatcher.runSync("calculateProductPrice", UtilMisc.toMap("product", product, "currencyUomId", currencyUomId));
-                                    productDocument.setField(FIELD_NAME_LIST_PRICE, ((BigDecimal) results.get("listPrice")).floatValue());
-                                    productDocument.setField(FIELD_NAME_PRICE, ((BigDecimal) results.get("price")).floatValue());
+                                    if (results.get("listPrice")!= null)
+                                        productDocument.setField(FIELD_NAME_LIST_PRICE, ((BigDecimal) results.get("listPrice")).floatValue());
+                                    if (results.get("price")!= null)
+                                        productDocument.setField(FIELD_NAME_PRICE, ((BigDecimal) results.get("price")).floatValue());
 
                                     // Product RECURRENCE Prices
                                     results = dispatcher.runSync("calculateProductPrice", UtilMisc.toMap("product", product, "currencyUomId", currencyUomId,"productPricePurposeId","RECURRING_CHARGE"));
-                                    productDocument.setField(FIELD_NAME_RECCURENCE_PRICE, ((BigDecimal) results.get("price")).floatValue());
+                                    if (results.get("price")!= null)
+                                        productDocument.setField(FIELD_NAME_RECCURENCE_PRICE, ((BigDecimal) results.get("price")).floatValue());
 
                                     GenericValue ProductCalculatedInfo = delegator.findOne("ProductCalculatedInfo", UtilMisc.toMap("productId", productId), false);
                                     // Product Ratings
