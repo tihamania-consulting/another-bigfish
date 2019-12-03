@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entity-engine-xml>
+<DataResource dataResourceId="30000en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30000en" textData="Pottery"/>
+<Content contentId="30000en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30000en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30000en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="POTTERY" thruDate="null"/>
+<DataResource dataResourceId="30000ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30000ar" textData="الفخار"/>
+<Content contentId="30000ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30000ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30000en" contentIdTo="30000ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30000fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30000fr" textData="Potterie"/>
+<Content contentId="30000fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30000fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30000en" contentIdTo="30000fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30001en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30001en" textData="Ceramic"/>
+<Content contentId="30001en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30001en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30001en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="CERAMIC" thruDate="null"/>
+<DataResource dataResourceId="30001ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30001ar" textData="السيراميك"/>
+<Content contentId="30001ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30001ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30001en" contentIdTo="30001ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30001fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30001fr" textData="Céramique"/>
+<Content contentId="30001fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30001fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30001en" contentIdTo="30001fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30002en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30002en" textData="Tapestry"/>
+<Content contentId="30002en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30002en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30002en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="TAPESTRY" thruDate="null"/>
+<DataResource dataResourceId="30002ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30002ar" textData="الأنسجة"/>
+<Content contentId="30002ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30002ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30002en" contentIdTo="30002ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30002fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30002fr" textData="Tissage"/>
+<Content contentId="30002fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30002fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30002en" contentIdTo="30002fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30003en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30003en" textData="Lether"/>
+<Content contentId="30003en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30003en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30003en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="LEATHER" thruDate="null"/>
+<DataResource dataResourceId="30003ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30003ar" textData="الجلد"/>
+<Content contentId="30003ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30003ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30003en" contentIdTo="30003ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30003fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30003fr" textData="Maroquinerie"/>
+<Content contentId="30003fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30003fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30003en" contentIdTo="30003fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30004en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30004en" textData="Apparel"/>
+<Content contentId="30004en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30004en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30004en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="APPAREL" thruDate="null"/>
+<DataResource dataResourceId="30004ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30004ar" textData="الملابس"/>
+<Content contentId="30004ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30004ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30004en" contentIdTo="30004ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30004fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30004fr" textData="Vêtements"/>
+<Content contentId="30004fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30004fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30004en" contentIdTo="30004fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30005en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30005en" textData="Paintings"/>
+<Content contentId="30005en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30005en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30005en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="PAINTINGS" thruDate="null"/>
+<DataResource dataResourceId="30005ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30005ar" textData="الرسومات"/>
+<Content contentId="30005ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30005ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30005en" contentIdTo="30005ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30005fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30005fr" textData="Peintures"/>
+<Content contentId="30005fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30005fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30005en" contentIdTo="30005fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30006en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30006en" textData="Jewelery"/>
+<Content contentId="30006en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30006en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30006en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="JEWELERY" thruDate="null"/>
+<DataResource dataResourceId="30006ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30006ar" textData="مجوهرات"/>
+<Content contentId="30006ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30006ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30006en" contentIdTo="30006ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30006fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30006fr" textData="Bijoux"/>
+<Content contentId="30006fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30006fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30006en" contentIdTo="30006fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30007en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30007en" textData="Our Craftsmen"/>
+<Content contentId="30007en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30007en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30007en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="ARTISAN" thruDate="null"/>
+<DataResource dataResourceId="30007ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30007ar" textData="حرفيينا"/>
+<Content contentId="30007ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30007ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30007en" contentIdTo="30007ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30007fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30007fr" textData="Nos artisans"/>
+<Content contentId="30007fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30007fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30007en" contentIdTo="30007fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30008en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30008en" textData="Couscous"/>
+<Content contentId="30008en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30008en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30008en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="COUSCOUS" thruDate="null"/>
+<DataResource dataResourceId="30008ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30008ar" textData="كسكس"/>
+<Content contentId="30008ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30008ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30008en" contentIdTo="30008ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30008fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30008fr" textData="Couscous"/>
+<Content contentId="30008fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30008fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30008en" contentIdTo="30008fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30009en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30009en" textData="Water storage"/>
+<Content contentId="30009en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30009en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30009en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="WATER_STORAGE" thruDate="null"/>
+<DataResource dataResourceId="30009ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30009ar" textData="جرة الماء"/>
+<Content contentId="30009ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30009ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30009en" contentIdTo="30009ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30009fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30009fr" textData="Fûts pour eau"/>
+<Content contentId="30009fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30009fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30009en" contentIdTo="30009fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30010en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30010en" textData="decorations"/>
+<Content contentId="30010en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30010en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30010en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="DECORATION_CERAMIC" thruDate="null"/>
+<DataResource dataResourceId="30010ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30010ar" textData="التزيين"/>
+<Content contentId="30010ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30010ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30010en" contentIdTo="30010ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30010fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30010fr" textData="Décoration"/>
+<Content contentId="30010fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30010fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30010en" contentIdTo="30010fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30011en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30011en" textData="decorations"/>
+<Content contentId="30011en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30011en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30011en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="DECORATION_POTTERY" thruDate="null"/>
+<DataResource dataResourceId="30011ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30011ar" textData="التزيين"/>
+<Content contentId="30011ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30011ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30011en" contentIdTo="30011ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30011fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30011fr" textData="Décoration"/>
+<Content contentId="30011fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30011fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30011en" contentIdTo="30011fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30012en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30012en" textData="Oil storage"/>
+<Content contentId="30012en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30012en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30012en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="OIL_STORAGE" thruDate="null"/>
+<DataResource dataResourceId="30012ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30012ar" textData="جرة الزيت"/>
+<Content contentId="30012ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30012ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30012en" contentIdTo="30012ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30012fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30012fr" textData="Fûts pour huile"/>
+<Content contentId="30012fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30012fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30012en" contentIdTo="30012fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30013en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30013en" textData="Tablewares"/>
+<Content contentId="30013en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30013en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30013en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="TABLEWARE_POTTERY" thruDate="null"/>
+<DataResource dataResourceId="30013ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30013ar" textData="لوازم المائدة"/>
+<Content contentId="30013ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30013ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30013en" contentIdTo="30013ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30013fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30013fr" textData="Service de table"/>
+<Content contentId="30013fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30013fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30013en" contentIdTo="30013fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30014en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30014en" textData="Tablewares"/>
+<Content contentId="30014en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30014en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30014en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="TABLEWARE_CERAMIC" thruDate="null"/>
+<DataResource dataResourceId="30014ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30014ar" textData="لوازم المائدة"/>
+<Content contentId="30014ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30014ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30014en" contentIdTo="30014ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30014fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30014fr" textData="Service de table"/>
+<Content contentId="30014fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30014fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30014en" contentIdTo="30014fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30015en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30015en" textData="Kitchen"/>
+<Content contentId="30015en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30015en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30015en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="KITCHEN" thruDate="null"/>
+<DataResource dataResourceId="30015ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30015ar" textData="المطبخ"/>
+<Content contentId="30015ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30015ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30015en" contentIdTo="30015ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30015fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30015fr" textData="Cuisine"/>
+<Content contentId="30015fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30015fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30015en" contentIdTo="30015fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30016en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30016en" textData="Lighting"/>
+<Content contentId="30016en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30016en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30016en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="LIGHTING" thruDate="null"/>
+<DataResource dataResourceId="30016ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30016ar" textData="إضاءة"/>
+<Content contentId="30016ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30016ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30016en" contentIdTo="30016ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30016fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30016fr" textData="Luminaire"/>
+<Content contentId="30016fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30016fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30016en" contentIdTo="30016fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30017en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30017en" textData="Coffee / Tea"/>
+<Content contentId="30017en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30017en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30017en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="COFFEE_TEA" thruDate="null"/>
+<DataResource dataResourceId="30017ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30017ar" textData="قهوة / شاي"/>
+<Content contentId="30017ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30017ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30017en" contentIdTo="30017ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30017fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30017fr" textData="Café / Thé"/>
+<Content contentId="30017fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30017fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30017en" contentIdTo="30017fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30018en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30018en" textData="Carpet"/>
+<Content contentId="30018en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30018en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30018en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="CARPET" thruDate="null"/>
+<DataResource dataResourceId="30018ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30018ar" textData="زربيات"/>
+<Content contentId="30018ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30018ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30018en" contentIdTo="30018ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30018fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30018fr" textData="Tapis"/>
+<Content contentId="30018fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30018fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30018en" contentIdTo="30018fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30019en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30019en" textData="Burnous"/>
+<Content contentId="30019en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30019en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30019en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BURNOUS" thruDate="null"/>
+<DataResource dataResourceId="30019ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30019ar" textData="البرنس"/>
+<Content contentId="30019ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30019ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30019en" contentIdTo="30019ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30019fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30019fr" textData="Burnous"/>
+<Content contentId="30019fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30019fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30019en" contentIdTo="30019fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30020en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30020en" textData="Kechabia"/>
+<Content contentId="30020en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30020en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30020en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="KECHABIA" thruDate="null"/>
+<DataResource dataResourceId="30020ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30020ar" textData="قشابية"/>
+<Content contentId="30020ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30020ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30020en" contentIdTo="30020ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30020fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30020fr" textData="Kechabia"/>
+<Content contentId="30020fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30020fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30020en" contentIdTo="30020fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30021en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30021en" textData="Feest apparels"/>
+<Content contentId="30021en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30021en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30021en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="FEEST" thruDate="null"/>
+<DataResource dataResourceId="30021ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30021ar" textData="ملابس الافراح"/>
+<Content contentId="30021ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30021ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30021en" contentIdTo="30021ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30021fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30021fr" textData="Tenus de fête"/>
+<Content contentId="30021fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30021fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30021en" contentIdTo="30021fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30022en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30022en" textData="Robes"/>
+<Content contentId="30022en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30022en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30022en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="ROBES" thruDate="null"/>
+<DataResource dataResourceId="30022ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30022ar" textData="فساتين"/>
+<Content contentId="30022ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30022ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30022en" contentIdTo="30022ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30022fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30022fr" textData="Robes"/>
+<Content contentId="30022fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30022fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30022en" contentIdTo="30022fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30023en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30023en" textData="Copper arts"/>
+<Content contentId="30023en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30023en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30023en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="COPPER" thruDate="null"/>
+<DataResource dataResourceId="30023ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30023ar" textData="فنون النحاس"/>
+<Content contentId="30023ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30023ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30023en" contentIdTo="30023ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30023fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30023fr" textData="Arts sur cuivre"/>
+<Content contentId="30023fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30023fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30023en" contentIdTo="30023fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30024en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30024en" textData="Callygraphy"/>
+<Content contentId="30024en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30024en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30024en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="CALLIGRAPHY" thruDate="null"/>
+<DataResource dataResourceId="30024ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30024ar" textData="الخط العربي"/>
+<Content contentId="30024ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30024ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30024en" contentIdTo="30024ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30024fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30024fr" textData="Caligraphie"/>
+<Content contentId="30024fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30024fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30024en" contentIdTo="30024fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30025en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30025en" textData="Glass paintings"/>
+<Content contentId="30025en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30025en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30025en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="GLASS" thruDate="null"/>
+<DataResource dataResourceId="30025ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30025ar" textData="لوحات على الزجاج"/>
+<Content contentId="30025ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30025ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30025en" contentIdTo="30025ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30025fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30025fr" textData="Tableaux sur verre"/>
+<Content contentId="30025fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30025fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30025en" contentIdTo="30025fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30026en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30026en" textData="Earings"/>
+<Content contentId="30026en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30026en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30026en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="EARINGS" thruDate="null"/>
+<DataResource dataResourceId="30026ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30026ar" textData="أقراط"/>
+<Content contentId="30026ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30026ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30026en" contentIdTo="30026ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30026fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30026fr" textData="Boucles d'oreilles"/>
+<Content contentId="30026fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30026fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30026en" contentIdTo="30026fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30027en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30027en" textData="Necklaces"/>
+<Content contentId="30027en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30027en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30027en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="NECKLACE" thruDate="null"/>
+<DataResource dataResourceId="30027ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30027ar" textData="عقود"/>
+<Content contentId="30027ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30027ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30027en" contentIdTo="30027ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30027fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30027fr" textData="Chaînes"/>
+<Content contentId="30027fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30027fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30027en" contentIdTo="30027fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30028en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30028en" textData="Brooch"/>
+<Content contentId="30028en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30028en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30028en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BROOCH" thruDate="null"/>
+<DataResource dataResourceId="30028ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30028ar" textData="بروشات"/>
+<Content contentId="30028ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30028ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30028en" contentIdTo="30028ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30028fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30028fr" textData="Fibules"/>
+<Content contentId="30028fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30028fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30028en" contentIdTo="30028fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30029en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30029en" textData="Poufs"/>
+<Content contentId="30029en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30029en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30029en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="POUF" thruDate="null"/>
+<DataResource dataResourceId="30029ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30029ar" textData="مقاعد منتفخة"/>
+<Content contentId="30029ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30029ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30029en" contentIdTo="30029ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30029fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30029fr" textData="Poufs"/>
+<Content contentId="30029fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30029fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30029en" contentIdTo="30029fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30030en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30030en" textData="SEKKAI"/>
+<Content contentId="30030en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30030en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30030en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="SEKKAI" thruDate="null"/>
+<DataResource dataResourceId="30030ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30030ar" textData="سكاي"/>
+<Content contentId="30030ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30030ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30030en" contentIdTo="30030ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30030fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30030fr" textData="SEKKAI"/>
+<Content contentId="30030fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30030fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30030en" contentIdTo="30030fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30031en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30031en" textData="MERRABET "/>
+<Content contentId="30031en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30031en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30031en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="MERRABET" thruDate="null"/>
+<DataResource dataResourceId="30031ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30031ar" textData="مرابط"/>
+<Content contentId="30031ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30031ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30031en" contentIdTo="30031ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30031fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30031fr" textData="MERRABET "/>
+<Content contentId="30031fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30031fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30031en" contentIdTo="30031fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30032en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30032en" textData="AIT_KHEIR"/>
+<Content contentId="30032en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30032en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30032en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="AIT_KHEIR" thruDate="null"/>
+<DataResource dataResourceId="30032ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30032ar" textData="أيت الخير"/>
+<Content contentId="30032ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30032ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30032en" contentIdTo="30032ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30032fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30032fr" textData="AIT_KHEIR"/>
+<Content contentId="30032fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30032fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30032en" contentIdTo="30032fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30033en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30033en" textData="SAAD"/>
+<Content contentId="30033en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30033en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30033en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="SAAD" thruDate="null"/>
+<DataResource dataResourceId="30033ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30033ar" textData="سعد"/>
+<Content contentId="30033ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30033ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30033en" contentIdTo="30033ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30033fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30033fr" textData="SAAD"/>
+<Content contentId="30033fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30033fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30033en" contentIdTo="30033fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30034en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30034en" textData="DJELFI "/>
+<Content contentId="30034en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30034en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30034en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="DJELFI" thruDate="null"/>
+<DataResource dataResourceId="30034ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30034ar" textData="جلفي"/>
+<Content contentId="30034ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30034ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30034en" contentIdTo="30034ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30034fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30034fr" textData="DJELFI "/>
+<Content contentId="30034fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30034fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30034en" contentIdTo="30034fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30035en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30035en" textData="BENZEKRI "/>
+<Content contentId="30035en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30035en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30035en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BENZEKRI" thruDate="null"/>
+<DataResource dataResourceId="30035ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30035ar" textData="بن زكري"/>
+<Content contentId="30035ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30035ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30035en" contentIdTo="30035ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30035fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30035fr" textData="BENZEKRI "/>
+<Content contentId="30035fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30035fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30035en" contentIdTo="30035fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30036en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30036en" textData="BOUAL "/>
+<Content contentId="30036en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30036en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30036en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BOUAL" thruDate="null"/>
+<DataResource dataResourceId="30036ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30036ar" textData="بوعال"/>
+<Content contentId="30036ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30036ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30036en" contentIdTo="30036ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30036fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30036fr" textData="BOUAL "/>
+<Content contentId="30036fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30036fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30036en" contentIdTo="30036fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30037en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30037en" textData="CHAIMA"/>
+<Content contentId="30037en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30037en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30037en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="CHAIMA" thruDate="null"/>
+<DataResource dataResourceId="30037ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30037ar" textData="شيماء"/>
+<Content contentId="30037ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30037ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30037en" contentIdTo="30037ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30037fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30037fr" textData="CHAIMA"/>
+<Content contentId="30037fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30037fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30037en" contentIdTo="30037fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30038en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30038en" textData="RAMOUL "/>
+<Content contentId="30038en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30038en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30038en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="RAMOUL" thruDate="null"/>
+<DataResource dataResourceId="30038ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30038ar" textData="رامةل"/>
+<Content contentId="30038ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30038ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30038en" contentIdTo="30038ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30038fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30038fr" textData="RAMOUL "/>
+<Content contentId="30038fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30038fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30038en" contentIdTo="30038fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30039en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30039en" textData="CHENNOUFI "/>
+<Content contentId="30039en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30039en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30039en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="CHENNOUFI" thruDate="null"/>
+<DataResource dataResourceId="30039ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30039ar" textData="شنوفي"/>
+<Content contentId="30039ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30039ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30039en" contentIdTo="30039ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30039fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30039fr" textData="CHENNOUFI "/>
+<Content contentId="30039fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30039fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30039en" contentIdTo="30039fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30040en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30040en" textData="IHADDADENE "/>
+<Content contentId="30040en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30040en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30040en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="IHADDADENE" thruDate="null"/>
+<DataResource dataResourceId="30040ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30040ar" textData="إحدادن"/>
+<Content contentId="30040ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30040ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30040en" contentIdTo="30040ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30040fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30040fr" textData="IHADDADENE "/>
+<Content contentId="30040fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30040fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30040en" contentIdTo="30040fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30041en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30041en" textData="ATHMANI "/>
+<Content contentId="30041en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30041en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30041en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="ATHMANI" thruDate="null"/>
+<DataResource dataResourceId="30041ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30041ar" textData="عثماني"/>
+<Content contentId="30041ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30041ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30041en" contentIdTo="30041ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30041fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30041fr" textData="ATHMANI "/>
+<Content contentId="30041fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30041fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30041en" contentIdTo="30041fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30042en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30042en" textData="KHAIRI "/>
+<Content contentId="30042en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30042en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30042en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="KHAIRI" thruDate="null"/>
+<DataResource dataResourceId="30042ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30042ar" textData="خيري"/>
+<Content contentId="30042ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30042ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30042en" contentIdTo="30042ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30042fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30042fr" textData="KHAIRI "/>
+<Content contentId="30042fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30042fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30042en" contentIdTo="30042fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30043en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30043en" textData="BOUKHERS "/>
+<Content contentId="30043en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30043en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30043en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BOUKHERS" thruDate="null"/>
+<DataResource dataResourceId="30043ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30043ar" textData="بوخرس"/>
+<Content contentId="30043ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30043ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30043en" contentIdTo="30043ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30043fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30043fr" textData="BOUKHERS "/>
+<Content contentId="30043fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30043fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30043en" contentIdTo="30043fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30044en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30044en" textData="BOUKENOUCHA "/>
+<Content contentId="30044en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30044en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30044en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BOUKENOUCHA" thruDate="null"/>
+<DataResource dataResourceId="30044ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30044ar" textData="بوكنشوفة"/>
+<Content contentId="30044ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30044ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30044en" contentIdTo="30044ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30044fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30044fr" textData="BOUKENOUCHA "/>
+<Content contentId="30044fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30044fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30044en" contentIdTo="30044fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30045en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30045en" textData="BOUGUERRA "/>
+<Content contentId="30045en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30045en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30045en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BOUGUERRA" thruDate="null"/>
+<DataResource dataResourceId="30045ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30045ar" textData="بوقرة"/>
+<Content contentId="30045ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30045ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30045en" contentIdTo="30045ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30045fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30045fr" textData="BOUGUERRA "/>
+<Content contentId="30045fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30045fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30045en" contentIdTo="30045fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30046en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30046en" textData="AOMRI "/>
+<Content contentId="30046en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30046en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30046en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="AOMRI" thruDate="null"/>
+<DataResource dataResourceId="30046ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30046ar" textData="أعمري"/>
+<Content contentId="30046ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30046ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30046en" contentIdTo="30046ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30046fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30046fr" textData="AOMRI "/>
+<Content contentId="30046fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30046fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30046en" contentIdTo="30046fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30047en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30047en" textData="BENMANSOUR"/>
+<Content contentId="30047en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30047en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30047en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="BENMANSOUR" thruDate="null"/>
+<DataResource dataResourceId="30047ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30047ar" textData="بن منصور"/>
+<Content contentId="30047ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30047ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30047en" contentIdTo="30047ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30047fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30047fr" textData="BENMANSOUR"/>
+<Content contentId="30047fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30047fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30047en" contentIdTo="30047fr" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30048en" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30048en" textData="NAIT_SEGHIR"/>
+<Content contentId="30048en" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30048en" localeString="en" statusId="CTNT_PUBLISHED"/>
+<ProductCategoryContent contentId="30048en" fromDate="2013-02-12 12:00:36" prodCatContentTypeId="CATEGORY_NAME" productCategoryId="NAIT_SEGHIR" thruDate="null"/>
+<DataResource dataResourceId="30048ar" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30048ar" textData="نايت صغير"/>
+<Content contentId="30048ar" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30048ar" localeString="ar" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30048en" contentIdTo="30048ar" fromDate="2013-01-02 01:01:01"/>
+<DataResource dataResourceId="30048fr" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="30048fr" textData="NAIT_SEGHIR"/>
+<Content contentId="30048fr" contentName="categoryName" contentTypeId="DOCUMENT" dataResourceId="30048fr" localeString="fr" statusId="CTNT_PUBLISHED"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="30048en" contentIdTo="30048fr" fromDate="2013-01-02 01:01:01"/>
+</entity-engine-xml>

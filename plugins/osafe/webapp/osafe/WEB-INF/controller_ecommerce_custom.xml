@@ -7,6 +7,13 @@
         <security https="false" auth="false"/>
         <response name="success" type="view" value="addOuting"/>
     </request-map>
+
+    <request-map uri="setSessionLocale">
+        <security https="true" auth="false"/>
+        <event type="java" path="org.apache.ofbiz.common.CommonEvents" invoke="setSessionLocale"/>
+        <response name="success" type="view-last" value="main"/>
+        <response name="error" type="request" value="main"/>
+    </request-map>
 	
 	<request-map uri="createOuting">
         <security https="true" auth="false"/>
@@ -18,5 +25,6 @@
 	<!-- =============VIEW-MAP =============== -->
     <view-map name="addOuting" type="screen" page="component://osafe/widget/EZGolfScreens.xml#addOuting"/>
 
+    <view-map name="setSessionLocale" type="screen"  page="component://osafe/widget/EcommerceScreens.xml#eCommerceHomePage"/>
 
 </site-conf>

@@ -179,7 +179,7 @@
 <#macro navBar parentCategory category levelUrl levelValue listIndex listSize>
  
   <#-- Value is from the Product Category entity-->
-  <#assign categoryName = category.categoryName!>
+  <#assign categoryName = Static['org.apache.ofbiz.product.category.CategoryContentWrapper'].getProductCategoryContentAsText(category, 'CATEGORY_NAME', request, "html")!>
   <#-- Value is from the Product Category entity-->
   <#assign categoryDescription = category.description!>
 

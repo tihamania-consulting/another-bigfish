@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entity-engine-xml>
+<ProductFeatureType description="SIZE" hasTable="N" parentTypeId="" productFeatureTypeId="SIZE"/>
+<ProductFeatureCategory description="SIZE" parentCategoryId="" productFeatureCategoryId="SIZE"/>
+<ProductFeatureGroup description="SIZE" productFeatureGroupId="SIZE"/>
+<ProductFeature description="Medium" productFeatureCategoryId="SIZE" productFeatureId="SIZE_MEDIUM" productFeatureTypeId="SIZE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="SIZE" productFeatureId="SIZE_MEDIUM" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298008" sequenceNum="10"/>
+<ProductFeature description="Small" productFeatureCategoryId="SIZE" productFeatureId="SIZE_SMALL" productFeatureTypeId="SIZE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="SIZE" productFeatureId="SIZE_SMALL" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="298009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="298009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="298012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="298013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="298013" sequenceNum="10"/>
+<ProductFeature description="Large" productFeatureCategoryId="SIZE" productFeatureId="SIZE_LARGE" productFeatureTypeId="SIZE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="SIZE" productFeatureId="SIZE_LARGE" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="298014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="298014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="298015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="298015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="298016" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="298016" sequenceNum="10"/>
+<ProductFeatureType description="COLOR" hasTable="N" parentTypeId="" productFeatureTypeId="COLOR"/>
+<ProductFeatureCategory description="COLOR" parentCategoryId="" productFeatureCategoryId="COLOR"/>
+<ProductFeatureGroup description="COLOR" productFeatureGroupId="COLOR"/>
+<ProductFeature description="Natural" productFeatureCategoryId="COLOR" productFeatureId="COLOR_NATURAL" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_NATURAL" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_NATURAL" productId="298017" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_NATURAL" productId="298017" sequenceNum="10"/>
+<ProductFeatureType description="MATERIAL" hasTable="N" parentTypeId="" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureCategory description="MATERIAL" parentCategoryId="" productFeatureCategoryId="MATERIAL"/>
+<ProductFeatureGroup description="MATERIAL" productFeatureGroupId="MATERIAL"/>
+<ProductFeature description="Silver" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_SILVER" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_SILVER" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21004" sequenceNum="10"/>
+<ProductFeature description="Coral" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_CORAL" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_CORAL" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CORAL" productId="21007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILVER" productId="21009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="300001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="300001" sequenceNum="10"/>
+<ProductFeatureType description="STYLE" hasTable="N" parentTypeId="" productFeatureTypeId="STYLE"/>
+<ProductFeatureCategory description="STYLE" parentCategoryId="" productFeatureCategoryId="STYLE"/>
+<ProductFeatureGroup description="STYLE" productFeatureGroupId="STYLE"/>
+<ProductFeature description="Woven" productFeatureCategoryId="STYLE" productFeatureId="STYLE_WOVEN" productFeatureTypeId="STYLE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="STYLE" productFeatureId="STYLE_WOVEN" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="300001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="300001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="300002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="300002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="300002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="300002" sequenceNum="10"/>
+<ProductFeature description="Embroided" productFeatureCategoryId="STYLE" productFeatureId="STYLE_EMBROIDED" productFeatureTypeId="STYLE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="STYLE" productFeatureId="STYLE_EMBROIDED" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="302001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="302001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="302003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="302003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="29001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="29001" sequenceNum="10"/>
+<ProductFeature description="Cotton" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_COTTON" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_COTTON" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_COTTON" productId="29001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_COTTON" productId="29001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_COTTON" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_COTTON" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="29007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="29007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="29008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="29012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="29012" sequenceNum="10"/>
+<ProductFeature description="Extra_large" productFeatureCategoryId="SIZE" productFeatureId="SIZE_EXTRA_LARGE" productFeatureTypeId="SIZE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="SIZE" productFeatureId="SIZE_EXTRA_LARGE" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_EXTRA_LARGE" productId="29013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_EXTRA_LARGE" productId="29013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_EXTRA_LARGE" productId="29014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_EXTRA_LARGE" productId="29014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="29015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="29015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="299001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="299001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="299002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="299002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_LARGE" productId="299003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_LARGE" productId="299003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="299004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="299004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="301001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="301001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_COTTON" productId="301001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_COTTON" productId="301001" sequenceNum="10"/>
+<ProductFeature description="Ouber" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_OUBER" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_OUBER" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_OUBER" productId="301001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_OUBER" productId="301001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="301003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="301003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="301004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="301004" sequenceNum="10"/>
+<ProductFeature description="Wool" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_WOOL" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_WOOL" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_WOOL" productId="301004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_WOOL" productId="301004" sequenceNum="10"/>
+<ProductFeature description="White" productFeatureCategoryId="COLOR" productFeatureId="COLOR_WHITE" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_WHITE" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_WHITE" productId="301004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_WHITE" productId="301004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="8001" sequenceNum="10"/>
+<ProductFeature description="Fetla" productFeatureCategoryId="STYLE" productFeatureId="STYLE_FETLA" productFeatureTypeId="STYLE"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="STYLE" productFeatureId="STYLE_FETLA" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_FETLA" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_FETLA" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8001" sequenceNum="10"/>
+<ProductFeature description="Brown" productFeatureCategoryId="COLOR" productFeatureId="COLOR_BROWN" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_BROWN" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BROWN" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BROWN" productId="8001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_OUBER" productId="8003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_WOOL" productId="8004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_WOOL" productId="8004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_WOOL" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_WOOL" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_WOVEN" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_WOVEN" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_WHITE" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_WHITE" productId="8005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="8007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="14007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="14007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_SMALL" productId="14008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_SMALL" productId="14008" sequenceNum="10"/>
+<ProductFeature description="Blue" productFeatureCategoryId="COLOR" productFeatureId="COLOR_BLUE" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_BLUE" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLUE" productId="14008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLUE" productId="14008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="SIZE_MEDIUM" productId="14009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="SIZE_MEDIUM" productId="14009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="14011" sequenceNum="10"/>
+<ProductFeature description="Satin" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_SATIN" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_SATIN" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23001" sequenceNum="10"/>
+<ProductFeature description="Orange" productFeatureCategoryId="COLOR" productFeatureId="COLOR_ORANGE" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_ORANGE" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_ORANGE" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_ORANGE" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23001" sequenceNum="10"/>
+<ProductFeature description="Black" productFeatureCategoryId="COLOR" productFeatureId="COLOR_BLACK" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_BLACK" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23001" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23002" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23002" sequenceNum="10"/>
+<ProductFeature description="Velvet" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_VELVET" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_VELVET" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLUE" productId="23003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLUE" productId="23003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23003" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23003" sequenceNum="10"/>
+<ProductFeature description="Silk" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_SILK" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_SILK" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILK" productId="23004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILK" productId="23004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23004" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILK" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILK" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23005" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23006" sequenceNum="10"/>
+<ProductFeature description="Pink" productFeatureCategoryId="COLOR" productFeatureId="COLOR_PINK" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_PINK" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_PINK" productId="23006" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_PINK" productId="23006" sequenceNum="10"/>
+<ProductFeature description="Garnet" productFeatureCategoryId="COLOR" productFeatureId="COLOR_GARNET" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_GARNET" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_GARNET" productId="23007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_GARNET" productId="23007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SILK" productId="23007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SILK" productId="23007" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23008" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23008" sequenceNum="10"/>
+<ProductFeature description="Chiffon" productFeatureCategoryId="MATERIAL" productFeatureId="MATERIAL_CHIFFON" productFeatureTypeId="MATERIAL"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_CHIFFON" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23009" sequenceNum="10"/>
+<ProductFeature description="Yellow" productFeatureCategoryId="COLOR" productFeatureId="COLOR_YELLOW" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_YELLOW" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_YELLOW" productId="23009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_YELLOW" productId="23009" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23010" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23011" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23012" sequenceNum="10"/>
+<ProductFeature description="Red" productFeatureCategoryId="COLOR" productFeatureId="COLOR_RED" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_RED" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_RED" productId="23012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_RED" productId="23012" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_CHIFFON" productId="23013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_WHITE" productId="23013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_WHITE" productId="23013" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_SATIN" productId="23014" sequenceNum="10"/>
+<ProductFeature description="Gold" productFeatureCategoryId="COLOR" productFeatureId="COLOR_GOLD" productFeatureTypeId="COLOR"/>
+<ProductFeatureGroupAppl fromDate="2013-02-12 12:00:36" productFeatureGroupId="COLOR" productFeatureId="COLOR_GOLD" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_GOLD" productId="23014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_GOLD" productId="23014" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="MATERIAL_VELVET" productId="23015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="STYLE_EMBROIDED" productId="23015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="STANDARD_FEATURE" productFeatureId="COLOR_BLACK" productId="23015" sequenceNum="10"/>
+<ProductFeatureAppl fromDate="2013-02-12 12:00:35" productFeatureApplTypeId="SELECTABLE_FEATURE" productFeatureId="COLOR_BLACK" productId="23015" sequenceNum="10"/>
+</entity-engine-xml>

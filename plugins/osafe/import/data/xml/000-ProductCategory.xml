@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entity-engine-xml>
+<ProductCategory categoryImageUrl="" categoryName="Pottery" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="POTTERY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="POTTERY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="10"/>
+<ProductCategory categoryImageUrl="" categoryName="Ceramic" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="CERAMIC" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="CERAMIC" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="20"/>
+<ProductCategory categoryImageUrl="" categoryName="Tapestry" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="TAPESTRY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="TAPESTRY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="30"/>
+<ProductCategory categoryImageUrl="" categoryName="Leather" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="LEATHER" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="LEATHER" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="40"/>
+<ProductCategory categoryImageUrl="" categoryName="Apparel" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="APPAREL" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="APPAREL" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="50"/>
+<ProductCategory categoryImageUrl="" categoryName="Paintings" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="PAINTINGS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="PAINTINGS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="60"/>
+<ProductCategory categoryImageUrl="" categoryName="Jewelery" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="JEWELERY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="JEWELERY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="61"/>
+<ProductCategory categoryImageUrl="" categoryName="Artisan" primaryParentCategoryId="BF_CATEGORY_ROOT" productCategoryId="ARTISAN" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="BF_CATEGORY_ROOT" productCategoryId="ARTISAN" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="70"/>
+<ProductCategory categoryImageUrl="" categoryName="Couscous" primaryParentCategoryId="POTTERY" productCategoryId="COUSCOUS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="COUSCOUS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="90"/>
+<ProductCategory categoryImageUrl="" categoryName="Water_storage" primaryParentCategoryId="POTTERY" productCategoryId="WATER_STORAGE" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="WATER_STORAGE" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="100"/>
+<ProductCategory categoryImageUrl="" categoryName="Decoration_pottery" primaryParentCategoryId="POTTERY" productCategoryId="DECORATION_POTTERY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="DECORATION_POTTERY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="130"/>
+<ProductCategory categoryImageUrl="" categoryName="Oil_storage" primaryParentCategoryId="POTTERY" productCategoryId="OIL_STORAGE" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="OIL_STORAGE" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="140"/>
+<ProductCategory categoryImageUrl="" categoryName="Tableware_pottery" primaryParentCategoryId="POTTERY" productCategoryId="TABLEWARE_POTTERY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="TABLEWARE_POTTERY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="150"/>
+<ProductCategory categoryImageUrl="" categoryName="Kitchen" primaryParentCategoryId="POTTERY" productCategoryId="KITCHEN" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="KITCHEN" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="151"/>
+<ProductCategory categoryImageUrl="" categoryName="Coffee_tea" primaryParentCategoryId="POTTERY" productCategoryId="COFFEE_TEA" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="POTTERY" productCategoryId="COFFEE_TEA" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="160"/>
+<ProductCategory categoryImageUrl="" categoryName="Lighting" primaryParentCategoryId="CERAMIC" productCategoryId="LIGHTING" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="LIGHTING" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="170"/>
+<ProductCategory categoryImageUrl="" categoryName="Tableware_ceramic" primaryParentCategoryId="CERAMIC" productCategoryId="TABLEWARE_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="TABLEWARE_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="180"/>
+<ProductCategory categoryImageUrl="" categoryName="Decoration_ceramic" primaryParentCategoryId="CERAMIC" productCategoryId="DECORATION_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="DECORATION_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="211"/>
+<ProductCategory categoryImageUrl="" categoryName="Carpet" primaryParentCategoryId="TAPESTRY" productCategoryId="CARPET" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="TAPESTRY" productCategoryId="CARPET" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="240"/>
+<ProductCategory categoryImageUrl="" categoryName="Burnous" primaryParentCategoryId="APPAREL" productCategoryId="BURNOUS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="APPAREL" productCategoryId="BURNOUS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="251"/>
+<ProductCategory categoryImageUrl="" categoryName="Kechabia" primaryParentCategoryId="APPAREL" productCategoryId="KECHABIA" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="APPAREL" productCategoryId="KECHABIA" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="260"/>
+<ProductCategory categoryImageUrl="" categoryName="Feest" primaryParentCategoryId="APPAREL" productCategoryId="FEEST" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="APPAREL" productCategoryId="FEEST" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="270"/>
+<ProductCategory categoryImageUrl="" categoryName="Robes" primaryParentCategoryId="APPAREL" productCategoryId="ROBES" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="APPAREL" productCategoryId="ROBES" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="280"/>
+<ProductCategory categoryImageUrl="" categoryName="Copper" primaryParentCategoryId="PAINTINGS" productCategoryId="COPPER" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="PAINTINGS" productCategoryId="COPPER" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="330"/>
+<ProductCategory categoryImageUrl="" categoryName="Calligraphy" primaryParentCategoryId="PAINTINGS" productCategoryId="CALLIGRAPHY" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="PAINTINGS" productCategoryId="CALLIGRAPHY" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="331"/>
+<ProductCategory categoryImageUrl="" categoryName="Glass" primaryParentCategoryId="PAINTINGS" productCategoryId="GLASS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="PAINTINGS" productCategoryId="GLASS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="340"/>
+<ProductCategory categoryImageUrl="" categoryName="Earings" primaryParentCategoryId="JEWELERY" productCategoryId="EARINGS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="JEWELERY" productCategoryId="EARINGS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="341"/>
+<ProductCategory categoryImageUrl="" categoryName="Necklace" primaryParentCategoryId="JEWELERY" productCategoryId="NECKLACE" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="JEWELERY" productCategoryId="NECKLACE" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="342"/>
+<ProductCategory categoryImageUrl="" categoryName="Brooch" primaryParentCategoryId="JEWELERY" productCategoryId="BROOCH" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="JEWELERY" productCategoryId="BROOCH" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="343"/>
+<ProductCategory categoryImageUrl="" categoryName="Pouf" primaryParentCategoryId="LEATHER" productCategoryId="POUF" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="LEATHER" productCategoryId="POUF" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="344"/>
+<ProductCategory categoryImageUrl="" categoryName="Sekkai" primaryParentCategoryId="ARTISAN" productCategoryId="SEKKAI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="SEKKAI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="400"/>
+<ProductCategory categoryImageUrl="" categoryName="Merrabet" primaryParentCategoryId="ARTISAN" productCategoryId="MERRABET" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="MERRABET" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="410"/>
+<ProductCategory categoryImageUrl="" categoryName="Ait_kheir" primaryParentCategoryId="ARTISAN" productCategoryId="AIT_KHEIR" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="AIT_KHEIR" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="420"/>
+<ProductCategory categoryImageUrl="" categoryName="Saad" primaryParentCategoryId="ARTISAN" productCategoryId="SAAD" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="SAAD" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="430"/>
+<ProductCategory categoryImageUrl="" categoryName="Djelfi" primaryParentCategoryId="ARTISAN" productCategoryId="DJELFI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="DJELFI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="440"/>
+<ProductCategory categoryImageUrl="" categoryName="Benzekri" primaryParentCategoryId="ARTISAN" productCategoryId="BENZEKRI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BENZEKRI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="450"/>
+<ProductCategory categoryImageUrl="" categoryName="Boual" primaryParentCategoryId="ARTISAN" productCategoryId="BOUAL" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BOUAL" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="460"/>
+<ProductCategory categoryImageUrl="" categoryName="Chaima" primaryParentCategoryId="ARTISAN" productCategoryId="CHAIMA" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="CHAIMA" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="470"/>
+<ProductCategory categoryImageUrl="" categoryName="Ramoul" primaryParentCategoryId="ARTISAN" productCategoryId="RAMOUL" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="RAMOUL" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="480"/>
+<ProductCategory categoryImageUrl="" categoryName="Chennoufi" primaryParentCategoryId="ARTISAN" productCategoryId="CHENNOUFI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="CHENNOUFI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="490"/>
+<ProductCategory categoryImageUrl="" categoryName="Ihaddadene" primaryParentCategoryId="ARTISAN" productCategoryId="IHADDADENE" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="IHADDADENE" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="500"/>
+<ProductCategory categoryImageUrl="" categoryName="Athmani" primaryParentCategoryId="ARTISAN" productCategoryId="ATHMANI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="ATHMANI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="510"/>
+<ProductCategory categoryImageUrl="" categoryName="Khairi" primaryParentCategoryId="ARTISAN" productCategoryId="KHAIRI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="KHAIRI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="520"/>
+<ProductCategory categoryImageUrl="" categoryName="Boukhers" primaryParentCategoryId="ARTISAN" productCategoryId="BOUKHERS" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BOUKHERS" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="530"/>
+<ProductCategory categoryImageUrl="" categoryName="Boukenoucha" primaryParentCategoryId="ARTISAN" productCategoryId="BOUKENOUCHA" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BOUKENOUCHA" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="540"/>
+<ProductCategory categoryImageUrl="" categoryName="Bouguerra" primaryParentCategoryId="ARTISAN" productCategoryId="BOUGUERRA" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BOUGUERRA" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="550"/>
+<ProductCategory categoryImageUrl="" categoryName="Aomri" primaryParentCategoryId="ARTISAN" productCategoryId="AOMRI" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="AOMRI" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="560"/>
+<ProductCategory categoryImageUrl="" categoryName="Benmansour" primaryParentCategoryId="ARTISAN" productCategoryId="BENMANSOUR" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="BENMANSOUR" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="570"/>
+<ProductCategory categoryImageUrl="" categoryName="Nait_seghir" primaryParentCategoryId="ARTISAN" productCategoryId="NAIT_SEGHIR" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="ARTISAN" productCategoryId="NAIT_SEGHIR" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="580"/>
+</entity-engine-xml>

@@ -16,6 +16,10 @@
     </#if> 
     <meta content="all,index,follow" name="robots"/>
 
+    <#assign docLangAttr = locale.toString()?replace("_", "-")><#assign langDir = "ltr">
+    <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
+        <#assign langDir = "rtl">
+    </#if>
 	<#assign titleWithOutHtml = StringUtil.wrapString(Static["com.osafe.util.Util"].stripHTMLInLength(metaTitle!title!productStore.title!"")!"") />
 	<#assign SEO_TITLE = Static["com.osafe.util.Util"].getProductStoreParm(request,"SEO_STORE_TITLE")!""/>
 	<#assign seoTitle = StringUtil.wrapString(Static["com.osafe.util.Util"].stripHTMLInLength(SEO_TITLE!productStore.storeName!"")!"") />
@@ -49,6 +53,11 @@
       <#list layoutSettings.VT_STYLESHEET as styleSheet>
         <link rel="stylesheet" href="<@ofbizContentUrl>${StringUtil.wrapString(styleSheet)}</@ofbizContentUrl>" type="text/css"/>
       </#list>
+    </#if>
+     <#if layoutSettings.VT_RTL_STYLESHEET?has_content && "rtl" == langDir>
+        <#list layoutSettings.VT_RTL_STYLESHEET as styleSheet>
+            <link rel="stylesheet" href="<@ofbizContentUrl>${StringUtil.wrapString(styleSheet)}</@ofbizContentUrl>" type="text/css"/>
+        </#list>
     </#if>
    
   <#-- META DATA -->

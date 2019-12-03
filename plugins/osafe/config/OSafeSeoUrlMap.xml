@@ -1,1286 +1,2033 @@
 <?xml version="1.0" encoding="UTF-8"?><resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <property key="eCommerceCategoryList?productCategoryId^^APPAREL">
-        <value xml:lang="en">apparel</value>
+    <property key="eCommerceProductList?productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^ACTIVE">
-        <value xml:lang="en">apparel/active</value>
+    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/petite-jarre-à-stocker-l´huile</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^ACTIVE">
-        <value xml:lang="en">active/reversible-hooded-shearling-vest</value>
+    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/saucier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">active/reversible-hooded-shearling-vest-brown</value>
+    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/moulin</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Olive">
-        <value xml:lang="en">active/reversible-hooded-shearling-vest-olive</value>
+    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/bol</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^ACTIVE">
-        <value xml:lang="en">active/asymmetrical-tank</value>
+    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/plat-à-repas</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">active/asymmetrical-tank-pink</value>
+    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^ACTIVE~productFeatureType^^COLOR:White">
-        <value xml:lang="en">active/asymmetrical-tank-white</value>
+    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/pot-au-lait</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^ACTIVE">
-        <value xml:lang="en">active/bow-tee</value>
+    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/cruche-andagrave-eau</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">active/bow-tee-black</value>
+    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/saucier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">active/bow-tee-red</value>
+    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^ACTIVE">
-        <value xml:lang="en">active/long-sleeve-fleece-hoodie</value>
+    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/plat-de-cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">active/long-sleeve-fleece-hoodie-yellow</value>
+    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/pichet-andagrave-eau</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">active/long-sleeve-fleece-hoodie-pink</value>
+    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/gargoulette</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^ACTIVE">
-        <value xml:lang="en">active/zoe-pants</value>
+    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/plat-andagrave-cuisiner</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">active/zoe-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/couscoussier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">active/zoe-pants-blue</value>
+    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/amphore</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^BLOUSES">
-        <value xml:lang="en">apparel/blouses</value>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/34-sleeve-and-button-down-</value>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^POTTERY~productFeatureType^^COLOR:Natural">
+        <value xml:lang="en">potterie/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">blouses/34-sleeve-and-button-down--white</value>
+    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">blouses/34-sleeve-and-button-down--pink</value>
+    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/mortierpilon</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/short-sleeve-tunic</value>
+    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/tadjine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">blouses/short-sleeve-tunic-red</value>
+    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/pot-a-epices</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/bow-trench-coat</value>
+    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/cendrier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">blouses/bow-trench-coat-pink</value>
+    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">blouses/bow-trench-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/marmite-et-couscoussier-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60001~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/mango-contrast-trim-wrap-blouse</value>
+    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/pot-à-bec-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60001~productCategoryId^^BLOUSES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">blouses/mango-contrast-trim-wrap-blouse-white</value>
+    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase-kabyle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60002~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/crochet-blouse</value>
+    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/mortierpilon-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60002~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">blouses/crochet-blouse-black</value>
+    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60003~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/contrast-floral-lace-bib-shirt</value>
+    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60003~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Cream">
-        <value xml:lang="en">blouses/contrast-floral-lace-bib-shirt-cream</value>
+    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60004~productCategoryId^^BLOUSES">
-        <value xml:lang="en">blouses/oversized-shirt-seam-detail</value>
+    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/terrine-de-kabylie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^60004~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">blouses/oversized-shirt-seam-detail-blue</value>
+    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DENIM">
-        <value xml:lang="en">apparel/denim</value>
+    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/boot-cut-jeans</value>
+    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/tadjine-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^DENIM~productFeatureType^^COLOR:Navy">
-        <value xml:lang="en">denim/boot-cut-jeans-navy</value>
+    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/service-à-café</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/exboyfriend-crop-jeans</value>
+    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">denim/exboyfriend-crop-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^POTTERY">
+        <value xml:lang="en">potterie/cruche-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/gigi-cropped-flare-jeans</value>
+    <property key="eCommerceProductList?productCategoryId^^COUSCOUS">
+        <value xml:lang="en">potterie/fûts-pour-eau</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">denim/gigi-cropped-flare-jeans-blue</value>
+    <property key="eCommerceProductList?productCategoryId^^WATER_STORAGE">
+        <value xml:lang="en">potterie/décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/legging-jeans</value>
+    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^WATER_STORAGE">
+        <value xml:lang="en">décoration/cruche-andagrave-eau</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^DENIM~productFeatureType^^COLOR:Navy">
-        <value xml:lang="en">denim/legging-jeans-navy</value>
+    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^WATER_STORAGE">
+        <value xml:lang="en">décoration/cruche-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/low-slung-flare-jeans</value>
+    <property key="eCommerceProductList?productCategoryId^^DECORATION_POTTERY">
+        <value xml:lang="en">potterie/décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">denim/low-slung-flare-jeans-blue</value>
+    <property key="eCommerceProductList?productCategoryId^^DECORATION">
+        <value xml:lang="en">potterie/service-de-table</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/stilletto-skinny-jeans</value>
+    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DENIM~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">denim/stilletto-skinny-jeans-red</value>
+    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DENIM~productFeatureType^^COLOR:White">
-        <value xml:lang="en">denim/stilletto-skinny-jeans-white</value>
+    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/burke-trouser-jeans</value>
+    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">denim/burke-trouser-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DENIM">
-        <value xml:lang="en">denim/high-rise-wide-leg-jeans</value>
+    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">denim/high-rise-wide-leg-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoir</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DRESSES">
-        <value xml:lang="en">apparel/dresses</value>
+    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/draped-dress</value>
+    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DRESSES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">dresses/draped-dress-white</value>
+    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/falling-drape-dress</value>
+    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^DRESSES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">dresses/falling-drape-dress-white</value>
+    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/ruffle-gown</value>
+    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bonbonnière</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^DRESSES~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">dresses/ruffle-gown-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/cable-knit-sweater-dress</value>
+    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DRESSES~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">dresses/cable-knit-sweater-dress-grey</value>
+    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/glen-plaid-dress</value>
+    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-fleurs-dorées</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^DRESSES~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">dresses/glen-plaid-dress-grey</value>
+    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoratif-avec-fleurs-dorées</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DRESSES">
-        <value xml:lang="en">dresses/long-sleeve-goddess-dress</value>
+    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-forme-coeur</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DRESSES~productFeatureType^^COLOR:Burgundy">
-        <value xml:lang="en">dresses/long-sleeve-goddess-dress-burgundy</value>
+    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-forme-coeur-à-roses-rouges</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^INTIMATESSLEEPWEAR">
-        <value xml:lang="en">apparel/intimates-/-sleepwear</value>
+    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-roses-oranges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90108~productCategoryId^^INTIMATESSLEEPWEAR">
-        <value xml:lang="en">intimates-/-sleepwear/stag-print-onesie</value>
+    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90108~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">intimates-/-sleepwear/stag-print-onesie-grey</value>
+    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90109~productCategoryId^^INTIMATESSLEEPWEAR">
-        <value xml:lang="en">intimates-/-sleepwear/moon-checks-pj-pant</value>
+    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-an-bouquet-de-roses</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90109~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">intimates-/-sleepwear/moon-checks-pj-pant-blue</value>
+    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90110~productCategoryId^^INTIMATESSLEEPWEAR">
-        <value xml:lang="en">intimates-/-sleepwear/flannel-pj-set</value>
+    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90110~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Aubergine">
-        <value xml:lang="en">intimates-/-sleepwear/flannel-pj-set-aubergine</value>
+    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90110~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">intimates-/-sleepwear/flannel-pj-set-blue</value>
+    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/boite-à-mouchoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90111~productCategoryId^^INTIMATESSLEEPWEAR">
-        <value xml:lang="en">intimates-/-sleepwear/princesse-peche-long-robe</value>
+    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/boite-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^90111~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Navy">
-        <value xml:lang="en">intimates-/-sleepwear/princesse-peche-long-robe-navy</value>
+    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne-à-roses-rouges</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^LEGGINGS">
-        <value xml:lang="en">apparel/leggings</value>
+    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne-à-fruits-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/high-waist-leggings-with-high-shine-panel-</value>
+    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">leggings/high-waist-leggings-with-high-shine-panel--blue</value>
+    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/tableau-à-fleurs-oranges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">leggings/high-waist-leggings-with-high-shine-panel--black</value>
+    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/tableau-à-fleurs-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000081~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/printed-leggings-</value>
+    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plateau-et-verres-décorés</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000081~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Midnight Garden">
-        <value xml:lang="en">leggings/printed-leggings--midnight-garden</value>
+    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/corbeille-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000081~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Dandellion Dreams">
-        <value xml:lang="en">leggings/printed-leggings--dandellion-dreams</value>
+    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/décor-pour-cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000082~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/leggings-in-geotribal-print</value>
+    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/assiette-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000082~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Festival Print">
-        <value xml:lang="en">leggings/leggings-in-geotribal-print-festival-print</value>
+    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoire-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000082~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Rainbow Print">
-        <value xml:lang="en">leggings/leggings-in-geotribal-print-rainbow-print</value>
+    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000083~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/excessive-printed-leggings</value>
+    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000083~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Excessive Print">
-        <value xml:lang="en">leggings/excessive-printed-leggings-excessive-print</value>
+    <property key="eCommerceProductList?productCategoryId^^OIL_STORAGE">
+        <value xml:lang="en">potterie/service-de-table</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000084~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/voodoo-girl-leggings</value>
+    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^OIL_STORAGE">
+        <value xml:lang="en">service-de-table/petite-jarre-à-stocker-l´huile</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000084~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Love Heart Print">
-        <value xml:lang="en">leggings/voodoo-girl-leggings-love-heart-print</value>
+    <property key="eCommerceProductList?productCategoryId^^TABLEWARE_POTTERY">
+        <value xml:lang="en">potterie/service-de-table</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000084~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Flumps Print">
-        <value xml:lang="en">leggings/voodoo-girl-leggings-flumps-print</value>
+    <property key="eCommerceProductList?productCategoryId^^TABLEWARE">
+        <value xml:lang="en">potterie/cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000084~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Jazzie Print">
-        <value xml:lang="en">leggings/voodoo-girl-leggings-jazzie-print</value>
+    <property key="eCommerceProductList?productCategoryId^^KITCHEN">
+        <value xml:lang="en">potterie/luminaire</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000085~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/cosy-rib-leggings</value>
+    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/saucier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000085~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">leggings/cosy-rib-leggings-grey</value>
+    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/moulin</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000086~productCategoryId^^LEGGINGS">
-        <value xml:lang="en">leggings/fishnet-leggings</value>
+    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/bol</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000086~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">leggings/fishnet-leggings-black</value>
+    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/plat-à-repas</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">apparel/outerwear-/-jackets</value>
+    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/blazer-with-leather-trim</value>
+    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/pot-au-lait</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">outerwear-/-jackets/blazer-with-leather-trim-blue</value>
+    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/saucier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/bergen-coat</value>
+    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/plat-de-cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">outerwear-/-jackets/bergen-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/pichet-andagrave-eau</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/fur-collar-coat</value>
+    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/gargoulette</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">outerwear-/-jackets/fur-collar-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/plat-andagrave-cuisiner</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/moto-jacket</value>
+    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/couscoussier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">outerwear-/-jackets/moto-jacket-brown</value>
+    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/amphore</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/leather-military-jacket</value>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">outerwear-/-jackets/leather-military-jacket-brown</value>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^KITCHEN~productFeatureType^^COLOR:Natural">
+        <value xml:lang="en">luminaire/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/fur-vest</value>
+    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">outerwear-/-jackets/fur-vest-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/mortierpilon</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/fur-jacket</value>
+    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/tadjine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">outerwear-/-jackets/fur-jacket-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/pot-a-epices</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^OUTERWEARANDJACKETS">
-        <value xml:lang="en">outerwear-/-jackets/leather-bolero-with-ruched-panels</value>
+    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/cendrier</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">outerwear-/-jackets/leather-bolero-with-ruched-panels-black</value>
+    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/marmite-et-couscoussier-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^PANTS">
-        <value xml:lang="en">apparel/pants</value>
+    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/pot-à-bec-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/wide-waistband-boot-cut-pants</value>
+    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/mortierpilon-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^PANTS~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">pants/wide-waistband-boot-cut-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/terrine-de-kabylie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/pleated-pants</value>
+    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^PANTS~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">pants/pleated-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/lace-flare-pants</value>
+    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/tadjine-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^PANTS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">pants/lace-flare-pants-white</value>
+    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^KITCHEN">
+        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/razor-pants</value>
+    <property key="eCommerceProductList?productCategoryId^^COFFEE_TEA">
+        <value xml:lang="en">potterie/café-/-thé</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^PANTS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">pants/razor-pants-red</value>
+    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^COFFEE_TEA">
+        <value xml:lang="en">café-/-thé/service-à-café</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/straight-leg-pants</value>
+    <property key="eCommerceProductList?productCategoryId^^DJEFNA">
+        <value xml:lang="en">potterie/décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^PANTS~productFeatureType^^COLOR:Orange">
-        <value xml:lang="en">pants/straight-leg-pants-orange</value>
+    <property key="eCommerceProductList?productCategoryId^^TAJINE">
+        <value xml:lang="en">potterie/fûts-pour-huile</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^PANTS~productFeatureType^^COLOR:Cream">
-        <value xml:lang="en">pants/straight-leg-pants-cream</value>
+    <property key="eCommerceProductList?productCategoryId^^COFEE_TEA">
+        <value xml:lang="en">potterie/</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/high-waisted-corduroy-pants</value>
+    <property key="eCommerceProductList?productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^PANTS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">pants/high-waisted-corduroy-pants-red</value>
+    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/luminaire-en-candeacuteramique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^PANTS">
-        <value xml:lang="en">pants/leather-leggings</value>
+    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^PANTS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">pants/leather-leggings-black</value>
+    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/bougeoir</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^ROMPERS">
-        <value xml:lang="en">apparel/rompers</value>
+    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50001~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/shift-playsuit-spot-print</value>
+    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50001~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">rompers/shift-playsuit-spot-print-black</value>
+    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50002~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/oriental-print-playsuit</value>
+    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50002~productCategoryId^^ROMPERS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">rompers/oriental-print-playsuit-white</value>
+    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/bonbonnière</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50003~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/playsuit-in-vintage-ditsy-print</value>
+    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50003~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">rompers/playsuit-in-vintage-ditsy-print-black</value>
+    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50004~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/playsuit-in-luxe-jacquard</value>
+    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^CERAMIC">
+        <value xml:lang="en">céramique/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50004~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">rompers/playsuit-in-luxe-jacquard-black</value>
+    <property key="eCommerceProductList?productCategoryId^^LIGHTING">
+        <value xml:lang="en">céramique/tapis</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50005~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/sequin-stripe-embellishment-playsuit</value>
+    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^LIGHTING">
+        <value xml:lang="en">tapis/luminaire-en-candeacuteramique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50005~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Multi">
-        <value xml:lang="en">rompers/sequin-stripe-embellishment-playsuit-multi</value>
+    <property key="eCommerceProductList?productCategoryId^^TABLEWARE_CERAMIC">
+        <value xml:lang="en">céramique/service-de-table</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50006~productCategoryId^^ROMPERS">
-        <value xml:lang="en">rompers/jacquard-playsuit</value>
+    <property key="eCommerceProductList?productCategoryId^^TABLEWARE">
+        <value xml:lang="en">potterie/cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^50006~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">rompers/jacquard-playsuit-blue</value>
+    <property key="eCommerceProductList?productCategoryId^^DECORATION_CERAMIC">
+        <value xml:lang="en">céramique/décoration</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^SHORTS">
-        <value xml:lang="en">apparel/shorts</value>
+    <property key="eCommerceProductList?productCategoryId^^DECORATION">
+        <value xml:lang="en">potterie/service-de-table</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/tailored-shorts</value>
+    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^SHORTS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shorts/tailored-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^SHORTS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">shorts/tailored-shorts-red</value>
+    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000091~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/reclaimed-vintage-shorts</value>
+    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000091~productCategoryId^^SHORTS~productFeatureType^^COLOR:Light Blue">
-        <value xml:lang="en">shorts/reclaimed-vintage-shorts-light-blue</value>
+    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000091~productCategoryId^^SHORTS~productFeatureType^^COLOR:Dark Blue">
-        <value xml:lang="en">shorts/reclaimed-vintage-shorts-dark-blue</value>
+    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/crepe-shorts</value>
+    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^SHORTS~productFeatureType^^COLOR:Taupe">
-        <value xml:lang="en">shorts/crepe-shorts-taupe</value>
+    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^SHORTS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shorts/crepe-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/scallop-hem-shorts</value>
+    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^SHORTS~productFeatureType^^COLOR:Purple">
-        <value xml:lang="en">shorts/scallop-hem-shorts-purple</value>
+    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^SHORTS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">shorts/scallop-hem-shorts-red</value>
+    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^SHORTS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shorts/scallop-hem-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bonbonnière</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000094~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/linen-scallop-hem-shorts</value>
+    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000094~productCategoryId^^SHORTS~productFeatureType^^COLOR:Mint">
-        <value xml:lang="en">shorts/linen-scallop-hem-shorts-mint</value>
+    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000094~productCategoryId^^SHORTS~productFeatureType^^COLOR:Mocha">
-        <value xml:lang="en">shorts/linen-scallop-hem-shorts-mocha</value>
+    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plat-de-décoration</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000094~productCategoryId^^SHORTS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shorts/linen-scallop-hem-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-fleurs-dorées</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000095~productCategoryId^^SHORTS">
-        <value xml:lang="en">shorts/high-waist-culottes</value>
+    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoratif-avec-fleurs-dorées</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000095~productCategoryId^^SHORTS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">shorts/high-waist-culottes-white</value>
+    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-forme-coeur</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^SKIRTS">
-        <value xml:lang="en">apparel/skirts</value>
+    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-forme-coeur-à-roses-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000100~productCategoryId^^SKIRTS">
-        <value xml:lang="en">skirts/printed-mini-skirt</value>
+    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-roses-oranges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000100~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Snakeskin Print">
-        <value xml:lang="en">skirts/printed-mini-skirt-snakeskin-print</value>
+    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000100~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Canyon Print">
-        <value xml:lang="en">skirts/printed-mini-skirt-canyon-print</value>
+    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000100~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Lightning Print">
-        <value xml:lang="en">skirts/printed-mini-skirt-lightning-print</value>
+    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-an-bouquet-de-roses</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000101~productCategoryId^^SKIRTS">
-        <value xml:lang="en">skirts/maxi-skirt</value>
+    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000101~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Terracotta">
-        <value xml:lang="en">skirts/maxi-skirt-terracotta</value>
+    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-rond</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000101~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Gray-Black">
-        <value xml:lang="en">skirts/maxi-skirt-grayblack</value>
+    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/miroir-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000101~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Black Floral">
-        <value xml:lang="en">skirts/maxi-skirt-black-floral</value>
+    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/boite-à-mouchoir</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^SWEATERS">
-        <value xml:lang="en">apparel/sweaters</value>
+    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/boite-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000069~productCategoryId^^SWEATERS">
-        <value xml:lang="en">sweaters/stripe-sweater-with-star-elbow-patch-</value>
+    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne-à-roses-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000069~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">sweaters/stripe-sweater-with-star-elbow-patch--red</value>
+    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne-à-fruits-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000069~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">sweaters/stripe-sweater-with-star-elbow-patch--black</value>
+    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/couronne</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000070~productCategoryId^^SWEATERS">
-        <value xml:lang="en">sweaters/chunky-sweater</value>
+    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/tableau-à-fleurs-oranges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000070~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">sweaters/chunky-sweater-pink</value>
+    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/tableau-à-fleurs-rouges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000070~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">sweaters/chunky-sweater-blue</value>
+    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/plateau-et-verres-décorés</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000071~productCategoryId^^SWEATERS">
-        <value xml:lang="en">sweaters/cable-knit-sweater-</value>
+    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/corbeille-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000071~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">sweaters/cable-knit-sweater--blue</value>
+    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/décor-pour-cuisine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000071~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">sweaters/cable-knit-sweater--red</value>
+    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/assiette-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000072~productCategoryId^^SWEATERS">
-        <value xml:lang="en">sweaters/swirl-cable-knit-sweater</value>
+    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/bougeoire-décorée</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000072~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">sweaters/swirl-cable-knit-sweater-yellow</value>
+    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000072~productCategoryId^^SWEATERS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">sweaters/swirl-cable-knit-sweater-white</value>
+    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^DECORATION">
+        <value xml:lang="en">service-de-table/vase-décoré</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000072~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">sweaters/swirl-cable-knit-sweater-red</value>
+    <property key="eCommerceProductList?productCategoryId^^TAJINE">
+        <value xml:lang="en">potterie/fûts-pour-huile</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^SWIM">
-        <value xml:lang="en">apparel/swim</value>
+    <property key="eCommerceProductList?productCategoryId^^OFFICE">
+        <value xml:lang="en">céramique/tenus-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/corsica-string-bikini</value>
+    <property key="eCommerceProductList?productCategoryId^^PICTURE_CERAMIC">
+        <value xml:lang="en">céramique/kechabia</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^SWIM~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">swim/corsica-string-bikini-pink</value>
+    <property key="eCommerceProductList?productCategoryId^^CANDY">
+        <value xml:lang="en">céramique/burnous</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/fishnet-one-piece</value>
+    <property key="eCommerceProductList?productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^SWIM~productFeatureType^^COLOR:White">
-        <value xml:lang="en">swim/fishnet-one-piece-white</value>
+    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-du-m´zab-type-benisguen</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120001~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/dip-dye-fringed-bandeau-swimsuit</value>
+    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/guandoura-mozabite</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120001~productCategoryId^^SWIM~productFeatureType^^COLOR:Multi">
-        <value xml:lang="en">swim/dip-dye-fringed-bandeau-swimsuit-multi</value>
+    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120002~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/twist-bandeau-swimsuit-in-spot-print</value>
+    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120002~productCategoryId^^SWIM~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">swim/twist-bandeau-swimsuit-in-spot-print-black</value>
+    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120003~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/fringed-side-plunge </value>
+    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120003~productCategoryId^^SWIM~productFeatureType^^COLOR:Neon Yellow">
-        <value xml:lang="en">swim/fringed-side-plunge -neon-yellow</value>
+    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120003~productCategoryId^^SWIM~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">swim/fringed-side-plunge -black</value>
+    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120004~productCategoryId^^SWIM">
-        <value xml:lang="en">swim/mesh-insert-v-plunge-swimsuit</value>
+    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^120004~productCategoryId^^SWIM~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">swim/mesh-insert-v-plunge-swimsuit-black</value>
+    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de-couloir</value>
     </property>
-    <property key="eCommerceCategoryList?productCategoryId^^HANDBAGSANDSHOES">
-        <value xml:lang="en">handbags-/-shoes</value>
+    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^SHOES">
-        <value xml:lang="en">handbags-/-shoes/shoes</value>
+    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/blue-sneakers</value>
+    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^SHOES~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">shoes/blue-sneakers-blue</value>
+    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/platform-boots</value>
+    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^SHOES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shoes/platform-boots-black</value>
+    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-beni-izguéne-de-couloir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/vanity-sandals</value>
+    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^SHOES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">shoes/vanity-sandals-white</value>
+    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/julietta-elastic-flat-oxfords</value>
+    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^SHOES~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">shoes/julietta-elastic-flat-oxfords-red</value>
+    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/suede-platform-pumps</value>
+    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^SHOES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">shoes/suede-platform-pumps-black</value>
+    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de--khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/overlay-platform-sandals</value>
+    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^SHOES~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">shoes/overlay-platform-sandals-red</value>
+    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^SHOES">
-        <value xml:lang="en">shoes/smoking-slipper-flats</value>
+    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^SHOES~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">shoes/smoking-slipper-flats-blue</value>
+    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags-/-shoes/handbags</value>
+    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^TAPESTRY">
+        <value xml:lang="en">tissage/tapis-de--khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/raffia-leather-bag</value>
+    <property key="eCommerceProductList?productCategoryId^^CARPET">
+        <value xml:lang="en">tissage/arts-sur-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">handbags/raffia-leather-bag-black</value>
+    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-du-m´zab-type-benisguen</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/classic-q-metallic-hillier-hobo</value>
+    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/guandoura-mozabite</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">handbags/classic-q-metallic-hillier-hobo-black</value>
+    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/casanova-red-bag</value>
+    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">handbags/casanova-red-bag-red</value>
+    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/baby-belle-clutch</value>
+    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">handbags/baby-belle-clutch-black</value>
+    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/amaca-bag</value>
+    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">handbags/amaca-bag-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^HANDBAGS">
-        <value xml:lang="en">handbags/nicole-weekender-bag</value>
+    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de-couloir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">handbags/nicole-weekender-bag-black</value>
+    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceCategoryList?productCategoryId^^JEWELRYACCESSORIES">
-        <value xml:lang="en">jewelry-/-accessories</value>
+    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">jewelry-/-accessories/accessories</value>
+    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/linked-double-d-ring-hip-belt</value>
+    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">accessories/linked-double-d-ring-hip-belt-brown</value>
+    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/carla-sunglasses</value>
+    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-beni-izguéne-de-couloir</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">accessories/carla-sunglasses-black</value>
+    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/large-lily-hair-clip</value>
+    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">accessories/large-lily-hair-clip-white</value>
+    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/riding-hat</value>
+    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">accessories/riding-hat-black</value>
+    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/whirlpool-leopard-scarf</value>
+    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de--khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Multi">
-        <value xml:lang="en">accessories/whirlpool-leopard-scarf-multi</value>
+    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/jungle-umbrella</value>
+    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">accessories/jungle-umbrella-brown</value>
+    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/cable-knit-poncho</value>
+    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">accessories/cable-knit-poncho-white</value>
+    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^CARPET">
+        <value xml:lang="en">arts-sur-cuivre/tapis-de--khenchela</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^700001~productCategoryId^^ACCESSORIES">
-        <value xml:lang="en">accessories/curve-wide-cage-plate-waist-belt</value>
+    <property key="eCommerceProductList?productCategoryId^^PILLOW">
+        <value xml:lang="en">tissage/robes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^700001~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">accessories/curve-wide-cage-plate-waist-belt-black</value>
+    <property key="eCommerceProductList?productCategoryId^^BEDSPREAD">
+        <value xml:lang="en">tissage/caligraphie</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry-/-accessories/jewelry</value>
+    <property key="eCommerceProductList?productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/toscana-bracelet</value>
+    <property key="eCommerceProductDetail?productId^^293001~productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie/pouf</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">jewelry/toscana-bracelet-gold</value>
+    <property key="eCommerceProductDetail?productId^^293002~productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie/pouf</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/beaded-earrings</value>
+    <property key="eCommerceProductDetail?productId^^293003~productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie/pouf</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Silver">
-        <value xml:lang="en">jewelry/beaded-earrings-silver</value>
+    <property key="eCommerceProductDetail?productId^^293004~productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie/pouf</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/laurier-headband</value>
+    <property key="eCommerceProductDetail?productId^^293005~productCategoryId^^LEATHER">
+        <value xml:lang="en">maroquinerie/pouf</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">jewelry/laurier-headband-gold</value>
+    <property key="eCommerceProductList?productCategoryId^^POUF">
+        <value xml:lang="en">maroquinerie/poufs</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/fringe-necklace</value>
+    <property key="eCommerceProductList?productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">jewelry/fringe-necklace-brown</value>
+    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/st-germain-de-pres-double-ring</value>
+    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Bronze">
-        <value xml:lang="en">jewelry/st-germain-de-pres-double-ring-bronze</value>
+    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^JEWELRY">
-        <value xml:lang="en">jewelry/big-apple-slap-watch</value>
+    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/burnous</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">jewelry/big-apple-slap-watch-red</value>
+    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kwiyet-et-maharmat-ftoul</value>
     </property>
-    <property key="eCommerceCategoryList?productCategoryId^^OURDESIGNERS">
-        <value xml:lang="en">our-designers</value>
+    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^STELLA">
-        <value xml:lang="en">our-designers/stella</value>
+    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/asymmetrical-tank</value>
+    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^STELLA~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">stella/asymmetrical-tank-pink</value>
+    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/asymmetrical-tank-white</value>
+    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/34-sleeve-and-button-down-</value>
+    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/34-sleeve-and-button-down--white</value>
+    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">stella/34-sleeve-and-button-down--pink</value>
+    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/boot-cut-jeans</value>
+    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^STELLA~productFeatureType^^COLOR:Navy">
-        <value xml:lang="en">stella/boot-cut-jeans-navy</value>
+    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe--constantinoise</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/legging-jeans</value>
+    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/tenue-chaouie-(berbère)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^STELLA~productFeatureType^^COLOR:Navy">
-        <value xml:lang="en">stella/legging-jeans-navy</value>
+    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/falling-drape-dress</value>
+    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-kabyle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/falling-drape-dress-white</value>
+    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/glen-plaid-dress</value>
+    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensembles-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^STELLA~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">stella/glen-plaid-dress-grey</value>
+    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-moderne-(ouverte-devant-)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/high-waist-leggings-with-high-shine-panel-</value>
+    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-traditionnelle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^STELLA~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">stella/high-waist-leggings-with-high-shine-panel--blue</value>
+    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/gandoura-pour-homme</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000080~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">stella/high-waist-leggings-with-high-shine-panel--black</value>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/burnous</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/moto-jacket</value>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
+        <value xml:lang="en">vêtements/burnous-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^STELLA~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">stella/moto-jacket-brown</value>
+    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-pour-enfant</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/fur-vest</value>
+    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-traditionnel-de-cérémonie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">stella/fur-vest-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/burnous-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/fur-jacket</value>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">vêtements/burnous-en-ouber-brown</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">stella/fur-jacket-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-traditionnelle-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/pleated-pants</value>
+    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-moderne-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^STELLA~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">stella/pleated-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/kachabia-moderne-en-laine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/lace-flare-pants</value>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/burnous-brodé</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/lace-flare-pants-white</value>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
+        <value xml:lang="en">vêtements/burnous-brodé-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/fishnet-one-piece</value>
+    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-pour-homme-des-hauts-plateaux</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/fishnet-one-piece-white</value>
+    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-pour-homme-des-hauts-plateaux</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/platform-boots</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">stella/platform-boots-black</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-orange</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/classic-q-metallic-hillier-hobo</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">stella/classic-q-metallic-hillier-hobo-black</value>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/amaca-bag</value>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">stella/amaca-bag-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-de-fête-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/carla-sunglasses</value>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^APPAREL~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vêtements/robe-de-fête-de-batna-blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">stella/carla-sunglasses-black</value>
+    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/large-lily-hair-clip</value>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/costume-algérois</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">stella/large-lily-hair-clip-white</value>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/costume-algérois-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/jungle-umbrella</value>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-de-fêtes-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^STELLA~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">stella/jungle-umbrella-brown</value>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^APPAREL~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">vêtements/robe-de-fêtes-de-batna-pink</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/laurier-headband</value>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-chaouie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^STELLA~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">stella/laurier-headband-gold</value>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^APPAREL~productFeatureType^^COLOR:Garnet">
+        <value xml:lang="en">vêtements/robe-chaouie-garnet</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^STELLA">
-        <value xml:lang="en">stella/big-apple-slap-watch</value>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-chaouie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^STELLA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">stella/big-apple-slap-watch-red</value>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/robe-chaouie-black</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^VERA">
-        <value xml:lang="en">our-designers/vera</value>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^VERA">
-        <value xml:lang="en">vera/bow-tee</value>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^APPAREL~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/bow-tee-black</value>
+    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/bow-tee-red</value>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^VERA">
-        <value xml:lang="en">vera/long-sleeve-fleece-hoodie</value>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^VERA~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">vera/long-sleeve-fleece-hoodie-yellow</value>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^VERA~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">vera/long-sleeve-fleece-hoodie-pink</value>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^APPAREL~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-red</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^VERA">
-        <value xml:lang="en">vera/short-sleeve-tunic</value>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/short-sleeve-tunic-red</value>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
+        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^VERA">
-        <value xml:lang="en">vera/exboyfriend-crop-jeans</value>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/robe-de-fête-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">vera/exboyfriend-crop-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^APPAREL~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">vêtements/robe-de-fête-de-batna-gold</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^VERA">
-        <value xml:lang="en">vera/low-slung-flare-jeans</value>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^APPAREL">
+        <value xml:lang="en">vêtements/burnous-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">vera/low-slung-flare-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vêtements/burnous-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^VERA">
-        <value xml:lang="en">vera/burke-trouser-jeans</value>
+    <property key="eCommerceProductList?productCategoryId^^BURNOUS">
+        <value xml:lang="en">vêtements/tableaux-sur-verre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">vera/burke-trouser-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^BURNOUS">
+        <value xml:lang="en">tableaux-sur-verre/burnous</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^VERA">
-        <value xml:lang="en">vera/ruffle-gown</value>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^BURNOUS">
+        <value xml:lang="en">tableaux-sur-verre/burnous</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^VERA~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">vera/ruffle-gown-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^BURNOUS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">tableaux-sur-verre/burnous-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000086~productCategoryId^^VERA">
-        <value xml:lang="en">vera/fishnet-leggings</value>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^BURNOUS">
+        <value xml:lang="en">tableaux-sur-verre/burnous-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000086~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/fishnet-leggings-black</value>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^BURNOUS~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">tableaux-sur-verre/burnous-en-ouber-brown</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^VERA">
-        <value xml:lang="en">vera/blazer-with-leather-trim</value>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^BURNOUS">
+        <value xml:lang="en">tableaux-sur-verre/burnous-brodé</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">vera/blazer-with-leather-trim-blue</value>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^BURNOUS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">tableaux-sur-verre/burnous-brodé-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^VERA">
-        <value xml:lang="en">vera/bergen-coat</value>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^BURNOUS">
+        <value xml:lang="en">tableaux-sur-verre/burnous-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^VERA~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">vera/bergen-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^BURNOUS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">tableaux-sur-verre/burnous-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^VERA">
-        <value xml:lang="en">vera/leather-military-jacket</value>
+    <property key="eCommerceProductList?productCategoryId^^KECHABIA">
+        <value xml:lang="en">vêtements/boucles-doreilles</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^VERA~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">vera/leather-military-jacket-brown</value>
+    <property key="eCommerceProductList?productCategoryId^^FEEST">
+        <value xml:lang="en">vêtements/chaînes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^VERA">
-        <value xml:lang="en">vera/wide-waistband-boot-cut-pants</value>
+    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^VERA~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">vera/wide-waistband-boot-cut-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^VERA">
-        <value xml:lang="en">vera/razor-pants</value>
+    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/razor-pants-red</value>
+    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kwiyet-et-maharmat-ftoul</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^VERA">
-        <value xml:lang="en">vera/high-waisted-corduroy-pants</value>
+    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/high-waisted-corduroy-pants-red</value>
+    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^VERA">
-        <value xml:lang="en">vera/crepe-shorts</value>
+    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^VERA~productFeatureType^^COLOR:Taupe">
-        <value xml:lang="en">vera/crepe-shorts-taupe</value>
+    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000092~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/crepe-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^VERA">
-        <value xml:lang="en">vera/scallop-hem-shorts</value>
+    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^VERA~productFeatureType^^COLOR:Purple">
-        <value xml:lang="en">vera/scallop-hem-shorts-purple</value>
+    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/scallop-hem-shorts-red</value>
+    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000093~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/scallop-hem-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-de-fête</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^VERA">
-        <value xml:lang="en">vera/corsica-string-bikini</value>
+    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/tenue-chaouie-(berbère)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^VERA~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">vera/corsica-string-bikini-pink</value>
+    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^VERA">
-        <value xml:lang="en">vera/vanity-sandals</value>
+    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^VERA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">vera/vanity-sandals-white</value>
+    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensembles-de-fêtes</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^VERA">
-        <value xml:lang="en">vera/overlay-platform-sandals</value>
+    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-moderne-(ouverte-devant-)</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/overlay-platform-sandals-red</value>
+    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-traditionnelle</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^VERA">
-        <value xml:lang="en">vera/raffia-leather-bag</value>
+    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/gandoura-pour-homme</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/raffia-leather-bag-black</value>
+    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-pour-enfant</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^VERA">
-        <value xml:lang="en">vera/casanova-red-bag</value>
+    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-traditionnel-de-cérémonie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vera/casanova-red-bag-red</value>
+    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-traditionnelle-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^VERA">
-        <value xml:lang="en">vera/nicole-weekender-bag</value>
+    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-moderne-en-ouber</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/nicole-weekender-bag-black</value>
+    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/kachabia-moderne-en-laine</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^VERA">
-        <value xml:lang="en">vera/linked-double-d-ring-hip-belt</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^VERA~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">vera/linked-double-d-ring-hip-belt-brown</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-orange</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^VERA">
-        <value xml:lang="en">vera/riding-hat</value>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vera/riding-hat-black</value>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^VERA">
-        <value xml:lang="en">vera/cable-knit-poncho</value>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^VERA~productFeatureType^^COLOR:White">
-        <value xml:lang="en">vera/cable-knit-poncho-white</value>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^FEEST">
+        <value xml:lang="en">chaînes/costume-algérois</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^VERA">
-        <value xml:lang="en">vera/toscana-bracelet</value>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">chaînes/costume-algérois-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^VERA~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">vera/toscana-bracelet-gold</value>
+    <property key="eCommerceProductList?productCategoryId^^ROBES">
+        <value xml:lang="en">vêtements/fibules</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA">
-        <value xml:lang="en">vera/fringe-necklace</value>
+    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe--constantinoise</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">vera/fringe-necklace-brown</value>
+    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-kabyle</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DONATELLI">
-        <value xml:lang="en">our-designers/donatelli</value>
+    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-pour-homme-des-hauts-plateaux</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/reversible-hooded-shearling-vest</value>
+    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-pour-homme-des-hauts-plateaux</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">donatelli/reversible-hooded-shearling-vest-brown</value>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-de-fête-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Olive">
-        <value xml:lang="en">donatelli/reversible-hooded-shearling-vest-olive</value>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^ROBES~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">fibules/robe-de-fête-de-batna-blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/zoe-pants</value>
+    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">donatelli/zoe-pants-grey</value>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-de-fêtes-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">donatelli/zoe-pants-blue</value>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^ROBES~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">fibules/robe-de-fêtes-de-batna-pink</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/bow-trench-coat</value>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-chaouie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">donatelli/bow-trench-coat-pink</value>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^ROBES~productFeatureType^^COLOR:Garnet">
+        <value xml:lang="en">fibules/robe-chaouie-garnet</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">donatelli/bow-trench-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-chaouie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/gigi-cropped-flare-jeans</value>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^ROBES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">fibules/robe-chaouie-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">donatelli/gigi-cropped-flare-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/stilletto-skinny-jeans</value>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^ROBES~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">donatelli/stilletto-skinny-jeans-red</value>
+    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DONATELLI~productFeatureType^^COLOR:White">
-        <value xml:lang="en">donatelli/stilletto-skinny-jeans-white</value>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/high-rise-wide-leg-jeans</value>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^ROBES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">donatelli/high-rise-wide-leg-jeans-blue</value>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/draped-dress</value>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^ROBES~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-red</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DONATELLI~productFeatureType^^COLOR:White">
-        <value xml:lang="en">donatelli/draped-dress-white</value>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/cable-knit-sweater-dress</value>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^ROBES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
-        <value xml:lang="en">donatelli/cable-knit-sweater-dress-grey</value>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^ROBES">
+        <value xml:lang="en">fibules/robe-de-fête-de-batna</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/long-sleeve-goddess-dress</value>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^ROBES~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">fibules/robe-de-fête-de-batna-gold</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Burgundy">
-        <value xml:lang="en">donatelli/long-sleeve-goddess-dress-burgundy</value>
+    <property key="eCommerceProductList?productCategoryId^^BLOUSE">
+        <value xml:lang="en">vêtements/poufs</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000083~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/excessive-printed-leggings</value>
+    <property key="eCommerceProductList?productCategoryId^^PANT">
+        <value xml:lang="en">vêtements/sekkai</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000083~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Excessive Print">
-        <value xml:lang="en">donatelli/excessive-printed-leggings-excessive-print</value>
+    <property key="eCommerceProductList?productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/fur-collar-coat</value>
+    <property key="eCommerceProductDetail?productId^^14001~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
-        <value xml:lang="en">donatelli/fur-collar-coat-beigetan</value>
+    <property key="eCommerceProductDetail?productId^^14002~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-coranique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/leather-bolero-with-ruched-panels</value>
+    <property key="eCommerceProductDetail?productId^^14003~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">donatelli/leather-bolero-with-ruched-panels-black</value>
+    <property key="eCommerceProductDetail?productId^^14004~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-coranique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/straight-leg-pants</value>
+    <property key="eCommerceProductDetail?productId^^14005~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Orange">
-        <value xml:lang="en">donatelli/straight-leg-pants-orange</value>
+    <property key="eCommerceProductDetail?productId^^14006~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Cream">
-        <value xml:lang="en">donatelli/straight-leg-pants-cream</value>
+    <property key="eCommerceProductDetail?productId^^14007~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/leather-leggings</value>
+    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">donatelli/leather-leggings-black</value>
+    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^PAINTINGS~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe-blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/tailored-shorts</value>
+    <property key="eCommerceProductDetail?productId^^14009~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">donatelli/tailored-shorts-black</value>
+    <property key="eCommerceProductDetail?productId^^14010~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^1000090~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">donatelli/tailored-shorts-red</value>
+    <property key="eCommerceProductDetail?productId^^14011~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/blue-sneakers</value>
+    <property key="eCommerceProductDetail?productId^^14012~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">donatelli/blue-sneakers-blue</value>
+    <property key="eCommerceProductDetail?productId^^14013~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-calligraphique</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/julietta-elastic-flat-oxfords</value>
+    <property key="eCommerceProductDetail?productId^^266001~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">donatelli/julietta-elastic-flat-oxfords-red</value>
+    <property key="eCommerceProductDetail?productId^^266002~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/suede-platform-pumps</value>
+    <property key="eCommerceProductDetail?productId^^266003~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">donatelli/suede-platform-pumps-black</value>
+    <property key="eCommerceProductDetail?productId^^266004~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/smoking-slipper-flats</value>
+    <property key="eCommerceProductDetail?productId^^266005~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">donatelli/smoking-slipper-flats-blue</value>
+    <property key="eCommerceProductDetail?productId^^266006~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/baby-belle-clutch</value>
+    <property key="eCommerceProductDetail?productId^^266007~productCategoryId^^PAINTINGS">
+        <value xml:lang="en">peintures/tableau-en-cuivre</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">donatelli/baby-belle-clutch-black</value>
+    <property key="eCommerceProductList?productCategoryId^^COPPER">
+        <value xml:lang="en">peintures/saad</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/whirlpool-leopard-scarf</value>
+    <property key="eCommerceProductList?productCategoryId^^CALLIGRAPHY">
+        <value xml:lang="en">peintures/caligraphie</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Multi">
-        <value xml:lang="en">donatelli/whirlpool-leopard-scarf-multi</value>
+    <property key="eCommerceProductList?productCategoryId^^GLASS">
+        <value xml:lang="en">peintures/djelfi-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/beaded-earrings</value>
+    <property key="eCommerceProductList?productCategoryId^^SAND_PAINTINGS">
+        <value xml:lang="en">peintures/merrabet-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Silver">
-        <value xml:lang="en">donatelli/beaded-earrings-silver</value>
+    <property key="eCommerceProductList?productCategoryId^^PICTURE_CERAMIC">
+        <value xml:lang="en">céramique/kechabia</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^DONATELLI">
-        <value xml:lang="en">donatelli/st-germain-de-pres-double-ring</value>
+    <property key="eCommerceProductList?productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Bronze">
-        <value xml:lang="en">donatelli/st-germain-de-pres-double-ring-bronze</value>
+    <property key="eCommerceProductDetail?productId^^21001~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/fibule-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21002~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21003~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21004~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/fibule-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21005~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21006~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21007~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21008~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/chaîne-en-argent-de-kabylie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21009~productCategoryId^^JEWELERY">
+        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^EARINGS">
+        <value xml:lang="en">bijoux/boucles-doreilles</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^NECKLACE">
+        <value xml:lang="en">bijoux/chaînes</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BROOCH">
+        <value xml:lang="en">bijoux/fibules</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^ARTISAN">
+        <value xml:lang="en">nos-artisans</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SEKKAI">
+        <value xml:lang="en">nos-artisans/ihaddadene-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/petite-jarre-à-stocker-l´huile</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/saucier</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/moulin</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/bol</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/plat-à-repas</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/bougeoir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/pot-au-lait</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/cruche-andagrave-eau</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/saucier</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/vase</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/plat-de-cuisine</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/pichet-andagrave-eau</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/gargoulette</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/plat-andagrave-cuisiner</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/couscoussier</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/amphore</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^SEKKAI">
+        <value xml:lang="en">ihaddadene-/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^SEKKAI~productFeatureType^^COLOR:Natural">
+        <value xml:lang="en">ihaddadene-/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^MERRABET">
+        <value xml:lang="en">nos-artisans/merrabet-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/bougeoir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/mortierpilon</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/tadjine</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/pot-a-epices</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/cendrier</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^MERRABET">
+        <value xml:lang="en">merrabet-/vase</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">nos-artisans/khairi-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/marmite-et-couscoussier-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/pot-à-bec-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/vase-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/mortierpilon-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/terrine-de-kabylie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/tadjine-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/service-à-café</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^AIT_KHEIR">
+        <value xml:lang="en">khairi-/cruche-kabyle-d´aït-kheir</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SAAD">
+        <value xml:lang="en">nos-artisans/boukhers-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^SAAD">
+        <value xml:lang="en">boukhers-/luminaire-en-candeacuteramique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^SAAD">
+        <value xml:lang="en">boukhers-/bougeoir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^SAAD">
+        <value xml:lang="en">boukhers-/bougeoir</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DJELFI">
+        <value xml:lang="en">nos-artisans/djelfi-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21001~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/fibule-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21002~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21003~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21004~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/fibule-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21005~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21006~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21007~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/broche-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21008~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/chaîne-en-argent-de-kabylie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^21009~productCategoryId^^DJELFI">
+        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BENZEKRI">
+        <value xml:lang="en">nos-artisans/benzekri-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^BENZEKRI">
+        <value xml:lang="en">benzekri-/tapis-du-m´zab-type-benisguen</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^BENZEKRI">
+        <value xml:lang="en">benzekri-/guandoura-mozabite</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUAL">
+        <value xml:lang="en">nos-artisans/boual-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-de-couloir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-tissage</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis-beni-izguéne-de-couloir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^BOUAL">
+        <value xml:lang="en">boual-/tapis</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^CHAIMA">
+        <value xml:lang="en">nos-artisans/benmansour</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fêtes</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/burnous</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/kwiyet-et-maharmat-ftoul</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-de-fête</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/robe--constantinoise</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/tenue-chaouie-(berbère)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/ensemble-de-fêtes</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/robe-kabyle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/ensemble-de-fêtes</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^CHAIMA">
+        <value xml:lang="en">benmansour/ensembles-de-fêtes</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^RAMOUL">
+        <value xml:lang="en">nos-artisans/ramoul-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">nos-artisans/chennoufi-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/bonbonnière</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^CHENNOUFI">
+        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^IHADDADENE">
+        <value xml:lang="en">nos-artisans/ihaddadene-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^IHADDADENE">
+        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^IHADDADENE">
+        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^IHADDADENE">
+        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^IHADDADENE">
+        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ATHMANI">
+        <value xml:lang="en">nos-artisans/athmani-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/kachabia-moderne-(ouverte-devant-)</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/kachabia-traditionnelle</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/gandoura-pour-homme</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/burnous</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^ATHMANI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">athmani-/burnous-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/kachabia-pour-enfant</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^ATHMANI">
+        <value xml:lang="en">athmani-/ensemble-traditionnel-de-cérémonie</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^KHAIRI">
+        <value xml:lang="en">nos-artisans/khairi-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/burnous-en-ouber</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^KHAIRI~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">khairi-/burnous-en-ouber-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/kachabia-traditionnelle-en-ouber</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/kachabia-moderne-en-ouber</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/kachabia-moderne-en-laine</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/burnous-brodé</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^KHAIRI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">khairi-/burnous-brodé-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/robe-pour-homme-des-hauts-plateaux</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^KHAIRI">
+        <value xml:lang="en">khairi-/robe-pour-homme-des-hauts-plateaux</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUKHERS">
+        <value xml:lang="en">nos-artisans/boukhers-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14001~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14002~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-coranique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14003~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14004~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-coranique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14005~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14006~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14007~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^BOUKHERS~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14009~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14010~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14011~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14012~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^14013~productCategoryId^^BOUKHERS">
+        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">nos-artisans/boukenoucha-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266001~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266002~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266003~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266004~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266005~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266006~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^266007~productCategoryId^^BOUKENOUCHA">
+        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">nos-artisans/bouguerra-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de--khenchela</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^BOUGUERRA">
+        <value xml:lang="en">bouguerra-/tapis-de--khenchela</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^AOMRI">
+        <value xml:lang="en">nos-artisans/aomri-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-orange</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-de-fête-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^AOMRI~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">aomri-/robe-de-fête-de-batna-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/costume-algérois</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/costume-algérois-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-de-fêtes-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^AOMRI~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">aomri-/robe-de-fêtes-de-batna-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-chaouie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^AOMRI~productFeatureType^^COLOR:Garnet">
+        <value xml:lang="en">aomri-/robe-chaouie-garnet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-chaouie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/robe-chaouie-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^AOMRI~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-yellow</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^AOMRI~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^AOMRI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/robe-de-fête-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^AOMRI~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">aomri-/robe-de-fête-de-batna-gold</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^AOMRI">
+        <value xml:lang="en">aomri-/burnous-de-mariée-de-batna</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">aomri-/burnous-de-mariée-de-batna-black</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">nos-artisans/benmansour</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^293001~productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">benmansour/pouf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^293002~productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">benmansour/pouf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^293003~productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">benmansour/pouf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^293004~productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">benmansour/pouf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^293005~productCategoryId^^BENMANSOUR">
+        <value xml:lang="en">benmansour/pouf</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nos-artisans/nait_seghir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-rond-décoré-avec-fleurs-dorées</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-décoratif-avec-fleurs-dorées</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-forme-coeur</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-forme-coeur-à-roses-rouges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-rond-décoré-avec-roses-oranges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/vase-décoré</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/vase-décoré</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-an-bouquet-de-roses</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-décoré</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-rond</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/miroir-décoré</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/boite-à-mouchoir</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/boite-décorée</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/couronne-à-roses-rouges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/couronne-à-fruits-rouges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/couronne</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/tableau-à-fleurs-oranges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/tableau-à-fleurs-rouges</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/plateau-et-verres-décorés</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/corbeille-décorée</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/décor-pour-cuisine</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/assiette-décorée</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/bougeoire-décorée</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/vase-décoré</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^NAIT_SEGHIR">
+        <value xml:lang="en">nait_seghir/vase-décoré</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^MERRABET ">
+        <value xml:lang="en">nos-artisans/athmani-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DJELFI ">
+        <value xml:lang="en">nos-artisans/boukenoucha-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BENZEKRI ">
+        <value xml:lang="en">nos-artisans/bouguerra-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUAL ">
+        <value xml:lang="en">nos-artisans/aomri-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^RAMOUL ">
+        <value xml:lang="en">nos-artisans/nait_seghir</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^CHENNOUFI ">
+        <value xml:lang="en">nos-artisans/chennoufi-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^IHADDADENE ">
+        <value xml:lang="en">nos-artisans/ihaddadene-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ATHMANI ">
+        <value xml:lang="en">nos-artisans/athmani-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^KHAIRI ">
+        <value xml:lang="en">nos-artisans/khairi-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUKHERS ">
+        <value xml:lang="en">nos-artisans/boukhers-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUKENOUCHA ">
+        <value xml:lang="en">nos-artisans/boukenoucha-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOUGUERRA ">
+        <value xml:lang="en">nos-artisans/bouguerra-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^AOMRI ">
+        <value xml:lang="en">nos-artisans/aomri-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^Benmansour ">
+        <value xml:lang="en">nos-artisans/</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^REGION">
+        <value xml:lang="en">couscous</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ALGIERS">
+        <value xml:lang="en">couscous/benzekri-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^MZAB">
+        <value xml:lang="en">couscous/boual-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^KABILY">
+        <value xml:lang="en">couscous/chaima</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^CONSTANTINE">
+        <value xml:lang="en">couscous/ramoul-</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ANNABA">
+        <value xml:lang="en">couscous/chennoufi-</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_ABOUT_US">
-        <value xml:lang="en">about_us</value>
+        <value xml:lang="en">about-us</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_PRIVACY_POLICY">
-        <value xml:lang="en">privacy_policy</value>
+        <value xml:lang="en">privacy-policy</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_TERMS_CONDITIONS">
-        <value xml:lang="en">terms_and_conditions</value>
+        <value xml:lang="en">terms-and-conditions</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_REVIEW_GUIDELINES">
-        <value xml:lang="en">review_gudlines</value>
+        <value xml:lang="en">review-gudlines</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_ERROR_PAGE">
-        <value xml:lang="en">error_page</value>
+        <value xml:lang="en">error-page</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_RETURN_POLICY">
-        <value xml:lang="en">return_policy</value>
+        <value xml:lang="en">return-policy</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_CONTACT_US">
-        <value xml:lang="en">contact_us</value>
-    </property>
-    <property key="eCommerceContent?contentId^^10000">
-        <value xml:lang="en">benetton</value>
-    </property>
-    <property key="eCommerceContent?contentId^^SP_REVIEW_TERMS_COND">
-        <value xml:lang="en">review_terms_and_conditions</value>
-    </property>
-    <property key="eCommerceContent?contentId^^STATICTEST">
-        <value xml:lang="en">test_static_</value>
+        <value xml:lang="en">contact-us</value>
     </property>
 </resource>

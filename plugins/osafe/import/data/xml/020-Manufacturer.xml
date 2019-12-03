@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entity-engine-xml>
+<Party partyId="SEKKAI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="SEKKAI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by SEKKAI" partyId="SEKKAI"/>
+<Party partyId="MERRABET" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="MERRABET" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by MERRABET" partyId="MERRABET"/>
+<Party partyId="AIT_KHEIR" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="AIT_KHEIR" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by AIT_KHEIR" partyId="AIT_KHEIR"/>
+<Party partyId="SAAD" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="SAAD" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by SAAD" partyId="SAAD"/>
+<Party partyId="DJELFI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="DJELFI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by DJELFI" partyId="DJELFI"/>
+<Party partyId="BENZEKRI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BENZEKRI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BENZEKRI" partyId="BENZEKRI"/>
+<Party partyId="BOUAL" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BOUAL" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BOUAL" partyId="BOUAL"/>
+<Party partyId="CHAIMA" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="CHAIMA" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by CHAIMA" partyId="CHAIMA"/>
+<Party partyId="RAMOUL" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="RAMOUL" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by RAMOUL" partyId="RAMOUL"/>
+<Party partyId="CHENNOUFI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="CHENNOUFI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by CHENNOUFI" partyId="CHENNOUFI"/>
+<Party partyId="IHADDADENE" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="IHADDADENE" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by IHADDADENE" partyId="IHADDADENE"/>
+<Party partyId="ATHMANI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="ATHMANI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by ATHMANI" partyId="ATHMANI"/>
+<Party partyId="KHAIRI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="KHAIRI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by KHAIRI" partyId="KHAIRI"/>
+<Party partyId="BOUKHERS" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BOUKHERS" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BOUKHERS" partyId="BOUKHERS"/>
+<Party partyId="BOUKENOUCHA" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BOUKENOUCHA" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BOUKENOUCHA" partyId="BOUKENOUCHA"/>
+<Party partyId="BOUGUERRA" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BOUGUERRA" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BOUGUERRA" partyId="BOUGUERRA"/>
+<Party partyId="AOMRI" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="AOMRI" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by AOMRI" partyId="AOMRI"/>
+<Party partyId="BENMANSOUR" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="BENMANSOUR" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by BENMANSOUR" partyId="BENMANSOUR"/>
+<Party partyId="NAIT_SEGHIR" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyRole partyId="NAIT_SEGHIR" roleTypeId="MANUFACTURER"/>
+<PartyGroup groupName="by NAIT_SEGHIR" partyId="NAIT_SEGHIR"/>
+</entity-engine-xml>

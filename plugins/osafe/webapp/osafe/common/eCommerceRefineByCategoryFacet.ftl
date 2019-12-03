@@ -141,9 +141,9 @@
 		                                <#if (indx > (facetMaxValue))>
 		                                    <#assign hideClass="js_showAllOfThem"/>
 		                                </#if>
-	                                    <#assign refinementValueName = refinementValue.displayName>
-	                                    <#assign code = refinementValue.name>
-	                                    <#assign refinementURL = refinementValue.refinementURL>
+	                                    <#assign refinementValueName = refinementValue.displayName!"">
+	                                    <#assign code = refinementValue.name!"">
+	                                    <#assign refinementURL = refinementValue.refinementURL!"">
 	                                    <#assign productCategoryUrl = Static["com.osafe.control.SeoUrlHelper"].makeSeoFriendlyUrl(request,'${refinementURL}')/>
 		                                <li class="js_facetValue ${refinementValueName?html} ${hideClass}" <#if hideClass == "js_hideThem">style="display:none;"</#if>>
 		                                    <a class="facetValueLink<#if code?has_content && parameters.productCategoryId?has_content && code == parameters.productCategoryId> selected</#if>" title="${refinementValueName?html}" href="${productCategoryUrl}">${refinementValueName?html} <#if facetShowItemCount>(${refinementValue.scalarCount})</#if></a>

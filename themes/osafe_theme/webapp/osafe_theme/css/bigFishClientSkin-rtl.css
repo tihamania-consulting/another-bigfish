@@ -1,0 +1,2272 @@
+/* 664 of 2217 CSS properties converted by rtl.daskhat.ir
+ These properties should be override originals.
+ just load rtl css file after original css file.*/
+
+/* body {direction:rtl;} */
+
+textarea{
+    margin: 0 0 0 5px ;
+}
+
+h1{
+    margin: 0 0 15px 0 ;
+}
+
+label, .caption, label span{
+    padding: 0 0 0 5px ;
+    text-align: left;
+}
+
+.container{
+    float: right;
+}
+
+.ptsSpot, .pesSpot{
+    float: right;
+}
+
+.boxListItemGrid{
+    float: right;
+    margin: 0 0 10px 10px ;
+}
+
+.boxListItemTabular{
+    float: right;
+}
+
+.boxListItemTabular label{
+    text-align: right;
+}
+
+.boxListItemTabular span{
+    text-align: right;
+}
+
+.displayList{
+    float: right;
+}
+
+.displayList li.even{
+    background: none repeat scroll right  0 #eeeeee;
+}
+
+.displayList.summary{
+    text-align: left;
+}
+
+.displayList.summary label{
+    text-align: left;
+}
+
+.displayList.summary span{
+    text-align: right;
+}
+
+.displayActionList li div input{
+    margin: 0 0 10px 0 ;
+}
+
+.displayActionList li div a.action{
+    margin: 0 0 10px 0 ;
+}
+
+.actionResultItem{
+    background: none repeat scroll right  0 #CCFFCC;
+}
+
+.actionResultItem li{
+    margin: 0 0 0 10px ;
+}
+
+.actionResultItem li.remove{
+    float: left !important;
+}
+
+.displayDetail li{
+    clear: right;
+}
+
+.displayDetail label{
+    float: right;
+    text-align: right;
+}
+
+.entryForm .entry label{
+    float: right;
+    padding: 0 0 0 5px ;
+    text-align: left;
+}
+
+.entryField{
+    margin: 0 250px 0 0 ;
+}
+
+.counter{
+    clear: right;
+}
+
+.entry .standardBtn{
+    margin: -5px 5px 0 0 ;
+}
+
+#forgottenPassword{
+    clear: right;
+    float: right;
+}
+
+.loginTip{
+    clear: right;
+    float: right;
+}
+
+.entry.radioOption{
+    float: right;
+}
+
+.entry.radioOption input[type="radio"]{
+    float: right;
+}
+
+.entry.radioOption .radioOptionText{
+    float: right;
+}
+
+.entry.radioOption .radioOptionTextAdditional{
+    float: left;
+}
+
+.addressSection{
+    clear: right;
+}
+
+.displayList.address li div span{
+    margin: 0 0 0 2px ;
+}
+
+.multiAddressItems.group.group1, .shippingGroupCartItem.group.group1{
+    clear: right;
+    float: right;
+}
+
+input.standardBtn[type="submit"], input.standardBtn[type="button"],  a.standardBtn{
+    background: url("/osafe_theme/images/user_content/images/standardButtonBg.png") repeat-x left 50%;
+}
+
+input.standardBtn[type="submit"]:hover, input.standardBtn[type="button"]:hover, a.standardBtn:hover{
+    background: url("/osafe_theme/images/user_content/images/standardButtonBgHover.png") repeat-x scroll left 50% rgba(0, 0, 0, 0);
+}
+
+input.positive[type="submit"], input.positive[type="button"], a.positive{
+    background: url("/osafe_theme/images/user_content/images/positiveButtonBg.png") repeat-x left 50%;
+    padding: 4px 10px 4px 25px ;
+}
+
+input.positive[type="submit"]:hover, input.positive[type="button"]:hover, a.positive:hover{
+    background: url("/osafe_theme/images/user_content/images/positiveButtonBgHover.png") repeat-x left 50%;
+}
+
+input.negative[type="submit"], input.negative[type="button"], a.negative{
+    background: url("/osafe_theme/images/user_content/images/negativeButtonBg.png") repeat-x right 50%;
+    padding: 4px 25px 4px 10px ;
+}
+
+input.negative[type="submit"]:hover, input.negative[type="button"]:hover, a.negative:hover{
+    background: url("/osafe_theme/images/user_content/images/negativeButtonBgHover.png") repeat-x right 50%;
+}
+
+input.update[type="submit"], input.update[type="button"], a.update{
+    background: url("/osafe_theme/images/user_content/images/updateButtonBg.png") repeat-x left 50%;
+    padding: 4px 10px 4px 30px ;
+}
+
+input.update[type="submit"]:hover, input.update[type="button"]:hover, a.update:hover{
+    background: url("/osafe_theme/images/user_content/images/updateButtonBgHover.png") repeat-x left 50%;
+}
+
+input.delete[type="submit"], input.delete[type="button"], a.delete{
+    background: url("/osafe_theme/images/user_content/images/deleteButtonBg.png") repeat-x left 50%;
+    padding: 4px 10px 4px 25px ;
+}
+
+input.delete[type="submit"]:hover, input.delete[type="button"]:hover, a.delete:hover{
+    background: url("/osafe_theme/images/user_content/images/deleteButtonBgHover.png") repeat-x left 50%;
+}
+
+input.addToCart[type="submit"], input.addToCart[type="button"], a.addToCart{
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x left right ;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+input.addToCart[type="submit"]:hover, input.addToCart[type="button"]:hover, a.addToCart:hover{
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left right ;
+}
+
+input.addToWishlist[type="submit"], input.addToWishlist[type="button"], a.addToWishlist{
+    background: url("/osafe_theme/images/user_content/images/wishlistButtonBg.png") repeat-x left right ;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+input.addToWishlist[type="submit"]:hover, input.addToWishlist[type="button"]:hover, a.addToWishlist:hover{
+    background: url("/osafe_theme/images/user_content/images/wishlistButtonBgHover.png") repeat-x left right ;
+}
+
+input[type="submit"].addToCart.inactiveAddToCart, input[type="button"].addToCart.inactiveAddToCart, a.addToCart.inactiveAddToCart, input[type="submit"].addToWishlist.inactiveAddToWishlist, input[type="button"].addToWishlist.inactiveAddToWishlist, a.addToWishlist.inactiveAddToWishlist{
+    background: none repeat scroll right  0 #E8E8E8;
+}
+
+input.submitOrder[type="submit"], input.submitOrder[type="button"], a.submitOrder{
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x left right ;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+input.submitOrder[type="submit"]:hover, input.submitOrder[type="button"]:hover, a.submitOrder:hover{
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left right ;
+}
+
+.button{
+    float: right;
+    margin: 20px 0 0 0 ;
+}
+
+.previousButton{
+    float: right;
+}
+
+.continueButton{
+    float: left;
+}
+
+.submitButton{
+    float: left;
+}
+
+.cancelButton{
+    float: right;
+}
+
+.exportToPdfButton{
+    float: right;
+}
+
+.showCartButton{
+    float: right;
+}
+
+.addressButton{
+    float: right;
+    margin: 20px 10px 0 0 ;
+}
+
+#eCommerceInnerBasicBevelWrapper{
+    float: right;
+}
+
+.siteHeaderLinks{
+    float: left;
+}
+
+.siteHeaderLinks ul{
+    float: left;
+}
+
+.siteHeaderLinks ul li{
+    border-left: 1px solid #7E7D7D;
+    float: right;
+    padding: 0 10px 0 0 ;
+}
+
+.siteHeaderLinks li:first-child{
+    border-right: none;
+}
+
+.siteHeaderLinks li:last-child{
+    border-left: none;
+}
+
+.siteHeaderLinks ul li a{
+    padding: 0 0 0 9px ;
+}
+
+.siteHeaderLinks li:first-child a{
+    border-right: none;
+}
+
+#eCommerceHeader{
+    float: right;
+}
+
+.siteHeaderLogo{
+    float: right;
+}
+
+.siteHeaderCart{
+    float: right;
+}
+
+.siteHeaderCart #siteCartStats a#siteShoppingCartSize{
+    background: url("/osafe_theme/images/user_content/images/shoppingcartIcon.png") no-repeat scroll right 50% transparent;
+    padding: 10px 30px 10px 3px ;
+}
+
+.siteHeaderSearch{
+    clear: left;
+    float: left;
+}
+
+#searchContainer input[type="text"]{
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin: 0 0 0 3px ;
+}
+
+#searchContainer input.searchSubmit{
+    background: url("/osafe_theme/images/user_content/images/searchButton.png") no-repeat scroll 50% 50% #e3e3e3;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+}
+
+#searchButton{
+    float: left;
+}
+
+#searchField{
+    padding: 0 0 0 5px ;
+}
+
+#eCommerceNavBar{
+    float: right;
+}
+
+#eCommerceNavBar ul#eCommerceNavBarMenu{
+    float: right;
+}
+
+#eCommerceNavBarMenu li.topLevel{
+    float: right;
+}
+
+#eCommerceNavBarMenu li.navSpacer{
+    float: right;
+}
+
+#eCommerceNavBarMenu ul{
+    right: -9999px;
+}
+
+#eCommerceNavBarMenu li:hover ul, #eCommerceNavBarMenu li.sfHover ul{
+    right: 0;
+}
+
+.ecommerceMegaMenu ul{
+    right: auto !important;
+}
+
+.ecommerceMegaMenu div>div{
+    float: right;
+}
+
+.ecommerceMegaMenu ul li strong{
+    margin: 0 10px 0 0 ;
+}
+
+.ecommerceMegaMenu div>div.designerMegamenuContent{
+    clear: right !important;
+    padding: 0 0 0 5px ;
+}
+
+.ecommerceMegaMenu div>div.designerMegamenuContent a.image{
+    float: right;
+    margin: 0 0 0 5px ;
+}
+
+#eCommercePageBody #eCommerceMainPanel.homePage{
+    background: url("/osafe_theme/images/user_content/images/homePageBackground.png") right  0 repeat-x #f0f0f0;
+    float: right;
+}
+
+#eCommerceMainPanel.leftPanel{
+    border-right: 1px solid #E3E3E3;
+    float: right;
+}
+
+#eCommercePageBody #eCommerceMainPanel.mainPanel{
+    float: right;
+}
+
+#eCommerceLeftPanel{
+    float: right;
+    padding: 0 15px 0 15px ;
+}
+
+#breadcrumb{
+    float: right;
+}
+
+#breadcrumb .intro{
+    float: right;
+    margin: 0 0 0 6px ;
+    padding: 2px 0 0 0 ;
+}
+
+#breadcrumb li{
+    background: url("/osafe_theme/images/user_content/images/breadcrumbBullet.png") no-repeat scroll right 5px 50% transparent;
+    float: right;
+    padding: 0 16px 0 0 ;
+}
+
+#breadcrumb li a.removeFacet{
+    background: url("/osafe_theme/images/user_content/images/removeFacetIcon.png") no-repeat scroll right  0 transparent;
+}
+
+#breadcrumb li a.removeFacet:hover{
+    background-position: right  -37px;
+}
+
+.currency label, .currency span{
+    text-align: left;
+}
+
+.productItemList li{
+    margin: 0 0 5px 0 ;
+}
+
+.shipOption span{
+    margin: 0 0 0 2px ;
+}
+
+.swatchImage{
+    text-align: left;
+}
+
+h3.facetGroup.seeMoreFacetGroupLink{
+    background: url("/osafe_theme/images/user_content/images/facetCollapseArrow.png") no-repeat scroll right 50% transparent;
+}
+
+h3.facetGroup.seeLessFacetGroupLink{
+    background: url("/osafe_theme/images/user_content/images/facetExpandArrow.png") no-repeat scroll right 50% transparent;
+}
+
+ul.facetGroup li{
+    padding: 2px 0px 2px 0 ;
+    margin: 0 0 5px 0 ;
+}
+
+a.seeMoreLink, a.seeLessLink{
+    padding: 0 0 1px 0 ;
+}
+
+#eCommerceCategoryListContainer{
+    float: right;
+}
+
+.resultCategoryListContainer{
+    float: right;
+}
+
+#eCommerceCategoryList{
+    float: right;
+}
+
+#eCommerceProductListContainer{
+    float: left;
+}
+
+.resultProductListContainer{
+    float: right;
+}
+
+#eCommerceProductList{
+    float: right;
+}
+
+.plpQuicklookIcon{
+    left: -2px;
+}
+
+.resultListContainer{
+    float: right;
+}
+
+#resultsNavigationTop{
+    float: right;
+}
+
+#resultsNavigationBottom{
+    float: right;
+}
+
+.pagingLinks{
+    text-align: left;
+}
+
+.pagingBtn.first{
+    margin: 0 0 0 33px ;
+}
+
+.pagingBtn.first a{
+    background-position: right  50%;
+    padding: 0 26px 0 0 ;
+}
+
+.pagingBtn.first.disabled{
+    background-position: right 5px 50%;
+    padding: 0 30px 0 0 ;
+}
+
+.pagingBtn.previous a{
+    background-position: right  50%;
+    padding: 0 16px 0 0 ;
+}
+
+.pagingBtn.previous.disabled{
+    background-position: right 5px 50%;
+    padding: 0 20px 0 0 ;
+}
+
+.pagingBtn.next a{
+    background-position: right 38px 50%;
+    padding: 0 0 0 10px ;
+}
+
+.pagingBtn.next.disabled{
+    background-position: 0% 50%;
+    padding: 0 0 0 13px ;
+}
+
+.pagingBtn.last{
+    margin: 0 33px 0 0 ;
+}
+
+.pagingBtn.last a{
+    background-position: right 38px 50%;
+    padding: 0 0 0 22px ;
+}
+
+.pagingBtn.last.disabled{
+    background-position: 0% 50%;
+    padding: 0 0 0 25px ;
+}
+
+.pagingBtn.showall{
+    margin: 0 33px 0 0 ;
+}
+
+.PDP.group1, .Quicklook.group1{
+    float: right;
+}
+
+.productName{
+    float: right;
+}
+
+.reviewStars{
+    margin: 3px 5px 0 0 ;
+}
+
+.internalName{
+    clear: right;
+    float: right;
+}
+
+.PDP.group2, .Quicklook.group2{
+    clear: right;
+    float: right;
+    padding: 0 0 0 20px ;
+}
+
+.alternateImage{
+    float: right;
+}
+
+.PDP.group3, .Quicklook.group3{
+    float: right;
+}
+
+.content01 .fb-like{
+    float: right;
+}
+
+.content01 a.facebookLink{
+    background: url("/osafe_theme/images/user_content/images/faceBook_off.png") no-repeat scroll right 50% transparent;
+    margin: 0 5px 0 0 ;
+}
+
+.content01 a.twitterLink{
+    background: url("/osafe_theme/images/user_content/images/twitter.png") no-repeat scroll right 50% transparent;
+    float: right;
+    margin: 0 5px 0 0 ;
+}
+
+.content01 a.pinterestLink{
+    background: url("/osafe_theme/images/user_content/images/pinterest.png") no-repeat scroll right 50% transparent;
+    float: right;
+    margin: 0 5px 0 0 ;
+}
+
+.content01 a.googlePlusLink{
+    background: url("/osafe_theme/images/user_content/images/googlePlus.png") no-repeat scroll right 50% transparent;
+    float: right;
+    margin: 0 5px 0 0 ;
+}
+
+.content01 a.mailFriend{
+    background: none repeat scroll right  0 #EBEBEB;
+    border-radius: 3px 3px 3px 3px;
+    float: right;
+    margin: 0 5px 0 0 ;
+}
+
+.PDP.group4, .Quicklook.group4{
+    float: right;
+}
+
+.PDP.group5, .Quicklook.group5{
+    clear: right;
+    float: right;
+}
+
+.PDP.group6, .Quicklook.group6{
+    clear: right;
+    float: right;
+}
+
+.selectableFeature label{
+    float: right;
+}
+
+.selectableFeature ul{
+    margin: 0 75px 0 0 ;
+}
+
+.selectableFeature ul li{
+    margin: 0 5px 5px 0 ;
+}
+
+.selectableFeature ul.multiVariantList{
+    margin: 0 150px 0 0 ;
+}
+
+.stockKey li{
+    float: right;
+    margin: 0 0 0 10px ;
+}
+
+.stockKey li span{
+    margin: 0 0 0 4px ;
+}
+
+.selectableFeatures ul li a, span.inStock, .inStock a{
+    background: none repeat scroll right  0 #BED2FA;
+}
+
+.stockKey li span.outOfStock{
+    background: none repeat scroll right  0 #E8E8E8;
+}
+
+.reviewRead.pdpReviewRead{
+    margin: 0 105px 0 0 ;
+}
+
+.reviewWrite.pdpReviewWrite{
+    margin: 0 105px 0 0 ;
+}
+
+.pdpAlternateImage ul{
+    margin: 0 0 0 25px ;
+}
+
+.pdpDistinguishingFeatureList span{
+    float: left;
+}
+
+.pdpTabsReviewListSortOptions{
+    margin: 20px 0 0 0 ;
+}
+
+.reviewItemList.PDPTabsReviewListItems{
+    padding: 0 0 10px 0 ;
+    margin: 0 0 10px 0 ;
+}
+
+.pdpTabsReviewListItemsReviewerTitle{
+    margin: 0 8px 0 0 ;
+}
+
+.pdpTabsReviewListItemsReviewerTitle span{
+    margin: 0 -10px 0 0 ;
+}
+
+.ratingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") repeat-x scroll right  0 transparent;
+}
+
+.ratingDisplayValue, .ratingLegendValue{
+    padding: 0 3px 0 0 ;
+}
+
+#overallRatingRow{
+    margin: 0 5px 0 0 ;
+}
+
+#overallHover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") repeat-x scroll right  0 transparent;
+}
+
+#overallFilled{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") repeat-x scroll right  0 transparent;
+}
+
+#rateObj0RatingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") repeat-x scroll right  0 transparent;
+}
+
+#rateObj0Hover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") repeat-x scroll right  0 transparent;
+}
+
+table#overallRatingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#overallHover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") right  0 repeat-x;
+}
+
+table#overallFilled{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj0RatingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj0Hover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") right  0 repeat-x;
+}
+
+table#rateObj0Filled{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj1RatingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj1Hover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") right  0 repeat-x;
+}
+
+table#rateObj1Filled{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj2RatingBar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+table#rateObj2Hover{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") right  0 repeat-x;
+}
+
+table#rateObj2Filled{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+.rating_bar{
+    background: url("/osafe_theme/images/user_content/images/starOff.gif") right  0 repeat-x;
+}
+
+.rating_bar div{
+    background: url("/osafe_theme/images/user_content/images/starOn.gif") right  0 repeat-x;
+}
+
+.WriteReviewProduct.group.group2{
+    float: right;
+}
+
+.WriteReviewProduct.group.group3{
+    float: right;
+    margin: 0 10px 0 0 ;
+}
+
+.reviewTermsCondLink{
+    float: left;
+}
+
+.reviewGuidelinesLink{
+    clear: left;
+    float: left;
+}
+
+.Manufacturer.group2{
+    margin: 15px 0 0 0 ;
+}
+
+.Manufacturer.group2 .manufacturerImage{
+    float: right;
+    margin: 0 0 15px 15px ;
+}
+
+.tooltipIcon{
+    background: url("/osafe_theme/images/user_content/images/tooltipIcon.png") no-repeat scroll right  0 transparent;
+}
+
+.tooltipMiddle{
+    background-position: right bottom;
+    float: right;
+}
+
+.tooltipBottomArrow{
+    background: url("/osafe_theme/images/user_content/images/tooltipBottomArrow.png") no-repeat scroll right 5px right  transparent;
+}
+
+.tooltipTopArrow{
+    background: url("/osafe_theme/images/user_content/images/tooltipTopArrow.png") no-repeat scroll right 5px right  transparent;
+}
+
+.paymentMethodItemsSetAsDefaultButton{
+    float: left !important;
+}
+
+.addressBookItem{
+    background: none repeat scroll right  0 #FFFFFF;
+    padding: 10px 10px 40px 10px ;
+}
+
+.OrderDetailOrderItems li.orderDetailOrderItemsItemTotal{
+    float: left;
+    padding-left: 0 !important;
+}
+
+.myAccountUpdateLogin span{
+    margin: 0 0 15px 0 ;
+}
+
+.boxListItemTabular.cartItem .group3, .boxListItemTabular.order .group3, .boxListItemTabular.orderItem .group3{
+    background: none repeat scroll right  0 #EAEAEA;
+    border-right: 1px solid #AAAAAA;
+}
+
+.boxListItemTabular.cartItem .group4{
+    float: left;
+}
+
+.itemDescription div label{
+    text-align: right;
+}
+
+.productFeature div span{
+    text-align: right;
+}
+
+.itemUpdateButton .update{
+    background: url("/osafe_theme/images/user_content/images/cartUpdate.png") no-repeat scroll right  0 transparent;
+}
+
+.itemUpdateButton .update:hover{
+    background: url("/osafe_theme/images/user_content/images/cartUpdate.png") no-repeat scroll right  0 transparent;
+}
+
+.itemRemoveButton .delete{
+    background: url("/osafe_theme/images/user_content/images/cartRemove.png") no-repeat scroll right  0 transparent;
+}
+
+.itemRemoveButton .delete:hover{
+    background: url("/osafe_theme/images/user_content/images/cartRemove.png") no-repeat scroll right  0 transparent;
+}
+
+.LightBoxOrderItems.group2{
+    float: right !important;
+}
+
+.LightBoxOrderItems.group2 li.currency span{
+    text-align: right;
+}
+
+.boxListItemTabular.cartItem .LightBoxOrderItems.group3{
+    float: left;
+}
+
+.loyaltyPointItem li.input .standardBtn.update{
+    background: url("/osafe_theme/images/user_content/images/cartUpdate.png") no-repeat scroll right  0 rgba(0, 0, 0, 0);
+}
+
+.StoreLocatorItems.group2{
+    float: left;
+}
+
+.selectStoreButton{
+    clear: right;
+}
+
+.storeLocatorGoogleMap{
+    float: right;
+}
+
+.mapCanvas.mapCanvasWithDirection{
+    float: right;
+}
+
+.mapDirection{
+    float: left;
+}
+
+.closeDirection{
+    float: left;
+    margin: 10px 0 0 0 ;
+}
+
+#eCommerceCartFootprintContainer li{
+    float: right;
+    padding-right: 30px;
+}
+
+#eCommerceCartFootprintContainer li.first{
+    background: url("/osafe_theme/images/user_content/images/first.png") no-repeat scroll right  0 #666666;
+}
+
+#eCommerceCartFootprintContainer li.on{
+    background: url("/osafe_theme/images/user_content/images/current-on.png") no-repeat scroll right  0 #666666;
+}
+
+#eCommerceCartFootprintContainer li.current{
+    background: url("/osafe_theme/images/user_content/images/current-on.png") no-repeat scroll right  0 #666666;
+}
+
+#eCommerceCartFootprintContainer li.next{
+    background: url("/osafe_theme/images/user_content/images/next.png") no-repeat scroll right  0 #C7C7C7;
+}
+
+#eCommerceCartFootprintContainer li.off, #eCommerceCartFootprintContainer li.last{
+    background: url("/osafe_theme/images/user_content/images/off.png") no-repeat scroll right  0 #C7C7C7;
+}
+
+#eCommerceCartFootprintContainer li#confirmation.off span, #eCommerceCartFootprintContainer li#confirmation.next span, #eCommerceCartFootprintContainer li#confirmation.last span{
+    background: url("/osafe_theme/images/user_content/images/last-off-top.png") no-repeat scroll left top transparent;
+}
+
+#eCommerceCartFootprintContainer li#confirmation.next{
+    background: url("/osafe_theme/images/user_content/images/last-next.png") no-repeat scroll right  0 transparent;
+}
+
+#eCommerceCartFootprintContainer li#confirmation.current{
+    padding-left: 15px;
+    background: url("/osafe_theme/images/user_content/images/last-on.png") no-repeat scroll right  0 transparent;
+}
+
+.payPalImage{
+    background: url("/osafe_theme/images/user_content/images/payPalConfirmation.png") no-repeat scroll 50% center;
+}
+
+.ccvContainer{
+    margin: 0 0 10px 15px ;
+}
+
+.ReorderItems_Group_1{
+    float: right;
+}
+
+.ReorderItems_Group_2{
+    float: right;
+}
+
+.ReorderItems_Group_3{
+    float: left;
+}
+
+.content-messages{
+    clear: right;
+    float: right;
+}
+
+.content-messages p{
+    margin: 4px 35px 0 0 ;
+}
+
+.content-messages ul{
+    clear: right;
+    float: right;
+    margin: 5px 50px 0 0 ;
+}
+
+.eCommerceErrorMessage .errorImage{
+    background-position: 50% center;
+    float: right;
+}
+
+.eCommerceSuccessMessage .eventImage{
+    background-position: 50% center;
+    float: right;
+}
+
+.eCommerceWarningMessage .infoImage{
+    background-position: 50% center;
+    float: right;
+}
+
+.inError, .inError:focus{
+    background: none repeat scroll right  0 #FBE7E8 !important;
+}
+
+.pagingContainer{
+    float: right;
+}
+
+.paginationContainer{
+    float: left;
+}
+
+#nextPageLink a{
+    margin: 0 5px 0 0 ;
+}
+
+#prevPageLink a{
+    margin: 0 0 0 5px ;
+}
+
+.plpQuicklook_displayDialog{
+    right: auto !important;
+}
+
+.staticContent ul li ul, .termsAndConditions ul li ul, .longDescription ul li ul,  .deliveryInfo ul li ul, .salesPitch ul li ul .ingredients ul li ul, .specialInstructions ul li ul, .warnings ul li ul{
+    margin: 0 15px 0 0 ;
+}
+
+#eCommerceFooter{
+    float: right;
+}
+
+.footerColumn{
+    float: right;
+    padding: 0 10px 0 0 ;
+}
+
+a.facebook{
+    background: url("/osafe_theme/images/user_content/images/facebook.png") no-repeat scroll right  50% transparent;
+    padding: 2px 20px 2px 0 ;
+}
+
+a.twitter{
+    background: url("/osafe_theme/images/user_content/images/twitterSmall.png") no-repeat scroll right  50% transparent;
+    padding: 2px 20px 2px 0 ;
+}
+
+a.pinterest{
+    background: url("/osafe_theme/images/user_content/images/pinterestSmall.png") no-repeat scroll right  50% transparent;
+    padding: 2px 20px 2px 0 ;
+}
+
+a.googlePlus{
+    background: url("/osafe_theme/images/user_content/images/google.png") no-repeat scroll right  50% transparent;
+    padding: 2px 20px 2px 0 ;
+}
+
+a.blog{
+    background: url("/osafe_theme/images/user_content/images/blog.png") no-repeat scroll right  50% transparent;
+    padding: 2px 20px 2px 0 ;
+}
+
+.content-securityBadges{
+    clear: right;
+    float: right;
+}
+
+#eCommerceBuiltByBevelWrapper{
+    background: url("/osafe_theme/images/user_content/images/tornPaperBackgoundRight.png") repeat-y top left;
+    float: right;
+}
+
+#eCommerceBuiltBy{
+    float: left;
+}
+
+#eCommerceBuiltBy p{
+    text-align: left;
+}
+
+.ui-helper-zfix{
+    right: 0;
+}
+
+.ui-widget-overlay{
+    right: 0;
+    background: #aaaaaa url("/osafe_theme/images/user_content/images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+}
+
+.ui-widget-content{
+    background: #ffffff url("/osafe_theme/images/user_content/images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+}
+
+.ui-widget-header{
+    background: #cccccc url("/osafe_theme/images/user_content/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+}
+
+.ui-icon-carat-1-n{
+    background-position: right  0;
+}
+
+.ui-icon-carat-1-ne{
+    background-position: right -16px right ;
+}
+
+.ui-icon-carat-1-e{
+    background-position: right -32px right ;
+}
+
+.ui-icon-carat-1-se{
+    background-position: right -48px right ;
+}
+
+.ui-icon-carat-1-s{
+    background-position: right -64px right ;
+}
+
+.ui-icon-carat-1-sw{
+    background-position: right -80px right ;
+}
+
+.ui-icon-carat-1-w{
+    background-position: right -96px right ;
+}
+
+.ui-icon-carat-1-nw{
+    background-position: right -112px right ;
+}
+
+.ui-icon-carat-2-n-s{
+    background-position: right -128px right ;
+}
+
+.ui-icon-carat-2-e-w{
+    background-position: right -144px right ;
+}
+
+.ui-icon-triangle-1-n{
+    background-position: right  -16px;
+}
+
+.ui-icon-triangle-1-ne{
+    background-position: right -16px -16px;
+}
+
+.ui-icon-triangle-1-e{
+    background-position: right -32px -16px;
+}
+
+.ui-icon-triangle-1-se{
+    background-position: right -48px -16px;
+}
+
+.ui-icon-triangle-1-s{
+    background-position: right -64px -16px;
+}
+
+.ui-icon-triangle-1-sw{
+    background-position: right -80px -16px;
+}
+
+.ui-icon-triangle-1-w{
+    background-position: right -96px -16px;
+}
+
+.ui-icon-triangle-1-nw{
+    background-position: right -112px -16px;
+}
+
+.ui-icon-triangle-2-n-s{
+    background-position: right -128px -16px;
+}
+
+.ui-icon-triangle-2-e-w{
+    background-position: right -144px -16px;
+}
+
+.ui-icon-arrow-1-n{
+    background-position: right  -32px;
+}
+
+.ui-icon-arrow-1-ne{
+    background-position: right -16px -32px;
+}
+
+.ui-icon-arrow-1-e{
+    background-position: right -32px -32px;
+}
+
+.ui-icon-arrow-1-se{
+    background-position: right -48px -32px;
+}
+
+.ui-icon-arrow-1-s{
+    background-position: right -64px -32px;
+}
+
+.ui-icon-arrow-1-sw{
+    background-position: right -80px -32px;
+}
+
+.ui-icon-arrow-1-w{
+    background-position: right -96px -32px;
+}
+
+.ui-icon-arrow-1-nw{
+    background-position: right -112px -32px;
+}
+
+.ui-icon-arrow-2-n-s{
+    background-position: right -128px -32px;
+}
+
+.ui-icon-arrow-2-ne-sw{
+    background-position: right -144px -32px;
+}
+
+.ui-icon-arrow-2-e-w{
+    background-position: right -160px -32px;
+}
+
+.ui-icon-arrow-2-se-nw{
+    background-position: right -176px -32px;
+}
+
+.ui-icon-arrowstop-1-n{
+    background-position: right -192px -32px;
+}
+
+.ui-icon-arrowstop-1-e{
+    background-position: right -208px -32px;
+}
+
+.ui-icon-arrowstop-1-s{
+    background-position: right -224px -32px;
+}
+
+.ui-icon-arrowstop-1-w{
+    background-position: right -240px -32px;
+}
+
+.ui-icon-arrowthick-1-n{
+    background-position: right  -48px;
+}
+
+.ui-icon-arrowthick-1-ne{
+    background-position: right -16px -48px;
+}
+
+.ui-icon-arrowthick-1-e{
+    background-position: right -32px -48px;
+}
+
+.ui-icon-arrowthick-1-se{
+    background-position: right -48px -48px;
+}
+
+.ui-icon-arrowthick-1-s{
+    background-position: right -64px -48px;
+}
+
+.ui-icon-arrowthick-1-sw{
+    background-position: right -80px -48px;
+}
+
+.ui-icon-arrowthick-1-w{
+    background-position: right -96px -48px;
+}
+
+.ui-icon-arrowthick-1-nw{
+    background-position: right -112px -48px;
+}
+
+.ui-icon-arrowthick-2-n-s{
+    background-position: right -128px -48px;
+}
+
+.ui-icon-arrowthick-2-ne-sw{
+    background-position: right -144px -48px;
+}
+
+.ui-icon-arrowthick-2-e-w{
+    background-position: right -160px -48px;
+}
+
+.ui-icon-arrowthick-2-se-nw{
+    background-position: right -176px -48px;
+}
+
+.ui-icon-arrowthickstop-1-n{
+    background-position: right -192px -48px;
+}
+
+.ui-icon-arrowthickstop-1-e{
+    background-position: right -208px -48px;
+}
+
+.ui-icon-arrowthickstop-1-s{
+    background-position: right -224px -48px;
+}
+
+.ui-icon-arrowthickstop-1-w{
+    background-position: right -240px -48px;
+}
+
+.ui-icon-arrowreturnthick-1-w{
+    background-position: right  -64px;
+}
+
+.ui-icon-arrowreturnthick-1-n{
+    background-position: right -16px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-e{
+    background-position: right -32px -64px;
+}
+
+.ui-icon-arrowreturnthick-1-s{
+    background-position: right -48px -64px;
+}
+
+.ui-icon-arrowreturn-1-w{
+    background-position: right -64px -64px;
+}
+
+.ui-icon-arrowreturn-1-n{
+    background-position: right -80px -64px;
+}
+
+.ui-icon-arrowreturn-1-e{
+    background-position: right -96px -64px;
+}
+
+.ui-icon-arrowreturn-1-s{
+    background-position: right -112px -64px;
+}
+
+.ui-icon-arrowrefresh-1-w{
+    background-position: right -128px -64px;
+}
+
+.ui-icon-arrowrefresh-1-n{
+    background-position: right -144px -64px;
+}
+
+.ui-icon-arrowrefresh-1-e{
+    background-position: right -160px -64px;
+}
+
+.ui-icon-arrowrefresh-1-s{
+    background-position: right -176px -64px;
+}
+
+.ui-icon-arrow-4{
+    background-position: right  -80px;
+}
+
+.ui-icon-arrow-4-diag{
+    background-position: right -16px -80px;
+}
+
+.ui-icon-extlink{
+    background-position: right -32px -80px;
+}
+
+.ui-icon-newwin{
+    background-position: right -48px -80px;
+}
+
+.ui-icon-refresh{
+    background-position: right -64px -80px;
+}
+
+.ui-icon-shuffle{
+    background-position: right -80px -80px;
+}
+
+.ui-icon-transfer-e-w{
+    background-position: right -96px -80px;
+}
+
+.ui-icon-transferthick-e-w{
+    background-position: right -112px -80px;
+}
+
+.ui-icon-folder-collapsed{
+    background-position: right  -96px;
+}
+
+.ui-icon-folder-open{
+    background-position: right -16px -96px;
+}
+
+.ui-icon-document{
+    background-position: right -32px -96px;
+}
+
+.ui-icon-document-b{
+    background-position: right -48px -96px;
+}
+
+.ui-icon-note{
+    background-position: right -64px -96px;
+}
+
+.ui-icon-mail-closed{
+    background-position: right -80px -96px;
+}
+
+.ui-icon-mail-open{
+    background-position: right -96px -96px;
+}
+
+.ui-icon-suitcase{
+    background-position: right -112px -96px;
+}
+
+.ui-icon-comment{
+    background-position: right -128px -96px;
+}
+
+.ui-icon-person{
+    background-position: right -144px -96px;
+}
+
+.ui-icon-print{
+    background-position: right -160px -96px;
+}
+
+.ui-icon-trash{
+    background-position: right -176px -96px;
+}
+
+.ui-icon-locked{
+    background-position: right -192px -96px;
+}
+
+.ui-icon-unlocked{
+    background-position: right -208px -96px;
+}
+
+.ui-icon-bookmark{
+    background-position: right -224px -96px;
+}
+
+.ui-icon-tag{
+    background-position: right -240px -96px;
+}
+
+.ui-icon-home{
+    background-position: right  -112px;
+}
+
+.ui-icon-flag{
+    background-position: right -16px -112px;
+}
+
+.ui-icon-calendar{
+    background-position: right -32px -112px;
+}
+
+.ui-icon-cart{
+    background-position: right -48px -112px;
+}
+
+.ui-icon-pencil{
+    background-position: right -64px -112px;
+}
+
+.ui-icon-clock{
+    background-position: right -80px -112px;
+}
+
+.ui-icon-disk{
+    background-position: right -96px -112px;
+}
+
+.ui-icon-calculator{
+    background-position: right -112px -112px;
+}
+
+.ui-icon-zoomin{
+    background-position: right -128px -112px;
+}
+
+.ui-icon-zoomout{
+    background-position: right -144px -112px;
+}
+
+.ui-icon-search{
+    background-position: right -160px -112px;
+}
+
+.ui-icon-wrench{
+    background-position: right -176px -112px;
+}
+
+.ui-icon-gear{
+    background-position: right -192px -112px;
+}
+
+.ui-icon-heart{
+    background-position: right -208px -112px;
+}
+
+.ui-icon-star{
+    background-position: right -224px -112px;
+}
+
+.ui-icon-link{
+    background-position: right -240px -112px;
+}
+
+.ui-icon-cancel{
+    background-position: right  -128px;
+}
+
+.ui-icon-plus{
+    background-position: right -16px -128px;
+}
+
+.ui-icon-plusthick{
+    background-position: right -32px -128px;
+}
+
+.ui-icon-minus{
+    background-position: right -48px -128px;
+}
+
+.ui-icon-minusthick{
+    background-position: right -64px -128px;
+}
+
+.ui-icon-close{
+    background-position: right -80px -128px;
+}
+
+.ui-icon-closethick{
+    background-position: right -96px -128px;
+}
+
+.ui-icon-key{
+    background-position: right -112px -128px;
+}
+
+.ui-icon-lightbulb{
+    background-position: right -128px -128px;
+}
+
+.ui-icon-scissors{
+    background-position: right -144px -128px;
+}
+
+.ui-icon-clipboard{
+    background-position: right -160px -128px;
+}
+
+.ui-icon-copy{
+    background-position: right -176px -128px;
+}
+
+.ui-icon-contact{
+    background-position: right -192px -128px;
+}
+
+.ui-icon-image{
+    background-position: right -208px -128px;
+}
+
+.ui-icon-video{
+    background-position: right -224px -128px;
+}
+
+.ui-icon-script{
+    background-position: right -240px -128px;
+}
+
+.ui-icon-alert{
+    background-position: right  -144px;
+}
+
+.ui-icon-info{
+    background-position: right -16px -144px;
+}
+
+.ui-icon-notice{
+    background-position: right -32px -144px;
+}
+
+.ui-icon-help{
+    background-position: right -48px -144px;
+}
+
+.ui-icon-check{
+    background-position: right -64px -144px;
+}
+
+.ui-icon-bullet{
+    background-position: right -80px -144px;
+}
+
+.ui-icon-radio-off{
+    background-position: right -96px -144px;
+}
+
+.ui-icon-radio-on{
+    background-position: right -112px -144px;
+}
+
+.ui-icon-pin-w{
+    background-position: right -128px -144px;
+}
+
+.ui-icon-pin-s{
+    background-position: right -144px -144px;
+}
+
+.ui-icon-play{
+    background-position: right  -160px;
+}
+
+.ui-icon-pause{
+    background-position: right -16px -160px;
+}
+
+.ui-icon-seek-next{
+    background-position: right -32px -160px;
+}
+
+.ui-icon-seek-prev{
+    background-position: right -48px -160px;
+}
+
+.ui-icon-seek-end{
+    background-position: right -64px -160px;
+}
+
+.ui-icon-seek-start{
+    background-position: right -80px -160px;
+}
+
+.ui-icon-seek-first{
+    background-position: right -80px -160px;
+}
+
+.ui-icon-stop{
+    background-position: right -96px -160px;
+}
+
+.ui-icon-eject{
+    background-position: right -112px -160px;
+}
+
+.ui-icon-volume-off{
+    background-position: right -128px -160px;
+}
+
+.ui-icon-volume-on{
+    background-position: right -144px -160px;
+}
+
+.ui-icon-power{
+    background-position: right  -176px;
+}
+
+.ui-icon-signal-diag{
+    background-position: right -16px -176px;
+}
+
+.ui-icon-signal{
+    background-position: right -32px -176px;
+}
+
+.ui-icon-battery-0{
+    background-position: right -48px -176px;
+}
+
+.ui-icon-battery-1{
+    background-position: right -64px -176px;
+}
+
+.ui-icon-battery-2{
+    background-position: right -80px -176px;
+}
+
+.ui-icon-battery-3{
+    background-position: right -96px -176px;
+}
+
+.ui-icon-circle-plus{
+    background-position: right  -192px;
+}
+
+.ui-icon-circle-minus{
+    background-position: right -16px -192px;
+}
+
+.ui-icon-circle-close{
+    background-position: right -32px -192px;
+}
+
+.ui-icon-circle-triangle-e{
+    background-position: right -48px -192px;
+}
+
+.ui-icon-circle-triangle-s{
+    background-position: right -64px -192px;
+}
+
+.ui-icon-circle-triangle-w{
+    background-position: right -80px -192px;
+}
+
+.ui-icon-circle-triangle-n{
+    background-position: right -96px -192px;
+}
+
+.ui-icon-circle-arrow-e{
+    background-position: right -112px -192px;
+}
+
+.ui-icon-circle-arrow-s{
+    background-position: right -128px -192px;
+}
+
+.ui-icon-circle-arrow-w{
+    background-position: right -144px -192px;
+}
+
+.ui-icon-circle-arrow-n{
+    background-position: right -160px -192px;
+}
+
+.ui-icon-circle-zoomin{
+    background-position: right -176px -192px;
+}
+
+.ui-icon-circle-zoomout{
+    background-position: right -192px -192px;
+}
+
+.ui-icon-circle-check{
+    background-position: right -208px -192px;
+}
+
+.ui-icon-circlesmall-plus{
+    background-position: right  -208px;
+}
+
+.ui-icon-circlesmall-minus{
+    background-position: right -16px -208px;
+}
+
+.ui-icon-circlesmall-close{
+    background-position: right -32px -208px;
+}
+
+.ui-icon-squaresmall-plus{
+    background-position: right -48px -208px;
+}
+
+.ui-icon-squaresmall-minus{
+    background-position: right -64px -208px;
+}
+
+.ui-icon-squaresmall-close{
+    background-position: right -80px -208px;
+}
+
+.ui-icon-grip-dotted-vertical{
+    background-position: right  -224px;
+}
+
+.ui-icon-grip-dotted-horizontal{
+    background-position: right -16px -224px;
+}
+
+.ui-icon-grip-solid-vertical{
+    background-position: right -32px -224px;
+}
+
+.ui-icon-grip-solid-horizontal{
+    background-position: right -48px -224px;
+}
+
+.ui-icon-gripsmall-diagonal-se{
+    background-position: right -64px -224px;
+}
+
+.ui-icon-grip-diagonal-se{
+    background-position: right -80px -224px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{
+    border-top-right-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+    border-top-left-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+    border-bottom-right-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
+    border-bottom-left-radius: 0px;
+}
+
+.ui-widget-shadow{
+    margin: -8px -8px 0 0 ;
+    background: #aaaaaa url("/osafe_theme/images/user_content/images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+}
+
+.ui-resizable-n{
+    right: 0;
+}
+
+.ui-resizable-s{
+    right: 0;
+}
+
+.ui-resizable-e{
+    left: -5px;
+}
+
+.ui-resizable-w{
+    right: -5px;
+}
+
+.ui-resizable-se{
+    left: 1px;
+}
+
+.ui-resizable-sw{
+    right: -5px;
+}
+
+.ui-resizable-nw{
+    right: -5px;
+}
+
+.ui-resizable-ne{
+    left: -5px;
+}
+
+.ui-accordion .ui-accordion-header a{
+    padding: .5em .7em .5em .5em ;
+}
+
+.ui-accordion-icons .ui-accordion-header a{
+    padding-right: 2.2em;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon{
+    right: .5em;
+}
+
+.ui-menu{
+    float: right;
+}
+
+.ui-menu .ui-menu-item{
+    float: right;
+    clear: right;
+}
+
+.ui-button{
+    margin-left: .1em;
+}
+
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text{
+    padding: .4em 2.1em .4em 1em ;
+}
+
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text{
+    padding: .4em 1em .4em 2.1em ;
+}
+
+.ui-button-text-icons .ui-button-text{
+    padding-right: 2.1em;
+    padding-left: 2.1em;
+}
+
+.ui-button-icon-only .ui-icon{
+    right: 50%;
+    margin-right: -8px;
+}
+
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary{
+    right: .5em;
+}
+
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary{
+    left: .5em;
+}
+
+.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary{
+    left: .5em;
+}
+
+.ui-buttonset{
+    margin-left: 7px;
+}
+
+.ui-buttonset .ui-button{
+    margin-right: 0;
+    margin-left: -.3em;
+}
+
+.ui-dialog .ui-dialog-title{
+    float: right;
+    margin: .1em 0 .1em 16px ;
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+    left: .3em;
+    margin: -10px 0 0 0 ;
+}
+
+.ui-dialog .ui-dialog-buttonpane{
+    text-align: right;
+    border-width: 1px 0 0 0 ;
+    margin: .5em 0 0 0 ;
+    padding: .3em .4em .5em 1em ;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float: left;
+}
+
+.ui-dialog .ui-dialog-buttonpane button{
+    margin: .5em 0 .5em .4em ;
+}
+
+.ui-dialog .ui-resizable-se{
+    left: 3px;
+}
+
+.ui-slider{
+    text-align: right;
+}
+
+.ui-slider .ui-slider-range{
+    background-position: right  0;
+}
+
+.ui-slider-horizontal .ui-slider-handle{
+    margin-right: -.6em;
+}
+
+.ui-slider-horizontal .ui-slider-range-min{
+    right: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range-max{
+    left: 0;
+}
+
+.ui-slider-vertical .ui-slider-handle{
+    right: -.3em;
+    margin-right: 0;
+}
+
+.ui-slider-vertical .ui-slider-range{
+    right: 0;
+}
+
+.ui-tabs .ui-tabs-nav li{
+    float: right;
+    margin: 0 0 1px .2em ;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+    float: right;
+}
+
+.ui-datepicker .ui-datepicker-prev{
+    right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next{
+    left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover{
+    right: 1px;
+}
+
+.ui-datepicker .ui-datepicker-next-hover{
+    left: 1px;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{
+    right: 50%;
+    margin-right: -8px;
+}
+
+.ui-datepicker td span, .ui-datepicker td a{
+    text-align: left;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane{
+    margin: .7em 0 0 0 ;
+    border-right: 0;
+    border-left: 0;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button{
+    float: left;
+    padding: .2em .6em .3em .6em ;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{
+    float: right;
+}
+
+.ui-datepicker-multi .ui-datepicker-group{
+    float: right;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{
+    border-right-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{
+    border-right-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane{
+    clear: right;
+}
+
+.ui-datepicker-rtl{
+    direction: ltr;
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev{
+    left: 2px;
+    right: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-next{
+    right: 2px;
+    left: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev:hover{
+    left: 1px;
+    right: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-next:hover{
+    right: 1px;
+    left: auto;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane{
+    clear: left;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{
+    float: right;
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{
+    float: left;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group{
+    float: left;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+
+.ui-datepicker-cover{
+    right: -4px;
+}
+
+.ui-progressbar{
+    text-align: right;
+}
+
+#scrollToTop{
+    left: 20px;
+}
+
+.showcase-arrow-previous{
+    right: -60px;
+}
+
+.showcase-arrow-previous:hover{
+    background-position: right 0px -34px;
+}
+
+.showcase-arrow-next{
+    left: -56px;
+    background-position: right -34px right ;
+}
+
+.showcase-arrow-next:hover{
+    background-position: right -34px -34px;
+}
+
+.showcase-plus-anchor:hover{
+    background-position: right -32px right ;
+}
+
+div.showcase-tooltip{
+    text-align: right;
+}
+
+.showcase-caption{
+    text-align: right;
+    right: 10px;
+    left: 10px;
+}
+
+.showcase-button-wrapper{
+    margin-left: 3px;
+    padding: 2px 5px 0px 5px ;
+}
+
+.showcase-thumbnail-caption{
+    padding-right: 10px;
+}
+
+.showcase-thumbnail-cover{
+    right: 0;
+    left: 0;
+}
+
+.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail{
+    margin-left: 10px;
+}
+
+.showcase-thumbnail-button-backward{
+    padding-left: 0px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical{
+    background-position: right  -51px;
+    margin-right: 55px;
+}
+
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical{
+    background-position: right -17px -51px;
+}
+
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical{
+    background-position: right  -34px;
+    margin-right: 55px;
+}
+
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical{
+    background-position: right -17px -34px;
+}
+
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal{
+    background-position: right  -17px;
+}
+
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal{
+    background-position: right -17px -17px;
+}
+
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal{
+    background-position: right  0;
+}
+
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal{
+    background-position: right -17px right ;
+}
+
+.cloud-zoom-loading{
+    background: none repeat scroll right  0 #222222;
+}
+
+.zoomPad{
+    float: right;
+}
+
+.zoomPreload{
+    background-position: 50%;
+    right: 0px;
+}
+
+.zoomOverlay{
+    right: 0px;
+}
+
+.zoomWindow{
+    right: 110%;
+}
+
+.zoomWrapperTitle{
+    right: 0px;
+}
+
+.sizeChart table thead{
+    background: none repeat scroll right  0 #DEDEDE;
+}
+
+.sizeChart table td.infoColumn{
+    text-align: right;
+}
+
+.mobileMessage{
+    background: none repeat scroll right  0 #98070A;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+}
+
+.mobileMessage h3{
+    float: right;
+    margin: 0 85px 0 10px ;
+}
+
+.mobileMessage h6{
+    clear: right;
+}
+
+.homeGalleryRow{
+    float: right;
+}
+
+#eCommerceHomeSpot_1, #eCommerceHomeSpot_2{
+    padding: 10px 0 0 0 ;
+}
+
+#eCommerceHomeSpot_3{
+    float: right;
+}
+
+.facetFilterAjaxImg{
+    background: none repeat scroll right  0 #000000;
+    right: 0;
+    left: 0;
+    background-position: 50%;
+}
+
+.loadingImg{
+    right: 30px;
+}
+
+li a.removeMultiSearchItem{
+    background: url("/osafe_theme/images/user_content/images/removeFacetIcon.png") no-repeat scroll right  0 transparent;
+}
+

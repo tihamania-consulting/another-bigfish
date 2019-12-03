@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entity-engine-xml>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="OIL_STORAGE" productId="298001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="WATER_STORAGE" productId="298008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="298010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298015" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298015"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298016" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298016"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298016"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298016"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SEKKAI" primaryProductCategoryId="POTTERY" productId="298017" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="298017"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SEKKAI" productId="298017"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="298017"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="285001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="285002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="285003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="285004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="285005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="MERRABET" primaryProductCategoryId="POTTERY" productId="285006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="285006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="MERRABET" productId="285006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="285006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="259003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="259005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="259006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="259007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="COFFEE_TEA" productId="259012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KITCHEN" productId="259013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AIT_KHEIR" primaryProductCategoryId="POTTERY" productId="259014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="POTTERY" productId="259014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AIT_KHEIR" productId="259014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="WATER_STORAGE" productId="259014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SAAD" primaryProductCategoryId="CERAMIC" productId="262001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="262001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SAAD" productId="262001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LIGHTING" productId="262001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SAAD" primaryProductCategoryId="CERAMIC" productId="262002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="262002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SAAD" productId="262002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="262002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="SAAD" primaryProductCategoryId="CERAMIC" productId="262003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="262003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="SAAD" productId="262003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="262003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="DJELFI" primaryProductCategoryId="JEWELERY" productId="21009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="JEWELERY" productId="21009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DJELFI" productId="21009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENZEKRI" primaryProductCategoryId="TAPESTRY" productId="300001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="300001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENZEKRI" productId="300001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="300001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENZEKRI" primaryProductCategoryId="TAPESTRY" productId="300002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="300002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENZEKRI" productId="300002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="300002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BURNOUS" productId="302004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302015" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="302015"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302016" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302016"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302016"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302016"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302017" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302017"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302017"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302017"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302018" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302018"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302018"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="302018"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302019" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302019"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302019"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302019"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHAIMA" primaryProductCategoryId="APPAREL" productId="302020" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="302020"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHAIMA" productId="302020"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="302020"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUAL" primaryProductCategoryId="TAPESTRY" productId="29015" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="29015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUAL" productId="29015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="29015"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="CHENNOUFI" primaryProductCategoryId="CERAMIC" productId="7008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CERAMIC" productId="7008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CHENNOUFI" productId="7008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="7008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="IHADDADENE" primaryProductCategoryId="TAPESTRY" productId="299001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="299001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="IHADDADENE" productId="299001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="299001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="IHADDADENE" primaryProductCategoryId="TAPESTRY" productId="299002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="299002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="IHADDADENE" productId="299002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="299002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="IHADDADENE" primaryProductCategoryId="TAPESTRY" productId="299003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="299003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="IHADDADENE" productId="299003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="299003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="IHADDADENE" primaryProductCategoryId="TAPESTRY" productId="299004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="299004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="IHADDADENE" productId="299004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="299004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="301001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="301002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="301003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BURNOUS" productId="301004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="301005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="ATHMANI" primaryProductCategoryId="APPAREL" productId="301006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="301006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ATHMANI" productId="301006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="301006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BURNOUS" productId="8001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="8002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="8003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="8004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BURNOUS" productId="8005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="8006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="KHAIRI" primaryProductCategoryId="APPAREL" productId="8007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="8007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="KHAIRI" productId="8007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="8007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKHERS" primaryProductCategoryId="PAINTINGS" productId="14013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="14013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKHERS" productId="14013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUKENOUCHA" primaryProductCategoryId="PAINTINGS" productId="266007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="PAINTINGS" productId="266007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUKENOUCHA" productId="266007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BOUGUERRA" primaryProductCategoryId="TAPESTRY" productId="13006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="TAPESTRY" productId="13006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BOUGUERRA" productId="13006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="CARPET" productId="13006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="23001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="23002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="FEEST" productId="23005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="ROBES" productId="23014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="AOMRI" primaryProductCategoryId="APPAREL" productId="23015" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="APPAREL" productId="23015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="AOMRI" productId="23015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BURNOUS" productId="23015"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENMANSOUR" primaryProductCategoryId="LEATHER" productId="293001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LEATHER" productId="293001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENMANSOUR" productId="293001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENMANSOUR" primaryProductCategoryId="LEATHER" productId="293002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LEATHER" productId="293002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENMANSOUR" productId="293002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENMANSOUR" primaryProductCategoryId="LEATHER" productId="293003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LEATHER" productId="293003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENMANSOUR" productId="293003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENMANSOUR" primaryProductCategoryId="LEATHER" productId="293004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LEATHER" productId="293004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENMANSOUR" productId="293004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="BENMANSOUR" primaryProductCategoryId="LEATHER" productId="293005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="LEATHER" productId="293005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="BENMANSOUR" productId="293005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303001" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303001"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303001"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303002" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303002"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303002"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303003" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303003"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303003"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303004" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303004"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303004"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303005" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303005"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303005"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303006" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303006"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303006"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303007" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303007"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303007"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303008" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303008"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303008"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303009" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303009"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303009"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303010" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303010"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303010"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303011" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303011"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303011"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303012" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303012"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303012"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303013" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303013"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303013"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303014" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303014"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303014"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303015" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303015"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303015"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303016" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303016"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303016"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303017" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303017"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303017"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303018" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303018"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303018"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303019" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303019"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303019"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303020" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303020"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303020"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303021" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303021"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303021"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303022" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303022"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303022"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303023" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303023"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303023"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303024" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303024"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303024"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303024"/>
+<Product brandName="" chargeShipping="Y" internalName="" introductionDate="2013-11-29 00:00:00" isVariant="N" isVirtual="Y" manufacturerPartyId="NAIT_SEGHIR" primaryProductCategoryId="DECORATION" productId="303025" productName="" productTypeId="FINISHED_GOOD" requireInventory="N" returnable="Y" salesDiscontinuationDate="" taxable="Y"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303025"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="NAIT_SEGHIR" productId="303025"/>
+<ProductCategoryMember fromDate="2013-02-12 12:00:34" productCategoryId="DECORATION" productId="303025"/>
+</entity-engine-xml>

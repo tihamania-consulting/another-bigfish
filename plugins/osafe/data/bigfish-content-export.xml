@@ -5,92 +5,7 @@
     <Content contentId="TEST_CONTENT_56" dataResourceId="56620" statusId="CTNT_DEACTIVATED" contentName="testing" description="testing" localeString="en_US" createdDate="2012-07-20 05:11:54.0" createdByUserLogin="admin" lastModifiedDate="2012-07-20 05:12:37.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
     <XContentXref bfContentId="10010" productStoreId="BF_STORE" contentId="TEST_CONTENT_56" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
     <ElectronicText dataResourceId="56620" textData="testing" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
-    <DataResource dataResourceId="1011480" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2014-01-08 13:52:05.0" createdByUserLogin="admin" lastModifiedDate="2014-01-08 13:52:05.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2014-01-08 13:52:05.0" lastUpdatedTxStamp="2014-01-08 13:52:04.0" createdStamp="2014-01-08 13:52:05.0" createdTxStamp="2014-01-08 13:52:04.0"/>
-    <Content contentId="MEGAMENUAPPAREL" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011480" statusId="CTNT_PUBLISHED" contentName="MegaMenuApparel" description="Mega Menu for the Apparel Category" mimeTypeId="text/html" createdDate="2014-01-08 13:52:05.0" createdByUserLogin="admin" lastModifiedDate="2014-01-08 13:52:05.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2014-01-08 13:52:05.0" lastUpdatedTxStamp="2014-01-08 13:52:04.0" createdStamp="2014-01-08 13:52:05.0" createdTxStamp="2014-01-08 13:52:04.0"/>
-    <XContentXref bfContentId="MEGAMENUAPPAREL" productStoreId="BF_STORE" contentId="MEGAMENUAPPAREL" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2014-01-08 13:52:05.0" lastUpdatedTxStamp="2014-01-08 13:52:04.0" createdStamp="2014-01-08 13:52:05.0" createdTxStamp="2014-01-08 13:52:04.0"/>
-    <ElectronicText dataResourceId="1011480" lastUpdatedStamp="2014-01-08 13:52:05.0" lastUpdatedTxStamp="2014-01-08 13:52:04.0" createdStamp="2014-01-08 13:52:05.0" createdTxStamp="2014-01-08 13:52:04.0">
-        <textData><![CDATA[<div style="width:600px;"><!-- floated parents need a width (total of children) -->
 
-<div style="float:left;"><!-- container 1 -->
-  <ul class="topLevel">
-   <li class="subLevel navfirstitem"><strong>Shop By Category</strong></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/active">Active</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/blouses">Blouses</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/denim">Denim</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/dresses">Dresses</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/leggings">Leggings</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/pants">Pants</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/rompers">Rompers</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/shorts">Shorts</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/skirts">Skirts</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/sweaters">Sweaters</a></li>
-   <li class="subLevel navlastitem"><a class="subLevel" href="/apparel/swim">Swim</a></li>
-  </ul>
-</div>
-
-<div><!-- container 2 -->
-  <ul class="topLevel">
-    <li class="subLevel navfirstitem"><strong>Best Sellers</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/shorts/tailored-shorts-black">Tailored Shorts</a></li>
-    <li class="subLevel "><strong class="subLevel">New Arrivals</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/active/bow-tee-black">Bow Tee</a></li>
-    <li class="subLevel "><a class="subLevel" href="/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
-    <li class="subLevel navlastitem"><a class="subLevel" href="/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
-  </ul>
-</div>
-
-<div style="padding: 18px 0 0 0;"><!-- container 3 -->
-  <img src="/osafe_theme/images/user_content/images/freeDeliv.jpg" alt="free delivery" width="150" height="150"/>
-</div>
-</div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011452" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:07:18.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:07:18.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:07:18.0" lastUpdatedTxStamp="2013-12-20 17:07:18.0" createdStamp="2013-12-20 17:07:18.0" createdTxStamp="2013-12-20 17:07:18.0"/>
-    <Content contentId="SIZE_CHART_ACTIVE" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011452" statusId="CTNT_PUBLISHED" contentName="Size Chart Active" description="Size Chart for Active Category" mimeTypeId="text/html" createdDate="2013-12-20 17:07:18.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:07:18.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:07:18.0" lastUpdatedTxStamp="2013-12-20 17:07:18.0" createdStamp="2013-12-20 17:07:18.0" createdTxStamp="2013-12-20 17:07:18.0"/>
-    <XContentXref bfContentId="SIZE_CHART_ACTIVE" productStoreId="BF_STORE" contentId="SIZE_CHART_ACTIVE" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:07:18.0" lastUpdatedTxStamp="2013-12-20 17:07:18.0" createdStamp="2013-12-20 17:07:18.0" createdTxStamp="2013-12-20 17:07:18.0"/>
-    <ElectronicText dataResourceId="1011452" lastUpdatedStamp="2013-12-20 17:07:18.0" lastUpdatedTxStamp="2013-12-20 17:07:18.0" createdStamp="2013-12-20 17:07:18.0" createdTxStamp="2013-12-20 17:07:18.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-<table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>XS</td>
-                            <td>S</td>
-                            <td>M</td>
-                            <td>L</td>
-                            <td>XL</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Bust</td>
-                            <td>32''</td>
-                            <td>34''</td>
-                            <td>36''</td>
-                            <td>38''</td>
-                            <td>40''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Waist</td>
-                            <td>26''</td>
-                            <td>28''</td>
-                            <td>30''</td>
-                            <td>32''</td>
-                            <td>34''</td>
-                        </tr>
-                    </tbody>
-                </table>
-</div>]]></textData>
-    </ElectronicText>
     <DataResource dataResourceId="1011450" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:05:47.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:05:47.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:05:47.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:47.0" createdTxStamp="2013-12-20 17:05:47.0"/>
     <Content contentId="SIZE_CHART_BLOUSE" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011450" statusId="CTNT_PUBLISHED" contentName="Size Chart Blouse" description="Size Chart for Blouse Category" mimeTypeId="text/html" createdDate="2013-12-20 17:05:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:05:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:05:48.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:48.0" createdTxStamp="2013-12-20 17:05:47.0"/>
     <XContentXref bfContentId="SIZE_CHART_BLOUSE" productStoreId="BF_STORE" contentId="SIZE_CHART_BLOUSE" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:05:48.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:48.0" createdTxStamp="2013-12-20 17:05:47.0"/>
@@ -406,11 +321,11 @@
  
  <#--Carousel Images -->
  
- <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/versace-shoe-1.png"/>
+ <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/jewel_box.png"/>
  <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
- <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/versace-shoe-2.png"/>
+ <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/jewel_box-algiers.png"/>
  <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
- <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/versace-shoe-3.png"/>
+ <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/jewel_box-heart.png"/>
  <#assign CAROUSEL_IMAGE_HREF_3=""/>
  <#assign CAROUSEL_IMAGE_URL_4=""/>
  <#assign CAROUSEL_IMAGE_HREF_4=""/>
@@ -519,52 +434,52 @@
         <textData><![CDATA[<#assign SHOP_SUB_URL="" />
 
 <div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/blouses/34-sleeve-and-button-down--pink">
-        <img src="/osafe_theme/images/user_content/images/homeSpotBlouse.png" alt="Blouses" />
+    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sais">
+        <img src="/osafe_theme/images/user_content/images/SAIS.jpg" alt="Blouses" />
     </a>
         <span class="homeProductTitle">Top Seller</span>
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/blouses/34-sleeve-and-button-down--pink">
-        <span class="homeProductName">3-4 Sleeve & Button Down</span>
+        <span class="homeProductName">Céramique algérois</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/dresses/draped-dress-white">
-         <img src="/osafe_theme/images/user_content/images/homeSpotDress.png" alt="Dresses" />
+         <img src="/osafe_theme/images/user_content/images/CHAIMA.png" alt="Dresses" />
     </a>
-        <span class="homeProductTitle">New From Donnatelli</span>
+        <span class="homeProductTitle">New From Chaima</span>
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/dresses/draped-dress-white">
-        <span class="homeProductName">Draped Dress</span>
+        <span class="homeProductName">Caftans</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sweaters/animal-print-cardigan-beigetan">
-        <img src="/osafe_theme/images/user_content/images/homeSpotShirt.png" alt="Shirts" />
+        <img src="/osafe_theme/images/user_content/images/DJELFI.png" alt="Shirts" />
     </a>
-        <span class="homeProductTitle">New From Vera Wang<span>
+        <span class="homeProductTitle">New From Djelfi<span>
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sweaters/animal-print-cardigan-beigetan">
-        <span class="homeProductName">Animal Print Cardigan</span>
+        <span class="homeProductName">Bijoux kabyle</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/outerwear-/-jackets/moto-jacket-brown">
-        <img src="/osafe_theme/images/user_content/images/homeSpotCoat.png" alt="Coats" />
+        <img src="/osafe_theme/images/user_content/images/BOUKHENOUCHA.png" alt="Coats" />
     </a>
         <span class="homeProductTitle">Now In Stock</span>
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/outerwear-/-jackets/moto-jacket-brown">
-        <span class="homeProductName">Moto Jacket</span>
+        <span class="homeProductName">Par nos artisans du cuivres</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/active/reversible-hooded-shearling-vest-brown">
-        <img src="/osafe_theme/images/user_content/images/homeSpotActive.png" alt="Coats" />
+        <img src="/osafe_theme/images/user_content/images/BOUGUERRA.jpg" alt="Coats" />
     </a>
-        <span class="homeProductTitle">Reversible</span>
+        <span class="homeProductTitle">Tapistry</span>
     <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/active/reversible-hooded-shearling-vest-brown">
-        <span class="homeProductName">Hooded Shearling Vest</span>
+        <span class="homeProductName">Our traditional carpets</span>
     </a>
 </div>
    
@@ -836,8 +751,8 @@
            <li><a href="<@ofbizUrl>main</@ofbizUrl>">Home</a></li>
            <li><a href="<@ofbizUrl>eCommerceShowWishList</@ofbizUrl>">Wish List</a></li>
            <li class="mobileRemove"><a href="<@ofbizUrl>contactUs</@ofbizUrl>">Contact Us</a></li>
-           <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">Locate Shop</a></li>
-           <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">Request Catalog</a></li>
+           <li class="mobileRemove"><a href="<@ofbizUrl>setSessionLocale?newLocale=ar</@ofbizUrl>">عربي</a></li>
+           <li class="mobileRemove"><a href="<@ofbizUrl>setSessionLocale?newLocale=en</@ofbizUrl>">English</a></li>
            <li><a href="<@ofbizUrl>MyAccount</@ofbizUrl>">My Account</a></li>
                 <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
                    <li><a href="<@ofbizUrl>logout</@ofbizUrl>">Logout</a></li>
@@ -3109,16 +3024,9 @@ Repack the gift in its original packaging, if possible, with the original receip
     <Content contentId="TXT_SHIP_REVIEW" contentTypeId="BF_TXT_TEMPLATE" dataResourceId="TXT_SHIP_REVIEW" statusId="CTNT_PUBLISHED" contentName="Review" description="Ship Review Text Message template" localeString="en_US" createdDate="2013-03-12 06:27:58.0" lastModifiedDate="2013-03-12 06:28:40.0" lastUpdatedStamp="2013-05-09 11:22:42.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-03-05 01:19:56.0" createdTxStamp="2013-03-05 01:19:56.0"/>
     <XContentXref bfContentId="TXT_SHIP_REVIEW" productStoreId="BF_STORE" contentId="TXT_SHIP_REVIEW" contentTypeId="BF_TXT_TEMPLATE" lastUpdatedStamp="2013-05-09 11:22:42.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-03-05 01:19:56.0" createdTxStamp="2013-03-05 01:19:56.0"/>
     <ElectronicText dataResourceId="TXT_SHIP_REVIEW" textData="testing ship review txt message" lastUpdatedStamp="2013-05-09 11:22:42.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-03-05 01:19:56.0" createdTxStamp="2013-03-05 01:19:56.0"/>
-    <DataResource dataResourceId="1011457" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:12:42.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:13:02.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:13:02.0" lastUpdatedTxStamp="2013-12-20 17:13:02.0" createdStamp="2013-12-20 17:13:02.0" createdTxStamp="2013-12-20 17:13:02.0"/>
-    <Content contentId="1010930" dataResourceId="1011457" statusId="CTNT_PUBLISHED" contentName="Size Chart for Accessories" description="Size Chart for Accessories" createdDate="2013-12-20 17:12:42.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:13:02.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:13:02.0" lastUpdatedTxStamp="2013-12-20 17:13:02.0" createdStamp="2013-12-20 17:13:02.0" createdTxStamp="2013-12-20 17:13:02.0"/>
-    <ProductCategoryContent productCategoryId="ACCESSORIES" contentId="1010930" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:13:02.0" lastUpdatedStamp="2013-12-20 17:13:02.0" lastUpdatedTxStamp="2013-12-20 17:13:02.0" createdStamp="2013-12-20 17:13:02.0" createdTxStamp="2013-12-20 17:13:02.0"/>
-    <ElectronicText dataResourceId="1011457" lastUpdatedStamp="2013-12-20 17:13:02.0" lastUpdatedTxStamp="2013-12-20 17:13:02.0" createdStamp="2013-12-20 17:13:02.0" createdTxStamp="2013-12-20 17:13:02.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Accessories</h3>
-<@renderContentAsText contentId="SIZE_CHART_NONE"/>]]></textData>
-    </ElectronicText>
     <DataResource dataResourceId="1002310" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" dataResourceName="pdpText" localeString="en_US" mimeTypeId="application/octet-stream" isPublic="Y" lastUpdatedStamp="2013-12-18 09:29:10.0" lastUpdatedTxStamp="2013-12-18 09:28:04.0" createdStamp="2013-12-18 09:29:10.0" createdTxStamp="2013-12-18 09:28:04.0"/>
     <Content contentId="1001830" contentTypeId="DOCUMENT" dataResourceId="1002310" statusId="CTNT_PUBLISHED" contentName="pdpText" localeString="en_US" lastUpdatedStamp="2013-12-18 09:29:10.0" lastUpdatedTxStamp="2013-12-18 09:28:04.0" createdStamp="2013-12-18 09:29:10.0" createdTxStamp="2013-12-18 09:28:04.0"/>
-    <ProductCategoryContent productCategoryId="ACTIVE" contentId="1001830" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2012-04-10 00:00:00.0" lastUpdatedStamp="2013-12-18 09:29:10.0" lastUpdatedTxStamp="2013-12-18 09:28:04.0" createdStamp="2013-12-18 09:29:10.0" createdTxStamp="2013-12-18 09:28:04.0"/>
+    <ProductCategoryContent productCategoryId="APPAREL" contentId="1001830" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2012-04-10 00:00:00.0" lastUpdatedStamp="2013-12-18 09:29:10.0" lastUpdatedTxStamp="2013-12-18 09:28:04.0" createdStamp="2013-12-18 09:29:10.0" createdTxStamp="2013-12-18 09:28:04.0"/>
     <ElectronicText dataResourceId="1002310" lastUpdatedStamp="2013-12-18 09:29:10.0" lastUpdatedTxStamp="2013-12-18 09:28:04.0" createdStamp="2013-12-18 09:29:10.0" createdTxStamp="2013-12-18 09:28:04.0">
         <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
 
@@ -3154,160 +3062,6 @@ Repack the gift in its original packaging, if possible, with the original receip
                     </tbody>
                 </table>
             </div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011458" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:17:09.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:17:18.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:17:18.0" lastUpdatedTxStamp="2013-12-20 17:17:17.0" createdStamp="2013-12-20 17:17:17.0" createdTxStamp="2013-12-20 17:17:17.0"/>
-    <Content contentId="1010931" dataResourceId="1011458" statusId="CTNT_PUBLISHED" contentName="Size Chart for Blouses" description="Size Chart for Blouses" createdDate="2013-12-20 17:17:09.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:17:17.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:17:18.0" lastUpdatedTxStamp="2013-12-20 17:17:17.0" createdStamp="2013-12-20 17:17:17.0" createdTxStamp="2013-12-20 17:17:17.0"/>
-    <ProductCategoryContent productCategoryId="BLOUSES" contentId="1010931" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:17:17.0" lastUpdatedStamp="2013-12-20 17:17:17.0" lastUpdatedTxStamp="2013-12-20 17:17:17.0" createdStamp="2013-12-20 17:17:17.0" createdTxStamp="2013-12-20 17:17:17.0"/>
-    <ElectronicText dataResourceId="1011458" lastUpdatedStamp="2013-12-20 17:17:18.0" lastUpdatedTxStamp="2013-12-20 17:17:17.0" createdStamp="2013-12-20 17:17:17.0" createdTxStamp="2013-12-20 17:17:17.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Blouses</h3>
-<@renderContentAsText contentId="SIZE_CHART_BLOUSE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011459" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:18:17.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:18:23.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:18:23.0" lastUpdatedTxStamp="2013-12-20 17:18:23.0" createdStamp="2013-12-20 17:18:23.0" createdTxStamp="2013-12-20 17:18:23.0"/>
-    <Content contentId="1010932" dataResourceId="1011459" statusId="CTNT_PUBLISHED" contentName="Size Chart for Denim" description="Size Chart for Denim" createdDate="2013-12-20 17:18:17.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:18:23.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:18:23.0" lastUpdatedTxStamp="2013-12-20 17:18:23.0" createdStamp="2013-12-20 17:18:23.0" createdTxStamp="2013-12-20 17:18:23.0"/>
-    <ProductCategoryContent productCategoryId="DENIM" contentId="1010932" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:18:23.0" lastUpdatedStamp="2013-12-20 17:18:23.0" lastUpdatedTxStamp="2013-12-20 17:18:23.0" createdStamp="2013-12-20 17:18:23.0" createdTxStamp="2013-12-20 17:18:23.0"/>
-    <ElectronicText dataResourceId="1011459" lastUpdatedStamp="2013-12-20 17:18:23.0" lastUpdatedTxStamp="2013-12-20 17:18:23.0" createdStamp="2013-12-20 17:18:23.0" createdTxStamp="2013-12-20 17:18:23.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Denim</h3>
-<@renderContentAsText contentId="SIZE_CHART_PANTS"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011460" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:18:42.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:18:50.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:18:50.0" lastUpdatedTxStamp="2013-12-20 17:18:50.0" createdStamp="2013-12-20 17:18:50.0" createdTxStamp="2013-12-20 17:18:49.0"/>
-    <Content contentId="1010933" dataResourceId="1011460" statusId="CTNT_PUBLISHED" contentName="Size Chart for Dresses" description="Size Chart for Dresses" createdDate="2013-12-20 17:18:42.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:18:50.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:18:50.0" lastUpdatedTxStamp="2013-12-20 17:18:50.0" createdStamp="2013-12-20 17:18:50.0" createdTxStamp="2013-12-20 17:18:49.0"/>
-    <ProductCategoryContent productCategoryId="DRESSES" contentId="1010933" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:18:50.0" lastUpdatedStamp="2013-12-20 17:18:50.0" lastUpdatedTxStamp="2013-12-20 17:18:49.0" createdStamp="2013-12-20 17:18:50.0" createdTxStamp="2013-12-20 17:18:49.0"/>
-    <ElectronicText dataResourceId="1011460" lastUpdatedStamp="2013-12-20 17:18:50.0" lastUpdatedTxStamp="2013-12-20 17:18:50.0" createdStamp="2013-12-20 17:18:50.0" createdTxStamp="2013-12-20 17:18:49.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Dresses</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011461" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:19:07.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:19:18.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:19:18.0" lastUpdatedTxStamp="2013-12-20 17:19:18.0" createdStamp="2013-12-20 17:19:18.0" createdTxStamp="2013-12-20 17:19:18.0"/>
-    <Content contentId="1010934" dataResourceId="1011461" statusId="CTNT_PUBLISHED" contentName="Size Chart for Handbags" description="Size Chart for Handbags" createdDate="2013-12-20 17:19:07.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:19:18.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:19:18.0" lastUpdatedTxStamp="2013-12-20 17:19:18.0" createdStamp="2013-12-20 17:19:18.0" createdTxStamp="2013-12-20 17:19:18.0"/>
-    <ProductCategoryContent productCategoryId="HANDBAGS" contentId="1010934" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:19:18.0" lastUpdatedStamp="2013-12-20 17:19:18.0" lastUpdatedTxStamp="2013-12-20 17:19:18.0" createdStamp="2013-12-20 17:19:18.0" createdTxStamp="2013-12-20 17:19:18.0"/>
-    <ElectronicText dataResourceId="1011461" lastUpdatedStamp="2013-12-20 17:19:18.0" lastUpdatedTxStamp="2013-12-20 17:19:18.0" createdStamp="2013-12-20 17:19:18.0" createdTxStamp="2013-12-20 17:19:18.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Handbags</h3>
-<@renderContentAsText contentId="SIZE_CHART_NONE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011462" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:19:37.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:21:20.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:21:20.0" lastUpdatedTxStamp="2013-12-20 17:21:20.0" createdStamp="2013-12-20 17:21:20.0" createdTxStamp="2013-12-20 17:21:20.0"/>
-    <Content contentId="1010935" dataResourceId="1011462" statusId="CTNT_PUBLISHED" contentName="Size Chart for Intimates / Sleepwear" description="Size Chart for Intimates / Sleepwear" createdDate="2013-12-20 17:19:37.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:21:20.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:21:20.0" lastUpdatedTxStamp="2013-12-20 17:21:20.0" createdStamp="2013-12-20 17:21:20.0" createdTxStamp="2013-12-20 17:21:20.0"/>
-    <ProductCategoryContent productCategoryId="INTIMATESSLEEPWEAR" contentId="1010935" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:21:20.0" lastUpdatedStamp="2013-12-20 17:21:20.0" lastUpdatedTxStamp="2013-12-20 17:21:20.0" createdStamp="2013-12-20 17:21:20.0" createdTxStamp="2013-12-20 17:21:20.0"/>
-    <ElectronicText dataResourceId="1011462" lastUpdatedStamp="2013-12-20 17:21:20.0" lastUpdatedTxStamp="2013-12-20 17:21:20.0" createdStamp="2013-12-20 17:21:20.0" createdTxStamp="2013-12-20 17:21:20.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Intimates / Sleepwear</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011463" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:21:37.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:21:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:21:48.0" lastUpdatedTxStamp="2013-12-20 17:21:48.0" createdStamp="2013-12-20 17:21:48.0" createdTxStamp="2013-12-20 17:21:48.0"/>
-    <Content contentId="1010936" dataResourceId="1011463" statusId="CTNT_PUBLISHED" contentName="Size Chart for Jewelry" description="Size Chart for Jewelry" createdDate="2013-12-20 17:21:37.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:21:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:21:48.0" lastUpdatedTxStamp="2013-12-20 17:21:48.0" createdStamp="2013-12-20 17:21:48.0" createdTxStamp="2013-12-20 17:21:48.0"/>
-    <ProductCategoryContent productCategoryId="JEWELRY" contentId="1010936" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:21:48.0" lastUpdatedStamp="2013-12-20 17:21:48.0" lastUpdatedTxStamp="2013-12-20 17:21:48.0" createdStamp="2013-12-20 17:21:48.0" createdTxStamp="2013-12-20 17:21:48.0"/>
-    <ElectronicText dataResourceId="1011463" lastUpdatedStamp="2013-12-20 17:21:48.0" lastUpdatedTxStamp="2013-12-20 17:21:48.0" createdStamp="2013-12-20 17:21:48.0" createdTxStamp="2013-12-20 17:21:48.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Jewelry</h3>
-<@renderContentAsText contentId="SIZE_CHART_NONE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011464" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:21:58.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:07.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:07.0" lastUpdatedTxStamp="2013-12-20 17:22:07.0" createdStamp="2013-12-20 17:22:07.0" createdTxStamp="2013-12-20 17:22:07.0"/>
-    <Content contentId="1010937" dataResourceId="1011464" statusId="CTNT_PUBLISHED" contentName="Size Chart for Leggings" description="Size Chart for Leggings" createdDate="2013-12-20 17:21:58.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:07.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:07.0" lastUpdatedTxStamp="2013-12-20 17:22:07.0" createdStamp="2013-12-20 17:22:07.0" createdTxStamp="2013-12-20 17:22:07.0"/>
-    <ProductCategoryContent productCategoryId="LEGGINGS" contentId="1010937" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:22:07.0" lastUpdatedStamp="2013-12-20 17:22:07.0" lastUpdatedTxStamp="2013-12-20 17:22:07.0" createdStamp="2013-12-20 17:22:07.0" createdTxStamp="2013-12-20 17:22:07.0"/>
-    <ElectronicText dataResourceId="1011464" lastUpdatedStamp="2013-12-20 17:22:07.0" lastUpdatedTxStamp="2013-12-20 17:22:07.0" createdStamp="2013-12-20 17:22:07.0" createdTxStamp="2013-12-20 17:22:07.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Leggings</h3>
-<@renderContentAsText contentId="SIZE_CHART_PANTS"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011465" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:22:16.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:29.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:29.0" lastUpdatedTxStamp="2013-12-20 17:22:28.0" createdStamp="2013-12-20 17:22:28.0" createdTxStamp="2013-12-20 17:22:28.0"/>
-    <Content contentId="1010938" dataResourceId="1011465" statusId="CTNT_PUBLISHED" contentName="Size Chart for Outerwear / Jackets" description="Size Chart for Outerwear / Jackets" createdDate="2013-12-20 17:22:16.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:28.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:29.0" lastUpdatedTxStamp="2013-12-20 17:22:28.0" createdStamp="2013-12-20 17:22:28.0" createdTxStamp="2013-12-20 17:22:28.0"/>
-    <ProductCategoryContent productCategoryId="OUTERWEARANDJACKETS" contentId="1010938" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:22:28.0" lastUpdatedStamp="2013-12-20 17:22:28.0" lastUpdatedTxStamp="2013-12-20 17:22:28.0" createdStamp="2013-12-20 17:22:28.0" createdTxStamp="2013-12-20 17:22:28.0"/>
-    <ElectronicText dataResourceId="1011465" lastUpdatedStamp="2013-12-20 17:22:28.0" lastUpdatedTxStamp="2013-12-20 17:22:28.0" createdStamp="2013-12-20 17:22:28.0" createdTxStamp="2013-12-20 17:22:28.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Outerwear / Jackets</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011466" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:22:36.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:44.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:44.0" lastUpdatedTxStamp="2013-12-20 17:22:44.0" createdStamp="2013-12-20 17:22:44.0" createdTxStamp="2013-12-20 17:22:44.0"/>
-    <Content contentId="1010939" dataResourceId="1011466" statusId="CTNT_PUBLISHED" contentName="Size Chart for Pants" description="Size Chart for Pants" createdDate="2013-12-20 17:22:36.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:22:44.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:22:44.0" lastUpdatedTxStamp="2013-12-20 17:22:44.0" createdStamp="2013-12-20 17:22:44.0" createdTxStamp="2013-12-20 17:22:44.0"/>
-    <ProductCategoryContent productCategoryId="PANTS" contentId="1010939" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:22:44.0" lastUpdatedStamp="2013-12-20 17:22:44.0" lastUpdatedTxStamp="2013-12-20 17:22:44.0" createdStamp="2013-12-20 17:22:44.0" createdTxStamp="2013-12-20 17:22:44.0"/>
-    <ElectronicText dataResourceId="1011466" lastUpdatedStamp="2013-12-20 17:22:44.0" lastUpdatedTxStamp="2013-12-20 17:22:44.0" createdStamp="2013-12-20 17:22:44.0" createdTxStamp="2013-12-20 17:22:44.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Pants</h3>
-<@renderContentAsText contentId="SIZE_CHART_PANTS"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011467" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:22:53.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:05.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:05.0" lastUpdatedTxStamp="2013-12-20 17:23:05.0" createdStamp="2013-12-20 17:23:05.0" createdTxStamp="2013-12-20 17:23:05.0"/>
-    <Content contentId="1010940" dataResourceId="1011467" statusId="CTNT_PUBLISHED" contentName="Size Chart for Rompers" description="Size Chart for Rompers" createdDate="2013-12-20 17:22:53.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:05.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:05.0" lastUpdatedTxStamp="2013-12-20 17:23:05.0" createdStamp="2013-12-20 17:23:05.0" createdTxStamp="2013-12-20 17:23:05.0"/>
-    <ProductCategoryContent productCategoryId="ROMPERS" contentId="1010940" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:23:05.0" lastUpdatedStamp="2013-12-20 17:23:05.0" lastUpdatedTxStamp="2013-12-20 17:23:05.0" createdStamp="2013-12-20 17:23:05.0" createdTxStamp="2013-12-20 17:23:05.0"/>
-    <ElectronicText dataResourceId="1011467" lastUpdatedStamp="2013-12-20 17:23:05.0" lastUpdatedTxStamp="2013-12-20 17:23:05.0" createdStamp="2013-12-20 17:23:05.0" createdTxStamp="2013-12-20 17:23:05.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Rompers</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011468" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:23:14.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:23.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:23.0" lastUpdatedTxStamp="2013-12-20 17:23:23.0" createdStamp="2013-12-20 17:23:23.0" createdTxStamp="2013-12-20 17:23:23.0"/>
-    <Content contentId="1010941" dataResourceId="1011468" statusId="CTNT_PUBLISHED" contentName="Size Chart for Shoes" description="Size Chart for Shoes" createdDate="2013-12-20 17:23:14.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:23.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:23.0" lastUpdatedTxStamp="2013-12-20 17:23:23.0" createdStamp="2013-12-20 17:23:23.0" createdTxStamp="2013-12-20 17:23:23.0"/>
-    <ProductCategoryContent productCategoryId="SHOES" contentId="1010941" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:23:23.0" lastUpdatedStamp="2013-12-20 17:23:23.0" lastUpdatedTxStamp="2013-12-20 17:23:23.0" createdStamp="2013-12-20 17:23:23.0" createdTxStamp="2013-12-20 17:23:23.0"/>
-    <ElectronicText dataResourceId="1011468" lastUpdatedStamp="2013-12-20 17:23:23.0" lastUpdatedTxStamp="2013-12-20 17:23:23.0" createdStamp="2013-12-20 17:23:23.0" createdTxStamp="2013-12-20 17:23:23.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Shoes</h3>
-<@renderContentAsText contentId="SIZE_CHART_SHOES"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011469" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:23:40.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:49.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:49.0" lastUpdatedTxStamp="2013-12-20 17:23:49.0" createdStamp="2013-12-20 17:23:49.0" createdTxStamp="2013-12-20 17:23:49.0"/>
-    <Content contentId="1010942" dataResourceId="1011469" statusId="CTNT_PUBLISHED" contentName="Size Chart for Shorts" description="Size Chart for Shorts" createdDate="2013-12-20 17:23:40.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:23:49.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:23:49.0" lastUpdatedTxStamp="2013-12-20 17:23:49.0" createdStamp="2013-12-20 17:23:49.0" createdTxStamp="2013-12-20 17:23:49.0"/>
-    <ProductCategoryContent productCategoryId="SHORTS" contentId="1010942" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:23:49.0" lastUpdatedStamp="2013-12-20 17:23:49.0" lastUpdatedTxStamp="2013-12-20 17:23:49.0" createdStamp="2013-12-20 17:23:49.0" createdTxStamp="2013-12-20 17:23:49.0"/>
-    <ElectronicText dataResourceId="1011469" lastUpdatedStamp="2013-12-20 17:23:49.0" lastUpdatedTxStamp="2013-12-20 17:23:49.0" createdStamp="2013-12-20 17:23:49.0" createdTxStamp="2013-12-20 17:23:49.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Shorts</h3>
-<@renderContentAsText contentId="SIZE_CHART_SHORTS"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011470" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:23:56.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:03.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:03.0" lastUpdatedTxStamp="2013-12-20 17:24:03.0" createdStamp="2013-12-20 17:24:03.0" createdTxStamp="2013-12-20 17:24:03.0"/>
-    <Content contentId="1010943" dataResourceId="1011470" statusId="CTNT_PUBLISHED" contentName="Size Chart for Skirts" description="Size Chart for Skirts" createdDate="2013-12-20 17:23:56.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:03.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:03.0" lastUpdatedTxStamp="2013-12-20 17:24:03.0" createdStamp="2013-12-20 17:24:03.0" createdTxStamp="2013-12-20 17:24:03.0"/>
-    <ProductCategoryContent productCategoryId="SKIRTS" contentId="1010943" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:24:03.0" lastUpdatedStamp="2013-12-20 17:24:03.0" lastUpdatedTxStamp="2013-12-20 17:24:03.0" createdStamp="2013-12-20 17:24:03.0" createdTxStamp="2013-12-20 17:24:03.0"/>
-    <ElectronicText dataResourceId="1011470" lastUpdatedStamp="2013-12-20 17:24:03.0" lastUpdatedTxStamp="2013-12-20 17:24:03.0" createdStamp="2013-12-20 17:24:03.0" createdTxStamp="2013-12-20 17:24:03.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Skirts</h3>
-<@renderContentAsText contentId="SIZE_CHART_SKIRT"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011471" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:24:32.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:39.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:39.0" lastUpdatedTxStamp="2013-12-20 17:24:39.0" createdStamp="2013-12-20 17:24:39.0" createdTxStamp="2013-12-20 17:24:39.0"/>
-    <Content contentId="1010944" dataResourceId="1011471" statusId="CTNT_PUBLISHED" contentName="Size Chart for Sweaters" description="Size Chart for Sweaters" createdDate="2013-12-20 17:24:32.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:39.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:39.0" lastUpdatedTxStamp="2013-12-20 17:24:39.0" createdStamp="2013-12-20 17:24:39.0" createdTxStamp="2013-12-20 17:24:39.0"/>
-    <ProductCategoryContent productCategoryId="SWEATERS" contentId="1010944" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:24:39.0" lastUpdatedStamp="2013-12-20 17:24:39.0" lastUpdatedTxStamp="2013-12-20 17:24:39.0" createdStamp="2013-12-20 17:24:39.0" createdTxStamp="2013-12-20 17:24:39.0"/>
-    <ElectronicText dataResourceId="1011471" lastUpdatedStamp="2013-12-20 17:24:39.0" lastUpdatedTxStamp="2013-12-20 17:24:39.0" createdStamp="2013-12-20 17:24:39.0" createdTxStamp="2013-12-20 17:24:39.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Sweaters</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011472" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" createdDate="2013-12-20 17:24:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:57.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:57.0" lastUpdatedTxStamp="2013-12-20 17:24:57.0" createdStamp="2013-12-20 17:24:57.0" createdTxStamp="2013-12-20 17:24:57.0"/>
-    <Content contentId="1010945" dataResourceId="1011472" statusId="CTNT_PUBLISHED" contentName="Size Chart for Swimwear" description="Size Chart for Swimwear" createdDate="2013-12-20 17:24:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:24:57.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:24:57.0" lastUpdatedTxStamp="2013-12-20 17:24:57.0" createdStamp="2013-12-20 17:24:57.0" createdTxStamp="2013-12-20 17:24:57.0"/>
-    <ProductCategoryContent productCategoryId="SWIM" contentId="1010945" prodCatContentTypeId="PDP_ADDITIONAL" fromDate="2013-12-20 17:24:57.0" lastUpdatedStamp="2013-12-20 17:24:57.0" lastUpdatedTxStamp="2013-12-20 17:24:57.0" createdStamp="2013-12-20 17:24:57.0" createdTxStamp="2013-12-20 17:24:57.0"/>
-    <ElectronicText dataResourceId="1011472" lastUpdatedStamp="2013-12-20 17:24:57.0" lastUpdatedTxStamp="2013-12-20 17:24:57.0" createdStamp="2013-12-20 17:24:57.0" createdTxStamp="2013-12-20 17:24:57.0">
-        <textData><![CDATA[<h3>Size Chart: Women's Swimwear</h3>
-<@renderContentAsText contentId="SIZE_CHART_ACTIVE"/>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011440" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" localeString="en_US" mimeTypeId="application/octet-stream" createdDate="2013-12-19 16:16:28.0" createdByUserLogin="admin" lastModifiedDate="2013-12-19 16:16:36.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-19 16:16:36.0" lastUpdatedTxStamp="2013-12-19 16:16:36.0" createdStamp="2013-12-19 16:16:35.0" createdTxStamp="2013-12-19 16:16:35.0"/>
-    <Content contentId="1010920" dataResourceId="1011440" statusId="CTNT_PUBLISHED" contentName="MegaMenuApparel" description="Megamenu" localeString="en_US" createdDate="2013-12-19 16:16:28.0" createdByUserLogin="admin" lastModifiedDate="2013-12-19 16:16:36.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-19 16:16:36.0" lastUpdatedTxStamp="2013-12-19 16:16:36.0" createdStamp="2013-12-19 16:16:36.0" createdTxStamp="2013-12-19 16:16:35.0"/>
-    <ProductCategoryContent productCategoryId="APPAREL" contentId="1010920" prodCatContentTypeId="PLP_ESPOT_MEGA_MENU" fromDate="2013-12-19 16:16:36.0" lastUpdatedStamp="2013-12-19 16:16:36.0" lastUpdatedTxStamp="2013-12-19 16:16:35.0" createdStamp="2013-12-19 16:16:36.0" createdTxStamp="2013-12-19 16:16:35.0"/>
-    <ElectronicText dataResourceId="1011440" lastUpdatedStamp="2013-12-19 16:16:36.0" lastUpdatedTxStamp="2013-12-19 16:16:36.0" createdStamp="2013-12-19 16:16:35.0" createdTxStamp="2013-12-19 16:16:35.0">
-        <textData><![CDATA[<div style="width:600px;"><!-- floated parents need a width (total of children) -->
-
-<div style="float:left;"><!-- container 1 -->
-  <ul class="topLevel">
-   <li class="subLevel navfirstitem"><strong>Shop By Category</strong></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/active">Active</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/blouses">Blouses</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/denim">Denim</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/dresses">Dresses</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear">Intimates / Sleepwear</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/leggings">Leggings</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/outerwear-/-jackets">Outerwear / Jackets</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/pants">Pants</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/rompers">Rompers</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/shorts">Shorts</a></li>                    
-   <li class="subLevel "><a class="subLevel" href="/apparel/skirts">Skirts</a></li>
-   <li class="subLevel "><a class="subLevel" href="/apparel/sweaters">Sweaters</a></li>
-   <li class="subLevel navlastitem"><a class="subLevel" href="/apparel/swim">Swim</a></li>
-  </ul>
-</div>
-
-<div><!-- container 2 -->
-  <ul class="topLevel">
-    <li class="subLevel navfirstitem"><strong>Best Sellers</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/blouses?filterGroup=MATERIAL:Cotton">Cotton Blouses </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/apparel/denim?filterGroup=BRAND:Vera">Vera Wang Jeans</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/dresses?filterGroup=MATERIAL:Silk">Silk Dresses</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/intimates-/-sleepwear?filterGroup=MATERIAL:Cotton">Cotton Sleepwear</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Wool">Wool Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/apparel/pants?filterGroup=MATERIAL:Leather">Leather Pants</a></li>
-    <li class="subLevel "><a class="subLevel" href="/dresses/long-sleeve-goddess-dress-burgundy">Long Sleeve Goddess Dress </a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/shorts/tailored-shorts-black">Tailored Shorts</a></li>
-    <li class="subLevel "><strong class="subLevel">New Arrivals</strong></li>
-    <li class="subLevel "><a class="subLevel" href="/shoes/vanity-ankle-tie-sandals-blackwhite">Vanity Ankle Tie Sandals</a></li>                    
-    <li class="subLevel "><a class="subLevel" href="/active/bow-tee-black">Bow Tee</a></li>
-    <li class="subLevel "><a class="subLevel" href="/outerwear-/-jackets/blazer-with-leather-trim-blue">Blazer with Leather Trim</a></li>
-    <li class="subLevel navlastitem"><a class="subLevel" href="/swim/corsica-string-bikini-red">Corsica String Bikini</a></li>
-  </ul>
-</div>
-
-<div style="padding: 18px 0 0 0;"><!-- container 3 -->
-  <img src="/osafe_theme/images/user_content/images/freeDeliv.jpg" alt="free delivery" width="150" height="150"/>
-</div>
-</div>]]></textData>
     </ElectronicText>
     <DataResource dataResourceId="900042" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_DEACTIVATED" localeString="en_US" mimeTypeId="application/octet-stream" createdDate="2013-07-04 08:02:38.0" createdByUserLogin="admin" lastModifiedDate="2013-07-30 12:34:07.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-07-30 12:34:07.0" lastUpdatedTxStamp="2013-07-30 12:34:07.0" createdStamp="2013-07-04 08:02:38.0" createdTxStamp="2013-07-04 08:02:38.0"/>
     <Content contentId="900042" contentTypeId="DOCUMENT" dataResourceId="900042" statusId="CTNT_DEACTIVATED" contentName="123" description="test" localeString="en_US" createdDate="2013-07-04 08:02:38.0" createdByUserLogin="admin" lastModifiedDate="2013-07-30 12:34:07.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-07-30 12:34:07.0" lastUpdatedTxStamp="2013-07-30 12:34:07.0" createdStamp="2013-07-04 08:02:38.0" createdTxStamp="2013-07-04 08:02:38.0"/>
