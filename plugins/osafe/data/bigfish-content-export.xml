@@ -612,7 +612,7 @@
            <#if CAROUSEL_IMAGE_URL_1?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}" alt="01" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}" /></a>
                      </div>
                 </div>
            </#if>
@@ -620,7 +620,7 @@
            <#if CAROUSEL_IMAGE_URL_2?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}" alt="02" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}"  /></a>
                      </div>
                 </div>
            </#if>
@@ -628,7 +628,7 @@
            <#if CAROUSEL_IMAGE_URL_3?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}" alt="03" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}"  /></a>
                      </div>
                 </div>
            </#if>

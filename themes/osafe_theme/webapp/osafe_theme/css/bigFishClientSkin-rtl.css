@@ -358,10 +358,6 @@ input.submitOrder[type="submit"]:hover, input.submitOrder[type="button"]:hover, 
     float: right;
 }
 
-#eCommerceNavBarMenu ul{
-    right: -9999px;
-}
-
 #eCommerceNavBarMenu li:hover ul, #eCommerceNavBarMenu li.sfHover ul{
     right: 0;
 }

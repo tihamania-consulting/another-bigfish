@@ -34,8 +34,8 @@
 <ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="LIGHTING" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="170"/>
 <ProductCategory categoryImageUrl="" categoryName="Tableware_ceramic" primaryParentCategoryId="CERAMIC" productCategoryId="TABLEWARE_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY"/>
 <ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="TABLEWARE_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="180"/>
-<ProductCategory categoryImageUrl="" categoryName="Decoration_ceramic" primaryParentCategoryId="CERAMIC" productCategoryId="DECORATION_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY"/>
-<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="DECORATION_CERAMIC" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="211"/>
+<ProductCategory categoryImageUrl="" categoryName="DECORATION" primaryParentCategoryId="CERAMIC" productCategoryId="DECORATION" productCategoryTypeId="CATALOG_CATEGORY"/>
+<ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="CERAMIC" productCategoryId="DECORATION" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="211"/>
 <ProductCategory categoryImageUrl="" categoryName="Carpet" primaryParentCategoryId="TAPESTRY" productCategoryId="CARPET" productCategoryTypeId="CATALOG_CATEGORY"/>
 <ProductCategoryRollup fromDate="2013-02-12 12:00:36" parentProductCategoryId="TAPESTRY" productCategoryId="CARPET" productCategoryTypeId="CATALOG_CATEGORY" sequenceNum="240"/>
 <ProductCategory categoryImageUrl="" categoryName="Burnous" primaryParentCategoryId="APPAREL" productCategoryId="BURNOUS" productCategoryTypeId="CATALOG_CATEGORY"/>

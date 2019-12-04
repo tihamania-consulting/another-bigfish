@@ -3,7 +3,11 @@
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en" class="no-js">
+<#assign docLangAttr = locale.toString()?replace("_", "-")><#assign langDir = "ltr">
+<#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
+    <#assign langDir = "rtl">
+</#if>
+<html lang="en" class="no-js" dir="${langDir}">
 <!--<![endif]-->
 <#assign initialLocale = locale.toString()>
 <head>
@@ -16,10 +20,7 @@
     </#if> 
     <meta content="all,index,follow" name="robots"/>
 
-    <#assign docLangAttr = locale.toString()?replace("_", "-")><#assign langDir = "ltr">
-    <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
-        <#assign langDir = "rtl">
-    </#if>
+
 	<#assign titleWithOutHtml = StringUtil.wrapString(Static["com.osafe.util.Util"].stripHTMLInLength(metaTitle!title!productStore.title!"")!"") />
 	<#assign SEO_TITLE = Static["com.osafe.util.Util"].getProductStoreParm(request,"SEO_STORE_TITLE")!""/>
 	<#assign seoTitle = StringUtil.wrapString(Static["com.osafe.util.Util"].stripHTMLInLength(SEO_TITLE!productStore.storeName!"")!"") />
