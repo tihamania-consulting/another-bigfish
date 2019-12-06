@@ -3576,9 +3576,10 @@ public class ImportServices {
 	            rowString.setLength(0);
 	            rowString.append("<" + "ElectronicText" + " ");
 	            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
+	            rowString.append(">");
 	        
-	            rowString.append("textData" + "=\"" + contentValue + "\" ");
-	            rowString.append("/>");
+	            rowString.append("<textData> <![CDATA[" + contentValue + "]]></textData>");
+	            rowString.append("</ElectronicText>");
 	            bwOutFile.write(rowString.toString());
 	            bwOutFile.newLine();
 	            
