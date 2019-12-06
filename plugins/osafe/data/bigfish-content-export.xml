@@ -6,250 +6,6 @@
     <XContentXref bfContentId="10010" productStoreId="BF_STORE" contentId="TEST_CONTENT_56" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
     <ElectronicText dataResourceId="56620" textData="testing" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
 
-    <DataResource dataResourceId="1011450" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:05:47.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:05:47.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:05:47.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:47.0" createdTxStamp="2013-12-20 17:05:47.0"/>
-    <Content contentId="SIZE_CHART_BLOUSE" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011450" statusId="CTNT_PUBLISHED" contentName="Size Chart Blouse" description="Size Chart for Blouse Category" mimeTypeId="text/html" createdDate="2013-12-20 17:05:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:05:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:05:48.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:48.0" createdTxStamp="2013-12-20 17:05:47.0"/>
-    <XContentXref bfContentId="SIZE_CHART_BLOUSE" productStoreId="BF_STORE" contentId="SIZE_CHART_BLOUSE" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:05:48.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:48.0" createdTxStamp="2013-12-20 17:05:47.0"/>
-    <ElectronicText dataResourceId="1011450" lastUpdatedStamp="2013-12-20 17:05:48.0" lastUpdatedTxStamp="2013-12-20 17:05:47.0" createdStamp="2013-12-20 17:05:48.0" createdTxStamp="2013-12-20 17:05:47.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-                <table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>XS</td>
-                            <td>S</td>
-                            <td>M</td>
-                            <td>L</td>
-                            <td>XL</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Bust</td>
-                            <td>32''</td>
-                            <td>34''</td>
-                            <td>36''</td>
-                            <td>38''</td>
-                            <td>40''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Waist</td>
-                            <td>26''</td>
-                            <td>28''</td>
-                            <td>30''</td>
-                            <td>32''</td>
-                            <td>34''</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011451" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:06:47.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:06:47.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:06:47.0" lastUpdatedTxStamp="2013-12-20 17:06:47.0" createdStamp="2013-12-20 17:06:47.0" createdTxStamp="2013-12-20 17:06:47.0"/>
-    <Content contentId="SIZE_CHART_NONE" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011451" statusId="CTNT_PUBLISHED" contentName="Size Chart None" description="Content for categories that have no size chart" mimeTypeId="text/html" createdDate="2013-12-20 17:06:47.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:06:47.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:06:47.0" lastUpdatedTxStamp="2013-12-20 17:06:47.0" createdStamp="2013-12-20 17:06:47.0" createdTxStamp="2013-12-20 17:06:47.0"/>
-    <XContentXref bfContentId="SIZE_CHART_NONE" productStoreId="BF_STORE" contentId="SIZE_CHART_NONE" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:06:47.0" lastUpdatedTxStamp="2013-12-20 17:06:47.0" createdStamp="2013-12-20 17:06:47.0" createdTxStamp="2013-12-20 17:06:47.0"/>
-    <ElectronicText dataResourceId="1011451" textData="&lt;p&gt;No size chart available.  Please see product details for more information.&lt;/p&gt;" lastUpdatedStamp="2013-12-20 17:06:47.0" lastUpdatedTxStamp="2013-12-20 17:06:47.0" createdStamp="2013-12-20 17:06:47.0" createdTxStamp="2013-12-20 17:06:47.0"/>
-    <DataResource dataResourceId="1011453" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:07:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:07:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:07:48.0" lastUpdatedTxStamp="2013-12-20 17:07:48.0" createdStamp="2013-12-20 17:07:48.0" createdTxStamp="2013-12-20 17:07:48.0"/>
-    <Content contentId="SIZE_CHART_PANTS" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011453" statusId="CTNT_PUBLISHED" contentName="Size Chart Pants" description="Size Chart for Pants Category" mimeTypeId="text/html" createdDate="2013-12-20 17:07:48.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:07:48.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:07:48.0" lastUpdatedTxStamp="2013-12-20 17:07:48.0" createdStamp="2013-12-20 17:07:48.0" createdTxStamp="2013-12-20 17:07:48.0"/>
-    <XContentXref bfContentId="SIZE_CHART_PANTS" productStoreId="BF_STORE" contentId="SIZE_CHART_PANTS" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:07:48.0" lastUpdatedTxStamp="2013-12-20 17:07:48.0" createdStamp="2013-12-20 17:07:48.0" createdTxStamp="2013-12-20 17:07:48.0"/>
-    <ElectronicText dataResourceId="1011453" lastUpdatedStamp="2013-12-20 17:07:48.0" lastUpdatedTxStamp="2013-12-20 17:07:48.0" createdStamp="2013-12-20 17:07:48.0" createdTxStamp="2013-12-20 17:07:48.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-<table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>XS</td>
-                            <td>S</td>
-                            <td>M</td>
-                            <td>L</td>
-                            <td>XL</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>0</td>
-                            <td>0-2</td>
-                            <td>4-6</td>
-                            <td>8-10</td>
-                            <td>12-14</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Waist</td>
-                            <td>23-24''</td>
-                            <td>25-26''</td>
-                            <td>27-28''</td>
-                            <td>30-32''</td>
-                            <td>33-35''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Inseam</td>
-                            <td>29''</td>
-                            <td>30''</td>
-                            <td>32''</td>
-                            <td>33''</td>
-                            <td>34''</td>
-                        </tr>
-                    </tbody>
-                </table>
-</div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011454" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:08:15.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:08:15.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:08:15.0" lastUpdatedTxStamp="2013-12-20 17:08:15.0" createdStamp="2013-12-20 17:08:15.0" createdTxStamp="2013-12-20 17:08:15.0"/>
-    <Content contentId="SIZE_CHART_SHOES" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011454" statusId="CTNT_PUBLISHED" contentName="Size Chart Shoes" description="Size Chart for Shoes Category" mimeTypeId="text/html" createdDate="2013-12-20 17:08:15.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:08:15.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:08:15.0" lastUpdatedTxStamp="2013-12-20 17:08:15.0" createdStamp="2013-12-20 17:08:15.0" createdTxStamp="2013-12-20 17:08:15.0"/>
-    <XContentXref bfContentId="SIZE_CHART_SHOES" productStoreId="BF_STORE" contentId="SIZE_CHART_SHOES" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:08:15.0" lastUpdatedTxStamp="2013-12-20 17:08:15.0" createdStamp="2013-12-20 17:08:15.0" createdTxStamp="2013-12-20 17:08:15.0"/>
-    <ElectronicText dataResourceId="1011454" lastUpdatedStamp="2013-12-20 17:08:15.0" lastUpdatedTxStamp="2013-12-20 17:08:15.0" createdStamp="2013-12-20 17:08:15.0" createdTxStamp="2013-12-20 17:08:15.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-<table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>4</td>
-                            <td>4.5</td>
-                            <td>5</td>
-                            <td>5.5</td>
-                            <td>6</td>
-                            <td>6.5</td>
-                            <td>7</td>
-                            <td>7.5</td>
-                            <td>8</td>
-                            <td>8.5</td>
-                            <td>9</td>
-                            <td>9.5</td>
-                            <td>10</td>
-                            <td>10.5</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Inches</td>
-                            <td>8.1875"</td>
-                            <td>8.375"</td>
-                            <td>8.5"</td>
-                            <td>8.75"</td>
-                            <td>8.875''</td>
-                            <td>9.0625''</td>
-                            <td>9.25''</td>
-                            <td>9.375''</td>
-                            <td>38''</td>
-                            <td>9.5''</td>
-                            <td>9.6875''</td>
-                            <td>10''</td>
-                            <td>10.1875'</td>
-                            <td>10.3125''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">CM</td>
-                            <td>20.8</td>
-                            <td>21.3</td>
-                            <td>21.6</td>
-                            <td>22.2</td>
-                            <td>22.5</td>
-                            <td>23</td>
-                            <td>23.5</td>
-                            <td>23.8</td>
-                            <td>24.1</td>
-                            <td>24.6</td>
-                            <td>25.1</td>
-                            <td>25.4</td>
-                            <td>25.9</td>
-                            <td>26.2</td>
-                        </tr>
-                    </tbody>
-                </table>
-</div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011455" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:08:40.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:08:40.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:08:40.0" lastUpdatedTxStamp="2013-12-20 17:08:40.0" createdStamp="2013-12-20 17:08:40.0" createdTxStamp="2013-12-20 17:08:40.0"/>
-    <Content contentId="SIZE_CHART_SHORTS" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011455" statusId="CTNT_PUBLISHED" contentName="Size Chart Shorts" description="Size Chart for Shorts Category" mimeTypeId="text/html" createdDate="2013-12-20 17:08:40.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:08:40.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:08:40.0" lastUpdatedTxStamp="2013-12-20 17:08:40.0" createdStamp="2013-12-20 17:08:40.0" createdTxStamp="2013-12-20 17:08:40.0"/>
-    <XContentXref bfContentId="SIZE_CHART_SHORTS" productStoreId="BF_STORE" contentId="SIZE_CHART_SHORTS" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:08:40.0" lastUpdatedTxStamp="2013-12-20 17:08:40.0" createdStamp="2013-12-20 17:08:40.0" createdTxStamp="2013-12-20 17:08:40.0"/>
-    <ElectronicText dataResourceId="1011455" lastUpdatedStamp="2013-12-20 17:08:40.0" lastUpdatedTxStamp="2013-12-20 17:08:40.0" createdStamp="2013-12-20 17:08:40.0" createdTxStamp="2013-12-20 17:08:40.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-<table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>XS</td>
-                            <td>S</td>
-                            <td>M</td>
-                            <td>L</td>
-                            <td>XL</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>0</td>
-                            <td>0-2</td>
-                            <td>4-6</td>
-                            <td>8-10</td>
-                            <td>12-14</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Waist</td>
-                            <td>23-24''</td>
-                            <td>25-26''</td>
-                            <td>27-28''</td>
-                            <td>30-32''</td>
-                            <td>33-35''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Inseam</td>
-                            <td>5''</td>
-                            <td>5.5''</td>
-                            <td>6''</td>
-                            <td>6.5''</td>
-                            <td>6.5''</td>
-                        </tr>
-                    </tbody>
-                </table>
-</div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="1011456" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="text/html" createdDate="2013-12-20 17:09:12.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:09:12.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:09:12.0" lastUpdatedTxStamp="2013-12-20 17:09:11.0" createdStamp="2013-12-20 17:09:12.0" createdTxStamp="2013-12-20 17:09:11.0"/>
-    <Content contentId="SIZE_CHART_SKIRT" contentTypeId="BF_CONTENT_LIBRARY" dataResourceId="1011456" statusId="CTNT_PUBLISHED" contentName="Size Chart Skirt" description="Size Chart for Skirt Category" mimeTypeId="text/html" createdDate="2013-12-20 17:09:12.0" createdByUserLogin="admin" lastModifiedDate="2013-12-20 17:09:12.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-12-20 17:09:12.0" lastUpdatedTxStamp="2013-12-20 17:09:11.0" createdStamp="2013-12-20 17:09:12.0" createdTxStamp="2013-12-20 17:09:11.0"/>
-    <XContentXref bfContentId="SIZE_CHART_SKIRT" productStoreId="BF_STORE" contentId="SIZE_CHART_SKIRT" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-12-20 17:09:12.0" lastUpdatedTxStamp="2013-12-20 17:09:11.0" createdStamp="2013-12-20 17:09:12.0" createdTxStamp="2013-12-20 17:09:11.0"/>
-    <ElectronicText dataResourceId="1011456" lastUpdatedStamp="2013-12-20 17:09:12.0" lastUpdatedTxStamp="2013-12-20 17:09:11.0" createdStamp="2013-12-20 17:09:12.0" createdTxStamp="2013-12-20 17:09:11.0">
-        <textData><![CDATA[<div class="sizeChart" id="sizechart_Container">
-<table>
-                    <thead>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>XS</td>
-                            <td>S</td>
-                            <td>M</td>
-                            <td>L</td>
-                            <td>XL</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Size</td>
-                            <td>0</td>
-                            <td>0-2</td>
-                            <td>4-6</td>
-                            <td>8-10</td>
-                            <td>12-14</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Waist</td>
-                            <td>23-24''</td>
-                            <td>25-26''</td>
-                            <td>27-28''</td>
-                            <td>30-32''</td>
-                            <td>33-35''</td>
-                        </tr>
-                        <tr>
-                            <td style="width:150px;" class="infoColumn">Length</td>
-                            <td>29''</td>
-                            <td>30''</td>
-                            <td>32''</td>
-                            <td>33''</td>
-                            <td>34''</td>
-                        </tr>
-                    </tbody>
-                </table>
-</div>]]></textData>
-    </ElectronicText>
-    <DataResource dataResourceId="52800" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_DEACTIVATED" localeString="en_US" mimeTypeId="application/octet-stream" createdDate="2012-04-16 03:24:16.0" createdByUserLogin="admin" lastModifiedDate="2012-05-18 08:27:14.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
-    <Content contentId="TEST_CONTENT" contentTypeId="DOCUMENT" dataResourceId="52800" statusId="CTNT_DEACTIVATED" contentName="Test Content" description="This is for testing max length characterThis is for testing max length characterThis is for testing max length characterThis is for testing max length characterThis is for testing max length characterThis is for testing max length gfgfgf" localeString="en_US" createdDate="2012-04-16 03:24:16.0" createdByUserLogin="admin" lastModifiedDate="2012-05-18 08:27:14.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
-    <XContentXref bfContentId="TEST_CONTENT" productStoreId="BF_STORE" contentId="TEST_CONTENT" contentTypeId="BF_CONTENT_LIBRARY" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
-    <ElectronicText dataResourceId="52800" textData="Test Content" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2013-05-09 11:22:41.0" createdTxStamp="2013-05-09 11:22:41.0"/>
     <ContentType contentTypeId="BF_HOME_PAGE" hasTable="N" description="home page" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:52.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <DataResource dataResourceId="HPS_01" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" localeString="en_US" createdDate="2012-01-13 16:37:39.0" lastModifiedDate="2013-11-13 14:29:05.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-11-13 14:29:05.0" lastUpdatedTxStamp="2013-11-13 14:29:05.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <Content contentId="HPS_01" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_01" statusId="CTNT_PUBLISHED" contentName="Home Page Spot 1" description="Home Page Spot 1" localeString="en_US" createdDate="2012-01-13 16:37:39.0" lastModifiedDate="2012-09-25 11:02:18.0" lastUpdatedStamp="2013-12-03 13:42:46.0" lastUpdatedTxStamp="2013-12-03 13:42:45.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
@@ -372,7 +128,7 @@
            <#if CAROUSEL_IMAGE_URL_1?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}" alt="01" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}"  /></a>
                      </div>
                 </div>
            </#if>
@@ -380,7 +136,7 @@
            <#if CAROUSEL_IMAGE_URL_2?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}" alt="02" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}"  /></a>
                      </div>
                 </div>
            </#if>
@@ -388,7 +144,7 @@
            <#if CAROUSEL_IMAGE_URL_3?has_content>
                 <div class="showcase-slide">
                      <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}" alt="03" /></a>
+                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}"  /></a>
                      </div>
                 </div>
            </#if>
@@ -507,160 +263,13 @@
     <Content contentId="HPS_09" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_09" statusId="CTNT_IN_PROGRESS" contentName="Home Page Spot 9" description="Home Page Spot 9" localeString="en_US" createdDate="2012-04-23 13:03:25.0" lastModifiedDate="2012-04-23 15:18:18.0" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <XContentXref bfContentId="HPS_09" productStoreId="BF_STORE" contentId="HPS_09" contentTypeId="BF_HOME_PAGE" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:53.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <ElectronicText dataResourceId="HPS_09" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0">
-        <textData><![CDATA[<#--Carousel Settings/Options-->
- 
- <!--<img src="/osafe_theme/images/user_content/images/homespot1.jpg" alt="Home Spot 1"/>-->
- <#--Carousel Settings/Options-->
-
- <#--Width of Carousel Container Container & Image -->
- <#assign CAROUSEL_WIDTH="616"/>
-
- <#--Height of Carousel Container Container & Image -->
- <#assign CAROUSEL_HEIGHT="430"/>
-
- <#--Carousel Images Scroll Automatically "true" or "false" -->
- <#assign CAROUSEL_AUTO="true"/>
-
- <#--Carousel will start over after last slide shows "true" or "false" -->
- <#assign CAROUSEL_CONTINUOUS="true"/>
-
- <#--Carousel image display time in Milliseconds -->
- <#assign CAROUSEL_INTERVAL="3000"/>
-
- <#--Carousel starts when all images are loaded "true" or "false" ("true" is recommended) -->
- <#assign CAROUSEL_LOADING="true"/>
-
- <#-- Navigation on the right and left of carousel.  Arrow images defined in CSS -->
- <#assign CAROUSEL_ARROWS="true"/>
-
- <#-- Button Navigation on the Bottom of Carousel "true" or "false" -->
- <#assign CAROUSEL_BUTTONS="false"/>
-
- <#-- Converts Buttons to Numbers (Note: CAROUSEL_BUTTONS must be "true" to function) -->
- <#assign CAROUSEL_BTN_NUMBERS="false"/>
-
- <#-- Trace x and y coordinates for the mouse "true" or "false" -->
- <#assign CAROUSEL_MOUSE_TRACE="false"/>
-
- <#-- Pause Carousel while hovering over individual image "true" or "false" ("true" is recommended) -->
- <#assign CAROUSEL_PAUSE_ON_HOVER="true"/>
-
- <#-- Stop Carousel on mouse click "true" or "false" -->
- <#assign CAROUSEL_STOP_ON_CLICK="false"/>
-
- <#-- Type of Transition (hslide,vslide,fade) -->
- <#assign CAROUSEL_TRANSITION="fade"/>
-
- <#-- Delay Length Between Transitions in Milliseconds (Default = "0") -->
- <#assign CAROUSEL_TRANSITION_DELAY="0"/>
-
-
- <#-- Speed of Transitions in Milliseconds (Default = "1000") -->
- <#assign CAROUSEL_TRANSITION_SPEED="2000"/>
-
-
- <#--Carousel Images -->
-
- <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/versace-shoe-1.png"/>
- <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
- <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/versace-shoe-2.png"/>
- <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
- <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/versace-shoe-3.png"/>
- <#assign CAROUSEL_IMAGE_HREF_3=""/>
- <#assign CAROUSEL_IMAGE_URL_4=""/>
- <#assign CAROUSEL_IMAGE_HREF_4=""/>
- <#assign CAROUSEL_IMAGE_URL_5=""/>
- <#assign CAROUSEL_IMAGE_HREF_5=""/>
-
- <#-- Below is Carousel Code // All Adjustments should be made above -->
-
- <div class="defaultDevice">
-
- <script type="text/javascript">
- Event.onDOMReady(function()
- {
-     jQuery("#showcase").awShowcase (
-     {
-         content_width:  ${CAROUSEL_WIDTH!""},
-         content_height: ${CAROUSEL_HEIGHT!""},
-         auto: ${CAROUSEL_AUTO!""},
-         continuous: ${CAROUSEL_CONTINUOUS!""},
-         interval: ${CAROUSEL_INTERVAL!""},
-         loading: ${CAROUSEL_LOADING!""},
-         arrows: ${CAROUSEL_ARROWS!""},
-         buttons: ${CAROUSEL_BUTTONS!""},
-         btn_numbers: ${CAROUSEL_BTN_NUMBERS!""},
-         mousetrace: ${CAROUSEL_MOUSE_TRACE!""},
-         pauseonover: ${CAROUSEL_PAUSE_ON_HOVER!""},
-         stoponclick: ${CAROUSEL_STOP_ON_CLICK!""},
-         transition: '${CAROUSEL_TRANSITION!""}',
-         transition_delay: ${CAROUSEL_TRANSITION_DELAY!""},
-         transition_speed: ${CAROUSEL_TRANSITION_SPEED!""},
-         custom_function: null
-     });
- });
- </script>
-
- <div style="margin: auto;">
-      <a id="awOnePageButton" href="#showcase">
-           <span class="view-page">View As One Page</span>
-           <span class="view-slide">View As Slideshow</span>
-      </a>
-      <div id="showcase" class="showcase">
-
-           <!-- Each child div in #showcase represents a slide -->
-           <#if CAROUSEL_IMAGE_URL_1?has_content>
-                <div class="showcase-slide">
-                     <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_1}"><img src="${CAROUSEL_IMAGE_URL_1}" /></a>
-                     </div>
-                </div>
-           </#if>
-
-           <#if CAROUSEL_IMAGE_URL_2?has_content>
-                <div class="showcase-slide">
-                     <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_2}"><img src="${CAROUSEL_IMAGE_URL_2}"  /></a>
-                     </div>
-                </div>
-           </#if>
-
-           <#if CAROUSEL_IMAGE_URL_3?has_content>
-                <div class="showcase-slide">
-                     <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_3}"><img src="${CAROUSEL_IMAGE_URL_3}"  /></a>
-                     </div>
-                </div>
-           </#if>
-
-           <#if CAROUSEL_IMAGE_URL_4?has_content>
-                <div class="showcase-slide">
-                     <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_4}"><img src="${CAROUSEL_IMAGE_URL_4}" alt="04" /></a>
-                     </div>
-                </div>
-           </#if>
-
-           <#if CAROUSEL_IMAGE_URL_5?has_content>
-                <div class="showcase-slide">
-                     <div class="showcase-content">
-                          <a href="${CAROUSEL_IMAGE_HREF_5}"><img src="${CAROUSEL_IMAGE_URL_5}" alt="05" /></a>
-                     </div>
-                </div>
-           </#if>
-
-      </div>
- </div>
- <div id="awOnePageButton"></div>
- </div>]]></textData>
+        <textData/>
     </ElectronicText>
     <DataResource dataResourceId="HPS_10" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_DEACTIVATED" localeString="en_US" createdDate="2012-04-23 13:08:04.0" lastModifiedDate="2012-04-23 15:18:25.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <Content contentId="HPS_10" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_10" statusId="CTNT_IN_PROGRESS" contentName="Home Page Spot 10" description="Home Page Spot 10" localeString="en_US" createdDate="2012-04-23 13:08:04.0" lastModifiedDate="2012-04-23 15:18:25.0" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <XContentXref bfContentId="HPS_10" productStoreId="BF_STORE" contentId="HPS_10" contentTypeId="BF_HOME_PAGE" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2012-07-17 13:40:53.0" createdTxStamp="2012-07-17 13:40:51.0"/>
     <ElectronicText dataResourceId="HPS_10" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0">
-        <textData><![CDATA[<img src="/osafe_theme/images/user_content/images/center-right.png" alt="Home Spot 10"/>
- 
- <!-- Alternate img src="/osafe_theme/images/user_content/images/center-right-alt.png" alt="Home Spot 10"/> -->]]></textData>
+        <textData>/>
     </ElectronicText>
     <DataResource dataResourceId="HPS_11" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_DEACTIVATED" localeString="en_US" createdDate="2012-04-23 13:09:31.0" lastModifiedDate="2012-04-23 15:18:31.0" lastModifiedByUserLogin="admin" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
     <Content contentId="HPS_11" contentTypeId="BF_HOME_PAGE" dataResourceId="HPS_11" statusId="CTNT_IN_PROGRESS" contentName="Home Page Spot 11" description="Home Page Spot 11" localeString="en_US" createdDate="2012-04-23 13:09:31.0" lastModifiedDate="2012-04-23 15:18:31.0" lastUpdatedStamp="2013-05-09 11:22:41.0" lastUpdatedTxStamp="2013-05-09 11:22:41.0" createdStamp="2011-09-30 15:12:13.0" createdTxStamp="2011-09-30 15:12:13.0"/>
