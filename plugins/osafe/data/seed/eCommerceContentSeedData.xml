@@ -9,17 +9,42 @@
         <li class="mobileRemove"><a href="<@ofbizUrl>contactUs</@ofbizUrl>">Contact Us</a></li>
         <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">Request Catalog</a></li>
         <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">Find Store</a></li>
-            <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
-                <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">Logout</a></li>
-            <#else/>
-                <li class="last"><a href="<@ofbizUrl>checkLogin</@ofbizUrl>">Sign In</a></li>
-            </#if>
+        <li class="mobileRemove"><a href="/setSessionLocale?newLocale=en">English</a></li>
+        <li class="mobileRemove"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+        <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
+            <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">Logout</a></li>
+        <#else/>
+            <li class="last"><a href="<@ofbizUrl>checkLogin</@ofbizUrl>">Sign In</a></li>
+        </#if>
     </ul>
 ]]>
 </textData>
 </ElectronicText>
 
-<!-- Head Content -->
+<Content contentId="SI_HEADER_CONTENT_AR" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_HEADER_CONTENT_AR">
+<textData><![CDATA[
+ <ul>
+      <li><a href="<@ofbizUrl>MyAccount</@ofbizUrl>">حسابي</a></li>
+      <li class="mobileRemove"><a href="<@ofbizUrl>contactUs</@ofbizUrl>">اتصل بنا</a></li>
+      <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">أطلب كاتالوج</a></li>
+      <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">ابحث عن محل</a></li>
+      <li class="mobileRemove"><a href="/setSessionLocale?newLocale=en">English</a></li>
+      <li class="mobileRemove"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+          <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
+              <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">خروج</a></li>
+          <#else/>
+              <li class="last"><a href="<@ofbizUrl>checkLogin</@ofbizUrl>">دخول</a></li>
+          </#if>
+  </ul>
+]]>
+</textData>
+</ElectronicText>
+
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SI_HEADER_CONTENT" contentIdTo="SI_HEADER_CONTENT_AR" fromDate="2013-01-02 01:01:01"/>
+
+
+ <!-- Head Content -->
 <Content contentId="SI_HEAD_TAG_CONTENT" statusId="CTNT_PUBLISHED"/>
 <ElectronicText dataResourceId="SI_HEAD_TAG_CONTENT">
 <textData><![CDATA[
@@ -116,7 +141,30 @@
 </textData>
 </ElectronicText>
 
-<!-- SI Search -->
+ <Content contentId="SI_SHOPPING_CART_AR" statusId="CTNT_PUBLISHED"/>
+ <ElectronicText dataResourceId="SI_SHOPPING_CART_AR">
+  <textData><![CDATA[
+   <p>السلة</p>
+        <div id="siteCartStats">
+            <div class="highlightGroup">
+                <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" id="siteShoppingCartSize" class=" showLightBoxCart">
+                    <span>${CART_ITEMS_QTY!}</span>
+                    <#if  CART_ITEMS_QTY?has_content && ((CART_ITEMS_QTY gt 1) || (CART_ITEMS_QTY == 0))>Items<#else>Item</#if></a>
+                    <#if  CART_ITEMS_QTY?has_content && (CART_ITEMS_QTY gt 0)>
+                      <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" class="price"><@ofbizCurrency amount=CART.getGrandTotal()   isoCode=CURRENCY_UOM_DEFAULT!CART.getCurrency()/></a>
+                    <#else>
+                      <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" class="price"><@ofbizCurrency isoCode=CURRENCY_UOM_DEFAULT!CART.getCurrency()/></a>
+                    </#if>
+           </div>
+      </div>
+
+]]>
+  </textData>
+ </ElectronicText>
+ <ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SI_SHOPPING_CART" contentIdTo="SI_SHOPPING_CART_AR" fromDate="2013-01-02 01:01:01"/>
+
+
+ <!-- SI Search -->
 <Content contentId="SI_SEARCH" statusId="CTNT_PUBLISHED"/>
 <ElectronicText dataResourceId="SI_SEARCH">
 <textData><![CDATA[

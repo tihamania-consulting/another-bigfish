@@ -58,6 +58,12 @@ public class CategoryType {
     protected String description;
     @XmlElement(name = "LongDescription", defaultValue = "")
     protected String longDescription;
+    @XmlElement(name = "CategoryNameAr", required = true, defaultValue = "")
+    protected String categoryNameAr;
+    @XmlElement(name = "DescriptionAr", required = true, defaultValue = "")
+    protected String descriptionAr;
+    @XmlElement(name = "LongDescriptionAr", defaultValue = "")
+    protected String longDescriptionAr;
     @XmlElement(name = "AdditionalPlpText", defaultValue = "")
     protected String additionalPlpText;
     @XmlElement(name = "AdditionalPdpText", defaultValue = "")
@@ -309,4 +315,28 @@ public class CategoryType {
         this.thruDate = value;
     }
 
+
+    public String getCategoryNameAr() {
+        return categoryNameAr;
+    }
+
+    public void setCategoryNameAr(String categoryNameAr) {
+        this.categoryNameAr = categoryNameAr;
+    }
+
+    public String getDescriptionAr() {
+        return descriptionAr;
+    }
+
+    public void setDescriptionAr(String descriptionAr) {
+        this.descriptionAr = descriptionAr;
+    }
+
+    public String getLongDescriptionAr() {
+        return longDescriptionAr;
+    }
+
+    public void setLongDescriptionAr(String longDescriptionAr) {
+        this.longDescriptionAr = longDescriptionAr;
+    }
 }

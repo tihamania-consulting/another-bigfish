@@ -133,12 +133,15 @@
     <field name="rowType" type="string" indexed="true" stored="true" required="true"/>
     <field name="productId" type="string" indexed="true" stored="true" required="false"/>
     <field name="name" type="string" indexed="true" stored="true" required="false"/>
+    <field name="nameAr" type="string" indexed="true" stored="true" required="false"/>
     <field name="internalName" type="string" indexed="true" stored="true" required="false"/>
     <field name="description" type="text_general" indexed="true" stored="true" required="false"/>
+    <field name="descriptionAr" type="text_general" indexed="true" stored="true" required="false"/>
     <field name="productCategoryId" type="text_ws" indexed="true" stored="true" required="false" />
     <field name="topMostProductCategoryId" type="text_ws" indexed="true" stored="true" required="false"/>
     <field name="categoryLevel" type="int" indexed="true" stored="true" required="false"/>
     <field name="categoryName" type="text_general" indexed="true" stored="true" required="false"/>
+    <field name="categoryNameAr" type="text_general" indexed="true" stored="true" required="false"/>
     <field name="categoryDescription" type="text_general" indexed="true" stored="true" required="false"/>
     <field name="categoryPdpDescription" type="text_general" indexed="true" stored="true" required="false"/>
     <field name="categoryImageUrl" type="string" indexed="false" stored="true" required="false"/>

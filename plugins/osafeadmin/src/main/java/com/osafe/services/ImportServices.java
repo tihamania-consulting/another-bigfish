@@ -15,6 +15,7 @@ import java.sql.Date;
 import java.sql.Timestamp;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -28,7 +29,6 @@ import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.Set;
 
-import javax.servlet.ServletRequest;
 import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -41,7 +41,6 @@ import javax.xml.namespace.QName;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 
-import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
 import jxl.Cell;
@@ -1758,8 +1757,11 @@ public class ImportServices {
    	    headerCols.add("productCategoryId");
    	    headerCols.add("parentCategoryId");
    	    headerCols.add("categoryName");
+   	    headerCols.add("categoryNameAr");
    	    headerCols.add("description");
+   	    headerCols.add("descriptionAr");
    	    headerCols.add("longDescription");
+   	    headerCols.add("longDescriptionAr");
    	    headerCols.add("plpImageName");
    	    headerCols.add("plpText");
    	    headerCols.add("pdpText");
@@ -1776,14 +1778,22 @@ public class ImportServices {
    	    headerCols.add("productCategoryId");
    	    headerCols.add("internalName");
    	    headerCols.add("productName");
+   	    headerCols.add("productNameAr");
    	    headerCols.add("salesPitch");
+   	    headerCols.add("salesPitchAr");
    	    headerCols.add("longDescription");
+   	    headerCols.add("longDescriptionAr");
    	    headerCols.add("specialInstructions");
+   	    headerCols.add("specialInstructionsAr");
    	    headerCols.add("deliveryInfo");
+   	    headerCols.add("deliveryInfoAr");
    	    headerCols.add("directions");
    	    headerCols.add("termsConditions");
+   	    headerCols.add("termsConditionsAr");
    	    headerCols.add("ingredients");
+   	    headerCols.add("ingredientsAr");
    	    headerCols.add("warnings");
+   	    headerCols.add("warningsAr");
    	    headerCols.add("plpLabel");
    	    headerCols.add("pdpLabel");
    	    headerCols.add("listPrice");
@@ -2226,6 +2236,23 @@ public class ImportServices {
                      rowString.append("linkTwoImageUrl" + "=\"" + "" + "\" ");
                      rowString.append("detailScreen" + "=\"" + "" + "\" ");
                      rowString.append("/>");
+                     
+                     if (mRow.get("categoryNameAr") != null) {
+                         String dataResourceId = _delegator.getNextSeqId("DataResource");
+                         String contentId = _delegator.getNextSeqId("Content");
+                         buildContentTextRow(rowString, bwOutFile, "categoryName", dataResourceId ,  (String)mRow.get("categoryName"), "");
+                         buildContentTextRow(rowString, bwOutFile, "categoryName", dataResourceId ,  (String)mRow.get("categoryNameAr"), "ar");
+                         buildContentRow(rowString, "categoryName", contentId, dataResourceId, "");
+                         buildContentRow(rowString, "categoryName", contentId, dataResourceId, "ar");
+                         bwOutFile.newLine();
+                         rowString.append("<ProductCategoryContent ");
+                         rowString.append("contentId" + "=\"" + contentId + "\" ");
+                         rowString.append("prodCatContentTypeId" + "=\"CATEGORY_NAME\" ");
+                         rowString.append("productCategoryId" + "=\"" +  mRow.get("productCategoryId") + "\" ");
+                         rowString.append("fromDate" + "=\"2019-12-10 09:05:00\" ");
+                         rowString.append("/>");
+                         bwOutFile.newLine();
+                     }
                     bwOutFile.write(rowString.toString());
                     bwOutFile.newLine();
                     try
@@ -3532,6 +3559,7 @@ public class ImportServices {
     	try {
     		
 			String contentValue=(String)mRow.get(colName);
+			String contentValueAr= mRow.get(colName + "Ar") == null ? null : (String) mRow.get(colName + "Ar");
 			if (UtilValidate.isEmpty(contentValue) && UtilValidate.isEmpty(contentValue.trim()))
 			{
 				return;
@@ -3555,36 +3583,13 @@ public class ImportServices {
 
 			if ("text".equals(contentType))
 			{
-	            rowString.setLength(0);
-	            rowString.append("<" + "DataResource" + " ");
-	            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-	            rowString.append("dataResourceTypeId" + "=\"" + "ELECTRONIC_TEXT" + "\" ");
-	            rowString.append("dataTemplateTypeId" + "=\"" + "FTL" + "\" ");
-	            rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
-	            rowString.append("dataResourceName" + "=\"" + colName + "\" ");
-	            if(UtilValidate.isNotEmpty(localeString))
-	            {
-	            	rowString.append("localeString" + "=\"" + localeString + "\" ");
-	            }
-	            rowString.append("mimeTypeId" + "=\"" + "application/octet-stream" + "\" ");
-	            rowString.append("objectInfo" + "=\"" + "" + "\" ");
-	            rowString.append("isPublic" + "=\"" + "Y" + "\" ");
-	            rowString.append("/>");
-	            bwOutFile.write(rowString.toString());
-	            bwOutFile.newLine();
+                buildContentTextRow(rowString, bwOutFile, colName, dataResourceId, contentValue, "");
+                if (contentValueAr != null) {
+                    buildContentTextRow(rowString, bwOutFile, colName, dataResourceId, contentValueAr, "ar");
+                }
 
-	            rowString.setLength(0);
-	            rowString.append("<" + "ElectronicText" + " ");
-	            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-	            rowString.append(">");
-	        
-	            rowString.append("<textData> <![CDATA[" + contentValue + "]]></textData>");
-	            rowString.append("</ElectronicText>");
-	            bwOutFile.write(rowString.toString());
-	            bwOutFile.newLine();
-	            
-	            
-			}
+
+            }
 			else
 			{
 	            rowString.setLength(0);
@@ -3622,17 +3627,10 @@ public class ImportServices {
 			}
 
             rowString.setLength(0);
-            rowString.append("<" + "Content" + " ");
-            rowString.append("contentId" + "=\"" + contentId + "\" ");
-            rowString.append("contentTypeId" + "=\"" + "DOCUMENT" + "\" ");
-            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-            rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
-            rowString.append("contentName" + "=\"" + colName + "\" ");
-            if(UtilValidate.isNotEmpty(localeString))
-            {
-            	rowString.append("localeString" + "=\"" + localeString + "\" ");
+            buildContentRow(rowString, colName, contentId, dataResourceId, "");
+            if (contentValueAr != null) {
+                buildContentRow(rowString, colName, contentId, dataResourceId, "ar");
             }
-            rowString.append("/>");
             bwOutFile.write(rowString.toString());
             bwOutFile.newLine();
 			
@@ -3664,7 +3662,61 @@ public class ImportServices {
      	 return;
     	
     }
-    
+
+    private static void buildContentRow(StringBuilder rowString, String colName, String contentId, String dataResourceId, String translateLocale) {
+        rowString.append("<" + "Content" + " ");
+        rowString.append("contentId" + "=\"" + contentId + translateLocale + "\" ");
+        rowString.append("contentTypeId" + "=\"" + "DOCUMENT" + "\" ");
+        rowString.append("dataResourceId" + "=\"" + dataResourceId + translateLocale + "\" ");
+        rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
+        rowString.append("contentName" + "=\"" + colName + "\" ");
+        if(UtilValidate.isNotEmpty(translateLocale))
+        {
+            rowString.append("localeString" + "=\"" + translateLocale + "\" ");
+        }
+        rowString.append("/>");
+
+        if(UtilValidate.isNotEmpty(translateLocale))
+        {
+            rowString.append("<" + "ContentAssoc" + " ");
+            rowString.append("contentAssocTypeId" + "=\"" + "ALTERNATE_LOCALE" + "\" ");
+            rowString.append("contentId" + "=\"" + contentId  + "\" ");
+            rowString.append("contentIdTo" + "=\"" + contentId + translateLocale + "\" ");
+            rowString.append("fromDate=\"2019-12-09 15:01:00\" ");
+            rowString.append("/>");
+        }
+    }
+
+    private static void buildContentTextRow(StringBuilder rowString, BufferedWriter bwOutFile, String colName, String dataResourceId, String contentValue, String translateLocale) throws IOException {
+        rowString.setLength(0);
+        rowString.append("<" + "DataResource" + " ");
+        rowString.append("dataResourceId" + "=\"" + dataResourceId +  translateLocale + "\" ");
+        rowString.append("dataResourceTypeId" + "=\"" + "ELECTRONIC_TEXT" + "\" ");
+        rowString.append("dataTemplateTypeId" + "=\"" + "FTL" + "\" ");
+        rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
+        rowString.append("dataResourceName" + "=\"" + colName + "\" ");
+        if(UtilValidate.isNotEmpty(translateLocale))
+        {
+            rowString.append("localeString" + "=\"" + translateLocale + "\" ");
+        }
+        rowString.append("mimeTypeId" + "=\"" + "application/octet-stream" + "\" ");
+        rowString.append("objectInfo" + "=\"" + "" + "\" ");
+        rowString.append("isPublic" + "=\"" + "Y" + "\" ");
+        rowString.append("/>");
+        bwOutFile.write(rowString.toString());
+        bwOutFile.newLine();
+
+        rowString.setLength(0);
+        rowString.append("<" + "ElectronicText" + " ");
+        rowString.append("dataResourceId" + "=\"" + dataResourceId +  translateLocale + "\" ");
+        rowString.append(">");
+
+        rowString.append("<textData> <![CDATA[" + contentValue + "]]></textData>");
+        rowString.append("</ElectronicText>");
+        bwOutFile.write(rowString.toString());
+        bwOutFile.newLine();
+    }
+
     private static void addCategoryContentRow(StringBuilder rowString,Map mRow,BufferedWriter bwOutFile,String contentType,String categoryContentType,String colName) {
 
 		String objectImagePath = OSAFE_PROP.getString("productCategoryImagesPath");
@@ -3764,17 +3816,7 @@ public class ImportServices {
 			}
 
             rowString.setLength(0);
-            rowString.append("<" + "Content" + " ");
-            rowString.append("contentId" + "=\"" + contentId + "\" ");
-            rowString.append("contentTypeId" + "=\"" + "DOCUMENT" + "\" ");
-            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-            rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
-            rowString.append("contentName" + "=\"" + colName + "\" ");
-            if(UtilValidate.isNotEmpty(localeString))
-            {
-            	rowString.append("localeString" + "=\"" + localeString + "\" ");
-            }
-            rowString.append("/>");
+            buildContentRow(rowString, colName, contentId, dataResourceId, "");
             bwOutFile.write(rowString.toString());
             bwOutFile.newLine();
 			String sFromDate = (String)mRow.get("fromDate");
@@ -4096,17 +4138,7 @@ public class ImportServices {
 			}
 
             rowString.setLength(0);
-            rowString.append("<" + "Content" + " ");
-            rowString.append("contentId" + "=\"" + contentId + "\" ");
-            rowString.append("contentTypeId" + "=\"" + "DOCUMENT" + "\" ");
-            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-            rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
-            rowString.append("contentName" + "=\"" + colName + "\" ");
-            if(UtilValidate.isNotEmpty(localeString))
-            {
-            	rowString.append("localeString" + "=\"" + localeString + "\" ");
-            }
-            rowString.append("/>");
+            buildContentRow(rowString, colName, contentId, dataResourceId, "");
             bwOutFile.write(rowString.toString());
             bwOutFile.newLine();
 			
@@ -8511,8 +8543,11 @@ public class ImportServices {
                 mRows.put("productCategoryId",productCategory.getCategoryId());
                 mRows.put("parentCategoryId",productCategory.getParentCategoryId());
                 mRows.put("categoryName",productCategory.getCategoryName());
+                mRows.put("categoryNameAr",productCategory.getCategoryNameAr());
                 mRows.put("description",productCategory.getDescription());
+                mRows.put("descriptionAr",productCategory.getDescriptionAr());
                 mRows.put("longDescription",productCategory.getLongDescription());
+                mRows.put("longDescriptionAr",productCategory.getLongDescriptionAr());
                 mRows.put("plpText",productCategory.getAdditionalPlpText());
                 mRows.put("pdpText",productCategory.getAdditionalPdpText());
                 mRows.put("fromDate",productCategory.getFromDate());
@@ -8761,14 +8796,22 @@ public class ImportServices {
                 mRows.put("productId",product.getProductId());
                 mRows.put("internalName",product.getInternalName());
                 mRows.put("productName",product.getProductName());
+                mRows.put("productNameAr",product.getProductNameAr());
                 mRows.put("salesPitch",product.getSalesPitch());
+                mRows.put("salesPitchAr",product.getSalesPitchAr());
                 mRows.put("longDescription",product.getLongDescription());
+                mRows.put("longDescriptionAr",product.getLongDescriptionAr());
                 mRows.put("specialInstructions",product.getSpecialInstructions());
+                mRows.put("specialInstructionsAr",product.getSpecialInstructionsAr());
                 mRows.put("deliveryInfo",product.getDeliveryInfo());
+                mRows.put("deliveryInfoAr",product.getDeliveryInfoAr());
                 mRows.put("directions",product.getDirections());
                 mRows.put("termsConditions",product.getTermsAndConds());
+                mRows.put("termsConditionsAr",product.getTermsAndCondsAr());
                 mRows.put("ingredients",product.getIngredients());
+                mRows.put("ingredientsAr",product.getIngredientsAr());
                 mRows.put("warnings",product.getWarnings());
+                mRows.put("warningsAr",product.getWarningsAr());
                 mRows.put("plpLabel",product.getPlpLabel());
                 mRows.put("pdpLabel",product.getPdpLabel());
                 mRows.put("productHeight",product.getProductHeight());
@@ -9992,17 +10035,7 @@ public class ImportServices {
 			}
 
 			rowString.setLength(0);
-            rowString.append("<" + "Content" + " ");
-            rowString.append("contentId" + "=\"" + contentId + "\" ");
-            rowString.append("contentTypeId" + "=\"" + "DOCUMENT" + "\" ");
-            rowString.append("dataResourceId" + "=\"" + dataResourceId + "\" ");
-            rowString.append("statusId" + "=\"" + "CTNT_PUBLISHED" + "\" ");
-            rowString.append("contentName" + "=\"" + colName + "\" ");
-            if(UtilValidate.isNotEmpty(localeString))
-            {
-            	rowString.append("localeString" + "=\"" + localeString + "\" ");
-            }
-            rowString.append("/>");
+            buildContentRow(rowString, colName, contentId, dataResourceId, "");
             bwOutFile.write(rowString.toString());
             bwOutFile.newLine();
             String fromDate=(String)mRow.get("fromDate");
@@ -16566,8 +16599,11 @@ public class ImportServices {
                 dataRow.put(Constants.CATEGORY_ID_DATA_KEY, mRow.get("productCategoryId"));
                 dataRow.put(Constants.CATEGORY_PARENT_DATA_KEY, mRow.get("parentCategoryId"));
                 dataRow.put(Constants.CATEGORY_NAME_DATA_KEY, mRow.get("categoryName"));
+                dataRow.put(Constants.CATEGORY_NAME_AR_DATA_KEY, mRow.get("categoryNameAr"));
                 dataRow.put(Constants.CATEGORY_DESC_DATA_KEY, mRow.get("description"));
+                dataRow.put(Constants.CATEGORY_DESC_AR_DATA_KEY, mRow.get("descriptionAr"));
                 dataRow.put(Constants.CATEGORY_LONG_DESC_DATA_KEY, mRow.get("longDescription"));
+                dataRow.put(Constants.CATEGORY_LONG_DESC_AR_DATA_KEY, mRow.get("longDescriptionAr"));
                 dataRow.put(Constants.CATEGORY_PLP_TEXT_DATA_KEY, mRow.get("plpText"));
                 dataRow.put(Constants.CATEGORY_PDP_TEXT_DATA_KEY, mRow.get("pdpText"));
                 dataRow.put(Constants.CATEGORY_PLP_IMG_NAME_DATA_KEY, mRow.get("plpImageName"));
@@ -17292,14 +17328,22 @@ public class ImportServices {
             dataRow.put(Constants.PRODUCT_MANUFACT_PARTY_ID_DATA_KEY, mRow.get("manufacturerId"));
 
             dataRow.put(Constants.PRODUCT_NAME_DATA_KEY, mRow.get("productName"));
+            dataRow.put(Constants.PRODUCT_NAME_AR_DATA_KEY, mRow.get("productNameAr"));
             dataRow.put(Constants.PRODUCT_SALES_PITCH_DATA_KEY, mRow.get("salesPitch"));
+            dataRow.put(Constants.PRODUCT_SALES_PITCH_AR_DATA_KEY, mRow.get("salesPitchAr"));
             dataRow.put(Constants.PRODUCT_LONG_DESC_DATA_KEY, mRow.get("longDescription"));
+            dataRow.put(Constants.PRODUCT_LONG_DESC_AR_DATA_KEY, mRow.get("longDescriptionAr"));
             dataRow.put(Constants.PRODUCT_SPCL_INS_DATA_KEY, mRow.get("specialInstructions"));
+            dataRow.put(Constants.PRODUCT_SPCL_INS_AR_DATA_KEY, mRow.get("specialInstructionsAr"));
             dataRow.put(Constants.PRODUCT_DELIVERY_INFO_DATA_KEY, mRow.get("deliveryInfo"));
+            dataRow.put(Constants.PRODUCT_DELIVERY_INFO_AR_DATA_KEY, mRow.get("deliveryInfoAr"));
             dataRow.put(Constants.PRODUCT_DIRECTIONS_DATA_KEY, mRow.get("directions"));
             dataRow.put(Constants.PRODUCT_TERMS_COND_DATA_KEY, mRow.get("termsConditions"));
+            dataRow.put(Constants.PRODUCT_TERMS_COND_AR_DATA_KEY, mRow.get("termsConditionsAr"));
             dataRow.put(Constants.PRODUCT_INGREDIENTS_DATA_KEY, mRow.get("ingredients"));
+            dataRow.put(Constants.PRODUCT_INGREDIENTS_AR_DATA_KEY, mRow.get("ingredientsAr"));
             dataRow.put(Constants.PRODUCT_WARNING_DATA_KEY, mRow.get("warnings"));
+            dataRow.put(Constants.PRODUCT_WARNING_AR_DATA_KEY, mRow.get("warningsAr"));
             dataRow.put(Constants.PRODUCT_PLP_LABEL_DATA_KEY, mRow.get("plpLabel"));
             dataRow.put(Constants.PRODUCT_PDP_LABEL_DATA_KEY, mRow.get("pdpLabel"));
 
@@ -18550,8 +18594,11 @@ public class ImportServices {
             category.setCategoryId(getString(dataRow.get(Constants.CATEGORY_ID_DATA_KEY)));
             category.setParentCategoryId(getString(dataRow.get(Constants.CATEGORY_PARENT_DATA_KEY)));
             category.setCategoryName(getString(dataRow.get(Constants.CATEGORY_NAME_DATA_KEY)));
+            category.setCategoryNameAr(getString(dataRow.get(Constants.CATEGORY_NAME_AR_DATA_KEY)));
             category.setDescription(getString(dataRow.get(Constants.CATEGORY_DESC_DATA_KEY)));
+            category.setDescriptionAr(getString(dataRow.get(Constants.CATEGORY_DESC_AR_DATA_KEY)));
             category.setLongDescription(getString(dataRow.get(Constants.CATEGORY_LONG_DESC_DATA_KEY)));
+            category.setLongDescriptionAr(getString(dataRow.get(Constants.CATEGORY_LONG_DESC_AR_DATA_KEY)));
             PlpImageType plpImage = factory.createPlpImageType();
             plpImage.setUrl(getString(dataRow.get(Constants.CATEGORY_PLP_IMG_NAME_DATA_KEY)));
             category.setPlpImage(plpImage);
@@ -18735,14 +18782,22 @@ public class ImportServices {
 
             productType.setInternalName(getString(dataRow.get(Constants.PRODUCT_INTERNAL_NAME_DATA_KEY)));
             productType.setProductName(getString(dataRow.get(Constants.PRODUCT_NAME_DATA_KEY)));
+            productType.setProductNameAr(getString(dataRow.get(Constants.PRODUCT_NAME_AR_DATA_KEY)));
             productType.setSalesPitch(getString(dataRow.get(Constants.PRODUCT_SALES_PITCH_DATA_KEY)));
+            productType.setSalesPitchAr(getString(dataRow.get(Constants.PRODUCT_SALES_PITCH_AR_DATA_KEY)));
             productType.setLongDescription(getString(dataRow.get(Constants.PRODUCT_LONG_DESC_DATA_KEY)));
+            productType.setLongDescriptionAr(getString(dataRow.get(Constants.PRODUCT_LONG_DESC_AR_DATA_KEY)));
             productType.setSpecialInstructions(getString(dataRow.get(Constants.PRODUCT_SPCL_INS_DATA_KEY)));
+            productType.setSpecialInstructionsAr(getString(dataRow.get(Constants.PRODUCT_SPCL_INS_AR_DATA_KEY)));
             productType.setDeliveryInfo(getString(dataRow.get(Constants.PRODUCT_DELIVERY_INFO_DATA_KEY)));
+            productType.setDeliveryInfoAr(getString(dataRow.get(Constants.PRODUCT_DELIVERY_INFO_AR_DATA_KEY)));
             productType.setDirections(getString(dataRow.get(Constants.PRODUCT_DIRECTIONS_DATA_KEY)));
             productType.setTermsAndConds(getString(dataRow.get(Constants.PRODUCT_TERMS_COND_DATA_KEY)));
+            productType.setTermsAndCondsAr(getString(dataRow.get(Constants.PRODUCT_TERMS_COND_AR_DATA_KEY)));
             productType.setIngredients(getString(dataRow.get(Constants.PRODUCT_INGREDIENTS_DATA_KEY)));
+            productType.setIngredientsAr(getString(dataRow.get(Constants.PRODUCT_INGREDIENTS_AR_DATA_KEY)));
             productType.setWarnings(getString(dataRow.get(Constants.PRODUCT_WARNING_DATA_KEY)));
+            productType.setWarningsAr(getString(dataRow.get(Constants.PRODUCT_WARNING_AR_DATA_KEY)));
             productType.setPlpLabel(getString(dataRow.get(Constants.PRODUCT_PLP_LABEL_DATA_KEY)));
             productType.setPdpLabel(getString(dataRow.get(Constants.PRODUCT_PDP_LABEL_DATA_KEY)));
             productType.setProductHeight(formatBigDecimal(dataRow.get(Constants.PRODUCT_HEIGHT_DATA_KEY)));

@@ -78,14 +78,17 @@ public class SolrServices {
     private  static final String FIELD_NAME_ROW_TYPE = "rowType";
     private  static final String FIELD_NAME_PRODUCT_ID = "productId";
     private  static final String FIELD_NAME_NAME = "name";
+    private  static final String FIELD_NAME_NAME_AR = "nameAr";
     private  static final String FIELD_NAME_INTERNAL_NAME = "internalName";
     private  static final String FIELD_NAME_DESCRIPTION = "description";
+    private  static final String FIELD_NAME_DESCRIPTION_AR = "descriptionAr";
     private  static final String FIELD_NAME_CATEGORY_DESC = "categoryDescription";
     private  static final String FIELD_NAME_CATEGORY_PDP_DESC = "categoryPdpDescription";
     private  static final String FIELD_NAME_CATEGORY_ID = "productCategoryId";
     private  static final String FIELD_NAME_TOP_MOST_CATEGORY_ID = "topMostProductCategoryId";
     private  static final String FIELD_NAME_CATEGORY_LEVEL = "categoryLevel";
     private  static final String FIELD_NAME_CATEGORY_NAME = "categoryName";
+    private  static final String FIELD_NAME_CATEGORY_NAME_AR = "categoryNameAr";
     private  static final String FIELD_NAME_CATEGORY_IMAGE_URL = "categoryImageUrl";
     private  static final String FIELD_NAME_IMAGE_SMALL_URL = "productImageSmallUrl";
     private  static final String FIELD_NAME_IMAGE_SMALL_ALT = "productImageSmallAlt";
@@ -195,6 +198,7 @@ public class SolrServices {
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_ID, productCategoryIdPath);
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_LEVEL, categoryLevel);
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_NAME, workingCategory.getString("categoryName"));
+                    productCategoryDocument.setField(FIELD_NAME_CATEGORY_NAME_AR, CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale("ar"), dispatcher, "html"));
                     String categoryImageUrl = workingCategory.getString("categoryImageUrl");
                     if (UtilValidate.isNotEmpty(categoryImageUrl)) 
                     {
@@ -232,7 +236,7 @@ public class SolrServices {
 
                                 if (ProductWorker.isSellable(product)) 
                                 {
-                                    productContentWrapper = new ProductContentWrapper(dispatcher, product, locale, "text/html");
+                                    productContentWrapper = new ProductContentWrapper(dispatcher, product, new Locale("en"), "text/html");
                                     productDocument = new SolrInputDocument();
                                     productId = product.getString("productId");
                                     productDocumentId = SolrConstants.ROW_TYPE_PRODUCT + "_" + productId;
@@ -240,6 +244,7 @@ public class SolrServices {
                                     productDocument.setField(FIELD_NAME_PRODUCT_ID, productId);
                                     productDocument.setField(FIELD_NAME_ROW_TYPE, SolrConstants.ROW_TYPE_PRODUCT);
                                     productDocument.setField(FIELD_NAME_NAME, productContentWrapper.get("PRODUCT_NAME", "html").toString());
+                                    productDocument.setField(FIELD_NAME_NAME_AR, ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME",  new Locale("ar"),  dispatcher,  "html").toString());
                                     productDocument.setField(FIELD_NAME_INTERNAL_NAME,  product.getString("internalName"));
 
                                     GenericValue goodIdentification = delegator.findOne("GoodIdentification", UtilMisc.toMap("productId", productId, "goodIdentificationTypeId", "MANUFACTURER_ID_NO"));
@@ -313,16 +318,23 @@ public class SolrServices {
                                     
                                     productDocument.setField(FIELD_NAME_SEQ_NUM ,productCategoryMember.getString("sequenceNum"));
                                     productDocument.setField(FIELD_NAME_CATEGORY_NAME , workingCategory.getString("categoryName"));
+                                    productDocument.setField(FIELD_NAME_CATEGORY_NAME_AR, CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale("ar"), dispatcher, "html"));
                                     
                                     if (UtilValidate.isNotEmpty(categoryDescription) && !"null".equalsIgnoreCase(categoryDescription.toString())) 
                                     {
                                     	productDocument.setField(FIELD_NAME_CATEGORY_DESC ,categoryDescription.toString());
                                     }
                                     // LONG_DESCRIPTION
-                                    String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", locale, dispatcher, "html");
-                                    if (UtilValidate.isNotEmpty(longDescription)) 
+                                    String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("en"), dispatcher, "html");
+                                    String longDescriptionAr = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("ar"), dispatcher, "html");
+                                    if (UtilValidate.isNotEmpty(longDescription))
                                     {
                                         productDocument.setField(FIELD_NAME_DESCRIPTION ,longDescription);
+                                    }
+
+                                    if (UtilValidate.isNotEmpty(longDescriptionAr))
+                                    {
+                                        productDocument.setField(FIELD_NAME_DESCRIPTION_AR ,longDescriptionAr);
                                     }
 
                                     // SMALL_IMAGE_URL

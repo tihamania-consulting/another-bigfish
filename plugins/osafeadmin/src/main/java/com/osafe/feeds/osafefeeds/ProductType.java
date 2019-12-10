@@ -98,6 +98,22 @@ public class ProductType {
     protected String ingredients;
     @XmlElement(name = "Warnings", defaultValue = "")
     protected String warnings;
+    @XmlElement(name = "ProductNameAr", defaultValue = "")
+    protected String productNameAr;
+    @XmlElement(name = "SalesPitchAr", defaultValue = "")
+    protected String salesPitchAr;
+    @XmlElement(name = "LongDescriptionAr", defaultValue = "")
+    protected String longDescriptionAr;
+    @XmlElement(name = "SpecialInstructionsAr", defaultValue = "")
+    protected String specialInstructionsAr;
+    @XmlElement(name = "DeliveryInfoAr", defaultValue = "")
+    protected String deliveryInfoAr;
+    @XmlElement(name = "TermsAndCondsAr", defaultValue = "")
+    protected String termsAndCondsAr;
+    @XmlElement(name = "IngredientsAr", defaultValue = "")
+    protected String ingredientsAr;
+    @XmlElement(name = "WarningsAr", defaultValue = "")
+    protected String warningsAr;
     @XmlElement(name = "PlpLabel", defaultValue = "")
     protected String plpLabel;
     @XmlElement(name = "PdpLabel", defaultValue = "")
@@ -957,4 +973,67 @@ public class ProductType {
         this.productAttribute = value;
     }
 
+    public String getProductNameAr() {
+        return productNameAr;
+    }
+
+    public void setProductNameAr(String productNameAr) {
+        this.productNameAr = productNameAr;
+    }
+
+    public String getSalesPitchAr() {
+        return salesPitchAr;
+    }
+
+    public void setSalesPitchAr(String salesPitchAr) {
+        this.salesPitchAr = salesPitchAr;
+    }
+
+    public String getLongDescriptionAr() {
+        return longDescriptionAr;
+    }
+
+    public void setLongDescriptionAr(String longDescriptionAr) {
+        this.longDescriptionAr = longDescriptionAr;
+    }
+
+    public String getSpecialInstructionsAr() {
+        return specialInstructionsAr;
+    }
+
+    public void setSpecialInstructionsAr(String specialInstructionsAr) {
+        this.specialInstructionsAr = specialInstructionsAr;
+    }
+
+    public String getDeliveryInfoAr() {
+        return deliveryInfoAr;
+    }
+
+    public void setDeliveryInfoAr(String deliveryInfoAr) {
+        this.deliveryInfoAr = deliveryInfoAr;
+    }
+
+    public String getTermsAndCondsAr() {
+        return termsAndCondsAr;
+    }
+
+    public void setTermsAndCondsAr(String termsAndCondsAr) {
+        this.termsAndCondsAr = termsAndCondsAr;
+    }
+
+    public String getIngredientsAr() {
+        return ingredientsAr;
+    }
+
+    public void setIngredientsAr(String ingredientsAr) {
+        this.ingredientsAr = ingredientsAr;
+    }
+
+    public String getWarningsAr() {
+        return warningsAr;
+    }
+
+    public void setWarningsAr(String warningsAr) {
+        this.warningsAr = warningsAr;
+    }
 }

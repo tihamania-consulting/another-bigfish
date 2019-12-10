@@ -676,9 +676,11 @@ if(UtilValidate.isNotEmpty(productId))
 	context.inStock = inStock;
 	
 	
-    if (UtilValidate.isNotEmpty(plpItem.name)) 
+    if (locale.getLanguage() != 'ar' &&  UtilValidate.isNotEmpty(plpItem.name))
     {
         productName = StringUtil.wrapString(plpItem.name);
+    } else {
+        productName = StringUtil.wrapString(plpItem.nameAr);
     }
     if (UtilValidate.isNotEmpty(plpItem.productImageSmallUrl)) 
     {

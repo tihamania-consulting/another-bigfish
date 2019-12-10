@@ -16,15 +16,21 @@ public class SolrIndexDocument {
     @Field
     private String name;
     @Field
+    private String nameAr;
+    @Field
     private String internalName;
     @Field
     private String description;
+    @Field
+    private String descriptionAr;
     @Field
     private String sequenceNum;
     @Field
     private String productCategoryId;
     @Field
     private String categoryName;
+    @Field
+    private String categoryNameAr;
     @Field
     private String categoryDescription;
     @Field
