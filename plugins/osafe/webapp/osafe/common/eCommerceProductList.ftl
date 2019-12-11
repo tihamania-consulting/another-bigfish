@@ -23,7 +23,7 @@
 
 <#assign categoryId = ""/>
 <#if currentProductCategory?exists>
-    <#assign categoryName = currentProductCategory.categoryName!"">
+    <#assign categoryName = Static['org.apache.ofbiz.product.category.CategoryContentWrapper'].getProductCategoryContentAsText(currentProductCategory, 'CATEGORY_NAME', request, "string")!"">
     <#assign longDescription = currentProductCategory.longDescription!"">
     <#assign categoryImageUrl = currentProductCategory.categoryImageUrl!"">
     <#assign categoryId = currentProductCategory.productCategoryId!"">

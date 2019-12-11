@@ -15,7 +15,7 @@
 <div class="breadcrumbs">
   <ul id="breadcrumb">
     <li class="first">
-      <a href="<@ofbizUrl>main</@ofbizUrl>"><span>${uiLabelMap.Home}</span></a>
+      <a href="<@ofbizUrl>main</@ofbizUrl>"><span>${uiLabelMap.HomeAddressHeading}</span></a>
     </li>
     <#if searchText?has_content && filterGroupValues?has_content>
       <li>

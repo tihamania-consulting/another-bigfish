@@ -297,7 +297,7 @@
       </#if>
       <li>
         <#if category.categoryName?has_content>
-          <#assign catName = category.categoryName!/>
+          <#assign catName = Static['org.apache.ofbiz.product.category.CategoryContentWrapper'].getProductCategoryContentAsText(category, 'CATEGORY_NAME', request, "string")!>
         <#elseif category.description?has_content>
           <#assign catName = category.description!/>
         </#if>

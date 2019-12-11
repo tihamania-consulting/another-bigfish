@@ -414,9 +414,10 @@ input.submitOrder[type="submit"]:hover, input.submitOrder[type="button"]:hover, 
 }
 
 #breadcrumb li{
-    background: url("/osafe_theme/images/user_content/images/breadcrumbBullet.png") no-repeat scroll right 5px 50% transparent;
+    background: url(/osafe_theme/images/user_content/images/breadcrumbBullet-rtl.png) no-repeat right 5px transparent;
     float: right;
-    padding: 0 16px 0 0 ;
+    margin-left: 5px;
+    padding: 0 16px 0 0px;
 }
 
 #breadcrumb li a.removeFacet{

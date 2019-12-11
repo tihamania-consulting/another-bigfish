@@ -99,6 +99,52 @@
 </textData>
 </ElectronicText>
 
+
+ <Content contentId="SI_FOOTER_CONTENT_AR" statusId="CTNT_PUBLISHED"/>
+ <ElectronicText dataResourceId="SI_FOOTER_CONTENT_AR">
+  <textData><![CDATA[
+     <div class="footerColumn">
+        <h3>مجموعة التذييل</h3>
+        <ul class="footerLinks">
+            <li><a href="<@ofbizUrl>contactUs</@ofbizUrl>">اتصل بنا</a></li>
+            <li><a href="<@ofbizSeoUrl contentId='SP_ABOUT_US'/>">من نحن</a></li>
+            <li><a href="<@ofbizSeoUrl contentId='SP_RETURN_POLICY'/>">سياسة العائدات</a></li>
+            <li><a href="<@ofbizSeoUrl contentId='SP_PRIVACY_POLICY'/>">سياسة الحياة الخاصة </a></li>
+        </ul>
+    </div>
+    <div class="footerColumn">
+       <h3>مجموعة التذييل</h3>
+        <ul class="footerLinks">
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+        </ul>
+    </div>
+    <div class="footerColumn">
+       <h3>مجموعة التذييل</h3>
+        <ul class="footerLinks">
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+        </ul>
+    </div>
+    <div class="footerColumn">
+       <h3>مجموعة التذييل</h3>
+        <ul class="footerLinks">
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+            <li><a href="#">رابط التذييل</a></li>
+        </ul>
+    </div>
+
+]]>
+  </textData>
+ </ElectronicText>
+
+ <ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SI_FOOTER_CONTENT" contentIdTo="SI_FOOTER_CONTENT_AR" fromDate="2013-01-02 01:01:01"/>
 <!-- Logo Content -->
 <Content contentId="SI_LOGO" statusId="CTNT_PUBLISHED"/>
 <ElectronicText dataResourceId="SI_LOGO">
@@ -149,7 +195,7 @@
             <div class="highlightGroup">
                 <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" id="siteShoppingCartSize" class=" showLightBoxCart">
                     <span>${CART_ITEMS_QTY!}</span>
-                    <#if  CART_ITEMS_QTY?has_content && ((CART_ITEMS_QTY gt 1) || (CART_ITEMS_QTY == 0))>Items<#else>Item</#if></a>
+                    <#if  CART_ITEMS_QTY?has_content && ((CART_ITEMS_QTY gt 1) || (CART_ITEMS_QTY == 0))>سلع<#else>سلعة</#if></a>
                     <#if  CART_ITEMS_QTY?has_content && (CART_ITEMS_QTY gt 0)>
                       <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" class="price"><@ofbizCurrency amount=CART.getGrandTotal()   isoCode=CURRENCY_UOM_DEFAULT!CART.getCurrency()/></a>
                     <#else>
@@ -187,10 +233,10 @@
                      <input type="submit" class="searchSubmit" value="" />
                  </div>
                  <div id="searchField">
-                     <input type="text" value="${SEARCH_DEFAULT_TEXT!""}" name="searchText" id="searchText" onblur="setIt(this)" onfocus="clearIt(this)" autocomplete="off" />
+                     <input type="text" value="${uiLabelMap.SearchDialogText!""}" name="searchText" id="searchText" onblur="setIt(this)" onfocus="clearIt(this)" autocomplete="off" />
                  </div>
                  <div id="shoppingListSearch">
-                     <a href="<@ofbizUrl>shoppingListSearch</@ofbizUrl>">Shopping List Search</a>
+                     <a href="<@ofbizUrl>shoppingListSearch</@ofbizUrl>">${uiLabelMap.ShoppingListSearchTitle}</a>
                  </div>
              </div>
          </fieldset>

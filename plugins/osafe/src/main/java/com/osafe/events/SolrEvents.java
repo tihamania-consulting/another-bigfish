@@ -62,7 +62,6 @@ import com.osafe.util.Util;
 public class SolrEvents 
 {
     public static final String module = SolrEvents.class.getName();
-    private static final ResourceBundle OSAFE_UI_LABELS = UtilProperties.getResourceBundle("OSafeUiLabels.xml", Locale.getDefault());
     private static final ResourceBundle OSAFE_PROPS = UtilProperties.getResourceBundle("OsafeProperties.xml", Locale.getDefault());
     private static final SimpleDateFormat _sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:sss'Z'");
     
@@ -71,7 +70,6 @@ public class SolrEvents
         try 
         {
         	String nowDate = _sdf.format(UtilDateTime.nowDate());
-        	
             Delegator delegator = (Delegator) request.getAttribute("delegator");
             String productCategoryId = request.getParameter("productCategoryId");
             String productSearchCategoryId = request.getParameter("productSearchCategoryId");
@@ -126,8 +124,9 @@ public class SolrEvents
             HttpSolrClient solr = new HttpSolrClient.Builder(solrServer).build();
             solr.setRequestWriter(new BinaryRequestWriter());
 
-            String facetSearchCategoryLabel = OSAFE_UI_LABELS.getString("FacetSearchCategoryCaption");
-            String facetProductCategoryLabel = OSAFE_UI_LABELS.getString("FacetProductCategoryCaption");
+            Locale locale = (Locale) request.getSession().getAttribute("locale");
+            String facetSearchCategoryLabel = UtilProperties.getMessage("OsafeUiLabels", "FacetSearchCategoryCaption",  locale);
+            String facetProductCategoryLabel = UtilProperties.getMessage("OsafeUiLabels", "FacetProductCategoryCaption", locale);
 
             Map<String, String> mProductStoreParms = new HashMap();
             List<String> facetGroups = new ArrayList();
@@ -190,7 +189,7 @@ public class SolrEvents
                         String facetSort = doc.getProductFeatureGroupFacetSort();
                         String key = doc.getProductCategoryFacetGroups();
                         facetGroups.add(key);
-                        facetGroupDescriptions.put(key, description);
+                        facetGroupDescriptions.put(key, UtilProperties.getMessage("OsafeUiLabels", "FEATURE_" + doc.getProductFeatureGroupId(), locale));
                         facetGroupIds.put(key, id);
                         facetGroupFacetSorts.put(key, facetSort);
                     }
@@ -677,7 +676,7 @@ public class SolrEvents
                 Map multiResultsFacetQueriesPrice = (Map) rhFacetGroup.getResultFacetQueryPrice(request, resultsCompleteMultiSelect, null);
                 
                 List multiFacetGroup = (List) rhFacetGroup.processRefinements(resultsFacetGroup, responseFacetCompleteFacetGroup.getResults());
-                List multiFacetPriceRange = (List) rhFacetGroup.processPriceRangeRefinements(multiResultsFacetQueriesPrice, resultsCompleteMultiSelect);
+                List multiFacetPriceRange = (List) rhFacetGroup.processPriceRangeRefinements(multiResultsFacetQueriesPrice, resultsCompleteMultiSelect, locale);
                 List multiFacetCustomerRating = (List) rhFacetGroup.processCustomerRatingRefinements(responseFacetGroup.getFacetQuery(), resultsCompleteMultiSelect);
                 request.setAttribute("multiFacetGroup", multiFacetGroup);
                 request.setAttribute("multiFacetCustomerRating", multiFacetCustomerRating);
@@ -714,7 +713,7 @@ public class SolrEvents
 
             List facetList = null;
             Map resultsFacetQueriesPrice = (Map) rh.getResultFacetQueryPrice(request, resultsComplete, resultsCompleteMultiSelect);
-            List facetListPriceRange = (List) rh.processPriceRangeRefinements(resultsFacetQueriesPrice, resultsComplete);
+            List facetListPriceRange = (List) rh.processPriceRangeRefinements(resultsFacetQueriesPrice, resultsComplete, locale);
             
             
             List facetListCustomerRating = (List) rh.processCustomerRatingRefinements(resultsFacetQueries, resultsComplete);

@@ -7614,4 +7614,85 @@
         <description>UploadFileInformation</description>
     </property>
 
+    <property key="FEATURE_SIZE">
+        <value xml:lang="ar">المقاس</value>
+        <value xml:lang="en">Size</value>
+    </property>
+    <property key="FEATURE_BRAND">
+        <value xml:lang="ar">العلامة التجارية</value>
+        <value xml:lang="en">Brand</value>
+    </property>
+    <property key="FEATURE_DISPLAYFORMAT">
+        <value xml:lang="ar">تنسيق العرض</value>
+        <value xml:lang="en">Display Format</value>
+    </property>
+    <property key="FEATURE_DISPLAYTYPE">
+        <value xml:lang="ar">نوع العرض</value>
+        <value xml:lang="en">Display type</value>
+    </property>
+    <property key="FEATURE_CAPACITY">
+        <value xml:lang="ar">السعة</value>
+        <value xml:lang="en">Capacity</value>
+    </property>
+    <property key="FEATURE_BURNERTYPE">
+        <value xml:lang="ar">نوع الاحتراق</value>
+        <value xml:lang="en">Burn type</value>
+    </property>
+    <property key="FEATURE_DEPTH">
+        <value xml:lang="ar">العمق</value>
+        <value xml:lang="en">Depth</value>
+    </property>
+    <property key="FEATURE_PIXEL">
+        <value xml:lang="ar">بكسل</value>
+        <value xml:lang="en">Pixel</value>
+    </property>
+    <property key="FEATURE_PIXELRESOLUTION">
+        <value xml:lang="ar">دقة الشاشة</value>
+        <value xml:lang="en">Pixel resolution</value>
+    </property>
+    <property key="FEATURE_ZOOM">
+        <value xml:lang="ar">التكبير</value>
+        <value xml:lang="en">Zoom</value>
+    </property>
+    <property key="FEATURE_PROCESSOR">
+        <value xml:lang="ar">المعالج</value>
+        <value xml:lang="en">Processor</value>
+    </property>
+    <property key="FEATURE_HDDCAPACITY">
+        <value xml:lang="ar">سعة القرص الصلب</value>
+        <value xml:lang="en">HDD capacity</value>
+    </property>
+    <property key="FEATURE_CHILDLOCK">
+        <value xml:lang="ar">قفل الأطفال </value>
+        <value xml:lang="en">ِاChild lock</value>
+    </property>
+    <property key="FEATURE_SPEAKERS">
+        <value xml:lang="ar">مكبرات الصوت</value>
+        <value xml:lang="en">Speakers</value>
+    </property>
+    <property key="FEATURE_SCREENSIZE">
+        <value xml:lang="ar">حجم الشاشة</value>
+        <value xml:lang="en">Screen size</value>
+    </property>
+    <property key="FEATURE_COLOR">
+        <value xml:lang="ar">اللون</value>
+        <value xml:lang="en">Color</value>
+    </property>
+    <property key="FEATURE_STORAGE">
+        <value xml:lang="ar">تخزين</value>
+        <value xml:lang="en">Storage</value>
+    </property>
+    <property key="FEATURE_STORAGECAPACITY">
+        <value xml:lang="ar">سعة التخزين</value>
+        <value xml:lang="en">Storage capacity</value>
+    </property>
+    <property key="FEATURE_SHAPE">
+        <value xml:lang="ar">الشكل</value>
+        <value xml:lang="en">Shape</value>
+    </property>
+    <property key="FEATURE_SCREEN">
+        <value xml:lang="ar">الشاشة</value>
+        <value xml:lang="en">Screen</value>
+    </property>
+
 </resource>

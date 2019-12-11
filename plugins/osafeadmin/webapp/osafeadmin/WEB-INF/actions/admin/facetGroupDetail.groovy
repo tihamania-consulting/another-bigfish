@@ -23,7 +23,7 @@ if(UtilValidate.isNotEmpty(productCategoryId))
     if(UtilValidate.isEmpty(facetGroupCategory))
     {
         createFeatureGroupCtx.put("productFeatureGroupId", "FACET_GROUP_CATEGORY");
-        createFeatureGroupCtx.put("description", "Shop By Category");
+        createFeatureGroupCtx.put("description",  UtilProperties.getMessage("OsafeUiLabels","FacetSearchCategoryCaption", parameters.locale));
         createFeatureGroupRes = dispatcher.runSync("createFeatureGroup", createFeatureGroupCtx);
     }
 

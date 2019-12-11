@@ -83,6 +83,10 @@ public class CategoryContentWrapper implements ContentWrapper {
         return StringUtil.makeStringWrapper(getProductCategoryContentAsText(productCategory, prodCatContentTypeId, locale, mimeTypeId, productCategory.getDelegator(), dispatcher, encoderType));
     }
 
+    public StringUtil.StringWrapper get(String prodCatContentTypeId, Locale alternateLocale) {
+        return StringUtil.makeStringWrapper(getProductCategoryContentAsText(productCategory, prodCatContentTypeId, alternateLocale, mimeTypeId, productCategory.getDelegator(), dispatcher, "string"));
+    }
+
     public static String getProductCategoryContentAsText(GenericValue productCategory, String prodCatContentTypeId, HttpServletRequest request, String encoderType) {
         LocalDispatcher dispatcher = (LocalDispatcher) request.getAttribute("dispatcher");
         String mimeTypeId = EntityUtilProperties.getPropertyValue("content", "defaultMimeType", "text/html; charset=utf-8", productCategory.getDelegator());

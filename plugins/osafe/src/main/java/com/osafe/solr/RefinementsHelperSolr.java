@@ -329,7 +329,7 @@ public class RefinementsHelperSolr {
      * @param list of the SolrIndexDocument
      * @return Collection of GenericRefinements
      */
-    public Collection processPriceRangeRefinements(Map facetResults, List<SolrIndexDocument> results) 
+    public Collection processPriceRangeRefinements(Map facetResults, List<SolrIndexDocument> results, Locale locale)
     {
         // Create a new collection for the generic Refinements in the generic wrapper
         Collection refinementCollection = new ArrayList();
@@ -343,7 +343,7 @@ public class RefinementsHelperSolr {
 
             // Populate the generic refinement with the details from the Solr facet
             genericRefinement.setType(SolrConstants.TYPE_PRICE);
-            genericRefinement.setName(SolrConstants.DISPLAY_PRICE_NAME_KEY);
+            genericRefinement.setName(UtilProperties.getMessage("OsafeUiLabels", "PriceLabel", locale));
 
             List refinementValues = new ArrayList();
 
