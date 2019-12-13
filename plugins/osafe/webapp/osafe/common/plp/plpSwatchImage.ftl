@@ -31,9 +31,9 @@
  	    <#if variantContentIdMap?has_content>
 	    	<#assign variantContentId = variantContentIdMap.get("SMALL_IMAGE_URL")!""/>
 	        <#if variantContentId?has_content>
-                <#assign productVariantSmallURL = productVariantContentWrapper.get("SMALL_IMAGE_URL", "url")!"">
+                <#assign productVariantSmallURL = productVariantContentWrapper.get("SMALL_IMAGE_URL", "string")!"">
             <#else>
-                <#assign productVariantSmallURL = plpProductContentWrapper.get("SMALL_IMAGE_URL", "url")!"">
+                <#assign productVariantSmallURL = plpProductContentWrapper.get("SMALL_IMAGE_URL", "string")!"">
 	        </#if>
 	    	<#assign variantContentId = variantContentIdMap.get("SMALL_IMAGE_ALT_URL")!""/>
 	        <#if variantContentId?has_content>

@@ -5775,70 +5775,37 @@
         <description>ReOredrBlankQtyError</description>
     </property>
     <property key="PDPMinQtyError">
-        <value xml:lang="ar">كمية المنتج _PRODUCT_NAME_
-            أقل من الحد الأدنى
-            المسموح به. الحد
-            الأدنى المسموح به هو
-            _PDP_QTY_MIN_. الرجاء اعادة
-            المحاولة.
-        </value>
-        <value xml:lang="en">The Quantity for Product _PRODUCT_NAME_ is less than the minimum allowed. The minimum
-            allowed is _PDP_QTY_MIN_. Please retry.
-        </value>
+        <value xml:lang="ar">كمية المنتج _PRODUCT_NAME_ أقل من الحد الأدنى المسموح به. الحد الأدنى المسموح به هو _PDP_QTY_MIN_. الرجاء اعادة المحاولة.</value>
+        <value xml:lang="en">The Quantity for Product _PRODUCT_NAME_ is less than the minimum allowed. The minimum allowed is _PDP_QTY_MIN_. Please retry.</value>
         <category>MESSAGE_ERROR</category>
         <description>PDPMinQtyError</description>
     </property>
     <property key="PDPMaxQtyError">
-        <value xml:lang="ar">كمية المنتج _PRODUCT_NAME_
-            أكبر من الحد الأقصى
-            المسموح به. الحد
-            الأقصى المسموح به هو
-            _PDP_QTY_MAX_. الرجاء اعادة
-            المحاولة.
-        </value>
-        <value xml:lang="en">The Quantity for Product _PRODUCT_NAME_ is greater than the maximum allowed. The maximum
-            allowed is _PDP_QTY_MAX_. Please retry.
-        </value>
+        <value xml:lang="ar">كمية المنتج _PRODUCT_NAME_  أكبر من الحد الأقصى   المسموح به. الحد   الأقصى المسموح به هو  _PDP_QTY_MAX_. الرجاء اعادة   المحاولة.</value>
+        <value xml:lang="en">The Quantity for Product _PRODUCT_NAME_ is greater than the maximum allowed. The maximum allowed is _PDP_QTY_MAX_. Please retry.</value>
         <category>MESSAGE_ERROR</category>
         <description>PDPMaxQtyError</description>
     </property>
     <property key="PLPVariantSelectError">
-        <value xml:lang="ar">يرجى اختيار
-            البديل.
-        </value>
+        <value xml:lang="ar">يرجى اختيار البديل.</value>
         <value xml:lang="en">Please Select a Variant.</value>
         <category>MESSAGE_ERROR</category>
         <description>PLPVariantSelectError</description>
     </property>
     <property key="PDPQtyDecimalNumberError">
-        <value xml:lang="ar">يجب أن تكون
-            الكمية التي تم
-            إدخالها للمنتج _PRODUCT_NAME_
-            عددًا صحيحًا ، ولا
-            يُسمح بالكسور
-            العشرية ، يرجى إعادة
-            المحاولة.
-        </value>
-        <value xml:lang="en">The Quantity entered for Product _PRODUCT_NAME_ must be a whole number, decimals are not
-            allowed, please retry.
-        </value>
+        <value xml:lang="ar">يجب أن تكون الكمية التي تم  إدخالها للمنتج _PRODUCT_NAME_  عددًا صحيحًا ، ولا يُسمح بالكسور  العشرية ، يرجى إعادة  المحاولة.</value>
+        <value xml:lang="en">The Quantity entered for Product _PRODUCT_NAME_ must be a whole number, decimals are not allowed, please retry.</value>
         <category>MESSAGE_ERROR</category>
         <description>PDPQtyDecimalNumberError</description>
     </property>
     <property key="BlueDartPinCodeError">
-        <value xml:lang="ar">يجب إدخال رمز PIN
-            ويجب أن يكون 6 أرقام
-        </value>
+        <value xml:lang="ar">يجب إدخال رمز PIN ويجب أن يكون 6 أرقام</value>
         <value xml:lang="en">PIN Code must be entered and must be 6 numbers</value>
         <category>MESSAGE_ERROR</category>
         <description>BlueDartPinCodeError</description>
     </property>
     <property key="GiftCartTestNumberInvalidError">
-        <value xml:lang="ar">إدخال بطاقة
-            الهدية غير صالح ، يجب
-            أن يكون رقميًا
-            ورقمًا كاملاً
-        </value>
+        <value xml:lang="ar">إدخال بطاقة الهدية غير صالح ، يجب أن يكون رقميًا ورقمًا كاملاً</value>
         <value xml:lang="en">Gift Card entry is invalid, must be numeric and a whole number</value>
         <category>CHECK_OUT</category>
         <description>GiftCartTestNumberInvalidError</description>

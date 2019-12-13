@@ -1324,21 +1324,21 @@ public class SolrServices {
 		}
 
 		// SMALL_IMAGE_URL
-		imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "url");
+		imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string");
 		if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
 		{
 		    productDocument.setProductImageSmallUrl(imageUrl.toString());
 		}
 
 		// SMALL_IMAGE_ALT
-		imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT", "url");
+		imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT", "string");
 		if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
 		{
 		    productDocument.setProductImageSmallAlt(imageUrl.toString());
 		}
 
 		// SMALL_IMAGE_ALT_URL
-		imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL", "url");
+		imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL", "string");
 		if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
 		{
 			if (UtilValidate.isNotEmpty(imageUrl.toString()))
@@ -1347,14 +1347,14 @@ public class SolrServices {
 			}
 		}
 		// MEDIUM_IMAGE_URL
-		imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL", "url");
+		imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL", "string");
 		if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
 		{
 		    productDocument.setProductImageMediumUrl(imageUrl.toString());
 		}
 
 		// LARGE_IMAGE_URL
-		imageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url");
+		imageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string");
 		if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
 		{
 		    productDocument.setProductImageLargeUrl(imageUrl.toString());

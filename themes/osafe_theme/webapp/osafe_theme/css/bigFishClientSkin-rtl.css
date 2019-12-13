@@ -193,7 +193,7 @@ input.delete[type="submit"]:hover, input.delete[type="button"]:hover, a.delete:h
 }
 
 input.addToCart[type="submit"], input.addToCart[type="button"], a.addToCart{
-    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x right ;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -1078,7 +1078,6 @@ a.blog{
 }
 
 #eCommerceBuiltByBevelWrapper{
-    background: url("/osafe_theme/images/user_content/images/tornPaperBackgoundRight.png") repeat-y top left;
     float: right;
 }
 

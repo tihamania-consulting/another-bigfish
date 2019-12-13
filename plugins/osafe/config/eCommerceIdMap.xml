@@ -9,7 +9,6 @@
 
     <!-- *** ECOMMERCE CONTENT *************************************** -->
     <property key="SITE_INFO_HEADER_CONTENT">
-        <value xml:lang="ar">SI_HEADER_CONTENT_AR</value>
         <value xml:lang="en">SI_HEADER_CONTENT</value>
     </property>
     <property key="SITE_INFO_FOOTER_CONTENT">

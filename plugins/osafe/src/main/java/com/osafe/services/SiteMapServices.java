@@ -182,9 +182,9 @@ public class SiteMapServices {
                                     url = makeCatalogUrl(product.getString("productId"),productCategoryId, null, null, null,null);
                                     productContentWrapper = new ProductContentWrapper(dispatcher, product, locale, "text/html");
                                     String detailImageUrl = "";
-                                    if (UtilValidate.isNotEmpty(productContentWrapper.get("DETAIL_IMAGE_URL", "url")))
+                                    if (UtilValidate.isNotEmpty(productContentWrapper.get("DETAIL_IMAGE_URL", "string")))
                                     {
-                                        detailImageUrl = productContentWrapper.get("DETAIL_IMAGE_URL", "url").toString();
+                                        detailImageUrl = productContentWrapper.get("DETAIL_IMAGE_URL", "string").toString();
                                     }
                                     createSiteMapNode(url, detailImageUrl, usedUrlList);
                                     if (UtilValidate.isNotEmpty(SITEMAP_VARIANT_FEATURES))
@@ -493,9 +493,9 @@ public class SiteMapServices {
             
         	if (productContentWrapper != null)
         	{
-        		if (UtilValidate.isNotEmpty(productContentWrapper.get("SEO_PAGE_URL", "url")))
+        		if (UtilValidate.isNotEmpty(productContentWrapper.get("SEO_PAGE_URL", "string")))
         		{
-        			productName = productContentWrapper.get("SEO_PAGE_URL", "url").toString();
+        			productName = productContentWrapper.get("SEO_PAGE_URL", "string").toString();
         		}
         		if (UtilValidate.isEmpty(productName) && UtilValidate.isNotEmpty(productContentWrapper.get("PRODUCT_NAME", "html")))
         		{
@@ -505,9 +505,9 @@ public class SiteMapServices {
 
         	if (parentCategoryContentWrapper !=null)
         	{
-        		if (UtilValidate.isNotEmpty(parentCategoryContentWrapper.get("SEO_PAGE_URL", "url")))
+        		if (UtilValidate.isNotEmpty(parentCategoryContentWrapper.get("SEO_PAGE_URL", "string")))
         		{
-        			parentCategoryName = parentCategoryContentWrapper.get("SEO_PAGE_URL", "url").toString();
+        			parentCategoryName = parentCategoryContentWrapper.get("SEO_PAGE_URL", "string").toString();
         		}
         		if (UtilValidate.isEmpty(parentCategoryName) && UtilValidate.isNotEmpty(parentCategoryContentWrapper.get("CATEGORY_NAME", "html")))
         		{
@@ -517,9 +517,9 @@ public class SiteMapServices {
 
         	if (categoryContentWrapper !=null)
         	{
-        		if (UtilValidate.isNotEmpty(categoryContentWrapper.get("SEO_PAGE_URL", "url")))
+        		if (UtilValidate.isNotEmpty(categoryContentWrapper.get("SEO_PAGE_URL", "string")))
         		{
-        			categoryName = categoryContentWrapper.get("SEO_PAGE_URL", "url").toString();
+        			categoryName = categoryContentWrapper.get("SEO_PAGE_URL", "string").toString();
         		}
         		if (UtilValidate.isEmpty(categoryName) && UtilValidate.isNotEmpty(categoryContentWrapper.get("CATEGORY_NAME", "html")))
         		{

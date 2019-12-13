@@ -48,7 +48,7 @@
 <Content contentId="SI_HEAD_TAG_CONTENT" statusId="CTNT_PUBLISHED"/>
 <ElectronicText dataResourceId="SI_HEAD_TAG_CONTENT">
 <textData><![CDATA[
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" media="screen" href="/osafe_theme/css/bigFishRwdAdjustments.css" type="text/css"/>
 ]]>
 </textData>

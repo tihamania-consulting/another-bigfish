@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <simple-methods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/simple-methods.xsd">
+                xmlns="http://ofbiz.apache.org/Simple-Method" xsi:schemaLocation="http://ofbiz.apache.org/Simple-Method http://ofbiz.apache.org/dtds/simple-methods.xsd">
+
 	
 	<simple-method method-name="validateShowCartPromoCodeCheckUserSession" short-description="Validate Cart Promo Code and check session" login-required="false">
     	<call-simple-method method-name="checkMyCartUserSession" xml-resource="component://osafe/script/Event/CheckoutEvents.xml"/>

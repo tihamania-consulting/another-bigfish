@@ -14,16 +14,16 @@
 
 <!-- SITE INFO-->
 <DataResource dataResourceId="SI_HEADER_CONTENT" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
-<DataResource dataResourceId="SI_HEADER_CONTENT_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_HEADER_CONTENT_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_FOOTER_CONTENT" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
-<DataResource dataResourceId="SI_FOOTER_CONTENT_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_FOOTER_CONTENT_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_LOGO" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SI_SHOPPING_CART" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
-<DataResource dataResourceId="SI_SHOPPING_CART_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_SHOPPING_CART_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_SEARCH" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
-<DataResource dataResourceId="SI_SEARCH_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_SEARCH_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_MAILING_LIST" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
-<DataResource dataResourceId="SI_MAILING_LIST_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_MAILING_LIST_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_HEAD_TAG_CONTENT" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SI_SUPER_MEGA_MENU" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 

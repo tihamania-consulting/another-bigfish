@@ -21,7 +21,7 @@
       <#assign product = delegator.findOne("Product", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("productId",result.productId), false)/>
       <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product, request)!""/>
       <#assign productInStoreOnlyAttribute = delegator.findOne("ProductAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName" , "PDP_IN_STORE_ONLY", "productId" , result.productId!),false)?if_exists/>
-      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url")!"">
+      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!"">
       <tr class="dataRow <#if rowClass?if_exists == "2">even<#else>odd</#if>">
         <td class="idCol <#if !hasNext?if_exists>lastRow</#if> firstCol" >
           <#if product.isVirtual == 'Y'>

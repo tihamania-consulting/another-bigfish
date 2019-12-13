@@ -56,8 +56,8 @@
 	    <#assign variantContentIdMap = plpProductVariantProductContentIdMap.get('${key}')!""/>
 	    <#assign productSmallImageUrl = plpProductImageUrl!""/>
 	    <#if variantProdCtntWrapper?has_content >
-	        <#assign productSmallImageUrl = variantProdCtntWrapper.get("SMALL_IMAGE_URL", "url")!""/>
-	        <#assign productAltImageUrl = variantProdCtntWrapper.get("SMALL_IMAGE_ALT_URL", "url")!""/>
+	        <#assign productSmallImageUrl = variantProdCtntWrapper.get("SMALL_IMAGE_URL", "string")!""/>
+	        <#assign productAltImageUrl = variantProdCtntWrapper.get("SMALL_IMAGE_ALT_URL", "string")!""/>
 	    </#if>
 	    <#if productSmallImageUrl?has_content && productSmallImageUrl!=''>
 		    <div class="js_swatchProduct_${key}" id="js_swatchProduct_${key}" style="display:none">
