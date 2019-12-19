@@ -7,13 +7,13 @@
         <set field="orderHeaderMap.orderId" from-field="parameters.orderId" />
         <set field="negatedOrderAdjustmentAmount" type="BigDecimal" value="0"/>
         <find-by-primary-key entity-name="OrderHeader" map="orderHeaderMap" value-field="orderHeader"/>
-          <call-bsh><![CDATA[
+		<script>groovy:
                     import java.math.BigDecimal;
                     import org.apache.ofbiz.order.order.OrderReadHelper;
 
                     orderReadHelper = new OrderReadHelper(orderHeader);
                     parameters.put("orderReadHelper", orderReadHelper);
-          ]]></call-bsh>
+		</script>
 
         <if-empty field="parameters.statusId">
 	        <property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="BlankOrderStatusIdError"/>
@@ -541,13 +541,13 @@
         <set field="eol" value="${sys:getProperty('line.separator')}"/>
         <set field="insertNote" value="On ${updatedDate} at ${updatedTime}, User ${userLoginName}, modified Order# ${parameters.orderId}:${eol}"/>
 
-        <call-bsh><![CDATA[
+        <script>groovy:
             shipmentMethod = parameters.get("shipmentMethod");
             if(shipmentMethod != null){
                parameters.put("shipmentMethodTypeId", shipmentMethod.substring(0, shipmentMethod.indexOf("@")));
                parameters.put("carrierPartyId", shipmentMethod.substring(shipmentMethod.indexOf("@")+1));
             }
-        ]]></call-bsh>
+        </script>
         
         <if-not-empty field="parameters.shipmentMethodTypeId">
 	        <set field="carrierShipmentMethodMap.shipmentMethodTypeId" from-field="parameters.shipmentMethodTypeId"/>
@@ -671,10 +671,10 @@
 						    </calcop>
 						</calculate>
 						<!--   create new shipGroupSeqId  -->
-						<call-bsh><![CDATA[
+						<script>groovy:
 						    String newShipGroupSeqId = org.apache.ofbiz.base.util.UtilFormatOut.formatPaddedNumber(maxShipGroupSeqId.longValue(), 5);
 						    parameters.put("newShipGroupSeqId", newShipGroupSeqId);
-						]]></call-bsh>
+						</script>
 						<clone-value value-field="orderItemShipGroup" new-value-field="newOrderItemShipGroup"/>
 				
 						<set from-field="parameters.newShipGroupSeqId" field="newOrderItemShipGroup.shipGroupSeqId"/>
@@ -751,10 +751,10 @@
 						    </calcop>
 						</calculate>
 						<!--   create new shipGroupSeqId  -->
-						<call-bsh><![CDATA[
+						<script>groovy:
 						    String newShipGroupSeqIdQty = org.apache.ofbiz.base.util.UtilFormatOut.formatPaddedNumber(maxShipGroupSeqId.longValue(), 5);
 						    parameters.put("newShipGroupSeqIdQty", newShipGroupSeqIdQty);
-						]]></call-bsh>
+						</script>
 						
 						<entity-one value-field="newCreatedOrderItemShipGroup" entity-name="OrderItemShipGroup">
 						    <field-map field-name="orderId" from-field="parameters.orderId"/>
@@ -972,13 +972,13 @@
 	          <set field="orderAttributeMap.attrName" value="DELIVERY_OPTION" />
 	          <find-by-primary-key entity-name="OrderAttribute" map="orderAttributeMap" value-field="orderAttribute"/>
 	          <set field="quantity" from-field="orderItem.quantity" type="BigDecimal"/>
-	          <call-bsh><![CDATA[
+	          <script>groovy:
 	                  String quantity = "-"+quantity.toString();
 	                  java.math.BigDecimal quantityBD = new java.math.BigDecimal(quantity);
 	                  parameters.put("quantityBD", quantityBD);
-	          ]]></call-bsh>
+	          </script>
 	          <call-class-method class-name="com.osafe.services.InventoryServices" method-name="setProductInventoryLevel" >
-	              <field field="orderItem.productId"/>
+	              <field field="orderItem"/>
 	              <field field="parameters.productStoreId"/>
 	              <field field="parameters.quantityBD" type="BigDecimal"/>
 	              <field field="orderAttribute.attrValue"/>

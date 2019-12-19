@@ -6,7 +6,9 @@
   </#if>
   
   <#assign personalizationDefaultMap = Static["org.apache.ofbiz.base.util.UtilProperties"].getResourceBundleMap("parameters_personalization", locale)>
-
+    <#if requestAttributes.uiLabelMap??>
+        <#assign uiLabelMap = requestAttributes.uiLabelMap>
+    </#if>
   jQuery(function() 
   {
 		jQuery(".js_pdpTabs").tabs();
@@ -137,21 +139,29 @@
            		{
 	           		<#-- check how many already in cart and add to qty -->
 	           		quantity = Number(quantity) + Number(getQtyInCart(add_product_id));
-	           		<#-- get lower and upper limits for quantity -->
-	                <#-- validate qty limits -->
-	                if(validateQtyMinMax(add_product_id,productName,quantity))
-	                {
-		               <#-- add to cart action -->
-		    		   recurrenceIsChecked = jQuery('#js_pdpPriceRecurrenceCB').is(":checked");
-			    	   if(recurrenceIsChecked)
-			    	   {
-		                  document.addform.action="<@ofbizUrl>${addToCartRecurrenceAction!""}</@ofbizUrl>";
-		               }
-		               else
-		               {
-		                  document.addform.action="<@ofbizUrl>${addToCartAction!""}</@ofbizUrl>";
-		               }
-		               document.addform.submit();
+	           		if (quantity <= VARSTOCK[add_product_id + "-level"]) {
+                        <#-- get lower and upper limits for quantity -->
+                        <#-- validate qty limits -->
+                        if(validateQtyMinMax(add_product_id,productName,quantity))
+                        {
+                           <#-- add to cart action -->
+                           recurrenceIsChecked = jQuery('#js_pdpPriceRecurrenceCB').is(":checked");
+                           if(recurrenceIsChecked)
+                           {
+                              document.addform.action="<@ofbizUrl>${addToCartRecurrenceAction!""}</@ofbizUrl>";
+                           }
+                           else
+                           {
+                              document.addform.action="<@ofbizUrl>${addToCartAction!""}</@ofbizUrl>";
+                           }
+                           document.addform.submit();
+                        }
+	                } else {
+	                    <#assign pdpQtyLevelError = Static["org.apache.ofbiz.base.util.StringUtil"].replaceString(uiLabelMap.PDPQtyLevelError, '\"', '\\"')/>
+	                    <#assign pdpQtyLevelError = Static["org.apache.ofbiz.base.util.StringUtil"].wrapString(pdpQtyLevelError)/>
+                        var pdpQtyLevelError = "${pdpQtyLevelError!""}";
+                        pdpQtyLevelError = pdpQtyLevelError.replace('_PRODUCT_NAME_',productName);
+                        alert(pdpQtyLevelError);
 	                }
                 }
            	}

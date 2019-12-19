@@ -109,7 +109,7 @@ if (UtilValidate.isNotEmpty(orderHeader))
 	{
 		for(GenericValue orderPaymentPreference : orderPaymentPreferences)
 		{
-			preferencePayments = orderPaymentPreference.getRelatedByAnd("Payment", ["paymentTypeId" : "CUSTOMER_REFUND","statusId" : "PMNT_SENT"]);
+			preferencePayments = orderPaymentPreference.getRelated("Payment", ["paymentTypeId" : "CUSTOMER_REFUND","statusId" : "PMNT_SENT"]);
 			if(UtilValidate.isNotEmpty(preferencePayments))
 			{
 				for(GenericValue payment : preferencePayments)

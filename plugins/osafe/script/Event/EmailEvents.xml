@@ -274,7 +274,7 @@
 
     <simple-method method-name="clearError" short-description="clear email send error" login-required="false">
         <!--   set _ERROR_MESSAGE_  _ERROR_MESSAGE_LIST_ errorMessage errorMessageList as null   -->
-        <call-bsh><![CDATA[
+        <script>groovy:
            if(request.getAttribute("_ERROR_MESSAGE_") != null){
               request.removeAttribute("_ERROR_MESSAGE_");
            }
@@ -287,7 +287,7 @@
            if(request.getAttribute("errorMessageList") != null){
               request.removeAttribute("errorMessageList");
            }
-           ]]></call-bsh>
+           </script>
     </simple-method>
 
 </simple-methods>

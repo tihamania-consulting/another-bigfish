@@ -70,13 +70,12 @@
            <if-not-empty field="custRequestContext.content">
            		<set field="contentValue" from-field="custRequestContext.content"/>
                 <call-object-method method-name="length" obj-field="custRequestContext.content" ret-field="contentLen"/>
-                <call-bsh><![CDATA[
+                <script>groovy:
                     if(contentLen > 255) {
                       content = contentValue.replaceAll("\\n","");
                       custRequestContext.put("content", content);
                     }
-                  ]]>
-                </call-bsh>
+                  </script>
                 <set field="custRequestAttr.attrName" value="COMMENT"/>
                 <set field="custRequestAttr.attrValue" from-field="custRequestContext.content"/>
                 <call-service service-name="createCustRequestAttribute" in-map-name="custRequestAttr"/>

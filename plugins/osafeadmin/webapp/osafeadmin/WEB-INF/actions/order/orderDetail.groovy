@@ -291,13 +291,13 @@ if (UtilValidate.isNotEmpty(orderId))
 			}
 		
 			storeId = "";
-			orderDeliveryOptionAttr = orderHeader.getRelatedByAnd("OrderAttribute", [attrName : "DELIVERY_OPTION"]);
+			orderDeliveryOptionAttr = orderHeader.getRelated("OrderAttribute", [attrName : "DELIVERY_OPTION"]);
 			orderDeliveryOptionAttr = EntityUtil.getFirst(orderDeliveryOptionAttr);
 			
 			if (UtilValidate.isNotEmpty(orderDeliveryOptionAttr) && orderDeliveryOptionAttr.attrValue == "STORE_PICKUP")
 			{
 				context.isStorePickup = "Y";
-				orderStoreLocationAttr = orderHeader.getRelatedByAnd("OrderAttribute", [attrName : "STORE_LOCATION"]);
+				orderStoreLocationAttr = orderHeader.getRelated("OrderAttribute", [attrName : "STORE_LOCATION"]);
 				orderStoreLocationAttr = EntityUtil.getFirst(orderStoreLocationAttr);
 				if (UtilValidate.isNotEmpty(orderStoreLocationAttr))
 				{

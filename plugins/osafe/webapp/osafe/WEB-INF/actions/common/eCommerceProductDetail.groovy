@@ -317,7 +317,8 @@ String buildFeatureJS(List featureOrder, Map variantTree, Map productVariantInve
             }
             //ADD STOCK LEVEL CLASSES TO THE MAP IF THERE IS ONLY ONE SELECTABLE FEATURE FOR THAT PRODUCT.
             buf.append("VARSTOCK['" + opt + "'] = \"" + stockClass + "\";");
-			
+            buf.append("VARSTOCK['" + opt + "-level'] = \"" + inventoryLevel + "\";");
+
 			def pdpInStoreOnly = "N";
             variantProductAttribute = productVariantProductAttributeMap.get(opt);
 	        if(UtilValidate.isNotEmpty(variantProductAttribute) && UtilValidate.isNotEmpty(variantProductAttribute.PDP_IN_STORE_ONLY))

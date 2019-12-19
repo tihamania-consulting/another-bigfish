@@ -352,12 +352,12 @@
 	                <iterate-map key="productFeatureKey" value="productFeatureValue" map="parameters.selectableProductFeature">
 	                     <!-- productFeature request parameter value contains "@" symbol
 	                         between "productFeatureId" and "productFeatureApplTypeId".-->
-	                    <call-bsh><![CDATA[
+	                    <script>groovy:
 	                        if (productFeatureValue != null) {
 	                           parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 	                           parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 	                        }
-	                    ]]></call-bsh>
+	                    </script>
 	                    <!--   make virtual SELECTABLE_FEATURE ids list  -->
 	                    <if-compare field="parameters.productFeatureApplTypeId" operator="equals" value="SELECTABLE_FEATURE" type="String">
 	                        <set field="selectableFeatureIds[]" from-field="parameters.productFeatureId"/>
@@ -399,11 +399,11 @@
 		                                </entity-and>
 		                                <if-validate-method field="productFeatureApplList" method="isNotEmpty">
 		                                    <iterate list="productFeatureApplList" entry="productFeatureApplVariant">
-		                                        <call-bsh><![CDATA[
+		                                        <script>groovy:
 		                                            if (tempSelectableFeatureIds.contains(productFeatureApplVariant.getString("productFeatureId"))) {
 		                                               tempSelectableFeatureIds.remove(productFeatureApplVariant.getString("productFeatureId"));
 		                                            }
-		                                        ]]></call-bsh>
+		                                        </script>
 		                                    </iterate>
 		                                </if-validate-method>
 		                                <call-object-method method-name="size" obj-field="tempSelectableFeatureIds" ret-field="reaminFeatureSize"/>
@@ -862,12 +862,12 @@
 					                    <iterate entry="productFeatureValue" list="productFeatureValueList">
 						                 <!-- productFeature request parameter value contains "@" symbol
 						                     between "productFeatureId" and "productFeatureApplTypeId".-->
-							                <call-bsh><![CDATA[
+							                <script>groovy:
 							                    if (productFeatureValue != null) {
 							                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 							                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 							                    }
-							                ]]></call-bsh>
+							                </script>
 							                
 							                <set field="createVirtualProductFeatureApplCtx.productId" from-field="parameters.productId"/>
 		                                    <set field="createVirtualProductFeatureApplCtx.productFeatureId" from-field="parameters.productFeatureId"/>
@@ -925,12 +925,12 @@
 	            <if-not-empty field="productFeatureValue">
 	                 <!-- productFeature request parameter value contains "@" symbol
 	                     between "productFeatureId" and "productFeatureApplTypeId".-->
-	                <call-bsh><![CDATA[
+	                <script>groovy:
 	                    if (productFeatureValue != null) {
 	                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 	                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 	                    }
-	                ]]></call-bsh>
+	                </script>
 	                <!--   make virtual product associtation if not exist  -->
 	                <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
 	                    <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -958,12 +958,12 @@
 	            <if-not-empty field="productFeatureValue">
 	                 <!-- productFeature request parameter value contains "@" symbol
 	                     between "productFeatureId" and "productFeatureApplTypeId".-->
-		                <call-bsh><![CDATA[
+		                <script>groovy:
 		                    if (productFeatureValue != null) {
 		                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 		                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 		                    }
-		                ]]></call-bsh>
+		                </script>
 		                <!--   make virtual product associtation if not exist  -->
 		                <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
 		                    <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -993,12 +993,12 @@
                     <iterate entry="productFeatureValue" list="productFeatureValueList">
 	                 <!-- productFeature request parameter value contains "@" symbol
 	                     between "productFeatureId" and "productFeatureApplTypeId".-->
-		                <call-bsh><![CDATA[
+		                <script>groovy:
 		                    if (productFeatureValue != null) {
 		                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 		                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 		                    }
-		                ]]></call-bsh>
+		                </script>
 		                <!--   make virtual product associtation if not exist  -->
 		                <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
 		                    <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -3446,14 +3446,14 @@
             <field-map field-name="productAssocTypeId" from-field="productAssocTypeId"/>
         </entity-and>
         
-        <call-bsh><![CDATA[
+        <script>groovy:
             List existingProductIds = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(productAssocList, "productIdTo", true);
             parameters.put("existingProductIds",existingProductIds);
-        ]]></call-bsh>
+        </script>
         
         <set field="existingProductIds" from-field="parameters.existingProductIds"/>
         <if-not-empty field="newProductIdList">
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List allProductIds = javolution.util.new ArrayList();
                 allProductIds.addAll(existingProductIds);
                 
@@ -3464,14 +3464,14 @@
                     }
                 }
                 parameters.put("allProductIds",allProductIds);
-            ]]></call-bsh>
+            </script>
         <else>
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List allProductIds = javolution.util.new ArrayList();
                 allProductIds.addAll(existingProductIds);
                 
                 parameters.put("allProductIds",allProductIds);
-            ]]></call-bsh>
+            </script>
         </else>
         </if-not-empty>
         <now-timestamp field="nowStamp"/>    
@@ -5147,12 +5147,12 @@
                 <iterate-map key="productFeatureKey" value="productFeatureValue" map="parameters.selectableProductFeature">
                      <!-- productFeature request parameter value contains "@" symbol
                          between "productFeatureId" and "productFeatureApplTypeId".-->
-                    <call-bsh><![CDATA[
+                    <script>groovy:
                         if (productFeatureValue != null) {
                            parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
                            parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
                         }
-                    ]]></call-bsh>
+                    </script>
                     <!--   make virtual SELECTABLE_FEATURE ids list  -->
                     <if-compare field="parameters.productFeatureApplTypeId" operator="equals" value="SELECTABLE_FEATURE" type="String">
                         <set field="selectableFeatureIds[]" from-field="parameters.productFeatureId"/>
@@ -5193,11 +5193,11 @@
                                 </entity-and>
                                 <if-validate-method field="productFeatureApplList" method="isNotEmpty">
                                     <iterate list="productFeatureApplList" entry="productFeatureApplVariant">
-                                        <call-bsh><![CDATA[
+                                        <script>groovy:
                                             if (tempSelectableFeatureIds.contains(productFeatureApplVariant.getString("productFeatureId"))) {
                                                tempSelectableFeatureIds.remove(productFeatureApplVariant.getString("productFeatureId"));
                                             }
-                                        ]]></call-bsh>
+                                        </script>
                                     </iterate>
                                 </if-validate-method>
                                 <call-object-method method-name="size" obj-field="tempSelectableFeatureIds" ret-field="reaminFeatureSize"/>
@@ -5351,12 +5351,12 @@
             <if-not-empty field="productFeatureValue">
                  <!-- productFeature request parameter value contains "@" symbol
                      between "productFeatureId" and "productFeatureApplTypeId".-->
-                <call-bsh><![CDATA[
+                <script>groovy:
                     if (productFeatureValue != null) {
                        parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
                        parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
                     }
-                ]]></call-bsh>
+                </script>
                 <!--   make virtual product associtation if not exist  -->
                 <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
                     <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -5382,12 +5382,12 @@
             <if-not-empty field="productFeatureValue">
                  <!-- productFeature request parameter value contains "@" symbol
                      between "productFeatureId" and "productFeatureApplTypeId".-->
-                <call-bsh><![CDATA[
+                <script>groovy:
                     if (productFeatureValue != null) {
                        parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
                        parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
                     }
-                ]]></call-bsh>
+                </script>
                 <!--   make virtual product associtation if not exist  -->
                 <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
                     <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -5416,12 +5416,12 @@
                     <iterate entry="productFeatureValue" list="productFeatureValueList">
 	                 <!-- productFeature request parameter value contains "@" symbol
 	                     between "productFeatureId" and "productFeatureApplTypeId".-->
-		                <call-bsh><![CDATA[
+		                <script>groovy:
 		                    if (productFeatureValue != null) {
 		                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 		                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 		                    }
-		                ]]></call-bsh>
+		                </script>
 		                <!--   make virtual product associtation if not exist  -->
 		                <entity-and entity-name="ProductFeatureAppl" list="productFeatureApplList" filter-by-date="true">
 		                    <field-map field-name="productFeatureId" from-field="parameters.productFeatureId"/>
@@ -5926,15 +5926,15 @@
             <field-map field-name="productId" from-field="parameters.productId"/>
         </entity-and>
         
-        <call-bsh><![CDATA[
+        <script>groovy:
             List existingCategoryMemberIds = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(productCategoryMemberList, "productCategoryId", true);
             parameters.put("existingCategoryMemberIds",existingCategoryMemberIds);
-        ]]></call-bsh>
+        </script>
         
         <set field="existingCategoryMemberIds" from-field="parameters.existingCategoryMemberIds"/>
         
         <if-not-empty field="newCategoryMemberIdList">
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List allCategoryMemberIds = javolution.util.new ArrayList();
                 allCategoryMemberIds.addAll(existingCategoryMemberIds);
                 
@@ -5945,14 +5945,14 @@
                     }
                 }
                 parameters.put("allCategoryMemberIds",allCategoryMemberIds);
-            ]]></call-bsh>
+            </script>
         <else>
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List allCategoryMemberIds = javolution.util.new ArrayList();
                 allCategoryMemberIds.addAll(existingCategoryMemberIds);
                 
                 parameters.put("allCategoryMemberIds",allCategoryMemberIds);
-            ]]></call-bsh>
+            </script>
         </else>
         </if-not-empty>
         <now-timestamp field="nowStamp"/>
@@ -6044,12 +6044,12 @@
 					                    <iterate entry="productFeatureValue" list="productFeatureValueList">
 						                 <!-- productFeature request parameter value contains "@" symbol
 						                     between "productFeatureId" and "productFeatureApplTypeId".-->
-							                <call-bsh><![CDATA[
+							                <script>groovy:
 							                    if (productFeatureValue != null) {
 							                       parameters.put("productFeatureId", productFeatureValue.substring(0, productFeatureValue.indexOf("@")));
 							                       parameters.put("productFeatureApplTypeId", productFeatureValue.substring(productFeatureValue.indexOf("@")+1));
 							                    }
-							                ]]></call-bsh>
+							                </script>
 							                
 							                <set field="createVirtualProductFeatureApplCtx.productId" from-field="parameters.productId"/>
 		                                    <set field="createVirtualProductFeatureApplCtx.productFeatureId" from-field="parameters.productFeatureId"/>

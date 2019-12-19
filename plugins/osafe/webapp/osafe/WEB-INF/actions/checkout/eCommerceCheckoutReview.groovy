@@ -31,7 +31,7 @@ import com.osafe.util.Util;
 ShoppingCart cart = session.getAttribute("shoppingCart");
 context.cart = cart;
 
-orderItems = cart.makeOrderItems();
+orderItems = cart.makeOrderItems(dispatcher);
 context.orderItems = orderItems;
 
 //Get the Sub Total

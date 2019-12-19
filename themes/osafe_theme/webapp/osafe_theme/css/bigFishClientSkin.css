@@ -2319,7 +2319,8 @@ span.lowStock,
 
 }
 
-.stockKey li span.outOfStock {
+span.outOfStock,
+.selectableFeatures ul li.outOfStock a{
     background: none repeat scroll 0 0 #E8E8E8;
 }
 

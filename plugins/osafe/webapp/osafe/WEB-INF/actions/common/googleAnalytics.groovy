@@ -76,7 +76,7 @@ transItemList = [];
                     {
         	            productCategoryMember = EntityUtil.getFirst(productCategoryMemberList);
                         productCategory = productCategoryMember.getRelatedOne("ProductCategory");
-                        categoryName = CategoryContentWrapper.getProductCategoryContentAsText(productCategory, "CATEGORY_NAME", locale, dispatcher);
+                        categoryName = CategoryContentWrapper.getProductCategoryContentAsText(productCategory, "CATEGORY_NAME", locale, dispatcher, "string");
                         transItemMap.categoryName;
                     }
                 }

@@ -43,7 +43,7 @@
                               <#if orderItemShipGroups?has_content>
                                 <#list orderItemShipGroups as shipGroup>
                                   <#if orderHeader?has_content>
-                                    <#assign orderAttrPickupStoreList = orderHeader.getRelatedByAnd("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION")) />
+                                    <#assign orderAttrPickupStoreList = orderHeader.getRelated("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION")) />
                                     <#if orderAttrPickupStoreList?has_content>
                                       <#assign orderAttrPickupStore = Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderAttrPickupStoreList) />
                                       <#assign selectedStoreId = (orderAttrPickupStore.attrValue)?if_exists />

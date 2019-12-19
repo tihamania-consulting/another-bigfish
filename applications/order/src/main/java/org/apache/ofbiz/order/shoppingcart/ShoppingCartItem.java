@@ -2165,12 +2165,16 @@ public class ShoppingCartItem implements java.io.Serializable {
         if (amount != null) {
             amount = amount.multiply(this.getQuantity());
             orderAdjustment.set("amount", amount);
+        } else {
+            orderAdjustment.set("amount", BigDecimal.ZERO);
         }
 
         BigDecimal recurringAmount = (BigDecimal) additionalProductFeatureAndAppl.get("recurringAmount");
         if (recurringAmount != null) {
             recurringAmount = recurringAmount.multiply(this.getQuantity());
             orderAdjustment.set("recurringAmount", recurringAmount);
+        } else {
+            orderAdjustment.set("recurringAmount", BigDecimal.ZERO);
         }
 
         if (amount == null && recurringAmount == null) {

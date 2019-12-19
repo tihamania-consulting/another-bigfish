@@ -19,15 +19,13 @@
 	        <if-empty field="regPwdMinChar">
 	            <set field="regPwdMinChar" value="6"/>
 	        </if-empty>
-        	<call-bsh>
-	            <![CDATA[ 
+        	<script>groovy:
 	            	import org.apache.commons.lang.RandomStringUtils;
 	            	
 	                String randomPassword = RandomStringUtils.randomAlphanumeric(Integer.parseInt(regPwdMinChar));
 	                parameters.put("PASSWORD", randomPassword);
 	                parameters.put("CONFIRM_PASSWORD", randomPassword);
-	            ]]>
-	        </call-bsh>
+	            </script>
         </if-compare>
         <if-compare operator="equals" value="Y" field="parameters.PARTY_TEXT_PREFERENCE">
             <set field="parameters.PHONE_MOBILE_MANDATORY" value="Y" />
@@ -239,10 +237,10 @@
             <set from-field="tempMap.partyId" field="personLookup.partyId"/>
             <find-by-primary-key map="personLookup" value-field="personVo" entity-name="Person"/>
             <if-empty field="parameters.CLUB_NUMBER">
-                <call-bsh><![CDATA[
+                <script>groovy:
                     clubId = org.apache.ofbiz.party.party.PartyWorker.createClubId(delegator, "999", 13);
                     parameters.put("CLUB_NUMBER", clubId);
-                ]]></call-bsh>
+                </script>
             </if-empty>
             <set from-field="parameters.CLUB_NUMBER" field="personVo.memberId"/>
             <store-value value-field="personVo"/>
@@ -250,7 +248,7 @@
 
         <!-- now finished, log in the user and set the cart's partyId to that of the newly created customer ... -->
         <if-compare field="productStore.allowPassword" operator="equals" value="Y">
-            <call-bsh><![CDATA[
+            <script>groovy:
                 org.apache.ofbiz.webapp.control.LoginWorker.doBasicLogin(createdUserLogin, request);
                 org.apache.ofbiz.webapp.control.LoginWorker.autoLoginSet(request, response);
                 session = request.getSession();
@@ -258,7 +256,7 @@
                 if (cart != null) {
                     cart.setOrderPartyId(tempMap.get("partyId"));
                 }
-            ]]></call-bsh>
+            </script>
         </if-compare>
 
         <!-- Associated to Product Store -->
@@ -338,14 +336,14 @@
             </call-object-method>
             <check-errors/>
             <if-not-empty field="cart">
-                <call-bsh><![CDATA[
+                <script>groovy:
                     // clear out the login fields from the cart
                     try {
                         if (cart!=null) cart.setAutoUserLogin(null, dispatcher);
                     } catch (CartItemModifyException e) {
                         Debug.logError(e, module);
                     }
-                ]]></call-bsh>
+                </script>
             </if-not-empty>
             <set from-field="tempMap.partyId" field="partyId"/>
             <if-not-empty field="partyId">
@@ -358,14 +356,14 @@
                         <call-object-method obj-field="cart" method-name="setOrderPartyId">
                             <field field="partyId"/>
                         </call-object-method>
-                        <call-bsh><![CDATA[
+                        <script>groovy:
                             // clear out the login fields from the cart
                             try {
                                 if (cart!=null) cart.setUserLogin(userLogin, dispatcher);
                             } catch (CartItemModifyException e) {
                                 Debug.logError(e, module);
                             }
-                        ]]></call-bsh>
+                        </script>
                         <!-- call-object-method obj-field="cart"  method-name="setUserLogin">
                             <field field="userLogin"  type="org.apache.ofbiz.entity.GenericValue"/>
                             <field field="dispatcher" map-name="request" type="org.apache.ofbiz.service.LocalDispatcher"/>
@@ -701,13 +699,13 @@
     </simple-method>
 
     <simple-method method-name="processShipOptions" short-description="Process Ship Options; to be called as a Request Event" login-required="false">
-       <call-bsh><![CDATA[
+       <script>groovy:
            shipmentMethod = parameters.get("shipping_method");
            if(shipmentMethod != null){
               parameters.put("shipmentMethodTypeId", shipmentMethod.substring(0, shipmentMethod.indexOf("@")));
               parameters.put("carrierPartyId", shipmentMethod.substring(shipmentMethod.indexOf("@")+1));
            }
-       ]]></call-bsh>
+       </script>
        <session-to-field field="cart" session-name="shoppingCart"/>
        <if-not-empty field="cart">
            <set field="shipmentMethodTypeId" from-field="parameters.shipmentMethodTypeId"/>
@@ -795,12 +793,12 @@
             <set field="newUserLogin.currentPassword" from-field="userLoginMap.currentPassword"/>
             <set field="newUserLogin.passwordHint" from-field="userLoginMap.passwordHint"/>
             <!-- Check the password, etc for validity -->
-            <call-bsh><![CDATA[
+            <script>groovy:
                 String password = (String) userLoginMap.get("currentPassword");
                 String confirmPassword = (String) userLoginMap.get("currentPasswordVerify");
                 String passwordHint = (String) userLoginMap.get("passwordHint");
                 org.apache.ofbiz.common.login.LoginServices.checkNewPassword(newUserLogin, null, password, confirmPassword, passwordHint, error_list, true, locale);
-            ]]></call-bsh>
+            </script>
             <check-errors/>
             <set-service-fields service-name="createUserLogin"  map="userLoginMap" to-map="userLoginCtx"/>
 
@@ -814,12 +812,10 @@
             </entity-one>
 
             <!-- now finished, log in the user and set the cart's partyId -->
-            <call-bsh>
-                <![CDATA[
+            <script>groovy:
                     org.apache.ofbiz.webapp.control.LoginWorker.doBasicLogin(userLogin, request);
                     org.apache.ofbiz.webapp.control.LoginWorker.autoLoginSet(request, response);
-                ]]>
-            </call-bsh>
+                </script>
             <set field="parameters.userLogin" from-field="userLogin"/>
             <field-to-session field="userLogin.userLoginId" session-name="USER_LOGIN_EMAIL"/>
         <else>
@@ -877,13 +873,11 @@
         <if-empty field="shoppingCart">
             <session-to-field field="shoppingCart"/>
         </if-empty>
-        <call-bsh>
-            <![CDATA[
+        <script>groovy:
                 import org.apache.ofbiz.order.shoppingcart.shipping.ShippingEstimateWrapper;
                 shippingEstWpr = ShippingEstimateWrapper.getWrapper(dispatcher, shoppingCart, 0);
                 parameters.put("shippingEstWpr", shippingEstWpr);
-            ]]>
-        </call-bsh>
+            </script>
         <set field="shippingEstWpr" from-field="parameters.shippingEstWpr"/>
         <call-object-method obj-field="shippingEstWpr" method-name="getShippingMethods" ret-field="carrierShipmentMethodList"/>
         <call-object-method obj-field="shoppingCart" method-name="getShipmentMethodTypeId" ret-field="shipmentMethodTypeId"/>
@@ -1065,12 +1059,10 @@
                 <result-to-field result-name="newUserLogin"/>
             </call-service>
             <set-current-user-login value-field="newUserLogin"/>
-            <call-bsh>
-                <![CDATA[
+            <script>groovy:
                     org.apache.ofbiz.webapp.control.LoginWorker.doBasicLogin(newUserLogin, request);
                     org.apache.ofbiz.webapp.control.LoginWorker.autoLoginSet(request, response);
-                ]]>
-            </call-bsh>
+                </script>
             <!-- disabledDateTime/disableForYears set time until a user login remains disabled -->
             <if-not-empty field="parameters.disabledDateTime">
                 <set field="disabledDateTime" from-field="parameters.disabledDateTime" type="Date"/>

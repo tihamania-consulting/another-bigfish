@@ -1,2013 +1,387 @@
 <?xml version="1.0" encoding="UTF-8"?><resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <property key="eCommerceProductList?productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie</value>
+    <property key="eCommerceCategoryList?productCategoryId^^10010">
+        <value xml:lang="en">-shop-all-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/petite-jarre-à-stocker-l´huile</value>
+    <property key="eCommerceProductList?productCategoryId^^LED">
+        <value xml:lang="en">-tv/video/-led</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/saucier</value>
+    <property key="eCommerceProductDetail?productId^^4694~productCategoryId^^LED">
+        <value xml:lang="en">-led/-lg-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/moulin</value>
+    <property key="eCommerceProductDetail?productId^^4695~productCategoryId^^LED">
+        <value xml:lang="en">-led/-samsung-series-7-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/bol</value>
+    <property key="eCommerceProductDetail?productId^^4696~productCategoryId^^LED">
+        <value xml:lang="en">-led/-panasonic-viera-led-series-6-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/plat-à-repas</value>
+    <property key="eCommerceProductDetail?productId^^4697~productCategoryId^^LED">
+        <value xml:lang="en">-led/-sony-bravia-r450a-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/bougeoir</value>
+    <property key="eCommerceCategoryList?productCategoryId^^TVANDVIDEO">
+        <value xml:lang="en">-tv/video</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/pot-au-lait</value>
+    <property key="eCommerceProductList?productCategoryId^^LED">
+        <value xml:lang="en">-tv/video/-led</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/cruche-andagrave-eau</value>
+    <property key="eCommerceProductDetail?productId^^4694~productCategoryId^^LED">
+        <value xml:lang="en">-led/-lg-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/saucier</value>
+    <property key="eCommerceProductDetail?productId^^4695~productCategoryId^^LED">
+        <value xml:lang="en">-led/-samsung-series-7-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase</value>
+    <property key="eCommerceProductDetail?productId^^4696~productCategoryId^^LED">
+        <value xml:lang="en">-led/-panasonic-viera-led-series-6-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/plat-de-cuisine</value>
+    <property key="eCommerceProductDetail?productId^^4697~productCategoryId^^LED">
+        <value xml:lang="en">-led/-sony-bravia-r450a-led-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/pichet-andagrave-eau</value>
+    <property key="eCommerceProductList?productCategoryId^^LCD">
+        <value xml:lang="en">-tv/video/-lcd</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/gargoulette</value>
+    <property key="eCommerceProductDetail?productId^^4670~productCategoryId^^LCD">
+        <value xml:lang="en">-lcd/-samsung-series-3-lcd-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/plat-andagrave-cuisiner</value>
+    <property key="eCommerceProductDetail?productId^^4671~productCategoryId^^LCD">
+        <value xml:lang="en">-lcd/-lg-full-hd-1080p-lcd-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/couscoussier</value>
+    <property key="eCommerceProductDetail?productId^^4672~productCategoryId^^LCD">
+        <value xml:lang="en">-lcd/-panasonic-viera-lcd-th-le6d-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/amphore</value>
+    <property key="eCommerceProductDetail?productId^^4673~productCategoryId^^LCD">
+        <value xml:lang="en">-lcd/-sony-kdl32w600a-lcd-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
+    <property key="eCommerceProductList?productCategoryId^^3D">
+        <value xml:lang="en">-tv/video/-3d</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^POTTERY~productFeatureType^^COLOR:Natural">
-        <value xml:lang="en">potterie/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
+    <property key="eCommerceProductDetail?productId^^4702~productCategoryId^^3D">
+        <value xml:lang="en">-3d/-lg-ln4125-3d-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/bougeoir</value>
+    <property key="eCommerceProductDetail?productId^^4703~productCategoryId^^3D">
+        <value xml:lang="en">-3d/-sony-kdlw950a-3d-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/mortierpilon</value>
+    <property key="eCommerceProductDetail?productId^^4704~productCategoryId^^3D">
+        <value xml:lang="en">-3d/-samsung-f6400-3d-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/tadjine</value>
+    <property key="eCommerceProductDetail?productId^^4705~productCategoryId^^3D">
+        <value xml:lang="en">-3d/-panasonic-viera-thlet6d-3d-tv</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/pot-a-epices</value>
+    <property key="eCommerceProductList?productCategoryId^^DVD">
+        <value xml:lang="en">-tv/video/-dvd</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/cendrier</value>
+    <property key="eCommerceProductDetail?productId^^4707~productCategoryId^^DVD">
+        <value xml:lang="en">-dvd/-samsung-bluray-disc-player</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase</value>
+    <property key="eCommerceProductDetail?productId^^4708~productCategoryId^^DVD">
+        <value xml:lang="en">-dvd/-panasonic-portable-dvd-player</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/marmite-et-couscoussier-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4709~productCategoryId^^DVD">
+        <value xml:lang="en">-dvd/-sony-dvd-player</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/pot-à-bec-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4710~productCategoryId^^DVD">
+        <value xml:lang="en">-dvd/-sony-bluray-disc-player</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase-kabyle</value>
+    <property key="eCommerceProductList?productCategoryId^^HOMETHEATER">
+        <value xml:lang="en">-tv/video/-home-theater</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/mortierpilon-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4711~productCategoryId^^HOMETHEATER">
+        <value xml:lang="en">-home-theater/-bose-21-home-theater-system</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4712~productCategoryId^^HOMETHEATER">
+        <value xml:lang="en">-home-theater/-sony-51-bluray-home-theater-system</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4713~productCategoryId^^HOMETHEATER">
+        <value xml:lang="en">-home-theater/-lg-21-home-theater-system</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceCategoryList?productCategoryId^^MOBILES">
+        <value xml:lang="en">-mobiles</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/terrine-de-kabylie</value>
+    <property key="eCommerceProductList?productCategoryId^^ANDROID">
+        <value xml:lang="en">-mobiles/-android-phones</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4261~productCategoryId^^ANDROID">
+        <value xml:lang="en">-android-phones/-google-nexus-5</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4262~productCategoryId^^ANDROID">
+        <value xml:lang="en">-android-phones/-sony-xperia-z</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/tadjine-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4263~productCategoryId^^ANDROID">
+        <value xml:lang="en">-android-phones/-lg-g2-16-gb</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/service-à-café</value>
+    <property key="eCommerceProductDetail?productId^^4263~productCategoryId^^ANDROID~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">-android-phones/-lg-g2-16-gb-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4263~productCategoryId^^ANDROID~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-android-phones/-lg-g2-16-gb-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^POTTERY">
-        <value xml:lang="en">potterie/cruche-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4720~productCategoryId^^ANDROID">
+        <value xml:lang="en">-android-phones/-samsung-note-3-and-galaxy-gear</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^COUSCOUS">
-        <value xml:lang="en">potterie/fûts-pour-eau</value>
+    <property key="eCommerceProductDetail?productId^^4721~productCategoryId^^ANDROID">
+        <value xml:lang="en">-android-phones/-samsung-galaxy-s4</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^WATER_STORAGE">
-        <value xml:lang="en">potterie/décoration</value>
+    <property key="eCommerceProductList?productCategoryId^^WINDOWS">
+        <value xml:lang="en">-mobiles/-windows-phones</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^WATER_STORAGE">
-        <value xml:lang="en">décoration/cruche-andagrave-eau</value>
+    <property key="eCommerceProductDetail?productId^^4341~productCategoryId^^WINDOWS">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1020</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^WATER_STORAGE">
-        <value xml:lang="en">décoration/cruche-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4341~productCategoryId^^WINDOWS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1020-black</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DECORATION_POTTERY">
-        <value xml:lang="en">potterie/décoration</value>
+    <property key="eCommerceProductDetail?productId^^4341~productCategoryId^^WINDOWS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1020-white</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DECORATION">
-        <value xml:lang="en">potterie/service-de-table</value>
+    <property key="eCommerceProductDetail?productId^^4341~productCategoryId^^WINDOWS~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1020-yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase</value>
+    <property key="eCommerceProductDetail?productId^^4342~productCategoryId^^WINDOWS">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1520</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase</value>
+    <property key="eCommerceProductDetail?productId^^4342~productCategoryId^^WINDOWS~productFeatureType^^COLOR:RED">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1520-red</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle</value>
+    <property key="eCommerceProductDetail?productId^^4342~productCategoryId^^WINDOWS~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-1520-yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4343~productCategoryId^^WINDOWS">
+        <value xml:lang="en">-windows-phones/-nokia-lumia-625</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductList?productCategoryId^^IPHONE">
+        <value xml:lang="en">-mobiles/-iphone</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE">
+        <value xml:lang="en">-iphone/-apple-iphone-5c-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoir</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">-iphone/-apple-iphone-5c--blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoir</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE~productFeatureType^^COLOR:Green">
+        <value xml:lang="en">-iphone/-apple-iphone-5c--green</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE~productFeatureType^^COLOR:RED">
+        <value xml:lang="en">-iphone/-apple-iphone-5c--red</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-iphone/-apple-iphone-5c--white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4719~productCategoryId^^IPHONE~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">-iphone/-apple-iphone-5c--yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceCategoryList?productCategoryId^^CAMERASANDCAMCORDERS">
+        <value xml:lang="en">-cameras-and-camcorders</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bonbonnière</value>
+    <property key="eCommerceProductList?productCategoryId^^ACCESSORY">
+        <value xml:lang="en">-cameras-and-camcorders/-video-accessories</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4716~productCategoryId^^ACCESSORY">
+        <value xml:lang="en">-video-accessories/-samsung-flat-panel-wall-mount</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4735~productCategoryId^^ACCESSORY">
+        <value xml:lang="en">-video-accessories/-dynex-camcorder-ac-adapter</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
+    <property key="eCommerceProductDetail?productId^^4736~productCategoryId^^ACCESSORY">
+        <value xml:lang="en">-video-accessories/-kodak-r110-reader-of-microsd-cards</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-fleurs-dorées</value>
+    <property key="eCommerceProductDetail?productId^^4737~productCategoryId^^ACCESSORY">
+        <value xml:lang="en">-video-accessories/-sony-21in1-external-card-reader</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoratif-avec-fleurs-dorées</value>
+    <property key="eCommerceProductList?productCategoryId^^DIGITAL">
+        <value xml:lang="en">-cameras-and-camcorders/-digital</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-forme-coeur</value>
+    <property key="eCommerceProductDetail?productId^^4723~productCategoryId^^DIGITAL">
+        <value xml:lang="en">-digital/-samsung-sh100</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-forme-coeur-à-roses-rouges</value>
+    <property key="eCommerceProductDetail?productId^^4724~productCategoryId^^DIGITAL">
+        <value xml:lang="en">-digital/-sony-cybershot-162-megapixel</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-roses-oranges</value>
+    <property key="eCommerceProductDetail?productId^^4725~productCategoryId^^DIGITAL">
+        <value xml:lang="en">-digital/-sony--cybershot-141megapixel</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
+    <property key="eCommerceProductList?productCategoryId^^CAMCORDERS">
+        <value xml:lang="en">-cameras-and-camcorders/-camcorders</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
+    <property key="eCommerceProductDetail?productId^^4727~productCategoryId^^CAMCORDERS">
+        <value xml:lang="en">-camcorders/-sony--dcrsx85</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-an-bouquet-de-roses</value>
+    <property key="eCommerceProductDetail?productId^^4728~productCategoryId^^CAMCORDERS">
+        <value xml:lang="en">-camcorders/-jvc-everio</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoré</value>
+    <property key="eCommerceProductList?productCategoryId^^SLR">
+        <value xml:lang="en">-cameras-and-camcorders/-slr</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond</value>
+    <property key="eCommerceProductDetail?productId^^4729~productCategoryId^^SLR">
+        <value xml:lang="en">-slr/-canon--eos-digital-rebel-t3</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoré</value>
+    <property key="eCommerceProductDetail?productId^^4730~productCategoryId^^SLR">
+        <value xml:lang="en">-slr/-nikon--d3100-142megapixel</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/boite-à-mouchoir</value>
+    <property key="eCommerceProductDetail?productId^^4731~productCategoryId^^SLR">
+        <value xml:lang="en">-slr/-canon--eos-60d-180megapixel</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/boite-décorée</value>
+    <property key="eCommerceProductList?productCategoryId^^WEBCAMS">
+        <value xml:lang="en">-cameras-and-camcorders/-webcams</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne-à-roses-rouges</value>
+    <property key="eCommerceProductDetail?productId^^4732~productCategoryId^^WEBCAMS">
+        <value xml:lang="en">-webcams/-logitech--hd-webcam-c615</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne-à-fruits-rouges</value>
+    <property key="eCommerceProductDetail?productId^^4733~productCategoryId^^WEBCAMS">
+        <value xml:lang="en">-webcams/-logitech--hd-webcam-c310</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne</value>
+    <property key="eCommerceProductDetail?productId^^4734~productCategoryId^^WEBCAMS">
+        <value xml:lang="en">-webcams/-logitech--c170-webcam</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/tableau-à-fleurs-oranges</value>
+    <property key="eCommerceCategoryList?productCategoryId^^COMPUTERSANDTABLETS">
+        <value xml:lang="en">-computers-and-tablets</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/tableau-à-fleurs-rouges</value>
+    <property key="eCommerceProductList?productCategoryId^^LAPTOPS">
+        <value xml:lang="en">-computers-and-tablets/-laptops</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plateau-et-verres-décorés</value>
+    <property key="eCommerceProductDetail?productId^^4738~productCategoryId^^LAPTOPS">
+        <value xml:lang="en">-laptops/-lenovo-yoga-convertible-laptop</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/corbeille-décorée</value>
+    <property key="eCommerceProductDetail?productId^^4739~productCategoryId^^LAPTOPS">
+        <value xml:lang="en">-laptops/-hp-envy-j001tx-laptop</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/décor-pour-cuisine</value>
+    <property key="eCommerceProductDetail?productId^^4740~productCategoryId^^LAPTOPS">
+        <value xml:lang="en">-laptops/-apple--macbook-air</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/assiette-décorée</value>
+    <property key="eCommerceProductList?productCategoryId^^TABLETS">
+        <value xml:lang="en">-computers-and-tablets/-tablets</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoire-décorée</value>
+    <property key="eCommerceProductDetail?productId^^4743~productCategoryId^^TABLETS">
+        <value xml:lang="en">-tablets/-amazon--kindle-fire</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
+    <property key="eCommerceProductDetail?productId^^4743~productCategoryId^^TABLETS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-tablets/-amazon--kindle-fire-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
+    <property key="eCommerceProductDetail?productId^^4745~productCategoryId^^TABLETS">
+        <value xml:lang="en">-tablets/-acer--iconia-tablet</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^OIL_STORAGE">
-        <value xml:lang="en">potterie/service-de-table</value>
+    <property key="eCommerceProductDetail?productId^^4745~productCategoryId^^TABLETS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">-tablets/-acer--iconia-tablet-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^OIL_STORAGE">
-        <value xml:lang="en">service-de-table/petite-jarre-à-stocker-l´huile</value>
+    <property key="eCommerceProductDetail?productId^^4745~productCategoryId^^TABLETS~productFeatureType^^COLOR:RED">
+        <value xml:lang="en">-tablets/-acer--iconia-tablet-red</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^TABLEWARE_POTTERY">
-        <value xml:lang="en">potterie/service-de-table</value>
+    <property key="eCommerceProductDetail?productId^^4745~productCategoryId^^TABLETS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-tablets/-acer--iconia-tablet-white</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^TABLEWARE">
-        <value xml:lang="en">potterie/cuisine</value>
+    <property key="eCommerceProductDetail?productId^^4746~productCategoryId^^TABLETS">
+        <value xml:lang="en">-tablets/-samsung--galaxy-tab-89</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^KITCHEN">
-        <value xml:lang="en">potterie/luminaire</value>
+    <property key="eCommerceProductList?productCategoryId^^IPADS">
+        <value xml:lang="en">-computers-and-tablets/-ipads</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/saucier</value>
+    <property key="eCommerceProductDetail?productId^^4747~productCategoryId^^IPADS">
+        <value xml:lang="en">-ipads/-apple-ipad-tablet-16gb-3g-wifi</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/moulin</value>
+    <property key="eCommerceProductDetail?productId^^4748~productCategoryId^^IPADS">
+        <value xml:lang="en">-ipads/-apple-ipad-2-16gb-3g-wifi</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/bol</value>
+    <property key="eCommerceProductDetail?productId^^4748~productCategoryId^^IPADS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-ipads/-apple-ipad-2-16gb-3g-wifi-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/plat-à-repas</value>
+    <property key="eCommerceProductDetail?productId^^4749~productCategoryId^^IPADS">
+        <value xml:lang="en">-ipads/-apple-ipad-2-64gb-wifi-tablet</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/bougeoir</value>
+    <property key="eCommerceProductList?productCategoryId^^EREADERS">
+        <value xml:lang="en">-computers-and-tablets/-ereaders</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/pot-au-lait</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/saucier</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Anthracite Black">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-anthracite-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/plat-de-cuisine</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Apple Red">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-apple-red</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/pichet-andagrave-eau</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:California Yellow">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-california-yellow</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/gargoulette</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Lime Green">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-lime-green</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/plat-andagrave-cuisiner</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Miami Blue">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-miami-blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/couscoussier</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Royal Blue">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-royal-blue</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/amphore</value>
+    <property key="eCommerceProductDetail?productId^^4751~productCategoryId^^EREADERS~productFeatureType^^COLOR:Salmon Pink">
+        <value xml:lang="en">-ereaders/-amazon--kindle-touch-3g-salmon-pink</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
+    <property key="eCommerceProductList?productCategoryId^^MONITORS">
+        <value xml:lang="en">-computers-and-tablets/-monitors</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^KITCHEN~productFeatureType^^COLOR:Natural">
-        <value xml:lang="en">luminaire/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
+    <property key="eCommerceProductDetail?productId^^4755~productCategoryId^^MONITORS">
+        <value xml:lang="en">-monitors/-hp-lcd-monitor</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/bougeoir</value>
+    <property key="eCommerceProductDetail?productId^^4755~productCategoryId^^MONITORS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">-monitors/-hp-lcd-monitor-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/mortierpilon</value>
+    <property key="eCommerceProductDetail?productId^^4756~productCategoryId^^MONITORS">
+        <value xml:lang="en">-monitors/-asus-widescreen-lcd-monitor</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/tadjine</value>
+    <property key="eCommerceProductDetail?productId^^4756~productCategoryId^^MONITORS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">-monitors/-asus-widescreen-lcd-monitor-black</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/pot-a-epices</value>
+    <property key="eCommerceCategoryList?productCategoryId^^HOMEAPPLIANCES">
+        <value xml:lang="en">-home-appliances</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/cendrier</value>
+    <property key="eCommerceProductList?productCategoryId^^REFRIGERATORS">
+        <value xml:lang="en">-home-appliances/-refrigerators-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/marmite-et-couscoussier-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4767~productCategoryId^^REFRIGERATORS">
+        <value xml:lang="en">-refrigerators-/-godrej-edge-sx-muziplay-gde-23-dm4</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/pot-à-bec-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4767~productCategoryId^^REFRIGERATORS~productFeatureType^^COLOR:Garden Silver">
+        <value xml:lang="en">-refrigerators-/-godrej-edge-sx-muziplay-gde-23-dm4-garden-silver</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/mortierpilon-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4768~productCategoryId^^REFRIGERATORS">
+        <value xml:lang="en">-refrigerators-/-electrolux-</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/terrine-de-kabylie</value>
+    <property key="eCommerceProductDetail?productId^^4768~productCategoryId^^REFRIGERATORS~productFeatureType^^COLOR:SILVER">
+        <value xml:lang="en">-refrigerators-/-electrolux--silver</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4769~productCategoryId^^REFRIGERATORS">
+        <value xml:lang="en">-refrigerators-/-lg-gl201xfdg5</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4769~productCategoryId^^REFRIGERATORS~productFeatureType^^COLOR:Crystal Eden">
+        <value xml:lang="en">-refrigerators-/-lg-gl201xfdg5-crystal-eden</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/tadjine-d´aït-kheir</value>
+    <property key="eCommerceProductList?productCategoryId^^COOKINGRANGES">
+        <value xml:lang="en">-home-appliances/-cooking-ranges</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^KITCHEN">
-        <value xml:lang="en">luminaire/jarre-à-eau-d´aït-kheir</value>
+    <property key="eCommerceProductDetail?productId^^4771~productCategoryId^^COOKINGRANGES">
+        <value xml:lang="en">-cooking-ranges/-faber-corsa</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^COFFEE_TEA">
-        <value xml:lang="en">potterie/café-/-thé</value>
+    <property key="eCommerceProductDetail?productId^^4772~productCategoryId^^COOKINGRANGES">
+        <value xml:lang="en">-cooking-ranges/-sunflame-regalia--gtss</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^COFFEE_TEA">
-        <value xml:lang="en">café-/-thé/service-à-café</value>
+    <property key="eCommerceProductList?productCategoryId^^MICROWAVES">
+        <value xml:lang="en">-home-appliances/--microwaves</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^DJEFNA">
-        <value xml:lang="en">potterie/décoration</value>
+    <property key="eCommerceProductDetail?productId^^4775~productCategoryId^^MICROWAVES">
+        <value xml:lang="en">--microwaves/-ifb-convection</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^TAJINE">
-        <value xml:lang="en">potterie/fûts-pour-huile</value>
+    <property key="eCommerceProductDetail?productId^^4775~productCategoryId^^MICROWAVES~productFeatureType^^COLOR:Metallic Silver">
+        <value xml:lang="en">--microwaves/-ifb-convection-metallic-silver</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^COFEE_TEA">
-        <value xml:lang="en">potterie/</value>
+    <property key="eCommerceProductDetail?productId^^4776~productCategoryId^^MICROWAVES">
+        <value xml:lang="en">--microwaves/-lg-ms-</value>
     </property>
-    <property key="eCommerceProductList?productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique</value>
+    <property key="eCommerceProductList?productCategoryId^^AIRCONDITIONERS">
+        <value xml:lang="en">-home-appliances/-air-conditioners</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/luminaire-en-candeacuteramique</value>
+    <property key="eCommerceProductDetail?productId^^4779~productCategoryId^^AIRCONDITIONERS">
+        <value xml:lang="en">-air-conditioners/-videocon-vkw30ce1-10-ton</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/bougeoir</value>
+    <property key="eCommerceProductDetail?productId^^4779~productCategoryId^^AIRCONDITIONERS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">-air-conditioners/-videocon-vkw30ce1-10-ton-white</value>
     </property>
-    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/bonbonnière</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^CERAMIC">
-        <value xml:lang="en">céramique/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^LIGHTING">
-        <value xml:lang="en">céramique/tapis</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^LIGHTING">
-        <value xml:lang="en">tapis/luminaire-en-candeacuteramique</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^TABLEWARE_CERAMIC">
-        <value xml:lang="en">céramique/service-de-table</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^TABLEWARE">
-        <value xml:lang="en">potterie/cuisine</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^DECORATION_CERAMIC">
-        <value xml:lang="en">céramique/décoration</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^DECORATION">
-        <value xml:lang="en">potterie/service-de-table</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bonbonnière</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-fleurs-dorées</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoratif-avec-fleurs-dorées</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-forme-coeur</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-forme-coeur-à-roses-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond-décoré-avec-roses-oranges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-an-bouquet-de-roses</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-rond</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/miroir-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/boite-à-mouchoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/boite-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne-à-roses-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne-à-fruits-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/couronne</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/tableau-à-fleurs-oranges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/tableau-à-fleurs-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/plateau-et-verres-décorés</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/corbeille-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/décor-pour-cuisine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/assiette-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/bougeoire-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^DECORATION">
-        <value xml:lang="en">service-de-table/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^TAJINE">
-        <value xml:lang="en">potterie/fûts-pour-huile</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^OFFICE">
-        <value xml:lang="en">céramique/tenus-de-fête</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^PICTURE_CERAMIC">
-        <value xml:lang="en">céramique/kechabia</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CANDY">
-        <value xml:lang="en">céramique/burnous</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-du-m´zab-type-benisguen</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/guandoura-mozabite</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-beni-izguéne-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^TAPESTRY">
-        <value xml:lang="en">tissage/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CARPET">
-        <value xml:lang="en">tissage/arts-sur-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-du-m´zab-type-benisguen</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/guandoura-mozabite</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-beni-izguéne-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^CARPET">
-        <value xml:lang="en">arts-sur-cuivre/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^PILLOW">
-        <value xml:lang="en">tissage/robes</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BEDSPREAD">
-        <value xml:lang="en">tissage/caligraphie</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293001~productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293002~productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293003~productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293004~productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293005~productCategoryId^^LEATHER">
-        <value xml:lang="en">maroquinerie/pouf</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^POUF">
-        <value xml:lang="en">maroquinerie/poufs</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kwiyet-et-maharmat-ftoul</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe--constantinoise</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/tenue-chaouie-(berbère)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensembles-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-moderne-(ouverte-devant-)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-traditionnelle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/gandoura-pour-homme</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
-        <value xml:lang="en">vêtements/burnous-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-pour-enfant</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-traditionnel-de-cérémonie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/burnous-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">vêtements/burnous-en-ouber-brown</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-traditionnelle-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-moderne-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/kachabia-moderne-en-laine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/burnous-brodé</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
-        <value xml:lang="en">vêtements/burnous-brodé-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Orange">
-        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-orange</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^APPAREL~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">vêtements/robe-de-fête-de-batna-blue</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/costume-algérois</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/costume-algérois-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-de-fêtes-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^APPAREL~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">vêtements/robe-de-fêtes-de-batna-pink</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^APPAREL~productFeatureType^^COLOR:Garnet">
-        <value xml:lang="en">vêtements/robe-chaouie-garnet</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/robe-chaouie-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^APPAREL~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-yellow</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^APPAREL~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-red</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^APPAREL~productFeatureType^^COLOR:White">
-        <value xml:lang="en">vêtements/robe-traditionnelle-de-batna-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^APPAREL~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">vêtements/robe-de-fête-de-batna-gold</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^APPAREL">
-        <value xml:lang="en">vêtements/burnous-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^APPAREL~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">vêtements/burnous-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BURNOUS">
-        <value xml:lang="en">vêtements/tableaux-sur-verre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^BURNOUS">
-        <value xml:lang="en">tableaux-sur-verre/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^BURNOUS">
-        <value xml:lang="en">tableaux-sur-verre/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^BURNOUS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">tableaux-sur-verre/burnous-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^BURNOUS">
-        <value xml:lang="en">tableaux-sur-verre/burnous-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^BURNOUS~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">tableaux-sur-verre/burnous-en-ouber-brown</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^BURNOUS">
-        <value xml:lang="en">tableaux-sur-verre/burnous-brodé</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^BURNOUS~productFeatureType^^COLOR:White">
-        <value xml:lang="en">tableaux-sur-verre/burnous-brodé-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^BURNOUS">
-        <value xml:lang="en">tableaux-sur-verre/burnous-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^BURNOUS~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">tableaux-sur-verre/burnous-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^KECHABIA">
-        <value xml:lang="en">vêtements/boucles-doreilles</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^FEEST">
-        <value xml:lang="en">vêtements/chaînes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kwiyet-et-maharmat-ftoul</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/tenue-chaouie-(berbère)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensembles-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-moderne-(ouverte-devant-)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-traditionnelle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/gandoura-pour-homme</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-pour-enfant</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-traditionnel-de-cérémonie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-traditionnelle-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-moderne-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/kachabia-moderne-en-laine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST~productFeatureType^^COLOR:Orange">
-        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-orange</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">chaînes/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^FEEST">
-        <value xml:lang="en">chaînes/costume-algérois</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^FEEST~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">chaînes/costume-algérois-black</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^ROBES">
-        <value xml:lang="en">vêtements/fibules</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe--constantinoise</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^ROBES~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">fibules/robe-de-fête-de-batna-blue</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-de-fêtes-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^ROBES~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">fibules/robe-de-fêtes-de-batna-pink</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^ROBES~productFeatureType^^COLOR:Garnet">
-        <value xml:lang="en">fibules/robe-chaouie-garnet</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^ROBES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">fibules/robe-chaouie-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^ROBES~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-yellow</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^ROBES~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^ROBES~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-red</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^ROBES~productFeatureType^^COLOR:White">
-        <value xml:lang="en">fibules/robe-traditionnelle-de-batna-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^ROBES">
-        <value xml:lang="en">fibules/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^ROBES~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">fibules/robe-de-fête-de-batna-gold</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BLOUSE">
-        <value xml:lang="en">vêtements/poufs</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^PANT">
-        <value xml:lang="en">vêtements/sekkai</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14001~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14002~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-coranique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14003~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14004~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-coranique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14005~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14006~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14007~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^PAINTINGS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe-blue</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14009~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14010~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14011~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14012~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14013~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266001~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266002~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266003~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266004~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266005~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266006~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266007~productCategoryId^^PAINTINGS">
-        <value xml:lang="en">peintures/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^COPPER">
-        <value xml:lang="en">peintures/saad</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CALLIGRAPHY">
-        <value xml:lang="en">peintures/caligraphie</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^GLASS">
-        <value xml:lang="en">peintures/djelfi-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^SAND_PAINTINGS">
-        <value xml:lang="en">peintures/merrabet-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^PICTURE_CERAMIC">
-        <value xml:lang="en">céramique/kechabia</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21001~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/fibule-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21002~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21003~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21004~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/fibule-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21005~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21006~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21007~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21008~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/chaîne-en-argent-de-kabylie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21009~productCategoryId^^JEWELERY">
-        <value xml:lang="en">bijoux/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^EARINGS">
-        <value xml:lang="en">bijoux/boucles-doreilles</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^NECKLACE">
-        <value xml:lang="en">bijoux/chaînes</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BROOCH">
-        <value xml:lang="en">bijoux/fibules</value>
-    </property>
-    <property key="eCommerceCategoryList?productCategoryId^^ARTISAN">
-        <value xml:lang="en">nos-artisans</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^SEKKAI">
-        <value xml:lang="en">nos-artisans/ihaddadene-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298001~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/petite-jarre-à-stocker-l´huile</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298002~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/saucier</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298003~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/moulin</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298004~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/bol</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298005~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/plat-à-repas</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298006~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298007~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/pot-au-lait</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298008~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/cruche-andagrave-eau</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298009~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/saucier</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298010~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/vase</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298011~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/plat-de-cuisine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298012~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/pichet-andagrave-eau</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298013~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/gargoulette</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298014~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/plat-andagrave-cuisiner</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298015~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/couscoussier</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298016~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/amphore</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^SEKKAI">
-        <value xml:lang="en">ihaddadene-/moulin-à-grains-traditionnel-en-argile-(décoration)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^298017~productCategoryId^^SEKKAI~productFeatureType^^COLOR:Natural">
-        <value xml:lang="en">ihaddadene-/moulin-à-grains-traditionnel-en-argile-(décoration)-natural</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^MERRABET">
-        <value xml:lang="en">nos-artisans/merrabet-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285001~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285002~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/mortierpilon</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285003~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/tadjine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285004~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/pot-a-epices</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285005~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/cendrier</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^285006~productCategoryId^^MERRABET">
-        <value xml:lang="en">merrabet-/vase</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">nos-artisans/khairi-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259001~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/marmite-et-couscoussier-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259002~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/pot-à-bec-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259003~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/vase-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259004~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/mortierpilon-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259005~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259006~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259007~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/vase-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259008~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/terrine-de-kabylie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259009~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259010~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259011~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/tadjine-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259012~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/service-à-café</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259013~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/jarre-à-eau-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^259014~productCategoryId^^AIT_KHEIR">
-        <value xml:lang="en">khairi-/cruche-kabyle-d´aït-kheir</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^SAAD">
-        <value xml:lang="en">nos-artisans/boukhers-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262001~productCategoryId^^SAAD">
-        <value xml:lang="en">boukhers-/luminaire-en-candeacuteramique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262002~productCategoryId^^SAAD">
-        <value xml:lang="en">boukhers-/bougeoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^262003~productCategoryId^^SAAD">
-        <value xml:lang="en">boukhers-/bougeoir</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^DJELFI">
-        <value xml:lang="en">nos-artisans/djelfi-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21001~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/fibule-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21002~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21003~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21004~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/fibule-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21005~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21006~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21007~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/broche-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21008~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/chaîne-en-argent-de-kabylie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^21009~productCategoryId^^DJELFI">
-        <value xml:lang="en">djelfi-/boucles-d´oreilles-kabyles</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BENZEKRI">
-        <value xml:lang="en">nos-artisans/benzekri-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300001~productCategoryId^^BENZEKRI">
-        <value xml:lang="en">benzekri-/tapis-du-m´zab-type-benisguen</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^300002~productCategoryId^^BENZEKRI">
-        <value xml:lang="en">benzekri-/guandoura-mozabite</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUAL">
-        <value xml:lang="en">nos-artisans/boual-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29001~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29002~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29003~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29004~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29005~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29006~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29007~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29008~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29009~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29010~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-gandoura-mozabite-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29011~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29012~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29013~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-tissage</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29014~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis-beni-izguéne-de-couloir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^29015~productCategoryId^^BOUAL">
-        <value xml:lang="en">boual-/tapis</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CHAIMA">
-        <value xml:lang="en">nos-artisans/benmansour</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302001~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/ensemble-de-fêtes-(corset‚-boléro-et-jupe)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302002~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302003~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/ensemble-de-fêtes-(boléro-‚corset-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302004~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302005~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/kwiyet-et-maharmat-ftoul</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302006~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302007~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302008~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302009~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302010~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302011~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête-(karakou-et-seroual-m´daouar)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302012~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302013~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302014~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-de-fête</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302015~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/robe--constantinoise</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302016~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/tenue-chaouie-(berbère)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302017~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302018~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/robe-kabyle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302019~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/ensemble-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^302020~productCategoryId^^CHAIMA">
-        <value xml:lang="en">benmansour/ensembles-de-fêtes</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^RAMOUL">
-        <value xml:lang="en">nos-artisans/ramoul-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">nos-artisans/chennoufi-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7001~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7002~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7003~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7004~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7005~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/bonbonnière</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7006~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7007~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^7008~productCategoryId^^CHENNOUFI">
-        <value xml:lang="en">chennoufi-/plat-de-décoration</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^IHADDADENE">
-        <value xml:lang="en">nos-artisans/ihaddadene-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299001~productCategoryId^^IHADDADENE">
-        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299002~productCategoryId^^IHADDADENE">
-        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299003~productCategoryId^^IHADDADENE">
-        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^299004~productCategoryId^^IHADDADENE">
-        <value xml:lang="en">ihaddadene-/tapis-berbère</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^ATHMANI">
-        <value xml:lang="en">nos-artisans/athmani-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301001~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/kachabia-moderne-(ouverte-devant-)</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301002~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/kachabia-traditionnelle</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301003~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/gandoura-pour-homme</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/burnous</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301004~productCategoryId^^ATHMANI~productFeatureType^^COLOR:White">
-        <value xml:lang="en">athmani-/burnous-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301005~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/kachabia-pour-enfant</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^301006~productCategoryId^^ATHMANI">
-        <value xml:lang="en">athmani-/ensemble-traditionnel-de-cérémonie</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^KHAIRI">
-        <value xml:lang="en">nos-artisans/khairi-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/burnous-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8001~productCategoryId^^KHAIRI~productFeatureType^^COLOR:Brown">
-        <value xml:lang="en">khairi-/burnous-en-ouber-brown</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8002~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/kachabia-traditionnelle-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8003~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/kachabia-moderne-en-ouber</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8004~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/kachabia-moderne-en-laine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/burnous-brodé</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8005~productCategoryId^^KHAIRI~productFeatureType^^COLOR:White">
-        <value xml:lang="en">khairi-/burnous-brodé-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8006~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^8007~productCategoryId^^KHAIRI">
-        <value xml:lang="en">khairi-/robe-pour-homme-des-hauts-plateaux</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUKHERS">
-        <value xml:lang="en">nos-artisans/boukhers-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14001~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14002~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-coranique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14003~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14004~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-coranique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14005~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14006~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14007~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14008~productCategoryId^^BOUKHERS~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe-blue</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14009~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14010~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14011~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-brodé--calligraphie-arabe</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14012~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^14013~productCategoryId^^BOUKHERS">
-        <value xml:lang="en">boukhers-/tableau-calligraphique</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">nos-artisans/boukenoucha-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266001~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266002~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266003~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266004~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266005~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266006~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^266007~productCategoryId^^BOUKENOUCHA">
-        <value xml:lang="en">boukenoucha-/tableau-en-cuivre</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">nos-artisans/bouguerra-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13001~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13002~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13003~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13004~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13005~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de---khenchela</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^13006~productCategoryId^^BOUGUERRA">
-        <value xml:lang="en">bouguerra-/tapis-de--khenchela</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^AOMRI">
-        <value xml:lang="en">nos-artisans/aomri-</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI~productFeatureType^^COLOR:Orange">
-        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-orange</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23001~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23002~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/ensemble-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23003~productCategoryId^^AOMRI~productFeatureType^^COLOR:Blue">
-        <value xml:lang="en">aomri-/robe-de-fête-de-batna-blue</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23004~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/costume-algérois</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23005~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/costume-algérois-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-de-fêtes-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23006~productCategoryId^^AOMRI~productFeatureType^^COLOR:Pink">
-        <value xml:lang="en">aomri-/robe-de-fêtes-de-batna-pink</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23007~productCategoryId^^AOMRI~productFeatureType^^COLOR:Garnet">
-        <value xml:lang="en">aomri-/robe-chaouie-garnet</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-chaouie</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23008~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/robe-chaouie-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23009~productCategoryId^^AOMRI~productFeatureType^^COLOR:Yellow">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-yellow</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23010~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23011~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23012~productCategoryId^^AOMRI~productFeatureType^^COLOR:Red">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-red</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23013~productCategoryId^^AOMRI~productFeatureType^^COLOR:White">
-        <value xml:lang="en">aomri-/robe-traditionnelle-de-batna-white</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/robe-de-fête-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23014~productCategoryId^^AOMRI~productFeatureType^^COLOR:Gold">
-        <value xml:lang="en">aomri-/robe-de-fête-de-batna-gold</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^AOMRI">
-        <value xml:lang="en">aomri-/burnous-de-mariée-de-batna</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^23015~productCategoryId^^AOMRI~productFeatureType^^COLOR:Black">
-        <value xml:lang="en">aomri-/burnous-de-mariée-de-batna-black</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">nos-artisans/benmansour</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293001~productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">benmansour/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293002~productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">benmansour/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293003~productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">benmansour/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293004~productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">benmansour/pouf</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^293005~productCategoryId^^BENMANSOUR">
-        <value xml:lang="en">benmansour/pouf</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nos-artisans/nait_seghir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303001~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-rond-décoré-avec-fleurs-dorées</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303002~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-décoratif-avec-fleurs-dorées</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303003~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-forme-coeur</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303004~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-forme-coeur-à-roses-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303005~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-rond-décoré-avec-roses-oranges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303006~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303007~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303008~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-an-bouquet-de-roses</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303009~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303010~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-rond</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303011~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/miroir-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303012~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/boite-à-mouchoir</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303013~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/boite-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303014~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/couronne-à-roses-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303015~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/couronne-à-fruits-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303016~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/couronne</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303017~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/tableau-à-fleurs-oranges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303018~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/tableau-à-fleurs-rouges</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303019~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/plateau-et-verres-décorés</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303020~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/corbeille-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303021~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/décor-pour-cuisine</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303022~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/assiette-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303023~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/bougeoire-décorée</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303024~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductDetail?productId^^303025~productCategoryId^^NAIT_SEGHIR">
-        <value xml:lang="en">nait_seghir/vase-décoré</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^MERRABET ">
-        <value xml:lang="en">nos-artisans/athmani-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^DJELFI ">
-        <value xml:lang="en">nos-artisans/boukenoucha-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BENZEKRI ">
-        <value xml:lang="en">nos-artisans/bouguerra-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUAL ">
-        <value xml:lang="en">nos-artisans/aomri-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^RAMOUL ">
-        <value xml:lang="en">nos-artisans/nait_seghir</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CHENNOUFI ">
-        <value xml:lang="en">nos-artisans/chennoufi-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^IHADDADENE ">
-        <value xml:lang="en">nos-artisans/ihaddadene-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^ATHMANI ">
-        <value xml:lang="en">nos-artisans/athmani-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^KHAIRI ">
-        <value xml:lang="en">nos-artisans/khairi-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUKHERS ">
-        <value xml:lang="en">nos-artisans/boukhers-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUKENOUCHA ">
-        <value xml:lang="en">nos-artisans/boukenoucha-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^BOUGUERRA ">
-        <value xml:lang="en">nos-artisans/bouguerra-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^AOMRI ">
-        <value xml:lang="en">nos-artisans/aomri-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^Benmansour ">
-        <value xml:lang="en">nos-artisans/</value>
-    </property>
-    <property key="eCommerceCategoryList?productCategoryId^^REGION">
-        <value xml:lang="en">couscous</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^ALGIERS">
-        <value xml:lang="en">couscous/benzekri-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^MZAB">
-        <value xml:lang="en">couscous/boual-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^KABILY">
-        <value xml:lang="en">couscous/chaima</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^CONSTANTINE">
-        <value xml:lang="en">couscous/ramoul-</value>
-    </property>
-    <property key="eCommerceProductList?productCategoryId^^ANNABA">
-        <value xml:lang="en">couscous/chennoufi-</value>
+    <property key="eCommerceProductDetail?productId^^4780~productCategoryId^^AIRCONDITIONERS">
+        <value xml:lang="en">-air-conditioners/-hitachi-rav518erd-summer-qc</value>
     </property>
     <property key="eCommerceContent?contentId^^SP_ABOUT_US">
         <value xml:lang="en">about-us</value>

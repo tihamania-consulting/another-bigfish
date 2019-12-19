@@ -886,7 +886,7 @@
 	                                      <#assign statusDescription = statusItem.get("description",locale)!statusItem.statusId />
 	                                    </#if>
 	                                    <!-- PICKUP IN STORE -->
-                                        <#assign orderAttrPickupStore = ORDER.getRelatedByAnd("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))!""/>
+                                        <#assign orderAttrPickupStore = ORDER.getRelated("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))!""/>
 									    <#if orderAttrPickupStore?has_content>
 									       <#assign pickupInStore="Y"/>
 									    </#if>
@@ -985,7 +985,7 @@
   <textData><![CDATA[
 <#if ORDER_PAYMENTS?has_content || ORDER_PAYMENT_TYPE?has_content>
       <#assign payInStore="N"/>
-      <#assign orderAttrPickupStore = ORDER.getRelatedByAnd("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
+      <#assign orderAttrPickupStore = ORDER.getRelated("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
     
       <#if orderAttrPickupStore?has_content>
            <#assign payInStore="Y"/>
@@ -1068,7 +1068,7 @@
             <#list ORDER_ITEM_SHIP_GROUP as shipGroup>
                 <#assign storeGroup = "">
                 <#assign pickupInStore = "N">
-				<#assign orderAttrPickupStore = ORDER.getRelatedByAnd("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
+				<#assign orderAttrPickupStore = ORDER.getRelated("OrderAttribute", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
 				<#if orderAttrPickupStore?has_content>
 				    <#assign orderAttribute= Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderAttrPickupStore)/>
 				    <#assign storeId=orderAttribute.attrValue!/>
@@ -1244,11 +1244,11 @@
                                   <tr style="${TABULAR_DATA!""}">
                                       <td class="span image product">
                                             <a href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}" id="image_${urlProductId}">
-                                             <img style="${E_IMAGE}" alt="${StringUtil.wrapString(orderItem.itemDescription!)}" src="${HTTP_HOST}${productImageUrl}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}">
+                                             <img style="${E_IMAGE}" alt="${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription!)}" src="${HTTP_HOST}${productImageUrl}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}">
                                             </a>                
                                       </td>
                                       <td>
-                                          <a style="${E_LINK!""}" href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}">${StringUtil.wrapString(orderItem.itemDescription!)}</a>
+                                          <a style="${E_LINK!""}" href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}">${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription!)}</a>
                                               <#if features?has_content>
                                                    <table class="displayList">
                                                        <#list features as feature>
@@ -1411,12 +1411,12 @@
                <tr style="${TABULAR_DATA!""}">
                     <td>
                          <a href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}" id="image_${urlProductId}">
-                              <img style="${E_IMAGE}" alt="${StringUtil.wrapString(orderItem.itemDescription)}" src="${HTTP_HOST}${productImageUrl}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}">
+                              <img style="${E_IMAGE}" alt="${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription)}" src="${HTTP_HOST}${productImageUrl}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}">
                          </a>                
                     </td>
                
                     <td>
-                         <a style="${E_LINK!""}" href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}">${StringUtil.wrapString(orderItem.itemDescription)}</a>
+                         <a style="${E_LINK!""}" href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}">${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription)}</a>
                               <#if features?has_content>
                                    <table class="displayList">
                                         <#list features as feature>
@@ -1582,10 +1582,10 @@
 						                   </#if>
 						                   <tr>
 						                       <td><a href="${HTTP_HOST}/eCommerceProductDetail?productId=${urlProductId}" id="image_${urlProductId}">
-						                           <img style="${E_IMAGE}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}"  alt="${StringUtil.wrapString(orderItem.itemDescription)}" src="${HTTP_HOST}${productImageUrl}">
+						                           <img style="${E_IMAGE}" height="${IMG_SIZE_CART_H}" width="${IMG_SIZE_CART_W}"  alt="${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription)}" src="${HTTP_HOST}${productImageUrl}">
 						                           </a>
 						                       </td>
-						                       <td>${StringUtil.wrapString(orderItem.itemDescription)}</td>
+						                       <td>${org.apache.ofbiz.base.util.StringUtil.wrapString(orderItem.itemDescription)}</td>
 						                       <td>
 						                          <a href="${HTTP_HOST}/eCommerceProductReviewSubmit?productId=${urlProductId}" style="${E_LINK!""}">${uiLabelMap.ReviewLabel}</a>
 						                       </td>

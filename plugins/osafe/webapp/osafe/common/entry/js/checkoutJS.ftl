@@ -225,7 +225,7 @@
             form.submit();
         } else if (mode == "SO") {
             <#-- submit order -->
-            document.getElementById("js_submitOrderBtn").value = "${uiLabelMap.SubmittingOrderBtn}";
+            document.getElementById("js_submitOrderBtn").value = "${StringUtil.wrapString(uiLabelMap.SubmittingOrderBtn)}";
             jQuery("#js_submitOrderBtn").attr("disabled", "disabled");
             form.action="<@ofbizUrl>${submitOrderAction!""}</@ofbizUrl>";
             form.submit();

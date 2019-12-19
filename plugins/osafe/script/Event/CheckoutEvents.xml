@@ -1342,12 +1342,10 @@
             <!-- send registration mail -->
             <call-simple-method method-name="sendRegistrationEmail" xml-resource="component://osafe/script/Event/EmailEvents.xml"/>
             
-            <call-bsh>
-                <![CDATA[
+            <script>groovy:
                     org.apache.ofbiz.webapp.control.LoginWorker.doBasicLogin(createdUserLogin, request);
                     org.apache.ofbiz.webapp.control.LoginWorker.autoLoginSet(request, response);
-                ]]>
-            </call-bsh>
+                </script>
 	        <session-to-field field="shoppingCart" session-name="shoppingCart"/>
 	        <if-not-empty field="shoppingCart">
 	            <call-object-method obj-field="shoppingCart" method-name="setOrderPartyId">
@@ -1388,6 +1386,7 @@
 
         <!-- SET ADDRESS TO CART -->
         <session-to-field field="shoppingCart" session-name="shoppingCart"/>
+
         <if-not-empty field="shoppingCart">
           <!-- SET BILLING ADDRESS TO CART -->
 	          <if-not-empty field="billAddressPurposeContext.contactMechId">
@@ -1398,9 +1397,13 @@
 	          </if-not-empty>
           <!-- SET SHIPPING ADDRESS TO CART -->
 	          <if-not-empty field="shippingAddressPurposeContext.contactMechId">
-		        <call-object-method obj-field="shoppingCart" method-name="setShippingContactMechId">
-		            <field field="shippingAddressPurposeContext.contactMechId"/>
-		        </call-object-method>
+				  <script>groovy:
+					  groupIdx =  1;
+					  if (shippingAddressPurposeContext.shipGroupSeqId != null) {
+					  	groupIdx = Integer.parseInt(shippingAddressPurposeContext.shipGroupSeqId);
+					  }
+					  shoppingCart.setShippingContactMechId(groupIdx-1, shippingAddressPurposeContext.contactMechId);
+				  </script>
 		      </if-not-empty>
 	      <!-- SET EMAIL ADDRESS TO CART -->
 		      <if-not-empty field="emailContext.contactMechId">
@@ -1719,11 +1722,9 @@
 
     <simple-method method-name="createCashOnDeliveryPayment" short-description="Create Cash On Delivery payment" login-required="false">
        <session-to-field field="shoppingCart"/>
-       <call-bsh>
-        <![CDATA[
+       <script>groovy:
             shoppingCart.addPaymentAmount("EXT_COD", shoppingCart.getGrandTotal().subtract(shoppingCart.getPaymentTotal()), false);
-        ]]>
-       </call-bsh>
+        </script>
     </simple-method>
 
     <simple-method method-name="processPayPalContactMech" short-description="remove contact mech from shopping cart" login-required="false">
@@ -2097,11 +2098,9 @@
             <string value="DELIVERY_OPTION"/>
         </call-object-method>
         <if-compare operator="equals" value="SHIP_TO_MULTI" field="deliveryOption">
-		       <call-bsh>
-		        <![CDATA[
+		       <script>groovy:
 		            shoppingCart.setDoPromotions(false);
-		        ]]>
-		       </call-bsh>
+		        </script>
         </if-compare>
          
         <call-class-method class-name="org.apache.ofbiz.order.shoppingcart.shipping.ShippingEvents" method-name="getShipEstimate">
@@ -2110,11 +2109,9 @@
         </call-class-method>
         
         <!-- Finally turn the doPromotions on the cart back on -->
-       <call-bsh>
-        <![CDATA[
+       <script>groovy:
             shoppingCart.setDoPromotions(true);
-        ]]>
-       </call-bsh>
+        </script>
     </simple-method>
     
     <simple-method method-name="updateCartOnChange" short-description="update cart when cart is modified" login-required="false">
@@ -2510,7 +2507,7 @@
     
     <simple-method method-name="setShippingOption" short-description="Set shipping method" login-required="false">
     <!-- This method is only called from the screen when selecting a ship option and in single ship group mode -->
-        <call-bsh><![CDATA[
+        <script><![CDATA[ groovy:
             shippingMethod = parameters.get("shipMethod");
             shipmentMethodTypeId = "";
             carrierPartyId = "";
@@ -2534,7 +2531,7 @@
                   }
                 } 
             }
-        ]]></call-bsh>
+        ]]></script>
         <set field="shipmentMethodTypeId" from-field="parameters.shipmentMethodTypeId"/>
         <set field="carrierPartyId" from-field="parameters.carrierPartyId"/>
         <set field="productStoreShipMethId" from-field="parameters.productStoreShipMethId"/>
@@ -2932,12 +2929,9 @@
                 
             <if-not-empty field="shoppingCartItems">
                 <iterate entry="shoppingCartItem" list="shoppingCartItems">
-                    <call-class-method class-name="com.osafe.services.InventoryServices" method-name="setProductInventoryLevel" >
-                        <field field="shoppingCartItem.productId"/>
-                        <field field="productStoreId"/>
-                        <field field="shoppingCartItem.quantity" type="BigDecimal"/>
-                        <field field="deliveryOption"/>
-                    </call-class-method>
+					<script>groovy:
+						com.osafe.services.InventoryServices.setProductInventoryLevel(shoppingCart, shoppingCartItem, productStoreId, shoppingCartItem.quantity, deliveryOption);
+					</script>
                 </iterate>
             </if-not-empty>
         </if-not-empty>

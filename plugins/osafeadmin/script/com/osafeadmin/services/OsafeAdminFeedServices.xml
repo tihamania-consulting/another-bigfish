@@ -489,10 +489,10 @@
             </if-compare>
         </if-not-empty>
         <if-not-empty field="custRequestAttrList">
-	        <call-bsh><![CDATA[
+	        <script>groovy:
 	          List custRequestIds = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestAttrList, "custRequestId", true);
 	          parameters.put("custRequestIds",custRequestIds);
-	        ]]></call-bsh>
+	        </script>
 	    </if-not-empty>
 	    <if-not-empty field="parameters.custRequestIds">
 		    <entity-condition entity-name="CustRequest" list="custRequestList">
@@ -504,10 +504,10 @@
 		    </entity-condition>
 	    </if-not-empty>
 	    <if-not-empty field="custRequestList">
-	        <call-bsh><![CDATA[
+	        <script>groovy:
 	            List custRequestIdList = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, "custRequestId", true);
 	            parameters.put("custRequestIdList",custRequestIdList);
-	        ]]></call-bsh>
+	        </script>
 	        <set field="custRequestIdList" value="${groovy:org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, 'custRequestId', true);}" type="List"/>
 	    </if-not-empty>
     
@@ -595,10 +595,10 @@
             </if-compare>
         </if-not-empty>
         <if-not-empty field="custRequestAttrList">
-	        <call-bsh><![CDATA[
+	        <script>groovy:
 	          List custRequestIds = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestAttrList, "custRequestId", true);
 	          parameters.put("custRequestIds",custRequestIds);
-	        ]]></call-bsh>
+	        </script>
 	    </if-not-empty>
 	    <if-not-empty field="parameters.custRequestIds">
 		    <entity-condition entity-name="CustRequest" list="custRequestList">
@@ -610,10 +610,10 @@
 		    </entity-condition>
 	    </if-not-empty>
 	    <if-not-empty field="custRequestList">
-	        <call-bsh><![CDATA[
+	        <script>groovy:
 	            List custRequestIdList = org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, "custRequestId", true);
 	            parameters.put("custRequestIdList",custRequestIdList);
-	        ]]></call-bsh>
+	        </script>
 	        <set field="custRequestIdList" value="${groovy:org.apache.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, 'custRequestId', true);}" type="List"/>
 	    </if-not-empty>
     

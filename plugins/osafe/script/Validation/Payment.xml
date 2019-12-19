@@ -70,7 +70,7 @@
                 <string-to-list string="${tempErrorMessage}" message-field="expMonth" list="error_list"/>
             </if-validate-method>
             <!-- Check that the card type matches -->
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List errorMessageList = javolution.util.new ArrayList();
                 parameters.put("errorMessageList", errorMessageList );
                 if (!org.apache.ofbiz.base.util.UtilValidate.isCardMatch((String) creditCardContext.get("cardType"), (String) creditCardContext.get("cardNumber"))) {
@@ -82,7 +82,7 @@
                                                       "validCardType", org.apache.ofbiz.base.util.UtilValidate.getCardType((String) creditCardContext.get("cardNumber"))
                                                   ),locale));
                   }
-            ]]></call-bsh>
+            </script>
     
             <set field="errorMessageList" from-field="parameters.errorMessageList" />
     

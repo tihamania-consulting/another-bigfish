@@ -355,7 +355,7 @@ if (UtilValidate.isNotEmpty(rowOrderItem))
 	context.quantityOrdered = rowOrderItem.quantity;
 	context.lineIndex = lineIndex;
 	context.rowClass = rowClass;
-	context.orderDate = rowOrderItem.orderDate;
+	context.orderDate = orderHeader.orderDate;
 	context.priceMap = priceMap;
 	context.price = price;
 	context.offerPrice = offerPrice;

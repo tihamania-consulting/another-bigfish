@@ -190,14 +190,14 @@
 
         <!-- Check the password, etc for validity -->
         <set field="passwordErrorsList" type="List" />
-        <call-bsh><![CDATA[
+        <script>groovy:
             List passwordErrorsList = javolution.util.new ArrayList();
             String password = (String) userLoginContext.get("currentPassword");
             String confirmPassword = (String) userLoginContext.get("currentPasswordVerify");
             String passwordHint = (String) userLoginContext.get("passwordHint");
 
             org.apache.ofbiz.common.login.LoginServices.checkNewPassword(newUserLogin, null, password, confirmPassword, passwordHint, passwordErrorsList, true, locale);
-        ]]></call-bsh>
+        </script>
         
         <!-- Get errors from method call and associate to field -->
         <if-not-empty  field="passwordErrorsList">

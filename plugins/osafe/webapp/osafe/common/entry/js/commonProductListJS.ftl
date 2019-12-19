@@ -320,7 +320,7 @@
                   }
                   if (currentFeatureIndex+1 <= (OPT.length-1) ) 
                   {
-	                    
+
 	                    var nextFeatureLength = jQuery('div#'+selectFeatureDiv+' select.'+OPT[(currentFeatureIndex+1)]).find('option').size();
 	                    
 	                    if(nextFeatureLength == 2) 

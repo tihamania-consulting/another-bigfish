@@ -186,14 +186,14 @@
             <set from-field="passwordContext.userLoginId" field="newUserLogin.userLoginId"/>
             <set from-field="passwordContext.currentPassword" field="newUserLogin.currentPassword"/>
             <!-- Check the password, etc for validity -->
-            <call-bsh><![CDATA[
+            <script>groovy:
                 List passwordErrorsList = javolution.util.new ArrayList();
                 String password = (String) passwordContext.get("currentPassword");
                 String confirmPassword = (String) passwordContext.get("currentPasswordVerify");
                 String passwordHint = (String) passwordContext.get("passwordHint");
 
                 org.apache.ofbiz.common.login.LoginServices.checkNewPassword(newUserLogin, null, password, confirmPassword, null, passwordErrorsList, true, locale);
-            ]]></call-bsh>
+            </script>
             <!-- Get errors from method call and associate to field -->
             <if-not-empty  field="passwordErrorsList">
                 <iterate list="passwordErrorsList" entry="error">
@@ -201,7 +201,7 @@
                 </iterate>
             </if-not-empty>
             <set field="passwordHasNumber" type="String" value="Y"  />
-            <call-bsh><![CDATA[
+            <script>groovy:
                 String password = (String) passwordContext.get("currentPassword");
                 if (password != null){
                     String passwordNumbersRemoved = org.apache.ofbiz.base.util.StringUtil.removeNumeric(password);
@@ -209,7 +209,7 @@
                         passwordContext.put("passwordHasNumber","N");
                     }
                 }
-            ]]></call-bsh>
+            </script>
 
         </if-not-empty>
         

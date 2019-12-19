@@ -192,11 +192,9 @@
 	        </if-compare>
 	        <if-compare operator="equals" value="OffLine" field="parameters.paymentOption">
 	        	<session-to-field field="shoppingCart"/>
-		       <call-bsh>
-		        <![CDATA[
+		       <script>groovy:
 		            shoppingCart.addPaymentAmount("EXT_COD", shoppingCart.getGrandTotal().subtract(shoppingCart.getPaymentTotal()), false);
-		        ]]>
-		       </call-bsh>
+		        </script>
 	        </if-compare>
         </if-compare>
         
@@ -242,7 +240,7 @@
         </call-object-method>
         
         <if-compare operator="equals" value="true" field="shippingApplies">
-	        <call-bsh><![CDATA[
+	        <script>groovy:
 	            shippingMethod = parameters.get("shipping_method");
 	            if(shippingMethod != null) {
 	                shipmentMethodTypeId = shippingMethod.substring(0, shippingMethod.indexOf("@"));
@@ -256,7 +254,7 @@
 	                parameters.put("shipmentMethodTypeId", shipmentMethodTypeId);
 	                parameters.put("carrierPartyId", carrierPartyId);
 	            }
-	        ]]></call-bsh>
+	        </script>
 	        <set field="shipmentMethodTypeId" from-field="parameters.shipmentMethodTypeId"/>
 	        <set field="carrierPartyId" from-field="parameters.carrierPartyId"/>
 	        <set field="productStoreShipMethId" from-field="parameters.productStoreShipMethId"/>
@@ -284,7 +282,7 @@
         <set field="delegator" from-field="parameters.delegator" type="Object"/>
         <set field="locale" from-field="parameters.locale" type="Object"/>
 
-        <call-bsh><![CDATA[
+        <script>groovy:
             Map shipCost = org.apache.ofbiz.order.shoppingcart.shipping.ShippingEvents.getShipGroupEstimate(dispatcher, delegator, shoppingCart, 0);
             shippingTotal = shipCost.get("shippingTotal");
             if (shippingTotal == null) {
@@ -303,7 +301,7 @@
 
             cartGrandTotal = org.apache.ofbiz.base.util.UtilFormatOut.formatCurrency(shoppingCart.getGrandTotal(), isoCode, locale);
             parameters.put("cartGrandTotal", cartGrandTotal);
-        ]]></call-bsh>
+        </script>
 
         <if-not-empty field="paymentMethodId">
              <create-object class-name="org.apache.ofbiz.order.shoppingcart.CheckOutHelper" field="checkOutHelper">
@@ -384,7 +382,7 @@
 	    		<call-simple-method method-name="removeStorePickup"/>
 	    	</if-compare>
     	</if-not-empty>
-        <call-bsh><![CDATA[
+        <script>groovy:
             shippingMethod = parameters.get("shipMethod");
             if(shippingMethod != null) {
                 shipmentMethodTypeId = shippingMethod.substring(0, shippingMethod.indexOf("@"));
@@ -398,7 +396,7 @@
                 parameters.put("shipmentMethodTypeId", shipmentMethodTypeId);
                 parameters.put("carrierPartyId", carrierPartyId);
             }
-        ]]></call-bsh>
+        </script>
         <set field="shipmentMethodTypeId" from-field="parameters.shipmentMethodTypeId"/>
         <set field="carrierPartyId" from-field="parameters.carrierPartyId"/>
         <set field="productStoreShipMethId" from-field="parameters.productStoreShipMethId"/>
@@ -431,7 +429,7 @@
         <set field="delegator" from-field="parameters.delegator" type="Object"/>
         <set field="locale" from-field="parameters.locale" type="Object"/>
 
-        <call-bsh><![CDATA[
+        <script>groovy:
             Map shipCost = org.apache.ofbiz.order.shoppingcart.shipping.ShippingEvents.getShipGroupEstimate(dispatcher, delegator, shoppingCart, 0);
             shippingTotal = shipCost.get("shippingTotal");
             if (shippingTotal == null) {
@@ -450,7 +448,7 @@
 
             cartGrandTotal = org.apache.ofbiz.base.util.UtilFormatOut.formatCurrency(shoppingCart.getGrandTotal(), isoCode, locale);
             parameters.put("cartGrandTotal", cartGrandTotal);
-        ]]></call-bsh>
+        </script>
         <call-class-method method-name="doPromotions" class-name="org.apache.ofbiz.order.shoppingcart.product.ProductPromoWorker">
             <field field="shoppingCart" type="org.apache.ofbiz.order.shoppingcart.ShoppingCart"/>
             <field field="dispatcher" type="org.apache.ofbiz.service.LocalDispatcher"/>
@@ -644,7 +642,7 @@
             <if-not-empty field="shoppingCartItems">
                 <iterate entry="shoppingCartItem" list="shoppingCartItems">
                     <call-class-method class-name="com.osafe.services.InventoryServices" method-name="setProductInventoryLevel" >
-                        <field field="shoppingCartItem.productId"/>
+                        <field field="shoppingCartItem"/>
                         <field field="productStoreId"/>
                         <field field="shoppingCartItem.quantity" type="BigDecimal"/>
                         <field field="deliveryOption"/>

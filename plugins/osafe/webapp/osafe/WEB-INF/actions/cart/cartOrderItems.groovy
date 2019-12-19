@@ -193,11 +193,11 @@ if(UtilValidate.isNotEmpty(urlProductId))
 {
 	if(UtilValidate.isNotEmpty(virtualProduct))
 	{
-		inventoryLevelMap = InventoryServices.getProductInventoryLevel(virtualProductAttributes, request);
+		inventoryLevelMap = InventoryServices.getProductInventoryLevel(virtualProduct.get("productId"), virtualProductAttributes, request);
 	}
 	else
 	{
-		inventoryLevelMap = InventoryServices.getProductInventoryLevel(productAttributes, request);
+		inventoryLevelMap = InventoryServices.getProductInventoryLevel(product.get("productId"), productAttributes, request);
 	}
 	inventoryLevel = inventoryLevelMap.get("inventoryLevel");
 	inventoryInStockFrom = inventoryLevelMap.get("inventoryLevelInStockFrom");

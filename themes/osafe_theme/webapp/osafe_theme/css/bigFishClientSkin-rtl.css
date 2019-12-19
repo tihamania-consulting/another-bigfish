@@ -157,21 +157,21 @@ input.standardBtn[type="submit"]:hover, input.standardBtn[type="button"]:hover, 
 }
 
 input.positive[type="submit"], input.positive[type="button"], a.positive{
-    background: url("/osafe_theme/images/user_content/images/positiveButtonBg.png") repeat-x left 50%;
+    background: url("/osafe_theme/images/user_content/images/positiveButtonBg-rtl.png") repeat-x left 50%;
     padding: 4px 10px 4px 25px ;
 }
 
 input.positive[type="submit"]:hover, input.positive[type="button"]:hover, a.positive:hover{
-    background: url("/osafe_theme/images/user_content/images/positiveButtonBgHover.png") repeat-x left 50%;
+    background: url("/osafe_theme/images/user_content/images/positiveButtonBgHover-rtl.png") repeat-x left 50%;
 }
 
 input.negative[type="submit"], input.negative[type="button"], a.negative{
-    background: url("/osafe_theme/images/user_content/images/negativeButtonBg.png") repeat-x right 50%;
+    background: url("/osafe_theme/images/user_content/images/negativeButtonBg-rtl.png") repeat-x right 50%;
     padding: 4px 25px 4px 10px ;
 }
 
 input.negative[type="submit"]:hover, input.negative[type="button"]:hover, a.negative:hover{
-    background: url("/osafe_theme/images/user_content/images/negativeButtonBgHover.png") repeat-x right 50%;
+    background: url("/osafe_theme/images/user_content/images/negativeButtonBgHover-rtl.png") repeat-x right 50%;
 }
 
 input.update[type="submit"], input.update[type="button"], a.update{
@@ -201,11 +201,11 @@ input.addToCart[type="submit"], input.addToCart[type="button"], a.addToCart{
 }
 
 input.addToCart[type="submit"]:hover, input.addToCart[type="button"]:hover, a.addToCart:hover{
-    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left ;
 }
 
 input.addToWishlist[type="submit"], input.addToWishlist[type="button"], a.addToWishlist{
-    background: url("/osafe_theme/images/user_content/images/wishlistButtonBg.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/wishlistButtonBg.png") repeat-x left ;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -213,7 +213,7 @@ input.addToWishlist[type="submit"], input.addToWishlist[type="button"], a.addToW
 }
 
 input.addToWishlist[type="submit"]:hover, input.addToWishlist[type="button"]:hover, a.addToWishlist:hover{
-    background: url("/osafe_theme/images/user_content/images/wishlistButtonBgHover.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/wishlistButtonBgHover.png") repeat-x left ;
 }
 
 input[type="submit"].addToCart.inactiveAddToCart, input[type="button"].addToCart.inactiveAddToCart, a.addToCart.inactiveAddToCart, input[type="submit"].addToWishlist.inactiveAddToWishlist, input[type="button"].addToWishlist.inactiveAddToWishlist, a.addToWishlist.inactiveAddToWishlist{
@@ -221,7 +221,7 @@ input[type="submit"].addToCart.inactiveAddToCart, input[type="button"].addToCart
 }
 
 input.submitOrder[type="submit"], input.submitOrder[type="button"], a.submitOrder{
-    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBg.png") repeat-x left ;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -229,7 +229,7 @@ input.submitOrder[type="submit"], input.submitOrder[type="button"], a.submitOrde
 }
 
 input.submitOrder[type="submit"]:hover, input.submitOrder[type="button"]:hover, a.submitOrder:hover{
-    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left right ;
+    background: url("/osafe_theme/images/user_content/images/cartSubmitButtonBgHover.png") repeat-x left ;
 }
 
 .button{
@@ -932,32 +932,32 @@ table#rateObj2Filled{
 }
 
 #eCommerceCartFootprintContainer li.on{
-    background: url("/osafe_theme/images/user_content/images/current-on.png") no-repeat scroll right  0 #666666;
+    background: url("/osafe_theme/images/user_content/images/current-on-rtl.png") no-repeat scroll right  0 #666666;
 }
 
 #eCommerceCartFootprintContainer li.current{
-    background: url("/osafe_theme/images/user_content/images/current-on.png") no-repeat scroll right  0 #666666;
+    background: url("/osafe_theme/images/user_content/images/current-on-rtl.png") no-repeat scroll right  0 #666666;
 }
 
 #eCommerceCartFootprintContainer li.next{
-    background: url("/osafe_theme/images/user_content/images/next.png") no-repeat scroll right  0 #C7C7C7;
+    background: url("/osafe_theme/images/user_content/images/next-rtl.png") no-repeat scroll right  0 #C7C7C7;
 }
 
 #eCommerceCartFootprintContainer li.off, #eCommerceCartFootprintContainer li.last{
-    background: url("/osafe_theme/images/user_content/images/off.png") no-repeat scroll right  0 #C7C7C7;
+    background: url("/osafe_theme/images/user_content/images/off-rtl.png") no-repeat scroll right  0 #C7C7C7;
 }
 
 #eCommerceCartFootprintContainer li#confirmation.off span, #eCommerceCartFootprintContainer li#confirmation.next span, #eCommerceCartFootprintContainer li#confirmation.last span{
-    background: url("/osafe_theme/images/user_content/images/last-off-top.png") no-repeat scroll left top transparent;
+    background: url("/osafe_theme/images/user_content/images/last-off-top-rtl.png") no-repeat scroll left top transparent;
 }
 
 #eCommerceCartFootprintContainer li#confirmation.next{
-    background: url("/osafe_theme/images/user_content/images/last-next.png") no-repeat scroll right  0 transparent;
+    background: url("/osafe_theme/images/user_content/images/last-next-rtl.png") no-repeat scroll right  0 transparent;
 }
 
 #eCommerceCartFootprintContainer li#confirmation.current{
     padding-left: 15px;
-    background: url("/osafe_theme/images/user_content/images/last-on.png") no-repeat scroll right  0 transparent;
+    background: url("/osafe_theme/images/user_content/images/last-on-rtl.png") no-repeat scroll right  0 transparent;
 }
 
 .payPalImage{

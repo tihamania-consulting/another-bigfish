@@ -39,7 +39,7 @@
 				    <#-- check if outOfStock -->
 				    <#assign isInStock = true />
 				    <#if (inventoryMethod?exists && inventoryMethod?has_content)>
-				      <#if inventoryMethod.toUpperCase() == "BIGFISH">
+				      <#if inventoryMethod.toUpperCase() != "NONE">
 				        <#if (productVariantStockMap?exists && productVariantStockMap?has_content)>
 				         <#assign productAssocProductIdTo = productVariantStockMap.get(variantProductAssocProductId)!""/>
 				         <#if productAssocProductIdTo?has_content>
@@ -113,8 +113,24 @@
 	                <#assign productFeatureDescription =productFeatureAndApplsSelect.description/>
                     <#assign featureClass=  Static["com.osafe.util.Util"].removeNonAlphaNumeric(productFeatureDescription)!""/> 
 	                <#assign productFeatureSelectableId =productFeatureAndApplsSelect.productFeatureId/>
+	                <#assign productFeatureSelectVariantId= productFeatureFirstVariantIdMap.get(productFeatureSelectableId)!""/>
+	                <#if featureOrderSize == 1>
+                        <#assign variantProductInventoryLevel = productVariantInventoryMap.get(productFeatureSelectVariantId)!/>
+                        <#assign inventoryLevel = variantProductInventoryLevel.get("inventoryLevel")/>
+                        <#assign inventoryInStockFrom = variantProductInventoryLevel.get("inventoryLevelInStockFrom")/>
+                        <#assign inventoryOutOfStockTo = variantProductInventoryLevel.get("inventoryLevelOutOfStockTo")/>
+                        <#if (inventoryLevel?number <= inventoryOutOfStockTo?number)>
+                          <#assign stockClass = "outOfStock"/>
+                        <#else>
+                          <#if (inventoryLevel?number >= inventoryInStockFrom?number)>
+                            <#assign stockClass = "inStock"/>
+                          <#else>
+                            <#assign stockClass = "lowStock"/>
+                          </#if>
+                        </#if>
+                      </#if>
 	                <#if PDP_FACET_GROUP_VARIANT_SWATCH?has_content && productFeatureTypeId.equalsIgnoreCase(PDP_FACET_GROUP_VARIANT_SWATCH)>
-	                  <#assign productFeatureSelectVariantId= productFeatureFirstVariantIdMap.get(productFeatureSelectableId)!""/>
+
 	                  <#assign productFeatureId = productFeatureSelectableId />
 	                  <#if productFeatureSelectVariantId?has_content>
 	                    <#if !alreadyShownProductFeatureId.contains(productFeatureSelectVariantId)>
@@ -137,21 +153,7 @@
 	                          </#if>
 	                        </#if>
 	                      </#if>
-	                      <#if featureOrderSize == 1>
-	                        <#assign variantProductInventoryLevel = productVariantInventoryMap.get(productFeatureSelectVariantId)!/>
-	                        <#assign inventoryLevel = variantProductInventoryLevel.get("inventoryLevel")/>
-	                        <#assign inventoryInStockFrom = variantProductInventoryLevel.get("inventoryLevelInStockFrom")/>
-	                        <#assign inventoryOutOfStockTo = variantProductInventoryLevel.get("inventoryLevelOutOfStockTo")/>
-	                        <#if (inventoryLevel?number <= inventoryOutOfStockTo?number)>
-	                          <#assign stockClass = "outOfStock"/>
-	                        <#else>
-	                          <#if (inventoryLevel?number >= inventoryInStockFrom?number)>
-	                            <#assign stockClass = "inStock"/>
-	                          <#else>
-	                            <#assign stockClass = "lowStock"/>
-	                          </#if>
-	                        </#if>
-	                      </#if>
+
 	                      <#assign productFeatureType = "${productFeatureTypeId!}:${productFeatureDescription!}"/>
 	                      <#assign variantProductUrl = Static["com.osafe.control.SeoUrlHelper"].makeSeoFriendlyUrl(request, "eCommerceProductDetail?productId=${productId!}&productCategoryId=${productCategoryId!}&productFeatureType=${productFeatureTypeId!}:${productFeatureDescription!}") />
 	                      <input type="hidden" id="${jqueryIdPrefix!}Url_${productFeatureDescription!}" value="${variantProductUrl!}"/>
@@ -177,7 +179,7 @@
 	                    </#if>
 	                  </#if>
 	                <#else>
-	                  <li class="${featureClass!}">
+	                  <li class="${featureClass!} <#if stockClass?exists> ${stockClass}</#if>">
 	                    <a href="javascript:void(0);" onclick="javascript:getList('FT${productFeatureTypeId}','${selectedIdx}', 1);">
 	                      ${productFeatureDescription!""}
 	                    </a>

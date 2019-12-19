@@ -185,10 +185,10 @@
 		        <set field="changePassCheck" value="false"/>
 		        <if-not-empty field="parameters.currentPassword">
 			        <!-- If password encryption is enabled, encrpyt it now -->
-					<call-bsh><![CDATA[
+					<script>groovy:
 						boolean useEncryption = "true".equals(org.apache.ofbiz.base.util.UtilProperties.getPropertyValue("security", "password.encrypt"));
 						if (useEncryption) { parameters.put("encryptPassword", org.apache.ofbiz.base.crypto.HashCrypt.getDigestHash((String) parameters.get("currentPassword"))); }
-					]]></call-bsh>
+					</script>
 					<set field="parameters.currentPassword" from-field="parameters.encryptPassword"/>
 			        <if-compare-field field="parameters.currentPassword" operator="not-equals" to-field="userLoginMap.currentPassword" type="String">
 			        	<property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="UserLoginIncorrectPasswordError"/>
@@ -216,10 +216,10 @@
 				        			<else>
 				        				<set field="encryptPassword" from-field="parameters.newPassword"/>
 				        				<!-- If password encryption is enabled, encrpyt it now -->
-							            <call-bsh><![CDATA[
+							            <script>groovy:
 							                boolean useEncryption = "true".equals(org.apache.ofbiz.base.util.UtilProperties.getPropertyValue("security", "password.encrypt"));
 							                if (useEncryption) { parameters.put("encryptPassword", org.apache.ofbiz.base.crypto.HashCrypt.getDigestHash((String) parameters.get("newPassword"))); }
-							            ]]></call-bsh>
+							            </script>
 				        			</else>
 			            		</if-compare-field>
 					        	<else>

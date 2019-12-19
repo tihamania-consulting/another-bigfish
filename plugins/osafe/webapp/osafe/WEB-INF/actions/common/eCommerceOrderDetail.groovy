@@ -99,7 +99,7 @@ if (UtilValidate.isEmpty(userLogin))
         if (UtilValidate.isNotEmpty(orderId)) 
         {
             orderHeader = delegator.findOne("OrderHeader", [orderId : orderId], true);
-            orderStatuses = orderHeader.getRelated("OrderStatus");
+            orderStatuses = orderHeader.getRelatedOne("OrderStatus");
             filteredOrderStatusList = [];
             extOfflineModeExists = false;
             
@@ -308,7 +308,7 @@ if (UtilValidate.isNotEmpty(orderId))
 				shippingInstructions = shipGroup.shippingInstructions;
 				if(UtilValidate.isNotEmpty(orderHeader))
 				{
-					orderAttrPickupStoreList = orderHeader.getRelatedByAndCache("OrderAttribute", UtilMisc.toMap("attrName", "STORE_LOCATION"));
+					orderAttrPickupStoreList = orderHeader.getRelated("OrderAttribute", UtilMisc.toMap("attrName", "STORE_LOCATION"), null, true);
 					if(UtilValidate.isNotEmpty(orderAttrPickupStoreList))
 					{
 						orderAttrPickupStore = EntityUtil.getFirst(orderAttrPickupStoreList);

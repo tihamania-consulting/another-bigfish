@@ -1543,7 +1543,7 @@
     <ElectronicText dataResourceId="E_ORDER_PAYMENTS" lastUpdatedStamp="2013-12-17 12:16:15.0" lastUpdatedTxStamp="2013-12-17 12:16:15.0" createdStamp="2013-09-11 13:57:25.0" createdTxStamp="2013-09-11 13:57:24.0">
         <textData><![CDATA[<#if ORDER_PAYMENTS?has_content || ORDER_PAYMENT_TYPE?has_content>
       <#assign payInStore="N"/>
-      <#assign orderAttrPickupStore = ORDER.getRelatedByAnd("OrderAttribute", Static["org.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
+      <#assign orderAttrPickupStore = ORDER.getRelated("OrderAttribute", Static["org.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
     
       <#if orderAttrPickupStore?has_content>
            <#assign payInStore="Y"/>
@@ -1620,7 +1620,7 @@
     <Content contentId="E_ORDER_SHIPMENTS" contentTypeId="BF_EMAIL_TEMPLATE" dataResourceId="E_ORDER_SHIPMENTS" statusId="CTNT_PUBLISHED" contentName="Order Detail Shipments Email" description="Content &apos;order shipments&apos; that will be included in the Order-Confirm email (when the customer places an Order)." localeString="en_US" createdDate="2013-09-11 14:47:56.0" lastModifiedDate="2013-09-11 14:48:02.0" lastUpdatedStamp="2013-12-17 11:59:21.0" lastUpdatedTxStamp="2013-12-17 11:59:21.0" createdStamp="2013-09-11 13:57:25.0" createdTxStamp="2013-09-11 13:57:24.0"/>
     <XContentXref bfContentId="E_ORDER_SHIPMENTS" productStoreId="BF_STORE" contentId="E_ORDER_SHIPMENTS" contentTypeId="BF_EMAIL_TEMPLATE" lastUpdatedStamp="2013-09-11 13:57:25.0" lastUpdatedTxStamp="2013-09-11 13:57:24.0" createdStamp="2013-09-11 13:57:25.0" createdTxStamp="2013-09-11 13:57:24.0"/>
     <ElectronicText dataResourceId="E_ORDER_SHIPMENTS" lastUpdatedStamp="2013-12-17 11:59:21.0" lastUpdatedTxStamp="2013-12-17 11:59:21.0" createdStamp="2013-09-11 13:57:25.0" createdTxStamp="2013-09-11 13:57:24.0">
-        <textData><![CDATA[<#assign orderAttrPickupStore = ORDER.getRelatedByAnd("OrderAttribute", Static["org.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
+        <textData><![CDATA[<#assign orderAttrPickupStore = ORDER.getRelated("OrderAttribute", Static["org.ofbiz.base.util.UtilMisc"].toMap("attrName", "STORE_LOCATION"))/>
 
 <#if orderAttrPickupStore?has_content>
     <#assign orderAttribute= Static["org.ofbiz.entity.util.EntityUtil"].getFirst(orderAttrPickupStore)/>

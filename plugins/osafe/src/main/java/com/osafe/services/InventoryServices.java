@@ -1,6 +1,7 @@
 package com.osafe.services;
 
 import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -11,23 +12,27 @@ import javax.servlet.http.HttpServletRequest;
 
 import javolution.util.FastMap;
 
-import org.apache.ofbiz.base.util.Debug;
-import org.apache.ofbiz.base.util.MessageString;
-import org.apache.ofbiz.base.util.UtilHttp;
-import org.apache.ofbiz.base.util.UtilMisc;
-import org.apache.ofbiz.base.util.UtilProperties;
-import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.commons.collections.MapUtils;
+import org.apache.ofbiz.base.util.*;
 import org.apache.ofbiz.entity.Delegator;
 import org.apache.ofbiz.entity.DelegatorFactory;
 import org.apache.ofbiz.entity.GenericEntityException;
 import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.condition.EntityCondition;
+import org.apache.ofbiz.entity.condition.EntityOperator;
+import org.apache.ofbiz.entity.model.DynamicViewEntity;
+import org.apache.ofbiz.entity.model.ModelKeyMap;
+import org.apache.ofbiz.entity.util.EntityListIterator;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityTypeUtil;
 import org.apache.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.order.shoppingcart.ShoppingCart;
+import org.apache.ofbiz.order.shoppingcart.ShoppingCartItem;
+import org.apache.ofbiz.product.inventory.InventoryWorker;
 import org.apache.ofbiz.product.product.ProductContentWrapper;
 import org.apache.ofbiz.product.product.ProductWorker;
 import org.apache.ofbiz.product.store.ProductStoreWorker;
-import org.apache.ofbiz.service.GenericDispatcherFactory;
-import org.apache.ofbiz.service.GenericServiceException;
-import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.*;
 
 import com.osafe.util.Util;
 
@@ -42,7 +47,7 @@ public class InventoryServices {
     	
 		try {
 			List<GenericValue> inventoryProductAttributes =  delegator.findByAnd("ProductAttribute", UtilMisc.toMap("productId",productId), null, true);
-			ineventoryLevelMap = getProductInventoryLevel(inventoryProductAttributes,request);
+			ineventoryLevelMap = getProductInventoryLevel(productId, inventoryProductAttributes,request);
 			
 		} catch (GenericEntityException ge) {
 		    Debug.logError(ge, ge.getMessage(), module);
@@ -50,17 +55,17 @@ public class InventoryServices {
     	return ineventoryLevelMap;
     }
     
-    public static Map<String, Object> getProductInventoryLevel(List<GenericValue> productAttributes, ServletRequest request) 
+    public static Map<String, Object> getProductInventoryLevel(String productId, List<GenericValue> productAttributes, ServletRequest request)
     {
-    	return getProductInventoryLevel(productAttributes, request, null);
+    	return getProductInventoryLevel(productId, productAttributes, request, null);
     }
     
     public static Map<String, Object> getProductInventoryLevel(List<GenericValue> productAttributes, Map<String, Object> context) 
     {
-    	return getProductInventoryLevel(productAttributes, null, context);
+    	return getProductInventoryLevel((String) productAttributes.get(0).get("productId"), productAttributes, null, context);
     }
     
-    public static Map<String, Object> getProductInventoryLevel(List<GenericValue> productAttributes, ServletRequest request, Map<String, Object> context) {
+    public static Map<String, Object> getProductInventoryLevel(String productId, List<GenericValue> productAttributes, ServletRequest request, Map<String, Object> context) {
     	String productStoreId = "";
     	Delegator delegator = null;
     	if(UtilValidate.isNotEmpty(request))
@@ -87,6 +92,20 @@ public class InventoryServices {
     	BigDecimal inventoryOutOfStockTo = new BigDecimal("-1");
     	BigDecimal inventoryLevel = BigDecimal.ZERO;
     	BigDecimal inventoryWarehouseLevel = BigDecimal.ZERO;
+		String inventoryInStockFromStr = Util.getProductStoreParm(productStoreId, "INVENTORY_IN_STOCK_FROM");
+		String inventoryOutOfStockToStr = Util.getProductStoreParm(productStoreId, "INVENTORY_OUT_OF_STOCK_TO");
+		try {
+			inventoryInStockFrom = new BigDecimal(inventoryInStockFromStr);
+		} catch (Exception e) {
+			inventoryInStockFrom = new BigDecimal("-1");
+		}
+
+		try {
+			inventoryOutOfStockTo = new BigDecimal(inventoryOutOfStockToStr);
+		} catch (Exception e) {
+			inventoryOutOfStockTo = new BigDecimal("-1");
+		}
+
     	
     	if(inventoryMethod != null && inventoryMethod.equalsIgnoreCase("BIGFISH"))
     	{
@@ -120,20 +139,23 @@ public class InventoryServices {
 				}
     		}
     		
-    		String inventoryInStockFromStr = Util.getProductStoreParm(productStoreId, "INVENTORY_IN_STOCK_FROM");
-    	    String inventoryOutOfStockToStr = Util.getProductStoreParm(productStoreId, "INVENTORY_OUT_OF_STOCK_TO");
-    	    try {
-    	        inventoryInStockFrom = new BigDecimal(inventoryInStockFromStr);
-    	    } catch (Exception e) {
-    	        inventoryInStockFrom = new BigDecimal("-1");
-    		}
-    	    	
-    	    try {
-    	        inventoryOutOfStockTo = new BigDecimal(inventoryOutOfStockToStr);
-    	    } catch (Exception e) {
-    	        inventoryOutOfStockTo = new BigDecimal("-1");
-    		}
-    	} 
+
+    	} else if (inventoryMethod != null && inventoryMethod.equalsIgnoreCase("OFBIZ"))
+    	{
+			LocalDispatcher dispatcher = genericDispatcherFactory.createLocalDispatcher("entity-" + delegator.getDelegatorName(), delegator);
+			Map<String, Object> prodInventorySummary = null;
+			try {
+				prodInventorySummary = dispatcher.runSync("getProductInventoryAndFacilitySummary", UtilMisc.toMap("productId", productId, "facilityId", "BF_FAC"));
+			} catch (GenericServiceException e) {
+				prodInventorySummary = new HashMap<>();
+			}
+			if (prodInventorySummary.get("totalQuantityOnHand") != null) {
+				inventoryLevel = (BigDecimal) prodInventorySummary.get("totalAvailableToPromise");
+			}
+			if (prodInventorySummary.get("totalAvailableToPromise") != null) {
+				inventoryWarehouseLevel = (BigDecimal) prodInventorySummary.get("totalQuantityOnHand");
+			}
+		}
     	ineventoryLevelMap.put("inventoryLevel", inventoryLevel);
     	ineventoryLevelMap.put("inventoryWarehouseLevel", inventoryWarehouseLevel);
     	ineventoryLevelMap.put("inventoryLevelInStockFrom", inventoryInStockFrom);
@@ -143,10 +165,11 @@ public class InventoryServices {
     }
     
     
-    public static void setProductInventoryLevel(String productId, String productStoreId, BigDecimal quantity, String deliveryOption) {
-    	
+    public static void setProductInventoryLevel(ShoppingCart shoppingCart, ShoppingCartItem shoppingCartItem, String productStoreId, BigDecimal quantity, String deliveryOption) {
+
+    	String productId = shoppingCartItem.getProductId();
     	Delegator delegator = DelegatorFactory.getDelegator(null);
-    	LocalDispatcher dispatcher = genericDispatcherFactory.createLocalDispatcher(null, delegator);
+    	LocalDispatcher dispatcher = genericDispatcherFactory.createLocalDispatcher("entity-" + delegator.getDelegatorName(), delegator);
     	
     	String inventoryMethod = Util.getProductStoreParm(productStoreId, "INVENTORY_METHOD");
     	GenericValue userLogin = null;
@@ -155,7 +178,21 @@ public class InventoryServices {
 		} catch (GenericEntityException e1) {
 			e1.printStackTrace();
 		}
-    	if(inventoryMethod != null && inventoryMethod.equalsIgnoreCase("BIGFISH"))
+		if (inventoryMethod != null && inventoryMethod.equalsIgnoreCase("OFBIZ"))
+		{
+			String orderId = shoppingCart.getOrderId();
+			String orderItemSeqId = shoppingCartItem.getOrderItemSeqId();
+			try {
+				GenericValue shipmentGroup = delegator.findByAnd("OrderItemShipGroup", UtilMisc.toMap("orderId", orderId)).get(0);
+				String shipGroupSeqId  = shipmentGroup.getString("shipGroupSeqId");
+				dispatcher.runSync("reserveProductInventory", UtilMisc.toMap("userLogin",userLogin, "orderId", orderId, "orderItemSeqId" ,
+						orderItemSeqId, "productId", productId, "quantity", quantity, "requireInventory", "Y", "reserveOrderEnumId", "INVRO_FIFO_REC",
+						"shipGroupSeqId" , shipGroupSeqId));
+			} catch (GenericEntityException | GenericServiceException e) {
+				e.printStackTrace();
+			}
+		}
+    	else if(inventoryMethod != null && inventoryMethod.equalsIgnoreCase("BIGFISH"))
     	{
     		GenericValue totalInventoryProductAttribute = null;
     	    GenericValue whInventoryProductAttribute = null;
@@ -271,7 +308,7 @@ public class InventoryServices {
             if (UtilValidate.isNotEmpty(inventoryLevelMap))
             {
             	String inventoryMethod =(String) inventoryLevelMap.get("inventoryMethod"); 
-            	if(UtilValidate.isNotEmpty(inventoryMethod) && inventoryMethod.equalsIgnoreCase("BIGFISH"))
+            	if(UtilValidate.isNotEmpty(inventoryMethod) && !inventoryMethod.equalsIgnoreCase("NONE"))
             	{
                 	BigDecimal inventoryInStockFrom = (BigDecimal) inventoryLevelMap.get("inventoryLevelInStockFrom");
                 	BigDecimal inventoryOutOfStockTo = (BigDecimal) inventoryLevelMap.get("inventoryLevelOutOfStockTo");

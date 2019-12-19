@@ -2670,11 +2670,11 @@
                 <set field="entityName" from-field="parameters.entityName" />
                 <set field="entityPrimaryColumnName" from-field="parameters.entityPrimaryColumnName" />
                 
-                <call-bsh><![CDATA[
+                <script>groovy:
                     List attributeList = javolution.util.new ArrayList();
                     attributeList = delegator.findByAnd(entityName, org.apache.ofbiz.base.util.UtilMisc.toMap(entityPrimaryColumnName, exportedId));
                     parameters.put("attributeList", attributeList);
-                ]]></call-bsh>
+                </script>
                 <set field="attributeList" from-field="parameters.attributeList"/>
                 
                 <set field="attributeFilter.attrName" value="IS_DOWNLOADED"/>

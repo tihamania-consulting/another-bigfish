@@ -274,7 +274,7 @@
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceCustomerAddress.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
@@ -457,7 +457,7 @@
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceCustomerAddress.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/cart/cartSalesTaxInfo.groovy" />
@@ -998,7 +998,7 @@
                 <set field="parameters.formNameValue" value="orderreview" global="true" />
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/cart/cartSalesTaxInfo.groovy" />
@@ -1083,7 +1083,7 @@
                 <set field="parameters.formNameValue" value="orderreview" global="true" />
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/cart/cartSalesTaxInfo.groovy" />
@@ -1388,7 +1388,7 @@
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceCustomerAddress.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/cart/cartSalesTaxInfo.groovy" />
@@ -1474,7 +1474,7 @@
 
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceCustomerAddress.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutPayment.groovy" />
-                <script location="component://order/webapp/ordermgr/WEB-INF/actions/entry/StorePaymentOptions.groovy" />
+                <script location="component://order/groovyScripts/entry/StorePaymentOptions.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/checkout/eCommerceCheckoutReview.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/common/eCommerceOrderSummary.groovy" />
                 <script location="component://osafe/webapp/osafe/WEB-INF/actions/cart/cartSalesTaxInfo.groovy" />

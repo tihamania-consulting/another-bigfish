@@ -300,7 +300,7 @@ if (UtilValidate.isNotEmpty(orderId))
 			   shippingInstructions = shipGroup.shippingInstructions;
 			   if(UtilValidate.isNotEmpty(orderHeader))
 			   {
-				   orderAttrPickupStoreList = orderHeader.getRelatedByAndCache("OrderAttribute", UtilMisc.toMap("attrName", "STORE_LOCATION"));
+				   orderAttrPickupStoreList = orderHeader.getRelated("OrderAttribute", UtilMisc.toMap("attrName", "STORE_LOCATION"));
 				   if(UtilValidate.isNotEmpty(orderAttrPickupStoreList))
 				   {
 					   orderAttrPickupStore = EntityUtil.getFirst(orderAttrPickupStoreList);

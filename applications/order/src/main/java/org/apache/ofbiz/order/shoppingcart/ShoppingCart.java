@@ -2062,7 +2062,7 @@ public class ShoppingCart implements Iterable<ShoppingCartItem>, Serializable {
             return null;
         }
 
-        if (shipInfo.size() == idx) {
+        if ((shipInfo.size() - 1) < idx) {
             CartShipInfo csi = new CartShipInfo();
             csi.orderTypeId = getOrderType();
             shipInfo.add(csi);
