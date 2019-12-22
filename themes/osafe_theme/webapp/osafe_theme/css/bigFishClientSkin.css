@@ -95,7 +95,7 @@ input[type="radio"] {
 input:focus,
 select:focus,
 textarea:focus { /* Default Input Focus Styles */
-    border: 1px solid #990000;
+    border: 1px solid #2bb673;
 }
 
 input[type="checkbox"]:focus,
@@ -1268,7 +1268,7 @@ a.submitOrder:active {
 
 .siteHeaderCart #siteCartStats a#siteShoppingCartSize {
     background: url("/osafe_theme/images/user_content/images/shoppingcartIcon.png") no-repeat scroll left 50% transparent;
-    color: #990000;
+    color: #2bb673;
     padding: 10px 3px 10px 30px;
     position: relative;
     text-transform: uppercase;
@@ -1409,7 +1409,7 @@ text-transform: uppercase;
 }
 
 #eCommerceNavBarMenu li:hover>a {
-    color: #990000;
+    color: #2bb673;
 }
 
 /* --- Sub level/Drop Down Nav Styles  --- */
@@ -1559,7 +1559,7 @@ text-transform: uppercase;
 }
 
 #breadcrumb li>span {
-    color: #990000;
+    color: #2bb673;
 }
 
 #breadcrumb li.first {
@@ -1678,7 +1678,7 @@ text-transform: uppercase;
 
 .priceOnline label,
 .priceOnline span {
-    color: #990000;
+    color: #2bb673;
 }
 
 .priceList {
@@ -4718,7 +4718,7 @@ display: none;
 
 
 .homeProductTitle {
-    color: #990000;
+    color: #2bb673;
     display: block;
     font-size: large;
     text-align: center;
