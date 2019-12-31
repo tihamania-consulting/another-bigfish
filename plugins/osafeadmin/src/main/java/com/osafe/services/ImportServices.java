@@ -2236,6 +2236,7 @@ public class ImportServices {
                      rowString.append("linkTwoImageUrl" + "=\"" + "" + "\" ");
                      rowString.append("detailScreen" + "=\"" + "" + "\" ");
                      rowString.append("/>");
+                     bwOutFile.write(rowString.toString());
                      bwOutFile.newLine();
                      if (mRow.get("categoryNameAr") != null) {
                          String dataResourceId = _delegator.getNextSeqId("DataResource");
