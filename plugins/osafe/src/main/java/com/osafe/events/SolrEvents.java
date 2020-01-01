@@ -125,8 +125,8 @@ public class SolrEvents
             solr.setRequestWriter(new BinaryRequestWriter());
 
             Locale locale = (Locale) request.getSession().getAttribute("locale");
-            String facetSearchCategoryLabel = UtilProperties.getMessage("OsafeUiLabels", "FacetSearchCategoryCaption",  locale);
-            String facetProductCategoryLabel = UtilProperties.getMessage("OsafeUiLabels", "FacetProductCategoryCaption", locale);
+            String facetSearchCategoryLabel = UtilProperties.getMessage("OSafeUiLabels", "FacetSearchCategoryCaption",  locale);
+            String facetProductCategoryLabel = UtilProperties.getMessage("OSafeUiLabels", "FacetProductCategoryCaption", locale);
 
             Map<String, String> mProductStoreParms = new HashMap();
             List<String> facetGroups = new ArrayList();
@@ -189,7 +189,7 @@ public class SolrEvents
                         String facetSort = doc.getProductFeatureGroupFacetSort();
                         String key = doc.getProductCategoryFacetGroups();
                         facetGroups.add(key);
-                        facetGroupDescriptions.put(key, UtilProperties.getMessage("OsafeUiLabels", "FEATURE_" + doc.getProductFeatureGroupId(), locale));
+                        facetGroupDescriptions.put(key, UtilProperties.getMessage("OSafeUiLabels", "FEATURE_" + doc.getProductFeatureGroupId(), locale));
                         facetGroupIds.put(key, id);
                         facetGroupFacetSorts.put(key, facetSort);
                     }

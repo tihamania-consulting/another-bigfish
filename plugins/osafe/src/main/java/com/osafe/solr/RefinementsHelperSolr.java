@@ -343,7 +343,7 @@ public class RefinementsHelperSolr {
 
             // Populate the generic refinement with the details from the Solr facet
             genericRefinement.setType(SolrConstants.TYPE_PRICE);
-            genericRefinement.setName(UtilProperties.getMessage("OsafeUiLabels", "PriceLabel", locale));
+            genericRefinement.setName(UtilProperties.getMessage("OSafeUiLabels", "PriceLabel", locale));
 
             List refinementValues = new ArrayList();
 
