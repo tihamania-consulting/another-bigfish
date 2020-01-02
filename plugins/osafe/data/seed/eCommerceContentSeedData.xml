@@ -9,8 +9,8 @@
         <li class="mobileRemove"><a href="<@ofbizUrl>contactUs</@ofbizUrl>">Contact Us</a></li>
         <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">Request Catalog</a></li>
         <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">Find Store</a></li>
-        <li class="mobileRemove"><a href="/setSessionLocale?newLocale=en">English</a></li>
-        <li class="mobileRemove"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+        <li><a href="/setSessionLocale?newLocale=en">English</a></li>
+        <li><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
         <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
             <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">Logout</a></li>
         <#else/>
@@ -29,8 +29,8 @@
       <li class="mobileRemove"><a href="<@ofbizUrl>contactUs</@ofbizUrl>">اتصل بنا</a></li>
       <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">أطلب كاتالوج</a></li>
       <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">ابحث عن محل</a></li>
-      <li class="mobileRemove"><a href="/setSessionLocale?newLocale=en">English</a></li>
-      <li class="mobileRemove"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+      <li><a href="/setSessionLocale?newLocale=en">English</a></li>
+      <li><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
           <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
               <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">خروج</a></li>
           <#else/>
