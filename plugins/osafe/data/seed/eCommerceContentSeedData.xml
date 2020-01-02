@@ -150,12 +150,22 @@
 <ElectronicText dataResourceId="SI_LOGO">
 <textData><![CDATA[
     <a href="<@ofbizUrl>main</@ofbizUrl>">
-        <img alt="HomeS" src="/osafe_theme/images/user_content/images/siteLogo.png"/>
+        <img alt="HomeS" src="/osafe_theme/images/user_content/images/siteLogo-en.png"/>
     </a>
 ]]>
 </textData>
 </ElectronicText>
 
+ <Content contentId="SI_LOGO_AR" statusId="CTNT_PUBLISHED"/>
+ <ElectronicText dataResourceId="SI_LOGO_AR">
+  <textData><![CDATA[
+    <a href="<@ofbizUrl>main</@ofbizUrl>">
+        <img alt="HomeS" src="/osafe_theme/images/user_content/images/siteLogo.png"/>
+    </a>
+]]>
+  </textData>
+ </ElectronicText>
+ <ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SI_LOGO" contentIdTo="SI_LOGO_AR" fromDate="2013-01-02 01:01:01"/>
 <!-- Mailing List -->
 <Content contentId="SI_MAILING_LIST" statusId="CTNT_PUBLISHED"/>
 <ElectronicText dataResourceId="SI_MAILING_LIST">

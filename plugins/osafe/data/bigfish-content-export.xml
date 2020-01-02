@@ -85,11 +85,11 @@
  
  <#--Carousel Images -->
  
- <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/jewel_box.png"/>
+ <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/carroussell.jpg"/>
  <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
- <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/jewel_box-algiers.png"/>
+ <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/carroussel2.jpg"/>
  <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
- <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/jewel_box-heart.png"/>
+ <#assign CAROUSEL_IMAGE_URL_3="/osafe_theme/images/user_content/images/carroussel3.jpg"/>
  <#assign CAROUSEL_IMAGE_HREF_3=""/>
  <#assign CAROUSEL_IMAGE_URL_4=""/>
  <#assign CAROUSEL_IMAGE_HREF_4=""/>
@@ -198,52 +198,52 @@
         <textData><![CDATA[<#assign SHOP_SUB_URL="" />
 
 <div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sais">
-        <img src="/osafe_theme/images/user_content/images/SAIS.jpg" alt="Blouses" />
+    <a href="/-laptops">
+        <img src="/osafe_theme/images/user_content/images/hotspot1.jpg" alt="Laptops" />
     </a>
         <span class="homeProductTitle">Top Seller</span>
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/blouses/34-sleeve-and-button-down--pink">
-        <span class="homeProductName">Céramique algérois</span>
+    <a href="/-laptops">
+        <span class="homeProductName">Best laptop brands</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/dresses/draped-dress-white">
-         <img src="/osafe_theme/images/user_content/images/CHAIMA.png" alt="Dresses" />
+    <a href="/-mobiles">
+         <img src="/osafe_theme/images/user_content/images/hotspot2.jpg" alt="Smartphones" />
     </a>
-        <span class="homeProductTitle">New From Chaima</span>
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/dresses/draped-dress-white">
-        <span class="homeProductName">Caftans</span>
-    </a>
-</div>
-
-<div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sweaters/animal-print-cardigan-beigetan">
-        <img src="/osafe_theme/images/user_content/images/DJELFI.png" alt="Shirts" />
-    </a>
-        <span class="homeProductTitle">New From Djelfi<span>
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/sweaters/animal-print-cardigan-beigetan">
-        <span class="homeProductName">Bijoux kabyle</span>
+        <span class="homeProductTitle">New Arrivals</span>
+    <a href="/-mobiles">
+        <span class="homeProductName">Latests smartphones releases</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/outerwear-/-jackets/moto-jacket-brown">
-        <img src="/osafe_theme/images/user_content/images/BOUKHENOUCHA.png" alt="Coats" />
+    <a href="/-computers-and-tablets/-tablets">
+        <img src="/osafe_theme/images/user_content/images/hotspot3.jpg" alt="tablets" />
     </a>
-        <span class="homeProductTitle">Now In Stock</span>
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/outerwear-/-jackets/moto-jacket-brown">
-        <span class="homeProductName">Par nos artisans du cuivres</span>
+        <span class="homeProductTitle">Tablets<span>
+    <a href="/-computers-and-tablets/-tablets">
+        <span class="homeProductName">Check here our stock</span>
     </a>
 </div>
 
 <div class="homeGalleryRow">
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/active/reversible-hooded-shearling-vest-brown">
-        <img src="/osafe_theme/images/user_content/images/BOUGUERRA.jpg" alt="Coats" />
+    <a href="/-cameras-and-camcorders/-digital">
+        <img src="/osafe_theme/images/user_content/images/hotspot4.jpg" alt="Cameras" />
     </a>
-        <span class="homeProductTitle">Tapistry</span>
-    <a href="${HTTP_HOST!}${SHOP_SUB_URL!}/active/reversible-hooded-shearling-vest-brown">
-        <span class="homeProductName">Our traditional carpets</span>
+        <span class="homeProductTitle">Cameras</span>
+    <a href="/-cameras-and-camcorders/-digital">
+        <span class="homeProductName">Save your memories with best cameras</span>
+    </a>
+</div>
+
+<div class="homeGalleryRow">
+    <a href="/-cameras-and-camcorders/-video-accessories">
+        <img src="/osafe_theme/images/user_content/images/hotspot5.jpg" alt="accessories" />
+    </a>
+    <span class="homeProductTitle">Accessories</span>
+    <a href="/-cameras-and-camcorders/-video-accessories">
+        <span class="homeProductName">Wide range of accessories</span>
     </a>
 </div>
    

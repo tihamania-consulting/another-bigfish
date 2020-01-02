@@ -333,8 +333,8 @@
 <XProductStoreParm productStoreId="BF_STORE" parmKey="CHECKOUT_SPLIT_SHIP_GROUPS" parmValue="FALSE" description="TRUE means that cart items with different ship methods will be split into separate Shipping Groups. FALSE means that standard OFBiz logic will be performed in determining available Shipping Methods." parmCategory="CHECKOUT"/>
 
 <!-- Website -->
-<WebSite webSiteId="BF_Website" siteName="BF Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
-<WebSite webSiteId="BF_admin_site" siteName="BF Admin Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
+<WebSite webSiteId="BF_Website" siteName="BF Site" httpHost="" httpPort="" httpsHost="" httpsPort="" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
+<WebSite webSiteId="BF_admin_site" siteName="BF Admin Site" httpHost="" httpPort="" httpsHost="" httpsPort="" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
 
 <!-- Email Settings -->
 <ProductStoreEmailSetting productStoreId="BF_STORE" emailType="CONT_NOTI_EMAIL" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#contactUsEmailNotification" xslfoAttachScreenLocation="" fromAddress="bigfishdev@solveda.com" ccAddress="" bccAddress="bigfish@solveda.com" subject="${EMAIL_CLNT_NAME}: Contact us Information" contentType="" statusId="CTNT_PUBLISHED"/>

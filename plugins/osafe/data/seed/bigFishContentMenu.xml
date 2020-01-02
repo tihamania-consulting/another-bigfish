@@ -18,6 +18,7 @@
 <DataResource dataResourceId="SI_FOOTER_CONTENT" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SI_FOOTER_CONTENT_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_LOGO" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SI_LOGO_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_SHOPPING_CART" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SI_SHOPPING_CART_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SI_SEARCH" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
@@ -32,6 +33,7 @@
 <ElectronicText dataResourceId="SI_FOOTER_CONTENT"/>
 <ElectronicText dataResourceId="SI_FOOTER_CONTENT_AR"/>
 <ElectronicText dataResourceId="SI_LOGO"/>
+<ElectronicText dataResourceId="SI_LOGO_AR"/>
 <ElectronicText dataResourceId="SI_SHOPPING_CART"/>
 <ElectronicText dataResourceId="SI_SHOPPING_CART_AR"/>
 <ElectronicText dataResourceId="SI_SEARCH"/>
@@ -46,6 +48,7 @@
 <Content contentId="SI_FOOTER_CONTENT" contentTypeId="BF_SITE_INFO"  description="Main Site FOOTER Content displayed on every page" contentName="Main Site FOOTER Content" dataResourceId="SI_FOOTER_CONTENT" localeString="en_US"/>
 <Content contentId="SI_FOOTER_CONTENT_AR" contentTypeId="BF_SITE_INFO"  description="Main Site FOOTER Content displayed on every page" contentName="Main Site FOOTER Content" dataResourceId="SI_FOOTER_CONTENT_AR" localeString="ar"/>
 <Content contentId="SI_LOGO" contentTypeId="BF_SITE_INFO"  description="Main client logo displayed on every page" contentName="Site Logo" dataResourceId="SI_LOGO" localeString="en_US"/>
+<Content contentId="SI_LOGO_AR" contentTypeId="BF_SITE_INFO"  description="Main client logo displayed on every page" contentName="Site Logo" dataResourceId="SI_LOGO_AR" localeString="ar"/>
 <Content contentId="SI_SHOPPING_CART" contentTypeId="BF_SITE_INFO"  description="Main Site View Cart displayed on every page" contentName="Site Shopping Cart" dataResourceId="SI_SHOPPING_CART" localeString="en_US"/>
 <Content contentId="SI_SHOPPING_CART_AR" contentTypeId="BF_SITE_INFO"  description="Main Site View Cart displayed on every page" contentName="Site Shopping Cart" dataResourceId="SI_SHOPPING_CART_AR" localeString="ar"/>
 <Content contentId="SI_SEARCH" contentTypeId="BF_SITE_INFO"  description="Main Site SEARCH displayed on every page" contentName="Site Search" dataResourceId="SI_SEARCH" localeString="en_US"/>
