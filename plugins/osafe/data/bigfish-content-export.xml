@@ -85,7 +85,7 @@
  
  <#--Carousel Images -->
  
- <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/carroussell.jpg"/>
+ <#assign CAROUSEL_IMAGE_URL_1="/osafe_theme/images/user_content/images/carroussel1.jpg"/>
  <#assign CAROUSEL_IMAGE_HREF_1="/shoes/suede-platform-pumps"/>
  <#assign CAROUSEL_IMAGE_URL_2="/osafe_theme/images/user_content/images/carroussel2.jpg"/>
  <#assign CAROUSEL_IMAGE_HREF_2="/shoes/suede-wedge-espadrilles"/>
