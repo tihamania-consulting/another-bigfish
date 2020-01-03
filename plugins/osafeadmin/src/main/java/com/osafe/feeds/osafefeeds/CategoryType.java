@@ -12,6 +12,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
+import java.util.List;
 
 
 /**
@@ -58,12 +59,8 @@ public class CategoryType {
     protected String description;
     @XmlElement(name = "LongDescription", defaultValue = "")
     protected String longDescription;
-    @XmlElement(name = "CategoryNameAr", required = true, defaultValue = "")
-    protected String categoryNameAr;
-    @XmlElement(name = "DescriptionAr", required = true, defaultValue = "")
-    protected String descriptionAr;
-    @XmlElement(name = "LongDescriptionAr", defaultValue = "")
-    protected String longDescriptionAr;
+    @XmlElement(name = "translations")
+    protected List<TranslatedLabelType> translations;
     @XmlElement(name = "AdditionalPlpText", defaultValue = "")
     protected String additionalPlpText;
     @XmlElement(name = "AdditionalPdpText", defaultValue = "")
@@ -315,28 +312,11 @@ public class CategoryType {
         this.thruDate = value;
     }
 
-
-    public String getCategoryNameAr() {
-        return categoryNameAr;
+    public List<TranslatedLabelType> getTranslations() {
+        return translations;
     }
 
-    public void setCategoryNameAr(String categoryNameAr) {
-        this.categoryNameAr = categoryNameAr;
-    }
-
-    public String getDescriptionAr() {
-        return descriptionAr;
-    }
-
-    public void setDescriptionAr(String descriptionAr) {
-        this.descriptionAr = descriptionAr;
-    }
-
-    public String getLongDescriptionAr() {
-        return longDescriptionAr;
-    }
-
-    public void setLongDescriptionAr(String longDescriptionAr) {
-        this.longDescriptionAr = longDescriptionAr;
+    public void setTranslations(List<TranslatedLabelType> translations) {
+        this.translations = translations;
     }
 }

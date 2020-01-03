@@ -2261,7 +2261,7 @@ public class OsafeAdminFeedServices {
                             if (sheet == 1) {
                                 ProductCategoryType productCategoryType = factory.createProductCategoryType();
                                 List productCategoryList = productCategoryType.getCategory();
-                                List<Map<String, Object>> dataRows = ImportServices.buildProductCategoryDataRows(s);
+                                List<Map<String, Object>> dataRows = ImportServices.buildDataRows(ImportServices.buildCategoryHeader(), s);
                                 ImportServices.generateProductCategoryXML(factory, productCategoryList, dataRows);
                                 bfProductFeedType.setProductCategory(productCategoryType);
                             }
