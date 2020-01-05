@@ -13,14 +13,8 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.ResourceBundle;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
 
 import javolution.util.FastMap;
 import javolution.util.FastSet;
@@ -73,22 +67,21 @@ import com.osafe.util.Util;
 public class SolrServices {
 
     public static final String module = SolrServices.class.getName();
+
+    private static final List<String> indexedLangs = Arrays.asList("ar", "fr", "nl");
     private static final ResourceBundle OSAFE_PROPS = UtilProperties.getResourceBundle("OsafeProperties.xml", Locale.getDefault());
     private  static final String FIELD_NAME_ID = "id";
     private  static final String FIELD_NAME_ROW_TYPE = "rowType";
     private  static final String FIELD_NAME_PRODUCT_ID = "productId";
     private  static final String FIELD_NAME_NAME = "name";
-    private  static final String FIELD_NAME_NAME_AR = "nameAr";
     private  static final String FIELD_NAME_INTERNAL_NAME = "internalName";
     private  static final String FIELD_NAME_DESCRIPTION = "description";
-    private  static final String FIELD_NAME_DESCRIPTION_AR = "descriptionAr";
     private  static final String FIELD_NAME_CATEGORY_DESC = "categoryDescription";
     private  static final String FIELD_NAME_CATEGORY_PDP_DESC = "categoryPdpDescription";
     private  static final String FIELD_NAME_CATEGORY_ID = "productCategoryId";
     private  static final String FIELD_NAME_TOP_MOST_CATEGORY_ID = "topMostProductCategoryId";
     private  static final String FIELD_NAME_CATEGORY_LEVEL = "categoryLevel";
     private  static final String FIELD_NAME_CATEGORY_NAME = "categoryName";
-    private  static final String FIELD_NAME_CATEGORY_NAME_AR = "categoryNameAr";
     private  static final String FIELD_NAME_CATEGORY_IMAGE_URL = "categoryImageUrl";
     private  static final String FIELD_NAME_IMAGE_SMALL_URL = "productImageSmallUrl";
     private  static final String FIELD_NAME_IMAGE_SMALL_ALT = "productImageSmallAlt";
@@ -198,7 +191,12 @@ public class SolrServices {
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_ID, productCategoryIdPath);
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_LEVEL, categoryLevel);
                     productCategoryDocument.setField(FIELD_NAME_CATEGORY_NAME, workingCategory.getString("categoryName"));
-                    productCategoryDocument.setField(FIELD_NAME_CATEGORY_NAME_AR, CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale("ar"), dispatcher, "html"));
+                    for (String lang: indexedLangs) {
+                        String TransCategoryName = CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale(lang), dispatcher, "html");
+                        if (UtilValidate.isNotEmpty(TransCategoryName)) {
+                            productCategoryDocument.setField(getTranslationField(FIELD_NAME_CATEGORY_NAME, lang), TransCategoryName);
+                        }
+                    }
                     String categoryImageUrl = workingCategory.getString("categoryImageUrl");
                     if (UtilValidate.isNotEmpty(categoryImageUrl)) 
                     {
@@ -244,7 +242,14 @@ public class SolrServices {
                                     productDocument.setField(FIELD_NAME_PRODUCT_ID, productId);
                                     productDocument.setField(FIELD_NAME_ROW_TYPE, SolrConstants.ROW_TYPE_PRODUCT);
                                     productDocument.setField(FIELD_NAME_NAME, productContentWrapper.get("PRODUCT_NAME", "html").toString());
-                                    productDocument.setField(FIELD_NAME_NAME_AR, ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME",  new Locale("ar"),  dispatcher,  "html").toString());
+                                    for (String lang : indexedLangs) {
+
+                                        String transProductName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", new Locale(lang), dispatcher, "html").toString();
+                                        if (UtilValidate.isNotEmpty(transProductName)) {
+                                            productDocument.setField(getTranslationField(FIELD_NAME_NAME, lang), transProductName);
+                                        }
+                                    }
+
                                     productDocument.setField(FIELD_NAME_INTERNAL_NAME,  product.getString("internalName"));
 
                                     GenericValue goodIdentification = delegator.findOne("GoodIdentification", UtilMisc.toMap("productId", productId, "goodIdentificationTypeId", "MANUFACTURER_ID_NO"));
@@ -318,24 +323,35 @@ public class SolrServices {
                                     
                                     productDocument.setField(FIELD_NAME_SEQ_NUM ,productCategoryMember.getString("sequenceNum"));
                                     productDocument.setField(FIELD_NAME_CATEGORY_NAME , workingCategory.getString("categoryName"));
-                                    productDocument.setField(FIELD_NAME_CATEGORY_NAME_AR, CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale("ar"), dispatcher, "html"));
-                                    
+                                    for (String lang: indexedLangs) {
+                                        String TransCategoryName = CategoryContentWrapper.getProductCategoryContentAsText(workingCategory, "CATEGORY_NAME", new Locale(lang), dispatcher, "html");
+                                        if (UtilValidate.isNotEmpty(TransCategoryName)) {
+                                            productDocument.setField(getTranslationField(FIELD_NAME_CATEGORY_NAME, lang), TransCategoryName);
+                                        }
+                                    }
+
+
                                     if (UtilValidate.isNotEmpty(categoryDescription) && !"null".equalsIgnoreCase(categoryDescription.toString())) 
                                     {
                                     	productDocument.setField(FIELD_NAME_CATEGORY_DESC ,categoryDescription.toString());
                                     }
                                     // LONG_DESCRIPTION
                                     String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("en"), dispatcher, "html");
-                                    String longDescriptionAr = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("ar"), dispatcher, "html");
                                     if (UtilValidate.isNotEmpty(longDescription))
                                     {
                                         productDocument.setField(FIELD_NAME_DESCRIPTION ,longDescription);
                                     }
 
-                                    if (UtilValidate.isNotEmpty(longDescriptionAr))
-                                    {
-                                        productDocument.setField(FIELD_NAME_DESCRIPTION_AR ,longDescriptionAr);
+                                    for (String lang: indexedLangs) {
+                                        String transLongDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale(lang), dispatcher, "html");
+
+                                        if (UtilValidate.isNotEmpty(transLongDescription))
+                                        {
+                                            productDocument.setField(getTranslationField(FIELD_NAME_DESCRIPTION,  lang),transLongDescription);
+                                        }
                                     }
+
+
 
                                     // SMALL_IMAGE_URL
                                     imageUrl = productContentWrapper.get("SMALL_IMAGE_URL");
@@ -692,7 +708,11 @@ public class SolrServices {
         return result;
     }
 
-	private static List<CellProcessor> getCellProcesser() {
+    private static String getTranslationField(String fieldNameCategoryName, String lang) {
+        return fieldNameCategoryName + StringUtils.capitalize(lang);
+    }
+
+    private static List<CellProcessor> getCellProcesser() {
 		List<CellProcessor> cellProcessors = new ArrayList();
         cellProcessors.addAll(UtilMisc.toList(new ConvertNullTo(null), new ConvertNullTo("product"), new ConvertNullTo(""), new ConvertNullTo("")));
         cellProcessors.addAll(UtilMisc.toList(new ConvertNullTo(""), new ConvertNullTo("")));

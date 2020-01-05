@@ -676,11 +676,12 @@ if(UtilValidate.isNotEmpty(productId))
 	context.inStock = inStock;
 	
 	
-    if (locale.getLanguage() != 'ar' &&  UtilValidate.isNotEmpty(plpItem.name))
+    if (locale.getLanguage() == 'en' &&  UtilValidate.isNotEmpty(plpItem.name))
     {
         productName = StringUtil.wrapString(plpItem.name);
     } else {
-        productName = StringUtil.wrapString(plpItem.nameAr);
+        transName = 'name' + org.apache.commons.lang.StringUtils.capitalize(locale.getLanguage());
+        productName = StringUtil.wrapString(plpItem[transName]);
     }
     if (UtilValidate.isNotEmpty(plpItem.productImageSmallUrl)) 
     {

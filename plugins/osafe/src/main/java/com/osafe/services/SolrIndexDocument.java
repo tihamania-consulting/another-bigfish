@@ -18,11 +18,19 @@ public class SolrIndexDocument {
     @Field
     private String nameAr;
     @Field
+    private String nameFr;
+    @Field
+    private String nameNl;
+    @Field
     private String internalName;
     @Field
     private String description;
     @Field
     private String descriptionAr;
+    @Field
+    private String descriptionFr;
+    @Field
+    private String descriptionNl;
     @Field
     private String sequenceNum;
     @Field
@@ -31,6 +39,10 @@ public class SolrIndexDocument {
     private String categoryName;
     @Field
     private String categoryNameAr;
+    @Field
+    private String categoryNameFr;
+    @Field
+    private String categoryNameNl;
     @Field
     private String categoryDescription;
     @Field

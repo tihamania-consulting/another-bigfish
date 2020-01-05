@@ -1509,7 +1509,7 @@ text-transform: uppercase;
     float: left;
     margin: 25px 0;
     padding: 0 15px;
-    width: 80%;
+    width: 80%;ƒ
     z-index: 0;
 }
 
@@ -4667,7 +4667,7 @@ display: none;
 /* --- Home Page Content Spots --- */
 
 .mobileMessage {
-    background: none repeat scroll 0 0 #98070A;
+    background: none repeat scroll 0 0 #2bb673;
     border-radius: 5px 5px 5px 5px;
     color: #FFFFFF;
     float: left;
@@ -4784,6 +4784,28 @@ li a.removeMultiSearchItem {
 
 #searchCourseAutoComplete li:hover  {
     background-color: blue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 9px 0 0;
+  font-size: small;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
