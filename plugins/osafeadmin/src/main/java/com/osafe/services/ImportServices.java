@@ -672,7 +672,7 @@ public class ImportServices {
             {
 
                 WorkbookSettings ws = new WorkbookSettings();
-                ws.setLocale(new Locale("en", "EN"));
+                ws.setEncoding("utf8");
                 Workbook wb = Workbook.getWorkbook(inputWorkbook,ws);
                 
                 ObjectFactory factory = new ObjectFactory();
@@ -2168,7 +2168,7 @@ public class ImportServices {
                 	String colContent=null;
                 
                 	 try {
-                		 colContent=row[colCount].getContents().toString();
+                		 colContent= row[colCount].getContents();
                 	 }
                 	   catch (Exception e) {
                 		   colContent="";
