@@ -2169,7 +2169,7 @@ public class ImportServices {
                 	String colContent=null;
                 
                 	 try {
-                		 colContent= row[colCount].getContents();
+                		 colContent= org.apache.commons.text.StringEscapeUtils.escapeXml11(row[colCount].getContents());
                 	 }
                 	   catch (Exception e) {
                 		   colContent="";
