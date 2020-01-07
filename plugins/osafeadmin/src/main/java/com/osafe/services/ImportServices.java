@@ -672,6 +672,7 @@ public class ImportServices {
             {
 
                 WorkbookSettings ws = new WorkbookSettings();
+                ws.setLocale(new Locale("fr", "FR"));
                 ws.setEncoding("utf8");
                 Workbook wb = Workbook.getWorkbook(inputWorkbook,ws);
                 
