@@ -2210,7 +2210,8 @@ public class ImportServices {
                     StringBuilder  rowString = new StringBuilder();
                     rowString.append("<" + "ProductCategory" + " ");
 	            	 Map mRow = (Map)dataRows.get(i);
-                     rowString.append("productCategoryId" + "=\"" + mRow.get("productCategoryId") + "\" ");
+                    String productCategoryId = (String) mRow.get("productCategoryId");
+                    rowString.append("productCategoryId" + "=\"" + productCategoryId + "\" ");
                      rowString.append("productCategoryTypeId" + "=\"" + "CATALOG_CATEGORY" + "\" ");
                      rowString.append("primaryParentCategoryId" + "=\"" + mRow.get("parentCategoryId") + "\" ");
                      rowString.append("categoryName" + "=\"" + (String)mRow.get("categoryName") + "\" ");
@@ -2255,15 +2256,25 @@ public class ImportServices {
                      bwOutFile.write(rowString.toString());
                      bwOutFile.newLine();
 
-                    String dataResourceId = _delegator.getNextSeqId("DataResource");
-                    String contentId = _delegator.getNextSeqId("Content");
+                    List<GenericValue> categoryNameContent = _delegator.findByAnd("ProductCategoryContent", UtilMisc.toMap("productCategoryId", productCategoryId,"prodCatContentTypeId","CATEGORY_NAME"),UtilMisc.toList("-fromDate"));
+
+                    String dataResourceId;
+                    String contentId;
+                    if (UtilValidate.isNotEmpty(categoryNameContent)) {
+                        dataResourceId = categoryNameContent.get(0).getString("contentId");
+                        contentId = categoryNameContent.get(0).getString("contentId");
+                    } else {
+                        dataResourceId = _delegator.getNextSeqId("DataResource");
+                        contentId = _delegator.getNextSeqId("Content");
+                    }
+
                     buildTextDataResourceRow(rowString, bwOutFile, "categoryName", dataResourceId ,  (String)mRow.get("categoryName"), "");
                     buildContentRow(rowString, bwOutFile,"categoryName", contentId, dataResourceId, "");
 
                     rowString.append("<ProductCategoryContent ");
                     rowString.append("contentId" + "=\"" + contentId + "\" ");
                     rowString.append("prodCatContentTypeId" + "=\"CATEGORY_NAME\" ");
-                    rowString.append("productCategoryId" + "=\"" +  mRow.get("productCategoryId") + "\" ");
+                    rowString.append("productCategoryId" + "=\"" + productCategoryId + "\" ");
                     rowString.append("fromDate" + "=\"2019-12-10 09:05:00\" ");
                     rowString.append("/>");
                     bwOutFile.write(rowString.toString());
@@ -2284,7 +2295,7 @@ public class ImportServices {
 	                   	 	java.util.Date formattedFromDate=OsafeAdminUtil.validDate(sFromDate);
 	                   	 	fromDate =_sdf.format(formattedFromDate);
 	                    }
-	                    List<GenericValue> productCategoryRollups = _delegator.findByAnd("ProductCategoryRollup", UtilMisc.toMap("productCategoryId",mRow.get("productCategoryId"),"parentProductCategoryId",mRow.get("parentCategoryId")),UtilMisc.toList("-fromDate"));
+	                    List<GenericValue> productCategoryRollups = _delegator.findByAnd("ProductCategoryRollup", UtilMisc.toMap("productCategoryId", productCategoryId,"parentProductCategoryId",mRow.get("parentCategoryId")),UtilMisc.toList("-fromDate"));
 	                    if(UtilValidate.isNotEmpty(productCategoryRollups)) 
 	                    {
 	                    	productCategoryRollups = EntityUtil.filterByDate(productCategoryRollups);
@@ -2297,7 +2308,7 @@ public class ImportServices {
 	                    
 	                    rowString.setLength(0);
 	                    rowString.append("<" + "ProductCategoryRollup" + " ");
-	                    rowString.append("productCategoryId" + "=\"" + mRow.get("productCategoryId") + "\" ");
+	                    rowString.append("productCategoryId" + "=\"" + productCategoryId + "\" ");
 	                    rowString.append("parentProductCategoryId" + "=\"" + mRow.get("parentCategoryId") + "\" ");
 	                    rowString.append("fromDate" + "=\"" + fromDate + "\" ");
 	                    String thruDate=(String)mRow.get("thruDate");
@@ -3737,7 +3748,7 @@ public class ImportServices {
         rowString.append("dataResourceId" + "=\"" + dataResourceId +  translateLocale + "\" ");
         rowString.append(">");
 
-        rowString.append("<textData> <![CDATA[" + contentValue + "]]></textData>");
+        rowString.append("<textData> <![CDATA[" + org.apache.commons.text.StringEscapeUtils.escapeHtml4(contentValue) + "]]></textData>");
         rowString.append("</ElectronicText>");
         bwOutFile.write(rowString.toString());
         bwOutFile.newLine();

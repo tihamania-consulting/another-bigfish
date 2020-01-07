@@ -14,10 +14,10 @@
            <span>Language</span>
            <div class="dropdown-content">
              <ul>
-              <li class="subLevel"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
-              <li class="subLevel"><a href="/setSessionLocale?newLocale=en_US">EN</a></li>
-              <li class="subLevel"><a href="/setSessionLocale?newLocale=fr_BE">FR</a></li>
-              <li class="subLevel"><a href="/setSessionLocale?newLocale=nl_BE">NL</a></li>
+              <li><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+              <li><a href="/setSessionLocale?newLocale=en_US">EN</a></li>
+              <li><a href="/setSessionLocale?newLocale=fr_BE">FR</a></li>
+              <li><a href="/setSessionLocale?newLocale=nl_BE">NL</a></li>
              </ul>
            </div>
          </div>
@@ -41,14 +41,18 @@
       <li class="mobileRemove"><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">أطلب كاتالوج</a></li>
       <li class="mobileRemove"><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">ابحث عن محل</a></li>
       <li>
-         <ul id="eCommerceNavBarMenu">
-          <li class="topLevel>Language</li>
-          <li class="subLevel"><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
-          <li class="subLevel"><a href="/setSessionLocale?newLocale=en_US">EN</a></li>
-          <li class="subLevel"><a href="/setSessionLocale?newLocale=fr_BE">FR</a></li>
-          <li class="subLevel"><a href="/setSessionLocale?newLocale=nl_BE">NL</a></li>
-         </ul>
-       </li>
+         <div class="dropdown">
+           <span>اللغة</span>
+           <div class="dropdown-content">
+             <ul>
+              <li><a href="/setSessionLocale?newLocale=ar_DZ">عربي</a></li>
+              <li><a href="/setSessionLocale?newLocale=en_US">EN</a></li>
+              <li><a href="/setSessionLocale?newLocale=fr_BE">FR</a></li>
+              <li><a href="/setSessionLocale?newLocale=nl_BE">NL</a></li>
+             </ul>
+           </div>
+         </div>
+        </li>
        <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
            <li class="last"><a href="<@ofbizUrl>logout</@ofbizUrl>">خروج</a></li>
        <#else/>

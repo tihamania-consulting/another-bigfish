@@ -2225,7 +2225,7 @@ div.showcase-tooltip{
 }
 
 .mobileMessage{
-    background: none repeat scroll right  0 #98070A;
+    background: none repeat scroll right  0 #2bb673;
     border-radius: 5px 5px 5px 5px;
     float: right;
 }
@@ -2265,4 +2265,9 @@ div.showcase-tooltip{
 li a.removeMultiSearchItem{
     background: url("/osafe_theme/images/user_content/images/removeFacetIcon.png") no-repeat scroll right  0 transparent;
 }
+
+.dropdown{
+    padding: 0 0 0 9px ;
+}
+
 
