@@ -17,12 +17,13 @@ specific language governing permissions and limitations
 under the License.
 ////
 [[apache-ofbiz]]
-= Apache OFBiz®
+= Another bigfish ecommerce
 
-Welcome to *Apache OFBiz*! A powerful top level Apache software project. OFBiz
-is an Enterprise Resource Planning (ERP) System written in Java and houses a
-large set of libraries, entities, services and features to run all aspects of
-your business.
+This is an effort to make bigfish ecommerces modules to work with the latest Apache Ofbiz release.
+Indeed the latests- bigfish ecommerce available to download works with Ofbiz 13 which is quite old.
+Especiallay that Ofbiz uses gradle and plugins instead of ANT and hot deployed modules.
+The solr module has been taken from Ofbiz plugins. The code has been adapted to use that one instead of the one developed by Solveda.
+
 
 For more details about OFBiz please visit the OFBiz Documentation page:
 
@@ -30,25 +31,15 @@ http://ofbiz.apache.org/documentation.html[OFBiz documentation]
 
 http://www.apache.org/licenses/LICENSE-2.0[OFBiz License]
 
-____________________________________________________________________________________________________
-_Note_: If you want to use Eclipse, read the "Setup eclipse project for OFBiz"
-section to set it up.
-____________________________________________________________________________________________________
+for more detail about Solveda bigfish:
 
-_____________________________________________________________________________________________________________________________________
-_Note_: If you want to use an external database like MySQL or PostgreSQL, read
-the "Setup an external database" section to set it up.
-_____________________________________________________________________________________________________________________________________
+http://bigfish.solveda.com/bfDownload.html
 
-________________________________________________________________________________________________________________________________________
-_Note_: If you want to run OFBiz without an internet connection, read the
-"Running gradle tasks without an internet connection" section.
-________________________________________________________________________________________________________________________________________
+The code by default uses postgreSQL DB. But this can be changed the ususal way in the entity framework module config.
 
-__________________________________________________________________________________________________________________________________________
-_Note_: The directory structure and repositories have changed. For more
-information read the "Repository and directory structure" section.
-__________________________________________________________________________________________________________________________________________
+A demo is avaialable here. The data given in solveda demo was recycled here.
+
+http://webshop.tihamania.net
 
 [[system-requirements]]
 == System requirements
