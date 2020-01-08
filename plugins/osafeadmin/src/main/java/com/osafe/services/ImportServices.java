@@ -2169,7 +2169,7 @@ public class ImportServices {
                 	String colContent=null;
                 
                 	 try {
-                		 colContent= org.apache.commons.text.StringEscapeUtils.escapeXml11(row[colCount].getContents());
+                		 colContent= org.apache.commons.text.StringEscapeUtils.unescapeHtml4(row[colCount].getContents());
                 	 }
                 	   catch (Exception e) {
                 		   colContent="";
@@ -3749,7 +3749,7 @@ public class ImportServices {
         rowString.append("dataResourceId" + "=\"" + dataResourceId +  translateLocale + "\" ");
         rowString.append(">");
 
-        rowString.append("<textData> <![CDATA[" + org.apache.commons.text.StringEscapeUtils.escapeHtml4(contentValue) + "]]></textData>");
+        rowString.append("<textData> <![CDATA[" + contentValue + "]]></textData>");
         rowString.append("</ElectronicText>");
         bwOutFile.write(rowString.toString());
         bwOutFile.newLine();
