@@ -2272,6 +2272,7 @@ public class ImportServices {
                     buildTextDataResourceRow(rowString, bwOutFile, "categoryName", dataResourceId ,  (String)mRow.get("categoryName"), "");
                     buildContentRow(rowString, bwOutFile,"categoryName", contentId, dataResourceId, "");
 
+                    rowString.setLength(0);
                     rowString.append("<ProductCategoryContent ");
                     rowString.append("contentId" + "=\"" + contentId + "\" ");
                     rowString.append("prodCatContentTypeId" + "=\"CATEGORY_NAME\" ");

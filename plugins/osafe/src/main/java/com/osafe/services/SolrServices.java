@@ -678,10 +678,6 @@ public class SolrServices {
             if (UtilValidate.isNotEmpty(documentList)) 
             {
 
-                String solrServer = OSAFE_PROPS.getString("solrIndexServer");
-
-                Debug.log("solrServer=" + solrServer, module);
-
                 // Delete previous index using Http Client
                 HttpSolrClient updateClient = SolrUtil.getHttpSolrClient("solrdefault");
 
@@ -1203,7 +1199,7 @@ public class SolrServices {
 
                 // Import CSV file using Http Client
                 int index = prodFeatureColNames.size();
-                for (String prodFeatureType : prodFeatureColNames) 
+                for (String prodFeatureType : prodFeatureColNames)
                 {
                     columnNames[columnNames.length - index] = prodFeatureType;
                     index--;
