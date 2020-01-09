@@ -434,7 +434,9 @@
 
 <!-- STATIC PAGES-->
 <DataResource dataResourceId="SP_ABOUT_US" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SP_ABOUT_US_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SP_PRIVACY_POLICY" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
+<DataResource dataResourceId="SP_PRIVACY_POLICY_AR" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="ar"/>
 <DataResource dataResourceId="SP_REVIEW_TERMS_COND" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SP_REVIEW_GUIDELINES" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SP_TERMS_CONDITIONS" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
@@ -443,7 +445,9 @@
 <DataResource dataResourceId="SP_RETURN_POLICY" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <DataResource dataResourceId="SP_CONTACT_US" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" localeString="en_US"/>
 <ElectronicText dataResourceId="SP_ABOUT_US"/>
+<ElectronicText dataResourceId="SP_ABOUT_US_AR"/>
 <ElectronicText dataResourceId="SP_PRIVACY_POLICY"/>
+<ElectronicText dataResourceId="SP_PRIVACY_POLICY_AR"/>
 <ElectronicText dataResourceId="SP_REVIEW_GUIDELINES"/>
 <ElectronicText dataResourceId="SP_SITE_MAP"/>
 <ElectronicText dataResourceId="SP_ERROR_PAGE"/>
@@ -452,7 +456,11 @@
 <ElectronicText dataResourceId="SP_TERMS_CONDITIONS"/>
 <ElectronicText dataResourceId="SP_REVIEW_TERMS_COND"/>
 <Content contentId="SP_ABOUT_US" contentTypeId="BF_STATIC_PAGE"  description="About Us (Seeded SAMPLE)" contentName="About Us" dataResourceId="SP_ABOUT_US" localeString="en_US"/>
+<Content contentId="SP_ABOUT_US_AR" contentTypeId="BF_STATIC_PAGE"  description="About Us (Seeded SAMPLE)" contentName="About Us" dataResourceId="SP_ABOUT_US_AR" localeString="ar"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SP_ABOUT_US" contentIdTo="SP_ABOUT_US_AR" fromDate="2013-01-02 01:01:01"/>
 <Content contentId="SP_PRIVACY_POLICY" contentTypeId="BF_STATIC_PAGE"  description="Privacy Policy (Seeded SAMPLE)" contentName="Privacy Policy" dataResourceId="SP_PRIVACY_POLICY" localeString="en_US"/>
+<Content contentId="SP_PRIVACY_POLICY_AR" contentTypeId="BF_STATIC_PAGE"  description="Privacy Policy (Seeded SAMPLE)" contentName="Privacy Policy" dataResourceId="SP_PRIVACY_POLICY_AR" localeString="ar"/>
+<ContentAssoc contentAssocTypeId="ALTERNATE_LOCALE" contentId="SP_PRIVACY_POLICY" contentIdTo="SP_PRIVACY_POLICY_AR" fromDate="2013-01-02 01:01:01"/>
 <Content contentId="SP_TERMS_CONDITIONS" contentTypeId="BF_STATIC_PAGE"  description="Terms and Conditions (Seeded SAMPLE)" contentName="Terms and Conditions" dataResourceId="SP_TERMS_CONDITIONS" localeString="en_US"/>
 <Content contentId="SP_REVIEW_TERMS_COND" contentTypeId="BF_STATIC_PAGE"  description="Review Terms and Conditions (Seeded SAMPLE)" contentName="Review Terms and Conditions" dataResourceId="SP_REVIEW_TERMS_COND" localeString="en_US"/>
 <Content contentId="SP_REVIEW_GUIDELINES" contentTypeId="BF_STATIC_PAGE"  description="Review Guidlines (Seeded SAMPLE)" contentName="Review Gudlines" dataResourceId="SP_REVIEW_GUIDELINES" localeString="en_US"/>
