@@ -21,7 +21,7 @@ under the License.
 
 This is an effort to make bigfish ecommerces modules to work with the latest Apache Ofbiz release.
 Indeed the latests- bigfish ecommerce available to download works with Ofbiz 13 which is quite old.
-Especiallay that Ofbiz now, uses gradle and plugins instead of ANT and hot deployed modules.
+Especially that Ofbiz now, uses gradle and plugins instead of ANT and hot deployed modules.
 The ecommerce module is made multi lingual with arabic support. The css
 The solr module has been taken from Ofbiz plugins. The code has been adapted to use that one instead of the one developed by Solveda.
 Actually, the official SOLR plugin makes Apache SOLR integration more elegrant. Indexing is made through solrJ api instead of passing through a CSV file.
@@ -47,13 +47,15 @@ http://webshop.tihamania.net
 [[Acknowledgement]]
 == Acknowledgement
 
-We make here a spaical thanks to Solveda effort, and their will to make their code under Apache 2.0 license, which helped us to make use of their code.
+We make here a special thanks to Solveda effort, and their will to make their code under Apache 2.0 license,
+which allowed us to make use of their code.
 That's why the produced code is made publicly avaiable with Apache license too.
 
 [[Special notice]]
 == Special notice
-Bigfish base code make usage of obsolete methods and code no longer existing in Ofbiz. We tried to our most to let the Ofbiz framework code untouched.
-But to accelerate the launch of the project, we put back some methods in place. A next effort step would be to remove those.
+Bigfish base code make usage of obsolete code no longer existing in Ofbiz. We tried  our most to let the Ofbiz framework code untouched.
+But to accelerate the launch of the project, we put back some methods in place.
+A next effort step would be to remove those, and let Bigfish module be a real plugin.
 
 === Big fish XLS catalog
 The catalog has been adapted to add extra columns for multi lingual translations AR/FR/NL.
@@ -62,5 +64,5 @@ The catalog has been adapted to add extra columns for multi lingual translations
 Only services which made interest for us had a spacial attention from us, to make them functional like catalog Feeds import and Solr indexing. We are not sure that other functions are ok.
 
 === Inventory management
-We added the implementation of inveory managemetn using Ofbiz method. Hence, products invetory can be received through the Facility module in Ofbiz. Actually, we wanted to
-administer the sales through the OOTB  Ofbiz modules instead of big fish admin module which manages the invetory through product attributes.
+We added the implementation of inventory managemetn using Ofbiz method. Hence, products inventory can be received through the Facility module in Ofbiz.
+Actually, we wanted to administer the sales through the OOTB  Ofbiz modules instead of big fish admin module which manages the invetory through product attributes.
