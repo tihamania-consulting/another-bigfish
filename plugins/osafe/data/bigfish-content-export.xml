@@ -14,7 +14,7 @@
         <textData><![CDATA[
             <div class="defaultDevice">
                   <div class="mobileMessage">
-                        <h6>*This is a demo webshop to demonstrate Ofbiz/Bigfish features.</h6>
+                        <h6>*This is a demo webshop check source code <a style="color:white" target="_blank" href="https://github.com/tihamania-consulting/another-bigfish">here</a>.</h6>
                   </div>
              </div>
     ]]></textData>
