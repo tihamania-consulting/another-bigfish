@@ -790,4 +790,31 @@ You are responsible for return postage. Send returns via US Postal Service or UP
 </textData>
 </ElectronicText>
 
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="PDP_FACET_GROUP_VARIANT_SWATCH_IMG" parmValue="COLOR" description="This is the FACET GROUP that may have variant 'swatches' images on the PLP. For example, if this parameter is set to COLOR then the PDP will offer the 'color swatches'as a selector." parmCategory="PDP"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="PLP_FACET_GROUP_VARIANT_SWATCH_IMG" parmValue="COLOR" description="This is the FACET GROUP that may have variant 'swatch' images on the PLP. For example, if this parameter is set to COLOR, and COLOR=Red is clicked on the Facets, then the PDP processing will look for images from the variant product Color=Red." parmCategory="PLP"/>
+
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_H" parmValue="240" description="Height of PLP Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_W" parmValue="180" description="Width of PLP Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_REG_H" parmValue="300" description="Height of PDP Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_REG_W" parmValue="225" description="Width of PDP Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_POPUP_H" parmValue="339" description="Height of PDP Popup Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_POPUP_W" parmValue="254" description="Width of PDP Popup Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_RECENT_H" parmValue="187" description="Height of PDP Recent Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_RECENT_W" parmValue="150" description="Width of PDP Recent Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_COMPLEMENT_H" parmValue="187" description="Height of PDP Complement Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_CART_H" parmValue="100" description="Height of Shopping Cart Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_CART_W" parmValue="75" description="Width of Shopping Cart Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_CAT_W" parmValue="180" description="Width of PLP Category Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_REVIEW_H" parmValue="200" description="Height of Submit Review Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_REVIEW_W" parmValue="150" description="Width of Submit review Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_H" parmValue="500" description="Height of PDP Product Video" parmCategory="VIDEO"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_W" parmValue="300" description="Width of PDP Product Video" parmCategory="VIDEO"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_SWATCH_H" parmValue="35" description="Height of PDP Swatch, leave blank or zero if no resizing should take place." parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_SWATCH_W" parmValue="35" description="Width of PDP Swatch, leave blank or zero if no resizing should take place." parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_360_H" parmValue="350" description="Height of PDP Video 360" parmCategory="VIDEO"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_360_W" parmValue="250" description="Width of PDP Video 360" parmCategory="VIDEO"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_MFG_H" parmValue="40" description="Height of PLP Manufacturer logo Image" parmCategory="IMAGE"/>
+ <XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_MFG_W" parmValue="40" description="Width of PLP Manufacturer logo Image" parmCategory="IMAGE"/>
+
+
 </entity-engine-xml>
