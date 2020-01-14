@@ -191,7 +191,7 @@
         <!-- Check the password, etc for validity -->
         <set field="passwordErrorsList" type="List" />
         <script>groovy:
-            List passwordErrorsList = javolution.util.new ArrayList();
+            List passwordErrorsList = javolution.util.FastList.newInstance();
             String password = (String) userLoginContext.get("currentPassword");
             String confirmPassword = (String) userLoginContext.get("currentPasswordVerify");
             String passwordHint = (String) userLoginContext.get("passwordHint");
