@@ -192,6 +192,7 @@ String buildNextLi(Map map, List order, String current, String prefix, Map produ
                 }
             }
             buf.append("VARSTOCK['" + optValue + "'] = \"" + stockClass + "\";");
+            buf.append("VARSTOCK['" + optValue + "-level'] = \"" + inventoryLevel + "\";");
 			
 			def pdpInStoreOnly = "N";
             variantProductAttribute = productVariantProductAttributeMap.get(optValue);
