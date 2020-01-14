@@ -180,6 +180,7 @@ String buildNextLi(Map map, List order, String current, String prefix, Map produ
                 }
             }
             buf.append("VARSTOCK['" + optValue + "'] = \"" + stockClass + "\";");
+            buf.append("VARSTOCK['" + optValue + "-level'] = \"" + inventoryLevel + "\";");
             def plpPdpInStoreOnly = "N";
             variantProductAttribute = productVariantProductAttributeMap.get(optValue);
 	        if(UtilValidate.isNotEmpty(variantProductAttribute) && UtilValidate.isNotEmpty(variantProductAttribute.PDP_IN_STORE_ONLY))
@@ -188,7 +189,8 @@ String buildNextLi(Map map, List order, String current, String prefix, Map produ
 			}
 			
             buf.append("VARINSTORE['" + optValue + "'] = \"" + plpPdpInStoreOnly + "\";");
-        } 
+            buf.append("VARSTOCK['" + optValue + "-level'] = \"" + inventoryLevel + "\";");
+        }
         else 
         {
             optValue = prefix + "_" + ct;
