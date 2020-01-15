@@ -132,6 +132,7 @@
            	}
            	var add_product_id = jQuery('form[name=addform] input[name="add_product_id"]').val();
            	var productName = "${wrappedPdpProductName!}";
+           	var inStock = ${inStock?string};
            	<#-- check if qty is whole number -->
            	if(isQtyWhole(quantity,productName))
            	{
@@ -139,7 +140,8 @@
            		{
 	           		<#-- check how many already in cart and add to qty -->
 	           		quantity = Number(quantity) + Number(getQtyInCart(add_product_id));
-	           		if (quantity <= VARSTOCK[add_product_id + "-level"]) {
+	           		if ((typeof VARSTOCK != "undefined" && quantity <= VARSTOCK[add_product_id + "-level"])
+	           		        || (typeof VARSTOCK == "undefined" && inStock) ) {
                         <#-- get lower and upper limits for quantity -->
                         <#-- validate qty limits -->
                         if(validateQtyMinMax(add_product_id,productName,quantity))
