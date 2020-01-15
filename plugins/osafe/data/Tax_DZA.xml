@@ -5,7 +5,14 @@
     <PartyRole partyId="DZA_TAX" roleTypeId="TAX_AUTHORITY"/>
 
     <TaxAuthority taxAuthGeoId="DZA" taxAuthPartyId="DZA_TAX" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N" lastUpdatedStamp="2008-09-16 15:33:28.087" lastUpdatedTxStamp="2008-09-16 15:33:28.023" createdStamp="2008-09-16 15:33:28.087" createdTxStamp="2008-09-16 15:33:28.023"/>
-    <TaxAuthorityRateProduct taxAuthorityRateSeqId="Algeria" taxAuthGeoId="DZA" taxAuthPartyId="DZA_TAX" taxAuthorityRateTypeId="SALES_TAX" productStoreId="" minItemPrice="0.00" minPurchase="0.00" taxShipping="N" taxPercentage="17.000000" taxPromotions="Y" fromDate="2005-01-01 00:00:00.0" description="Algeria VAT" lastUpdatedStamp="2011-07-29 11:16:12.0" lastUpdatedTxStamp="2011-07-29 11:16:12.0" createdStamp="2011-07-29 09:22:50.0" createdTxStamp="2011-07-29 09:22:50.0"/>
+    <TaxAuthorityRateProduct taxAuthorityRateSeqId="Algeria" taxAuthGeoId="DZA" taxAuthPartyId="DZA_TAX" taxAuthorityRateTypeId="SALES_TAX"
+                             minItemPrice="0.00" minPurchase="0.00" taxShipping="N"
+                             taxPercentage="17.000000" taxPromotions="Y" fromDate="2005-01-01 00:00:00.0" description="17% Algeria VAT"
+                             lastUpdatedStamp="2011-07-29 11:16:12.0" lastUpdatedTxStamp="2011-07-29 11:16:12.0" createdStamp="2011-07-29 09:22:50.0" createdTxStamp="2011-07-29 09:22:50.0"/>
+
+    <TaxAuthorityRateProduct taxAuthorityRateSeqId="9000" taxAuthGeoId="_NA_" taxAuthPartyId="_NA_" taxAuthorityRateTypeId="SALES_TAX"
+                             minItemPrice="25.00" minPurchase="0.00" taxShipping="N" taxPercentage="0" taxPromotions="N"
+                             fromDate="2001-05-13 00:00:00.001" description="1% OFB _NA_ Tax"/>
 
 </entity-engine-xml>
     

@@ -1397,11 +1397,11 @@ if (UtilValidate.isNotEmpty(productId))
                         }
                     }
 
-                    for(String featureTyepe : featureSetAll)
+                    for(String featureType : featureSetAll)
                     {
-                    	if(!featureSet.contains(featureTyepe))
+                    	if(!featureSet.contains(featureType))
                     	{
-                    		featureSet.add(featureTyepe);
+                    		featureSet.add(featureType);
                     	}
                     }
                     
