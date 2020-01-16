@@ -258,7 +258,7 @@ ${virtualJavaScript!}
 <table border="0" cellpadding="2" cellspacing="0" width="100%">
   <tr>
     <td align="left" valign="top" width="0">
-      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!>
+      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url")!>
       <#if firstLargeImage?has_content>
         <#assign productLargeImageUrl = firstLargeImage>
       </#if>

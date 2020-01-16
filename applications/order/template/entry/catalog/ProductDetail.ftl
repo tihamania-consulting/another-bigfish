@@ -304,7 +304,7 @@ ${virtualJavaScript!}
   <#-- Product image/name/price -->
   <tr>
     <td valign="top" width="0">
-      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!>
+      <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "url")!>
       <#-- remove the next two lines to always display the virtual image first (virtual images must exist) -->
       <#if firstLargeImage?has_content>
         <#assign productLargeImageUrl = firstLargeImage>
@@ -601,9 +601,9 @@ ${virtualJavaScript!}
             <#list imageKeys as key>
               <#assign swatchProduct = imageMap.get(key)>
               <#if swatchProduct?has_content && indexer < maxIndex>
-                <#assign imageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(swatchProduct, "SMALL_IMAGE_URL", request, "string")!>
+                <#assign imageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(swatchProduct, "SMALL_IMAGE_URL", request, "url")!>
                 <#if !imageUrl?string?has_content>
-                  <#assign imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string")!>
+                  <#assign imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "url")!>
                 </#if>
                 <#if !imageUrl?string?has_content>
                   <#assign imageUrl = "/images/defaultImage.jpg">

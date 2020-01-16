@@ -26,7 +26,7 @@ under the License.
     <#assign productContentWrapper = productData.productContentWrapper/>
     <#assign price = productData.priceMap/>
     <#assign productUrl><@ofbizCatalogAltUrl productId=product.productId/></#assign>
-    <#assign smallImageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string")/>
+    <#assign smallImageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "url")/>
     <#if smallImageUrl!?length == 0>
         <#assign smallImageUrl = "/images/defaultImage.jpg"/>
     </#if>

@@ -58,7 +58,7 @@ if (packageContents) {
                              components : []])
         }
         OrderContentWrapper orderContentWrapper = OrderContentWrapper.makeOrderContentWrapper(orderItem, request)
-        String imageUrl = orderContentWrapper.get("IMAGE_URL", "string")
+        String imageUrl = orderContentWrapper.get("IMAGE_URL", "url")
         packageMap = (Map)packagesMap.packageContent.shipmentPackageSeqId
         components = (List)packageMap.components
         components.add([product : product, orderItem : orderItem, imageUrl : imageUrl])

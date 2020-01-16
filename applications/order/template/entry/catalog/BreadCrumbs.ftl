@@ -34,10 +34,10 @@ under the License.
             <#if !isDefaultTheme>         
               <li>
                  <a href="<@ofbizCatalogUrl currentCategoryId=crumb previousCategoryId=previousCategoryId!""/>" class="<#if crumb_has_next>linktext<#else>buttontextdisabled</#if>">
-                   <#if catContentWrappers[crumb].getProductCategoryContentAsText("CATEGORY_NAME", locale)??>
-                     ${catContentWrappers[crumb].get("CATEGORY_NAME", locale)}
-                   <#elseif catContentWrappers[crumb].get("DESCRIPTION", locale)??>
-                     ${catContentWrappers[crumb].get("DESCRIPTION", locale)}
+                   <#if catContentWrappers[crumb].get("CATEGORY_NAME", "html")??>
+                     ${catContentWrappers[crumb].get("CATEGORY_NAME", "html")}
+                   <#elseif catContentWrappers[crumb].get("DESCRIPTION", "html")??>
+                     ${catContentWrappers[crumb].get("DESCRIPTION", "html")}
                    <#else>
                      ${crumb}
                    </#if>
@@ -45,10 +45,10 @@ under the License.
               </li>
             <#else>  
                <a href="<@ofbizCatalogUrl currentCategoryId=crumb previousCategoryId=previousCategoryId!""/>" class="<#if crumb_has_next>linktext<#else>buttontextdisabled</#if>">
-                 <#if catContentWrappers[crumb].get("CATEGORY_NAME", locale)??>
-                   ${catContentWrappers[crumb].get("CATEGORY_NAME", locale)}
-                 <#elseif catContentWrappers[crumb].get("DESCRIPTION", locale)??>
-                   ${catContentWrappers[crumb].get("DESCRIPTION", locale)}
+                 <#if catContentWrappers[crumb].get("CATEGORY_NAME", "html")??>
+                   ${catContentWrappers[crumb].get("CATEGORY_NAME", "html")}
+                 <#elseif catContentWrappers[crumb].get("DESCRIPTION", "html")??>
+                   ${catContentWrappers[crumb].get("DESCRIPTION", "html")}
                  <#else>
                    ${crumb}
                  </#if>

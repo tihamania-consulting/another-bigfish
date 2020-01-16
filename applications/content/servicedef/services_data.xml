@@ -121,7 +121,7 @@
         <description>Update a ElectronicText</description>
         <permission-service service-name="genericDataResourcePermission" main-action="UPDATE"/>
         <auto-attributes include="pk" mode="INOUT" optional="false"/>
-        <auto-attributes include="nonpk" mode="IN" optional="true" allow-html="safe"/>
+        <auto-attributes include="nonpk" mode="IN" optional="true"/>
         <attribute name="contentId" mode="INOUT" optional="true" type="String"/><!-- to optionaly know where this text is belonging to -->
         <override name="textData" allow-html="safe"/>
     </service>

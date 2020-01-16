@@ -1148,8 +1148,7 @@ public final class UtilHttp {
         
         resp.setHeader("Referrer-Policy", "no-referrer-when-downgrade"); // This is the default (in Firefox at least)
         
-        //resp.setHeader("Content-Security-Policy-Report-Only", "default-src 'self' style-src 'self' 'unsafe-inline' report-uri /csp-violations-report-endpoint");
-
+        resp.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'");
 
         // TODO in custom project. Public-Key-Pins-Report-Only is interesting but can't be used OOTB because of demos (the letsencrypt certificate is renewed every 3 months)
     }

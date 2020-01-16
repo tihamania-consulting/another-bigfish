@@ -221,7 +221,6 @@ under the License.
             </entity-condition>
         </if-empty>
         <if-empty field="resourceList">
-            <log level="error" message="Could not find the '${visualThemeId}' theme, resources"></log>
             <add-error><fail-property resource="CommonUiLabels" property="CommonVisualThemeResourcesNotFound"/></add-error>
             <check-errors/>
         </if-empty>
