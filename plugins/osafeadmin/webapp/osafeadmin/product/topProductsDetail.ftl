@@ -38,7 +38,7 @@
                 <#assign productWrapper = topProductContentWrappers[productId]!"">
                 <#assign productName=productId!""/>
                 <#if productWrapper?has_content>
-	                <#assign productName = productWrapper.get("PRODUCT_NAME")>
+	                <#assign productName = productWrapper.get("PRODUCT_NAME", "string")>
                 </#if>
                                 
                 <tr class="<#if rowClass == "2">even</#if>">

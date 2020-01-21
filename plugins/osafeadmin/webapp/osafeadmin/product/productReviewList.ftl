@@ -20,7 +20,7 @@
               <#assign product = review.getRelatedOne("Product")>
               <#assign statusItem = review.getRelatedOne("StatusItem")>
               <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product,request)>
-              <#assign productName = productContentWrapper.get("PRODUCT_NAME")!product.productName!"">
+              <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!product.productName!"">
               <#assign rating=review.productRating!"">
               <#assign ratePercentage= ((rating / 5) * 100)>
                 <tr class="dataRow <#if rowClass == "2">even<#else>odd</#if>">

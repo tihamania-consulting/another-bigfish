@@ -173,14 +173,14 @@ public class OsafeAdminEvent {
                            {
                                productId = productGV.getString("productId");
                                String productType = (String) uiLabelMap.get("ProductVirtualLabel");
-                               String productName = ProductContentWrapper.getProductContentAsText(productGV, "PRODUCT_NAME", locale, dispatcher, "html");
+                               String productName = ProductContentWrapper.getProductContentAsText(productGV, "PRODUCT_NAME", locale, dispatcher , "string");
                                String contentId = null;
                                String productImageUrl =null;
                                if(productGV.getString("isVariant").equals("Y"))
                                {
                                     productType = (String) uiLabelMap.get("ProductVariantLabel");
                                     GenericValue parentProduct = ProductWorker.getParentProduct(productId, delegator);
-                                    productName = ProductContentWrapper.getProductContentAsText(parentProduct, "PRODUCT_NAME", locale, dispatcher, "html");
+                                    productName = ProductContentWrapper.getProductContentAsText(parentProduct, "PRODUCT_NAME", locale, dispatcher , "string");
                                }
                                //Verifying ASSET existence for a product (virtual or variant)
                                for(String ContentType : ProductContentTypeList)

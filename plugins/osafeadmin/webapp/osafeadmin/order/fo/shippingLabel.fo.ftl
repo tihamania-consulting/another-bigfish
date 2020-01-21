@@ -561,7 +561,7 @@ under the License.
 			                        </#if>
 			                        <#assign product = delegator.findOne("Product", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("productId",productId), false)/>
 	                                <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product, request)!""/>
-			                        ${productContentWrapper.get("PRODUCT_NAME")!""}
+			                        ${productContentWrapper.get("PRODUCT_NAME", "string")!""}
 		                        </fo:block>
 		                      </fo:table-cell>
 		                      <fo:table-cell border-bottom-style="solid" border-top-style="solid" border-end-style="solid" border-start-style="solid">

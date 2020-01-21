@@ -16,7 +16,7 @@
         <#if result.productId?has_content >
          	<#assign product = delegator.findOne("Product", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("productId", result.productId!))/>
          	<#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product,request)>
-         	<#assign productName = productContentWrapper.get("PRODUCT_NAME")!itemProduct.productName!"">
+         	<#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!itemProduct.productName!"">
         </#if>
         <td class="idCol <#if !result_has_next?if_exists>lastRow</#if>">
           <#if product?has_content && product.isVirtual == 'Y'>

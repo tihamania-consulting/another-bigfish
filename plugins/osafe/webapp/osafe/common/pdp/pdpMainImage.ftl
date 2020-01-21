@@ -33,15 +33,15 @@
 	    <#if variantContentIdMap?has_content && variantProdCtntWrapper?has_content >
 	    	<#assign variantContentId = variantContentIdMap.get("LARGE_IMAGE_URL")!""/>
 	        <#if variantContentId?has_content>
-	           <#assign productLargeImageUrl = variantProdCtntWrapper.get("LARGE_IMAGE_URL")!""/>
+	           <#assign productLargeImageUrl = variantProdCtntWrapper.get("LARGE_IMAGE_URL", "string")!""/>
 	        </#if>
-	    	<#assign variantContentId = variantContentIdMap.get("DETAIL_IMAGE_URL")!""/>
+	    	<#assign variantContentId = variantContentIdMap.get("DETAIL_IMAGE_URL", "string")!""/>
 	        <#if variantContentId?has_content>
-	           <#assign productDetailImageUrl = variantProdCtntWrapper.get("DETAIL_IMAGE_URL")!""/>
+	           <#assign productDetailImageUrl = variantProdCtntWrapper.get("DETAIL_IMAGE_URL", "string")!""/>
 	        </#if>
-	    	<#assign variantContentId = variantContentIdMap.get("THUMBNAIL_IMAGE_URL")!""/>
+	    	<#assign variantContentId = variantContentIdMap.get("THUMBNAIL_IMAGE_URL", "string")!""/>
 	        <#if variantContentId?has_content>
-	           <#assign productThumbImageUrl = variantProdCtntWrapper.get("THUMBNAIL_IMAGE_URL")!""/>
+	           <#assign productThumbImageUrl = variantProdCtntWrapper.get("THUMBNAIL_IMAGE_URL", "string")!""/>
 	        </#if>
 	    </#if>
 	    <#if productLargeImageUrl?has_content && productLargeImageUrl!=''>

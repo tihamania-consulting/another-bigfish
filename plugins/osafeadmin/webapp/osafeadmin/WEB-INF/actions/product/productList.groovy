@@ -51,12 +51,12 @@ if (UtilValidate.isNotEmpty(add_product_id) && UtilValidate.isNotEmpty(prod_type
    if(prod_type.equals("Variant"))
    {
 	   GenericValue add_virtual_product = ProductWorker.getParentProduct(add_product_id, delegator);
-	   add_product_name = ProductContentWrapper.getProductContentAsText(add_virtual_product, 'PRODUCT_NAME', request);
+	   add_product_name = ProductContentWrapper.getProductContentAsText(add_virtual_product, 'PRODUCT_NAME', request , "string");
    }
    else if(prod_type.equals("FinishedGood"))
    {
 	   GenericValue finished_good = delegator.findOne("Product", [productId : add_product_id]);
-	   add_product_name = ProductContentWrapper.getProductContentAsText(finished_good, 'PRODUCT_NAME', request);
+	   add_product_name = ProductContentWrapper.getProductContentAsText(finished_good, 'PRODUCT_NAME', request , "string");
    }
    messageMap.put("add_product_name", add_product_name);
    context.showSuccessMessage = UtilProperties.getMessage("OSafeAdminUiLabels","CheckoutAddProductSuccess",messageMap, locale )

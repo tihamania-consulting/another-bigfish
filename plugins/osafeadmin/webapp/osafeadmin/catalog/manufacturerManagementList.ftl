@@ -24,9 +24,9 @@
                     <td class="idCol <#if !partyRow_has_next>lastRow</#if> firstCol" ><a href="<@ofbizUrl>manufacturerDetail?manufacturerPartyId=${partyRow.partyId}&contactMechId=${postalAddress.contactMechId!""}</@ofbizUrl>">${partyRow.partyId}</a></td>
                    <#assign partyContentWrapper = Static["org.apache.ofbiz.party.content.PartyContentWrapper"].makePartyContentWrapper(party, request)!""/>
                    <#if partyContentWrapper?has_content>
-                     <#assign manufacturerProfileName = partyContentWrapper.get("PROFILE_NAME", false)/> 
-                     <#assign manufacturerShortDescription = partyContentWrapper.get("DESCRIPTION", false)/> 
-                     <#assign manufacturerLongDescription = partyContentWrapper.get("LONG_DESCRIPTION", false)/> 
+                     <#assign manufacturerProfileName = partyContentWrapper.get("PROFILE_NAME", "string")/>
+                     <#assign manufacturerShortDescription = partyContentWrapper.get("DESCRIPTION", "string")/>
+                     <#assign manufacturerLongDescription = partyContentWrapper.get("LONG_DESCRIPTION", "string")/>
                    </#if>
                     <td class="nameCol <#if !partyRow_has_next>lastRow</#if>"><#if manufacturerProfileName?exists && manufacturerProfileName?has_content>${manufacturerProfileName!""}</#if></td>
                     <td class="nameCol <#if !partyRow_has_next>lastRow</#if>"><#if manufacturerShortDescription?exists && manufacturerShortDescription?has_content>${manufacturerShortDescription!""}</#if></td>

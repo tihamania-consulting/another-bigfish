@@ -1,8 +1,8 @@
 <#if product?has_content>
   <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product, request)!""/>
   <#if productContentWrapper?exists>
-    <#assign productVideoUrl = productContentWrapper.get("PDP_VIDEO_URL")!""/>
-    <#assign productVideo360Url = productContentWrapper.get("PDP_VIDEO_360_URL")!""/>
+    <#assign productVideoUrl = productContentWrapper.get("PDP_VIDEO_URL", "string")!""/>
+    <#assign productVideo360Url = productContentWrapper.get("PDP_VIDEO_360_URL", "string")!""/>
   </#if>
   <#assign curDateTime = Static["org.apache.ofbiz.base.util.UtilDateTime"].nowTimestamp().toString()/>
 

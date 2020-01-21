@@ -25,7 +25,7 @@
                 <#assign productWrapper = topProductContentWrappers[productId]!"">
                 <#assign productName=productId!""/>
                 <#if productWrapper?has_content>
-	                <#assign productName = productWrapper.get("PRODUCT_NAME")>
+	                <#assign productName = productWrapper.get("PRODUCT_NAME", "string")>
                 </#if>
                 <#if (productName.toString().length() > 35)>
                    <#assign productName = productName.toString().substring(0,34)>

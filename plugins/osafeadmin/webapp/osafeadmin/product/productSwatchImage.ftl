@@ -3,8 +3,8 @@
   <div class="boxBody">
     <#if product?has_content>
       <#if productContentWrapper?exists>
-        <#assign plpSwatchImageURL = productContentWrapper.get("PLP_SWATCH_IMAGE_URL")!""/>
-        <#assign pdpSwatchImageURL = productContentWrapper.get("PDP_SWATCH_IMAGE_URL")!""/>
+        <#assign plpSwatchImageURL = productContentWrapper.get("PLP_SWATCH_IMAGE_URL", "string")!""/>
+        <#assign pdpSwatchImageURL = productContentWrapper.get("PDP_SWATCH_IMAGE_URL", "string")!""/>
       </#if>
       <#assign plpSwatchImageHeight= globalContext.IMG_SIZE_PLP_SWATCH_H!""/>
       <#assign plpSwatchImageWidth= globalContext.IMG_SIZE_PLP_SWATCH_W!""/>

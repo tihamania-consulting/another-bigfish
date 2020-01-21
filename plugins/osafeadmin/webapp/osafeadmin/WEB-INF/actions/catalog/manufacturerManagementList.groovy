@@ -89,7 +89,7 @@ if(UtilValidate.isNotEmpty(preRetrieved) && preRetrieved != "N")
 			 partyContentWrapper = PartyContentWrapper.makePartyContentWrapper(party, request);
 			 if(UtilValidate.isNotEmpty(partyContentWrapper))
 			 {
-				 manufacturerProfileName = partyContentWrapper.get("PROFILE_NAME");
+				 manufacturerProfileName = partyContentWrapper.get("PROFILE_NAME", "string");
 				 if(UtilValidate.isNotEmpty(manufacturerProfileName))
 				 {
 					 if(manufacturerProfileName.toString().toLowerCase().contains(partyName.toLowerCase()))

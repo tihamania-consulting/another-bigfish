@@ -37,13 +37,13 @@
 	        </#if>
 	    	<#assign variantContentId = variantContentIdMap.get("SMALL_IMAGE_ALT_URL")!""/>
 	        <#if variantContentId?has_content>
-               <#assign productVariantSmallAltURL = productVariantContentWrapper.get("SMALL_IMAGE_ALT_URL")!"">
+               <#assign productVariantSmallAltURL = productVariantContentWrapper.get("SMALL_IMAGE_ALT_URL", "string")!"">
             <#else>
-                <#assign productVariantSmallAltURL = plpProductContentWrapper.get("SMALL_IMAGE_ALT_URL")!"">
+                <#assign productVariantSmallAltURL = plpProductContentWrapper.get("SMALL_IMAGE_ALT_URL", "string")!"">
 	        </#if>
 	    	<#assign variantContentId = variantContentIdMap.get("PLP_SWATCH_IMAGE_URL")!""/>
 	        <#if variantContentId?has_content>
-                <#assign productVariantPlpSwatchURL = productVariantContentWrapper.get("PLP_SWATCH_IMAGE_URL")!"">
+                <#assign productVariantPlpSwatchURL = productVariantContentWrapper.get("PLP_SWATCH_IMAGE_URL", "string")!"">
 	        </#if>
 	    </#if>
         <#if productVariantPlpSwatchURL?string?has_content>

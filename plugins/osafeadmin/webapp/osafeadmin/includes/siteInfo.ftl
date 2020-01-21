@@ -96,7 +96,7 @@
                                <#if product.isVariant?if_exists?upper_case == "Y">
                                    <#assign product = Static["org.apache.ofbiz.product.product.ProductWorker"].getParentProduct(adminContext.CONTEXT_PRODUCT_ID, delegator)?if_exists>
                                </#if>
-                               <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(product, 'PRODUCT_NAME', request)?if_exists>
+                               <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(product, 'PRODUCT_NAME', request , "string")?if_exists>
                            </#if>
                        </#if>
                        <div class=contextInfoRow>

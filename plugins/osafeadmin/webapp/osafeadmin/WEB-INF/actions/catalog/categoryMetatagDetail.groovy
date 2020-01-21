@@ -19,7 +19,7 @@ if (gvProductCategory)
     context.currentProductCategoryContentWrapper = currentProductCategoryContentWrapper;
     context.productCategoryName = gvProductCategory.categoryName?gvProductCategory.categoryName:parameters.productCategoryId;
     context.title = "";
-    String categoryName = currentProductCategoryContentWrapper.get("CATEGORY_NAME");
+    String categoryName = currentProductCategoryContentWrapper.get("CATEGORY_NAME", "string");
     if (UtilValidate.isEmpty(categoryName)) 
     {
         categoryName = gvProductCategory.categoryName;
@@ -28,12 +28,12 @@ if (gvProductCategory)
     {
         context.defaultTitle = categoryName;
     }
-    if(UtilValidate.isNotEmpty(currentProductCategoryContentWrapper.get("DESCRIPTION"))) 
+    if(UtilValidate.isNotEmpty(currentProductCategoryContentWrapper.get("DESCRIPTION", "string")))
     {
-        context.defaultMetaKeywords = currentProductCategoryContentWrapper.get("DESCRIPTION");
+        context.defaultMetaKeywords = currentProductCategoryContentWrapper.get("DESCRIPTION", "string");
     }
-    if(UtilValidate.isNotEmpty(currentProductCategoryContentWrapper.get("LONG_DESCRIPTION"))) 
+    if(UtilValidate.isNotEmpty(currentProductCategoryContentWrapper.get("LONG_DESCRIPTION", "string")))
     {
-        context.defaultMetaDescription = currentProductCategoryContentWrapper.get("LONG_DESCRIPTION");
+        context.defaultMetaDescription = currentProductCategoryContentWrapper.get("LONG_DESCRIPTION", "string");
     }
 }

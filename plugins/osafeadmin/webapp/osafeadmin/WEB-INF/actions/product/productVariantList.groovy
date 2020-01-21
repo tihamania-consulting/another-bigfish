@@ -27,7 +27,7 @@ if (UtilValidate.isNotEmpty(parameters.productId))
         String productDetailHeading = "";
         if (UtilValidate.isNotEmpty(productContentWrapper))
         {
-            productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME").toString());
+            productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME", "string").toString());
             if (UtilValidate.isEmpty(productDetailHeading)) 
             {
                 productDetailHeading = product.get("productName");

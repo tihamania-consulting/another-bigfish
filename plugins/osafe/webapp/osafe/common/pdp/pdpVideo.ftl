@@ -25,7 +25,7 @@
 	    <#if variantContentIdMap?has_content>
 	    	<#assign variantContentId = variantContentIdMap.get("PDP_VIDEO_URL")!""/>
 	        <#if variantContentId?has_content>
-	           <#assign pdpVideoUrlVariant = variantProdCtntWrapper.get("PDP_VIDEO_URL")!""/>
+	           <#assign pdpVideoUrlVariant = variantProdCtntWrapper.get("PDP_VIDEO_URL", "string")!""/>
 	        </#if>
 	    </#if>
 	    

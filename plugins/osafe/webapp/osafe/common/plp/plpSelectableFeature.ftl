@@ -45,7 +45,7 @@
 	                      <#if variantContentIdMap?has_content>
 	                        <#assign variantContentId = variantContentIdMap.get("PLP_SWATCH_IMAGE_URL")!""/>
 	                        <#if variantContentId?has_content>
-	                          <#assign productVariantPlpSwatchURL = variantProdCtntWrapper.get("PLP_SWATCH_IMAGE_URL")!"">
+	                          <#assign productVariantPlpSwatchURL = variantProdCtntWrapper.get("PLP_SWATCH_IMAGE_URL", "string")!"">
 	                        </#if>
 	                      </#if>
 	                      <#if (productVariantPlpSwatchURL?string?has_content)>

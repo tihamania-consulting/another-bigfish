@@ -91,18 +91,18 @@
             <td class="idCol <#if !hasNext?if_exists>lastRow</#if> firstCol" ><a href="<@ofbizUrl>finishedProductDetail?productId=${product.productId?if_exists}</@ofbizUrl>">${product.productId?if_exists}</a></td>
           </#if>
           <td class="descCol <#if !hasNext?if_exists>lastRow</#if>">${product.internalName?if_exists}</td>
-          <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher)!""/>
+          <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string")!""/>
           <#if !productName?has_content && virtualProductContentWrapper?has_content>
-            <#assign productName = virtualProductContentWrapper.get("PRODUCT_NAME")!""/>
+            <#assign productName = virtualProductContentWrapper.get("PRODUCT_NAME", "string")!""/>
           </#if> 
           <td class="descCol lastRow"><#if productName?has_content>${productName!}</#if></td>
           <td class="actionCol <#if !hasNext?if_exists>lastRow</#if>">
-            <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION")!""/>
+            <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION", "string")!""/>
             <#if productLongDescription?has_content && productLongDescription !="">
                <#assign productLongDescription = Static["com.osafe.util.OsafeAdminUtil"].formatToolTipText(productLongDescription, ADM_TOOLTIP_MAX_CHAR!)/>
                <a href="javascript:void(0);" onMouseover="javascript:showTooltip(event,'${productLongDescription!""}');" onMouseout="hideTooltip()"><span class="descIcon"></span></a>
             </#if>
-            <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!"">
+            <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!"">
             <a href="javascript:void(0);" onMouseover="<#if productLargeImageUrl?has_content>showTooltipImage(event,'','${productLargeImageUrl}?${nowTimestamp!}');<#else>showTooltip(event,'${uiLabelMap.ProductImagesTooltip}');</#if>" onMouseout="hideTooltip()"><span class="imageIcon"></span></a>
           </td>
           <td class="qtyCol <#if !hasNext>lastRow</#if>">

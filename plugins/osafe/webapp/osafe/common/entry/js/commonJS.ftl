@@ -957,7 +957,7 @@ function __highlight(s, t)
                 <#-- get productId and quantity -->
                 <#assign productId = shoppingCartItem.getProductId()>
                 <#assign product = shoppingCartItem.getProduct()>
-                <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(shoppingCartItem.getProduct(), "PRODUCT_NAME", locale, dispatcher, "string")!"" >
+                <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(shoppingCartItem.getProduct(), "PRODUCT_NAME", locale, dispatcher , "string", "string")!"" >
                 <#assign productQty = 0>
                 <#list shoppingCartItems as otherShoppingCartItem>
                     <#assign otherProductId = otherShoppingCartItem.getProductId()>

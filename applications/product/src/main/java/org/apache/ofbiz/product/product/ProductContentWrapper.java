@@ -89,19 +89,10 @@ public class ProductContentWrapper implements ContentWrapper {
         return StringUtil.makeStringWrapper(getProductContentAsText(this.product, productContentTypeId, locale, mimeTypeId, null, null, this.product.getDelegator(), dispatcher, encoderType));
     }
 
-    public static String getProductContentAsText(GenericValue product, String productContentTypeId, HttpServletRequest request) {
-        return getProductContentAsText(product, productContentTypeId, request, "html");
-    }
-
-
     public static String getProductContentAsText(GenericValue product, String productContentTypeId, HttpServletRequest request, String encoderType) {
         LocalDispatcher dispatcher = (LocalDispatcher) request.getAttribute("dispatcher");
         String mimeTypeId = EntityUtilProperties.getPropertyValue("content", "defaultMimeType", "text/html; charset=utf-8", product.getDelegator());
         return getProductContentAsText(product, productContentTypeId, UtilHttp.getLocale(request), mimeTypeId, null, null, product.getDelegator(), dispatcher, encoderType);
-    }
-
-    public static String getProductContentAsText(GenericValue product, String productContentTypeId, Locale locale, LocalDispatcher dispatcher) {
-        return getProductContentAsText(product, productContentTypeId, locale, null, null, null, null, dispatcher, "html");
     }
 
     public static String getProductContentAsText(GenericValue product, String productContentTypeId, Locale locale, LocalDispatcher dispatcher, String encoderType) {

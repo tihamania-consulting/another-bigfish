@@ -112,7 +112,7 @@ function setRowNo(rowNo, assocType) {
       <#list compProductAssoc as relatedProduct>
         <#assign relatedProdDetail = relatedProduct.getRelatedOne("AssocProduct")>
         <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(relatedProdDetail, request)!""/>
-         <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!"">
+         <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!"">
          <tr class="dataRow <#if rowClass?if_exists == "2">even<#else>odd</#if>">
          
            <input type="hidden" name="compRelatedProductId_${rowNo}" id="compRelatedProductId" value="${relatedProdDetail.productId!}"/>
@@ -127,11 +127,11 @@ function setRowNo(rowNo, assocType) {
            </td>
            <td class="nameCol">${(relatedProdDetail.internalName)?if_exists}</td>
            <td class="longDescCol ">
-           <input type="hidden" name="compRelatedProductName_${rowNo}" id="compRelatedProductName" value="${productContentWrapper.get("PRODUCT_NAME")!""}"/>
-           ${productContentWrapper.get("PRODUCT_NAME")!""}
+           <input type="hidden" name="compRelatedProductName_${rowNo}" id="compRelatedProductName" value="${productContentWrapper.get("PRODUCT_NAME", "string")!""}"/>
+           ${productContentWrapper.get("PRODUCT_NAME", "string")!""}
            </td>
            <td class="actionCol">
-             <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION")!""/>
+             <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION", "string")!""/>
              <#if productLongDescription?has_content && productLongDescription !="">
                <#assign productLongDescription = Static["com.osafe.util.OsafeAdminUtil"].formatToolTipText(productLongDescription, ADM_TOOLTIP_MAX_CHAR!)/>
                <a href="javascript:void(0);" onMouseover="javascript:showTooltip(event,'${productLongDescription!""}');" onMouseout="hideTooltip()"><span class="descIcon"></span></a>
@@ -141,7 +141,7 @@ function setRowNo(rowNo, assocType) {
            <td class="seqCol">
              <input type="text" class="infoValue small textAlignCenter" name="compSequenceNum_${rowNo}" id="compSequenceNum" value="${relatedProduct.sequenceNum!}" maxlength="9"/>
            </td>
-           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME")!""}')/>
+           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME", "string")!""}')/>
            <td class="actionCol">
              <a href="javascript:setRowNo('${rowNo}', 'comp');javascript:deletTableRow('${relatedProduct.productIdTo?if_exists}','${productName!}', 'complementProducts', 'comp');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.DeleteProductAssociationTooltip}');" onMouseout="hideTooltip()"><span class="crossIcon"></span></a>
              <a href="javascript:setRowNo('${rowNo}', 'comp');javascript:openLookup(document.${detailFormName!}.compAddProductId,document.${detailFormName!}.compAddProductName,'lookupProduct','500','700','center','true');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.InsertBeforeNewRowTooltip}');" onMouseout="hideTooltip()"><span class="insertBeforeIcon"></span></a>
@@ -165,7 +165,7 @@ function setRowNo(rowNo, assocType) {
            <input type="hidden" name="compRelatedProductId_${x}" id="compRelatedProductId" value="${relatedProductId!}"/>
            <#assign relatedProdDetail = delegator.findOne("Product", {"productId" : relatedProductId}, false) />
            <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(relatedProdDetail, request)!""/>
-           <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!"">
+           <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!"">
            <td class="idCol firstCol" >
              <#if relatedProdDetail?has_content && relatedProdDetail.isVirtual == 'Y'>
                <a href="<@ofbizUrl>virtualProductDetail?productId=${relatedProdDetail.productId!}</@ofbizUrl>">${relatedProdDetail.productId!}</a>
@@ -176,12 +176,12 @@ function setRowNo(rowNo, assocType) {
              </#if>
            </td>
            <td class="nameCol">${(relatedProdDetail.internalName)?if_exists}</td>
-           <td class="longDescCol ">${productContentWrapper.get("PRODUCT_NAME")?html!""}
-           <#assign relatedProductName = request.getParameter("compRelatedProductName_${x}")!productContentWrapper.get("PRODUCT_NAME")!""/>
+           <td class="longDescCol ">${productContentWrapper.get("PRODUCT_NAME", "string")?html!""}
+           <#assign relatedProductName = request.getParameter("compRelatedProductName_${x}")!productContentWrapper.get("PRODUCT_NAME", "string")!""/>
            <input type="hidden" name="compRelatedProductName_${x}" id="compRelatedProductName" value="${relatedProductName!""}"/>
            </td>
            <td class="actionCol">
-             <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION")!""/>
+             <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION", "string")!""/>
              <#if productLongDescription?has_content && productLongDescription !="">
                <#assign productLongDescription = Static["com.osafe.util.OsafeAdminUtil"].formatToolTipText(productLongDescription, ADM_TOOLTIP_MAX_CHAR!)/>
                <a href="javascript:void(0);" onMouseover="javascript:showTooltip(event,'${productLongDescription!""}');" onMouseout="hideTooltip()"><span class="descIcon"></span></a>
@@ -192,7 +192,7 @@ function setRowNo(rowNo, assocType) {
              <#assign sequenceNum = request.getParameter("compSequenceNum_${x}")!/>
              <input type="text" class="infoValue small textAlignCenter" name="compSequenceNum_${x}" id="compSequenceNum" value="${sequenceNum!}" maxlength="9"/>
            </td>
-           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME")!""}')/>
+           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME", "string")!""}')/>
            <td class="actionCol">
              <a href="javascript:setRowNo('${x}','comp');javascript:deletTableRow('${relatedProdDetail.productIdTo?if_exists}','${productName!}', 'complementProducts', 'comp');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.DeleteProductAssociationTooltip}');" onMouseout="hideTooltip()"><span class="crossIcon"></span></a>
              <a href="javascript:setRowNo('${x}','comp');javascript:openLookup(document.${detailFormName!}.compAddProductId,document.${detailFormName!}.compAddProductName,'lookupProduct','500','700','center','true');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.InsertBeforeNewRowTooltip}');" onMouseout="hideTooltip()"><span class="insertBeforeIcon"></span></a>

@@ -35,7 +35,7 @@ if (UtilValidate.isNotEmpty(parameters.productId))
     String productDetailHeading = "";
     if (UtilValidate.isNotEmpty(productContentWrapper))
     {
-        productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME").toString());
+        productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME", "string").toString());
         if (UtilValidate.isEmpty(productDetailHeading)) 
         {
             productDetailHeading = product.get("productName");
@@ -59,7 +59,7 @@ if (UtilValidate.isNotEmpty(parameters.productId))
     }
 
     //Set Meta title, Description and Keywords
-    String productName = productContentWrapper.get("PRODUCT_NAME");
+    String productName = productContentWrapper.get("PRODUCT_NAME", "string");
     if (UtilValidate.isEmpty(productName)) 
     {
         productName = gvProduct.productName;
@@ -68,12 +68,12 @@ if (UtilValidate.isNotEmpty(parameters.productId))
     {
         context.defaultTitle = productName;
     }
-    if(UtilValidate.isNotEmpty(productContentWrapper.get("DESCRIPTION"))) 
+    if(UtilValidate.isNotEmpty(productContentWrapper.get("DESCRIPTION", "string")))
     {
-        context.defaultMetaKeywords = productContentWrapper.get("DESCRIPTION");
+        context.defaultMetaKeywords = productContentWrapper.get("DESCRIPTION", "string");
     }
-    if(UtilValidate.isNotEmpty(productContentWrapper.get("LONG_DESCRIPTION"))) 
+    if(UtilValidate.isNotEmpty(productContentWrapper.get("LONG_DESCRIPTION", "string")))
     {
-        context.defaultMetaDescription = productContentWrapper.get("LONG_DESCRIPTION");
+        context.defaultMetaDescription = productContentWrapper.get("LONG_DESCRIPTION", "string");
     }
 }

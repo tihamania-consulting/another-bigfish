@@ -140,7 +140,7 @@
 	                      <#if variantContentIdMap?has_content>
 	                        <#assign variantContentId = variantContentIdMap.get("PDP_SWATCH_IMAGE_URL")!""/>
 	                        <#if variantContentId?has_content>
-	                          <#assign productVariantPdpSwatchURL = variantProdCtntWrapper.get("PDP_SWATCH_IMAGE_URL")!"">
+	                          <#assign productVariantPdpSwatchURL = variantProdCtntWrapper.get("PDP_SWATCH_IMAGE_URL", "string")!"">
 	                        </#if>
 	                      </#if>
 	                      <#if (productVariantPdpSwatchURL?string?has_content)>

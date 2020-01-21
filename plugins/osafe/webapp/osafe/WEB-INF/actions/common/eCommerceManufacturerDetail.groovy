@@ -32,9 +32,9 @@ if (UtilValidate.isNotEmpty(manufacturerPartyId))
           PartyContentWrapper partyContentWrapper = new PartyContentWrapper(gvParty, request);
           context.partyContentWrapper = partyContentWrapper;
 		  
-		  context.description = partyContentWrapper.get("LONG_DESCRIPTION");
+		  context.description = partyContentWrapper.get("LONG_DESCRIPTION", "string");
 		  context.profileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL", "string");
-		  context.profileName = partyContentWrapper.get("PROFILE_NAME");
+		  context.profileName = partyContentWrapper.get("PROFILE_NAME", "string");
 		  context.IMG_SIZE_PROF_MFG_H = Util.getProductStoreParm(request,"IMG_SIZE_PROF_MFG_H");
 		  context.IMG_SIZE_PROF_MFG_W = Util.getProductStoreParm(request,"IMG_SIZE_PROF_MFG_W");
 		  
@@ -96,8 +96,8 @@ if (UtilValidate.isNotEmpty(manufacturerPartyId))
 					 Map manufacturerProductItems = new HashMap();
 					 manufacturerProductItems.put("productId",product.productId);
 					 manufacturerProductItems.put("primaryProductCategoryId",product.primaryProductCategoryId);
-					 manufacturerProductItems.put("name",productContentWrapper.get("PRODUCT_NAME").toString());
-					 manufacturerProductItems.put("productImageSmallUrl",productContentWrapper.get("PRODUCT_NAME"));
+					 manufacturerProductItems.put("name",productContentWrapper.get("PRODUCT_NAME", "string").toString());
+					 manufacturerProductItems.put("productImageSmallUrl",productContentWrapper.get("PRODUCT_NAME", "string"));
 					 manufacturerProductItems.productImageSmallUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string");
 					 //set default and list price
 					 virtualProductPrices = delegator.findByAnd("ProductPrice", UtilMisc.toMap("productId", product.productId, "currencyUomId", cart.getCurrency(), "productStoreGroupId", "_NA_"), UtilMisc.toList("-fromDate"));

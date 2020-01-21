@@ -943,12 +943,12 @@ under the License.
                     <#assign returnedQty = returnQuantityMap.get(orderItem.orderItemSeqId)?default(0) />
                     <#assign itemAdjustment = orderReadHelper.getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, false, false)>
                     <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(itemProduct,request)>
-                    <#assign productName = productContentWrapper.get("PRODUCT_NAME")!itemProduct.productName!"">
+                    <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!itemProduct.productName!"">
                     <#if productName="">
 	                	<#if itemProduct.isVariant?if_exists?upper_case == "Y">
 	                       	<#assign virtualProduct = Static["org.apache.ofbiz.product.product.ProductWorker"].getParentProduct(productId, delegator)?if_exists>
 	                   	</#if>
-	                   	<#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request)?if_exists>
+	                   	<#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request , "string")?if_exists>
 	                </#if>
                     <#assign product = orderItem.getRelatedOne("Product")?if_exists>
                     <#assign itemPromoAdjustment = (orderReadHelper.getOrderItemAdjustmentsTotal(orderItem, true, false, false)/orderItem.quantity)/>

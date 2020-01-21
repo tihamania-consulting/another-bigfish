@@ -18,9 +18,9 @@
           <#assign product = delegator.findOne("Product", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("productId", productCategoryMember.productId), false) />
           <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product, request)!""/>
           <#if productContentWrapper?exists>
-            <#assign productName = productContentWrapper.get("PRODUCT_NAME")!""/>
-            <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!""/>
-            <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION")!""/>
+            <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!""/>
+            <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!""/>
+            <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION", "string")!""/>
           </#if>
           <input type="hidden" name="fromDate_${productCategoryMember_index}" value="${productCategoryMember.fromDate!}"/>
           <input type="hidden" name="productId_${productCategoryMember_index}" value="${product.productId!}"/>

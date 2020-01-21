@@ -7,7 +7,7 @@
   </#if>
   <#if ATTACH_URL_02?exists && ATTACH_URL_02?has_content>
     <#if productContentWrapper?exists>
-        <#assign attachUrl02 = productContentWrapper.get("ATTACH_URL_02")?if_exists/>
+        <#assign attachUrl02 = productContentWrapper.get("ATTACH_URL_02", "string")?if_exists/>
     </#if>
   </#if>
     <div class="pdpAttach02" id="js_pdpAttach02">
@@ -40,7 +40,7 @@
       <#if variantContentIdMap?has_content && variantProdCtntWrapper?has_content >
           <#assign variantContentId = variantContentIdMap.get("ATTACH_URL_02")!""/>
           <#if variantContentId?has_content>
-              <#assign variantAttachUrl02 = variantProdCtntWrapper.get("ATTACH_URL_02")?if_exists/>
+              <#assign variantAttachUrl02 = variantProdCtntWrapper.get("ATTACH_URL_02", "string")?if_exists/>
 	      </#if>
       </#if>
       

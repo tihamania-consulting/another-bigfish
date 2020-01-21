@@ -2,13 +2,13 @@
 <#assign friendlyUrlDefault = ""/>
 <#if product?has_content>
   <#if productContentWrapper?exists>
-  	<#assign seoUrl = productContentWrapper.get("SEO_PAGE_URL")!""/>
-    <#assign metaTitle = productContentWrapper.get("HTML_PAGE_TITLE")!""/>
-    <#assign metaDesc = productContentWrapper.get("HTML_PAGE_META_DESC")!""/>
-    <#assign metaKeyword = productContentWrapper.get("HTML_PAGE_META_KEY")!""/>
-    <#assign canonicalUrl = productContentWrapper.get("CANONICAL_URL")!""/>
+  	<#assign seoUrl = productContentWrapper.get("SEO_PAGE_URL", "string")!""/>
+    <#assign metaTitle = productContentWrapper.get("HTML_PAGE_TITLE", "string")!""/>
+    <#assign metaDesc = productContentWrapper.get("HTML_PAGE_META_DESC", "string")!""/>
+    <#assign metaKeyword = productContentWrapper.get("HTML_PAGE_META_KEY", "string")!""/>
+    <#assign canonicalUrl = productContentWrapper.get("CANONICAL_URL", "string")!""/>
     
-    <#assign productContentName = productContentWrapper.get("PRODUCT_NAME")!""/>
+    <#assign productContentName = productContentWrapper.get("PRODUCT_NAME", "string")!""/>
     <#if productContentName?has_content>
     	<#assign productName = productContentName.toString()/>
     	<#assign productFriendlyName = Static["com.osafe.services.SiteMapServices"].makeCharsFriendly(productName, '')/>
@@ -21,13 +21,13 @@
 </#if>
 <#if productCategory?has_content>
   <#if currentProductCategoryContentWrapper?exists>
-  	<#assign seoUrl = currentProductCategoryContentWrapper.get("SEO_PAGE_URL")!""/>
-    <#assign metaTitle = currentProductCategoryContentWrapper.get("HTML_PAGE_TITLE")!""/>
-    <#assign metaDesc = currentProductCategoryContentWrapper.get("HTML_PAGE_META_DESC")!""/>
-    <#assign metaKeyword = currentProductCategoryContentWrapper.get("HTML_PAGE_META_KEY")!""/>
-    <#assign canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL")!""/>
+  	<#assign seoUrl = currentProductCategoryContentWrapper.get("SEO_PAGE_URL", "string")!""/>
+    <#assign metaTitle = currentProductCategoryContentWrapper.get("HTML_PAGE_TITLE", "string")!""/>
+    <#assign metaDesc = currentProductCategoryContentWrapper.get("HTML_PAGE_META_DESC", "string")!""/>
+    <#assign metaKeyword = currentProductCategoryContentWrapper.get("HTML_PAGE_META_KEY", "string")!""/>
+    <#assign canonicalUrl = currentProductCategoryContentWrapper.get("CANONICAL_URL", "string")!""/>
     
-    <#assign categoryContentName = currentProductCategoryContentWrapper.get("CATEGORY_NAME")!""/>
+    <#assign categoryContentName = currentProductCategoryContentWrapper.get("CATEGORY_NAME", "string")!""/>
     <#if categoryContentName?has_content>
     	<#assign categoryName = categoryContentName.toString()/>
     	<#assign categoryFriendlyName = Static["com.osafe.services.SiteMapServices"].makeCharsFriendly(categoryName, '')/>

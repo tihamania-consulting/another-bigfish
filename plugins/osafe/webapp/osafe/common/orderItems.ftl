@@ -196,18 +196,18 @@
                   </#if>
               </#if>
               
-              <#assign productImageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher, "string")?if_exists>
+              <#assign productImageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher , "string", "string")?if_exists>
               <#if (!productImageUrl?has_content && !(productImageUrl == "null")) && virtualProduct?has_content>
-                   <#assign productImageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher, "string")?if_exists>
+                   <#assign productImageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher , "string", "string")?if_exists>
               </#if>
               <#-- If the string is a literal "null" make it an "" empty string then all normal logic can stay the same -->
               <#if (productImageUrl?string?has_content && (productImageUrl == "null"))>
                    <#assign productImageUrl = "">
               </#if>
     
-              <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher)?if_exists>
+              <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string")?if_exists>
               <#if !productName?has_content && virtualProduct?has_content>
-                   <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher)?if_exists>
+                   <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher , "string")?if_exists>
               </#if>
     
               <#assign price = orderItem.unitPrice>

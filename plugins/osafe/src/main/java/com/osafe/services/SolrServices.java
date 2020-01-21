@@ -244,7 +244,7 @@ public class SolrServices {
                                     productDocument.setField(FIELD_NAME_NAME, productContentWrapper.get("PRODUCT_NAME", "html").toString());
                                     for (String lang : indexedLangs) {
 
-                                        String transProductName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", new Locale(lang), dispatcher, "html").toString();
+                                        String transProductName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", new Locale(lang), dispatcher , "string").toString();
                                         if (UtilValidate.isNotEmpty(transProductName)) {
                                             productDocument.setField(getTranslationField(FIELD_NAME_NAME, lang), transProductName);
                                         }
@@ -336,14 +336,14 @@ public class SolrServices {
                                     	productDocument.setField(FIELD_NAME_CATEGORY_DESC ,categoryDescription.toString());
                                     }
                                     // LONG_DESCRIPTION
-                                    String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("en"), dispatcher, "html");
+                                    String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale("en"), dispatcher , "string");
                                     if (UtilValidate.isNotEmpty(longDescription))
                                     {
                                         productDocument.setField(FIELD_NAME_DESCRIPTION ,longDescription);
                                     }
 
                                     for (String lang: indexedLangs) {
-                                        String transLongDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale(lang), dispatcher, "html");
+                                        String transLongDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", new Locale(lang), dispatcher , "string");
 
                                         if (UtilValidate.isNotEmpty(transLongDescription))
                                         {
@@ -354,21 +354,21 @@ public class SolrServices {
 
 
                                     // SMALL_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_URL");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_SMALL_URL, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT", "string");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_SMALL_ALT, imageUrl.toString());
                                     }
 
                                     // SMALL_IMAGE_ALT_URL
-                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL");
+                                    imageUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL", "string");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                     	if (UtilValidate.isNotEmpty(imageUrl.toString()))
@@ -377,14 +377,14 @@ public class SolrServices {
                                     	}
                                     }
                                     // MEDIUM_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL");
+                                    imageUrl = productContentWrapper.get("MEDIUM_IMAGE_URL", "string");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_MEDIUM_URL, imageUrl.toString());
                                     }
 
                                     // LARGE_IMAGE_URL
-                                    imageUrl = productContentWrapper.get("LARGE_IMAGE_URL");
+                                    imageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string");
                                     if (UtilValidate.isNotEmpty(imageUrl) && !"null".equalsIgnoreCase(imageUrl.toString())) 
                                     {
                                         productDocument.setField(FIELD_NAME_IMAGE_LARGE_URL, imageUrl.toString());
@@ -1333,7 +1333,7 @@ public class SolrServices {
 			productDocument.setCategoryDescription(categoryDescription.toString());
 		}
 		// LONG_DESCRIPTION
-		String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", locale, dispatcher, "html");
+		String longDescription = ProductContentWrapper.getProductContentAsText(product, "LONG_DESCRIPTION", locale, dispatcher , "string");
 		if (UtilValidate.isNotEmpty(longDescription)) 
 		{
 		    productDocument.setDescription(longDescription);

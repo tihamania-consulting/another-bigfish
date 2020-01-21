@@ -674,27 +674,27 @@ if(UtilValidate.isNotEmpty(productId))
 		productContentId = productContentIdMap.get("PRODUCT_NAME");
         if (UtilValidate.isNotEmpty(productContentId))
         {
-    	    productName = productContentWrapper.get("PRODUCT_NAME");
+    	    productName = productContentWrapper.get("PRODUCT_NAME", "string");
         }
 	    productContentId = productContentIdMap.get("SMALL_IMAGE_URL");
         if (UtilValidate.isNotEmpty(productContentId))
         {
-        	productImageUrl = productContentWrapper.get("SMALL_IMAGE_URL");
+        	productImageUrl = productContentWrapper.get("SMALL_IMAGE_URL", "string");
         }
 	    productContentId = productContentIdMap.get("SMALL_IMAGE_ALT_URL");
         if (UtilValidate.isNotEmpty(productContentId))
         {
-        	productImageAltUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL");
+        	productImageAltUrl = productContentWrapper.get("SMALL_IMAGE_ALT_URL", "string");
         }
         productContentId = productContentIdMap.get("PLP_LABEL");
         if (UtilValidate.isNotEmpty(productContentId))
         {
-        	plpLabel = productContentWrapper.get("PLP_LABEL");
+        	plpLabel = productContentWrapper.get("PLP_LABEL", "string");
         }
         productContentId = productContentIdMap.get("LONG_DESCRIPTION");
         if (UtilValidate.isNotEmpty(productContentId))
         {
-        	productLongDesc = productContentWrapper.get("LONG_DESCRIPTION");
+        	productLongDesc = productContentWrapper.get("LONG_DESCRIPTION", "string");
         	productLongDesc = StringEscapeUtils.unescapeHtml(productLongDesc.toString());
      	    productLongDesc = productLongDesc;
         }
@@ -811,7 +811,7 @@ if(UtilValidate.isNotEmpty(productId))
     plpLabelContent = productContentIdMap.get("PLP_LABEL");
 	if (UtilValidate.isNotEmpty(plpLabelContent))
 	{
-	    	plpLabel = productContentWrapper.get("PLP_LABEL");
+	    	plpLabel = productContentWrapper.get("PLP_LABEL", "string");
 	}
 	
 
@@ -1163,7 +1163,7 @@ if(UtilValidate.isNotEmpty(productId))
     		  	    productContentId = productContent.contentId;
     		        if (UtilValidate.isNotEmpty(productContentId))
     		        {
-    			        productVariantSelectSmallURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_URL");
+    			        productVariantSelectSmallURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_URL", "string");
 
     		            productContentList = delegator.findByAnd("ProductContent", UtilMisc.toMap("productId",productFeatureSelectVariantId, "productContentTypeId", "SMALL_IMAGE_ALT_URL"));
     		            productContentList = EntityUtil.filterByDate(productContentList,true);
@@ -1173,7 +1173,7 @@ if(UtilValidate.isNotEmpty(productId))
             		  	    productContentId = productContent.contentId;
         			        if (UtilValidate.isNotEmpty(productContentId))
         			        {
-             			        productVariantSelectSmallAltURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_ALT_URL");
+             			        productVariantSelectSmallAltURL = productVariantSelectContentWrapper.get("SMALL_IMAGE_ALT_URL", "string");
         			        }
     	        			
     	        		}
@@ -1517,9 +1517,9 @@ if(UtilValidate.isNotEmpty(productId))
 	  context.plpManufacturerPartyId = partyManufacturer.partyId;
 	  PartyContentWrapper partyContentWrapper = new PartyContentWrapper(partyManufacturer, request);
 	  context.plpManufacturerPartyContentWrapper = partyContentWrapper;
-	  context.plpManufacturerDescription = partyContentWrapper.get("DESCRIPTION");
-	  context.plpManufacturerProfileName = partyContentWrapper.get("PROFILE_NAME");
-	  context.plpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL");
+	  context.plpManufacturerDescription = partyContentWrapper.get("DESCRIPTION", "string");
+	  context.plpManufacturerProfileName = partyContentWrapper.get("PROFILE_NAME", "string");
+	  context.plpManufacturerProfileImageUrl = partyContentWrapper.get("PROFILE_IMAGE_URL", "string");
 	}
 	
 

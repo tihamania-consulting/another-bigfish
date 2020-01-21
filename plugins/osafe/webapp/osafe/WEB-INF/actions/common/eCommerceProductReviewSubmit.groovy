@@ -67,7 +67,7 @@ if (UtilValidate.isNotEmpty(productId))
 
        //Set Meta title, Description and Keywords
 
-        String productName = productContentWrapper.get("PRODUCT_NAME");
+        String productName = productContentWrapper.get("PRODUCT_NAME", "string");
         if (!productName) {
             productName = gvProduct.productName;
         }
@@ -110,7 +110,7 @@ if (UtilValidate.isNotEmpty(productId))
         }
         else
         {
-            context.metaDescription = productContentWrapper.get("LONG_DESCRIPTION");
+            context.metaDescription = productContentWrapper.get("LONG_DESCRIPTION", "string");
         }
      }
 }        

@@ -51,15 +51,15 @@ jQuery(document).ready(function(){
     <#if variantContentIdMap?has_content>
     	<#assign variantContentId = variantContentIdMap.get("LARGE_IMAGE_URL")!""/>
         <#if variantContentId?has_content>
-           <#assign productLargeImageUrl = variantProdCtntWrapper.get("LARGE_IMAGE_URL")!""/>
+           <#assign productLargeImageUrl = variantProdCtntWrapper.get("LARGE_IMAGE_URL", "string")!""/>
         </#if>
     	<#assign variantContentId = variantContentIdMap.get("DETAIL_IMAGE_URL")!""/>
         <#if variantContentId?has_content>
-           <#assign productDetailImageUrl = variantProdCtntWrapper.get("DETAIL_IMAGE_URL")!""/>
+           <#assign productDetailImageUrl = variantProdCtntWrapper.get("DETAIL_IMAGE_URL", "string")!""/>
         </#if>
     	<#assign variantContentId = variantContentIdMap.get("THUMBNAIL_IMAGE_URL")!""/>
         <#if variantContentId?has_content>
-           <#assign productThumbImageUrl = variantProdCtntWrapper.get("THUMBNAIL_IMAGE_URL")!""/>
+           <#assign productThumbImageUrl = variantProdCtntWrapper.get("THUMBNAIL_IMAGE_URL", "string")!""/>
         </#if>
     </#if>
 
@@ -71,7 +71,7 @@ jQuery(document).ready(function(){
        <#if variantContentIdMap?has_content>
 	    	<#assign variantContentId = variantContentIdMap.get("ADDITIONAL_IMAGE_${altImgNum}")!""/>
             <#if variantContentId?has_content>
-		        <#assign productAddImageUrl = variantProdCtntWrapper.get("ADDITIONAL_IMAGE_${altImgNum}")!"">
+		        <#assign productAddImageUrl = variantProdCtntWrapper.get("ADDITIONAL_IMAGE_${altImgNum}", "string")!"">
 		        <#if (productAddImageUrl?string?has_content)>
 		          <#assign altThumbImageExist = 'true'/>
 		          <#assign altThumbImageExistVariant = 'true'/>
@@ -102,15 +102,15 @@ jQuery(document).ready(function(){
 		         <#if variantContentIdMap?has_content>
 			    	<#assign variantContentId = variantContentIdMap.get("ADDITIONAL_IMAGE_${altImgNum}")!""/>
 			        <#if variantContentId?has_content>
-			          <#assign productAddImageUrl = variantProdCtntWrapper.get("ADDITIONAL_IMAGE_${altImgNum}")!"">
+			          <#assign productAddImageUrl = variantProdCtntWrapper.get("ADDITIONAL_IMAGE_${altImgNum}", "string")!"">
 			        </#if>
 			    	<#assign variantContentId = variantContentIdMap.get("XTRA_IMG_${altImgNum}_LARGE")!""/>
 			        <#if variantContentId?has_content>
-			          <#assign productXtraAddLargeImageUrl = variantProdCtntWrapper.get("XTRA_IMG_${altImgNum}_LARGE")!"">
+			          <#assign productXtraAddLargeImageUrl = variantProdCtntWrapper.get("XTRA_IMG_${altImgNum}_LARGE", "string")!"">
 			        </#if>
 			    	<#assign variantContentId = variantContentIdMap.get("XTRA_IMG_${altImgNum}_DETAIL")!""/>
 			        <#if variantContentId?has_content>
-			            <#assign productXtraAddDetailImageUrl = variantProdCtntWrapper.get("XTRA_IMG_${altImgNum}_DETAIL")!"">
+			            <#assign productXtraAddDetailImageUrl = variantProdCtntWrapper.get("XTRA_IMG_${altImgNum}_DETAIL", "string")!"">
 			        </#if>
 			     </#if>
 		        <#if altThumbImageExistVariant == 'false'>

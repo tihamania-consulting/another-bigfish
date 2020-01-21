@@ -1,8 +1,8 @@
     <#if product?has_content>
       <#if productContentWrapper?exists>
-        <#assign productName = productContentWrapper.get("PRODUCT_NAME")!""/>
-        <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!""/>
-        <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION")!""/>
+        <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!""/>
+        <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!""/>
+        <#assign productLongDescription = productContentWrapper.get("LONG_DESCRIPTION", "string")!""/>
       </#if>
          <tr class="dataRow">
          
@@ -30,7 +30,7 @@
            <td class="seqCol">
              <input type="text" class="infoValue small textAlignCenter" name="${parameters.assocType!}SequenceNum_" id="${parameters.assocType!}SequenceNum" value="" maxlength="9"/>
            </td>
-           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME")!""}')/>
+           <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME", "string")!""}')/>
            <td class="actionCol">
              <a href="javascript:setRowNo('');javascript:deletTableRow('${product.productId?if_exists}','${productName!""}','${parameters.tableId!}','${parameters.assocType!}');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.DeleteProductAssociationTooltip}');" onMouseout="hideTooltip()" ><span class="crossIcon"></span></a>
              <a href="javascript:setRowNo('');javascript:openLookup(document.${detailFormName!}.${parameters.assocType!}AddProductId,document.${detailFormName!}.${parameters.assocType!}AddProductName,'lookupProduct','500','700','center','true');" onMouseover="javascript:showTooltip(event,'${uiLabelMap.InsertBeforeNewRowTooltip}');" onMouseout="hideTooltip()"><span class="insertBeforeIcon"></span></a>

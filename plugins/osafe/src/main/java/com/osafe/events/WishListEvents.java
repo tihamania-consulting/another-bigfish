@@ -420,13 +420,13 @@ public class WishListEvents {
             } catch (GenericEntityException e) {
                 Debug.logWarning(e.getMessage(), module);
             }
-        	String productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher, "html");
+        	String productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string");
         	if(UtilValidate.isEmpty(productName))
         	{
         		GenericValue virtualProduct = ProductWorker.getParentProduct(productId, delegator);
         		if(UtilValidate.isNotEmpty(virtualProduct))
             	{
-        			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher, "html");
+        			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher , "string");
             	}
         	}
         	//Get values for success message variables
@@ -655,13 +655,13 @@ public class WishListEvents {
                     try
                     {
                         product = delegator.findOne("Product", UtilMisc.toMap("productId", productId), false);
-                    	productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher, "html");
+                    	productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string");
                     	if(UtilValidate.isEmpty(productName))
                     	{
                     		GenericValue virtualProduct = ProductWorker.getParentProduct(productId, delegator);
                     		if(UtilValidate.isNotEmpty(virtualProduct))
                         	{
-                    			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher, "html");
+                    			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher , "string");
                         	}
                     	}
                     	
@@ -797,13 +797,13 @@ public class WishListEvents {
                     try
                     {
                         product = delegator.findOne("Product", UtilMisc.toMap("productId", productId), false);
-                    	productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher, "html");
+                    	productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string");
                     	if(UtilValidate.isEmpty(productName))
                     	{
                     		GenericValue virtualProduct = ProductWorker.getParentProduct(productId, delegator);
                     		if(UtilValidate.isNotEmpty(virtualProduct))
                         	{
-                    			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher, "html");
+                    			productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher , "string");
                         	}
                     	}
                     }

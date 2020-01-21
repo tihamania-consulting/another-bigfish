@@ -28,7 +28,7 @@
                         <#if orderItem.productId?exists && orderItem.productId?has_content>
                             <#assign product = orderItem.getRelatedOne("Product")?if_exists>        
                             <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product,request)>
-                            <#assign productName = productContentWrapper.get("PRODUCT_NAME")!product.productName!"">         
+                            <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!product.productName!"">
                         </#if>
                     </#if>      
                     <td class="idCol <#if !hasNext>lastRow</#if>" >${orderStatusDate[0]!""}</td>

@@ -26,11 +26,11 @@
             <#assign isReturnable = itemProduct.returnable!"">
             <#assign itemStatus = orderItem.getRelatedOne("StatusItem")/>
             <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(itemProduct,request)>
-            <#assign productName = productContentWrapper.get("PRODUCT_NAME")!itemProduct.productName!"">
+            <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!itemProduct.productName!"">
             <#if productName="">
                 <#if itemProduct.isVariant?if_exists?upper_case == "Y">
                     <#assign virtualProduct = Static["org.apache.ofbiz.product.product.ProductWorker"].getParentProduct(productId, delegator)?if_exists>
-                    <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request)?if_exists>
+                    <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request , "string")?if_exists>
                 </#if>
             </#if>
             <#assign orderItemPrice = (orderItem.unitPrice)*(orderItem.quantity)/>
@@ -197,11 +197,11 @@
 			            <#assign isReturnable = itemProduct.returnable!"N">
 			            <#assign itemStatus = orderItem.getRelatedOne("StatusItem")/>
 			            <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(itemProduct,request)>
-			            <#assign productName = productContentWrapper.get("PRODUCT_NAME")!itemProduct.productName!"">
+			            <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!itemProduct.productName!"">
 			            <#if productName="">
 			                <#if itemProduct.isVariant?if_exists?upper_case == "Y">
 			                    <#assign virtualProduct = Static["org.apache.ofbiz.product.product.ProductWorker"].getParentProduct(productId, delegator)?if_exists>
-			                    <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request)?if_exists>
+			                    <#assign productName = Static['org.apache.ofbiz.product.product.ProductContentWrapper'].getProductContentAsText(virtualProduct, 'PRODUCT_NAME', request , "string")?if_exists>
 			                </#if>
 			            </#if>
 			            <#assign orderItemPrice = (orderItem.unitPrice)*(orderItemShipGroupAssoc.quantity)/>

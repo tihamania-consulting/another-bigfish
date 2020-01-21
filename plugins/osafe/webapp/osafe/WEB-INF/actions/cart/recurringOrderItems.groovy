@@ -208,10 +208,10 @@ if (UtilValidate.isNotEmpty(shoppingList))
 				  }
 				  
 				  //Product Image URL
-				  productImageUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher, "string");
+				  productImageUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_URL", locale, dispatcher , "string", "string");
 				  if(UtilValidate.isEmpty(productImageUrl) && UtilValidate.isNotEmpty(virtualProduct))
 				  {
-					  productImageUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher, "urstringl");
+					  productImageUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_URL", locale, dispatcher , "string", "urstringl");
 				  }
 				  //If the string is a literal "null" make it an "" empty string then all normal logic can stay the same
 				  if(UtilValidate.isNotEmpty(productImageUrl) && "null".equals(productImageUrl))
@@ -219,10 +219,10 @@ if (UtilValidate.isNotEmpty(shoppingList))
 					  productImageUrl = "";
 				  }
 				  //Product Alt Image URL
-				  productImageAltUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_ALT_URL", locale, dispatcher, "string");
+				  productImageAltUrl = ProductContentWrapper.getProductContentAsText(product, "SMALL_IMAGE_ALT_URL", locale, dispatcher , "string", "string");
 				  if(UtilValidate.isEmpty(productImageAltUrl) && UtilValidate.isNotEmpty(virtualProduct))
 				  {
-					  productImageAltUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_ALT_URL", locale, dispatcher, "string");
+					  productImageAltUrl = ProductContentWrapper.getProductContentAsText(virtualProduct, "SMALL_IMAGE_ALT_URL", locale, dispatcher , "string", "string");
 				  }
 				  //If the string is a literal "null" make it an "" empty string then all normal logic can stay the same
 				  if(UtilValidate.isNotEmpty(productImageAltUrl) && "null".equals(productImageAltUrl))
@@ -231,10 +231,10 @@ if (UtilValidate.isNotEmpty(shoppingList))
 				  }
 				  
 				  //Product Name
-				  productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher);
+				  productName = ProductContentWrapper.getProductContentAsText(product, "PRODUCT_NAME", locale, dispatcher , "string");
 				  if(UtilValidate.isEmpty(productName) && UtilValidate.isNotEmpty(virtualProduct))
 				  {
-					  productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher);
+					  productName = ProductContentWrapper.getProductContentAsText(virtualProduct, "PRODUCT_NAME", locale, dispatcher , "string");
 				  }
 				  
 				  

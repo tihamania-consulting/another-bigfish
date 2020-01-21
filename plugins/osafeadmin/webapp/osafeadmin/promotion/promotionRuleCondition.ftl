@@ -177,7 +177,7 @@
                 <div class="dataColumn operDataColumn">
                   ${productPromoCondProductApplEnum.description!productPromoCondProductApplEnum.enumId!}
                 </div><div class="dataColumn nameDataColumn">
-                  ${productContentWrapper.get("PRODUCT_NAME")!""}
+                  ${productContentWrapper.get("PRODUCT_NAME", "string")!""}
                 </div><div class="dataColumn actionDataColumn">
                   <a href="javascript:deleteDivRow('productPromoCondProductDiv', 'productPromoCondProductDataRows', ${rowNo})" class="standardBtn secondary">${uiLabelMap.RemoveBtn}</a>
                   <input type="hidden" name="productPromoCondProductApplEnumId_${rowNo}" id="productPromoCondProductApplEnumId_${rowNo}" value="${productPromoCondProductApplEnumId!}"/>
@@ -197,7 +197,7 @@
                   ${productPromoCondProductApplEnum.description!productPromoCondProductApplEnum.enumId!}
                 </div><div class="dataColumn nameDataColumn">
                   <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(productPromoCondProduct.getRelatedOne("Product"), request)!""/>
-                  ${productContentWrapper.get("PRODUCT_NAME")!""}
+                  ${productContentWrapper.get("PRODUCT_NAME", "string")!""}
                 </div><div class="dataColumn actionDataColumn">
                   <a href="javascript:deleteDivRow('productPromoCondProductDiv', 'productPromoCondCategoryDataRows', ${rowNo})" class="standardBtn secondary">${uiLabelMap.RemoveBtn}</a>
                   <input type="hidden" name="productPromoCondProductApplEnumId_${rowNo}" id="productPromoCondProductApplEnumId_${rowNo}" value="${productPromoCondProduct.productPromoApplEnumId!}"/>

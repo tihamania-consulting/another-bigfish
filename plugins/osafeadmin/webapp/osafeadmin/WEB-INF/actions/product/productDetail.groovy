@@ -134,7 +134,7 @@ if (UtilValidate.isNotEmpty(parameters.productId))
     if (UtilValidate.isNotEmpty(productContentWrapper))
     {
        context.productContentWrapper = productContentWrapper;
-       productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME").toString());
+       productDetailHeading = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME", "string").toString());
     }
     if (UtilValidate.isNotEmpty(product))
     {

@@ -9,13 +9,13 @@
         <#list resultList as product>
           <#assign hasNext = product_has_next>
           <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product, request)!""/>
-          <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")!"">
+          <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL", "string")!"">
           <tr class="dataRow <#if rowClass?if_exists == "2">even<#else>odd</#if>">
-            <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME")!""}')/>
+            <#assign productName = Static["com.osafe.util.OsafeAdminUtil"].formatSimpleText('${productContentWrapper.get("PRODUCT_NAME", "string")!""}')/>
             <td class="idCol <#if !product_has_next?if_exists>lastRow</#if> firstCol" ><a href="javascript:set_values('${product.productId?if_exists}','${productName!}')">${product.productId?if_exists}</a></td>
             <td class="descCol <#if !product_has_next?if_exists>lastRow</#if>">${product.internalName?if_exists}</td>
             <td class="descCol">
-              ${productContentWrapper.get("PRODUCT_NAME")?html!""}
+              ${productContentWrapper.get("PRODUCT_NAME", "string")?html!""}
             </td>
           </tr>
           <#if rowClass == "2">

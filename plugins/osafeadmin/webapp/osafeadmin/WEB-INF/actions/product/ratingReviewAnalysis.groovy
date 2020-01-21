@@ -139,7 +139,7 @@ if(UtilValidate.isNotEmpty(preRetrieved) && preRetrieved != "N")
             String productDetailHeading = "";
             if (UtilValidate.isNotEmpty(productContentWrapper))
             {
-                productInternalName = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME").toString());
+                productInternalName = StringEscapeUtils.unescapeHtml(productContentWrapper.get("PRODUCT_NAME", "string").toString());
                 if (UtilValidate.isEmpty(productInternalName)) 
                 {
                     productInternalName = product.get("productName");

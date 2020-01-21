@@ -1,7 +1,7 @@
 <#if review?has_content>
     <#assign product = review.getRelatedOne("Product")>
     <#assign productContentWrapper = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].makeProductContentWrapper(product,request)>
-    <#assign productName = productContentWrapper.get("PRODUCT_NAME")!product.productName!"">
+    <#assign productName = productContentWrapper.get("PRODUCT_NAME", "string")!product.productName!"">
     <div class="infoRow column">
         <div class="infoEntry">
             <div class="infoCaption">
