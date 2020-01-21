@@ -25,7 +25,6 @@ import org.asciidoctor.gradle.AsciidoctorTask
  * ======================================================== */
 plugins {
     id 'application'
-    id 'java'
     id 'groovy'
     id 'eclipse'
     id 'checkstyle'
@@ -34,7 +33,7 @@ plugins {
     id 'org.asciidoctor.convert' version '2.0.0'
     id 'org.owasp.dependencycheck' version '5.2.2' apply false
     id 'se.patrikerdes.use-latest-versions' version '0.2.12' apply false
-    id 'com.github.ben-manes.versions' version '0.25.0' apply false
+    id 'com.github.ben-manes.versions' version '0.27.0' apply false
     id "com.github.ManifestClasspath" version "0.1.0-RELEASE"
 }
 
@@ -74,6 +73,7 @@ apply from: 'common.gradle'
 
 // global properties
 ext.os = System.getProperty('os.name').toLowerCase()
+ext.gradlew = os.contains('windows') ? 'gradlew.bat' : './gradlew'
 ext.pluginsDir = "${rootDir}/plugins"
 
 application {
@@ -97,7 +97,7 @@ javadoc {
         // versions declared in the 'dependencies' block.
         links(
             'https://docs.oracle.com/javase/8/docs/api',
-            'https://docs.oracle.com/javaee/7/api',
+            'https://tomcat.apache.org/tomcat-9.0-doc/servletapi/',
             'http://docs.groovy-lang.org/docs/groovy-2.5.8/html/api',
             'https://commons.apache.org/proper/commons-cli/apidocs'
         )
@@ -164,19 +164,13 @@ dependencies {
     implementation 'com.sun.mail:javax.mail:1.6.2'
     implementation 'com.sun.syndication:com.springsource.com.sun.syndication:0.9.0'
     implementation 'com.thoughtworks.xstream:xstream:1.4.11.1'
-    implementation 'commons-cli:commons-cli:1.4'
     implementation 'commons-fileupload:commons-fileupload:1.4'
     implementation 'commons-net:commons-net:3.6'
     implementation 'commons-validator:commons-validator:1.6'
     implementation 'de.odysseus.juel:juel-impl:2.2.7'
-    implementation 'javax.el:javax.el-api:3.0.1-b06'
-    implementation 'javax.servlet:javax.servlet-api:4.0.1'
-    implementation 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.3'
     implementation 'net.fortuna.ical4j:ical4j:1.0-rc3-atlassian-11'
     implementation 'org.apache.ant:ant-junit:1.10.7'
-    implementation 'org.apache.axis2:axis2-kernel:1.7.9'
     implementation 'org.apache.commons:commons-collections4:4.4'
-    implementation 'org.apache.commons:commons-csv:1.7'
     implementation 'org.apache.commons:commons-dbcp2:2.7.0'
     implementation 'org.apache.commons:commons-text:1.8'
     implementation 'org.apache.geronimo.components:geronimo-transaction:3.1.4'
@@ -186,12 +180,10 @@ dependencies {
     implementation 'org.apache.poi:poi:4.1.0'
     implementation 'org.apache.shiro:shiro-core:1.4.1'
     implementation 'org.apache.sshd:sshd-core:1.7.0'
-    implementation 'org.apache.tika:tika-core:1.22'
     implementation 'org.apache.tika:tika-parsers:1.22'
-    implementation 'org.apache.tomcat:tomcat-catalina-ha:9.0.27'
-    implementation 'org.apache.tomcat:tomcat-catalina:9.0.27'
-    implementation 'org.apache.tomcat:tomcat-jasper:9.0.27'
-    implementation 'org.apache.tomcat:tomcat-tribes:9.0.27'
+    implementation 'org.apache.tomcat:tomcat-catalina-ha:9.0.29' // Remember to change the version number in javadoc.options block
+    implementation 'org.apache.tomcat:tomcat-jasper:9.0.29'
+    implementation 'org.apache.axis2:axis2-kernel:1.7.9'
     implementation 'org.apache.xmlgraphics:fop:2.3'
     implementation 'org.apache.xmlrpc:xmlrpc-client:3.1.3'
     implementation 'org.apache.xmlrpc:xmlrpc-server:3.1.3'
@@ -202,12 +194,9 @@ dependencies {
     implementation 'org.zapodot:jackson-databind-java-optional:2.6.1'
     implementation 'oro:oro:2.0.8'
     implementation 'wsdl4j:wsdl4j:1.6.3'
-    implementation 'org.jsoup:jsoup:1.12.1'
     implementation 'com.auth0:java-jwt:3.8.3'
-    testImplementation 'org.hamcrest:hamcrest:2.1'
-    testImplementation 'org.hamcrest:hamcrest-library:2.1' // Enable junit4 to not depend on hamcrest-1.3
-    testImplementation 'org.mockito:mockito-core:3.1.0'
-    testImplementation 'com.pholser:junit-quickcheck-core:0.9'
+    testImplementation 'org.hamcrest:hamcrest-library:2.2' // Enable junit4 to not depend on hamcrest-1.3
+    testImplementation 'org.mockito:mockito-core:3.2.0'
     testImplementation 'com.pholser:junit-quickcheck-generators:0.9'
     runtimeOnly 'javax.xml.soap:javax.xml.soap-api:1.4.0'
     runtimeOnly 'de.odysseus.juel:juel-spi:2.2.7'
@@ -254,18 +243,6 @@ def excludedJavaSources = [
     'org/apache/ofbiz/order/thirdparty/taxware/TaxwareUTL.java'
 ]
 
-// Files and directories present in config directories that should not be included in ofbiz.jar (see OFBIZ-8321).
-def excludedConfigFiles = [
-    'README',
-    '*.txt',
-    '*.jks',
-    'fop.xconf',
-    'MiniLang.xslt',
-    'AutoImportTemplate.ftl',
-    'axis2',
-    'barcode'
-]
-
 sourceSets {
     main {
         java {
@@ -279,7 +256,6 @@ sourceSets {
             srcDirs = getDirectoryInActiveComponentsIfExists('src/main/resources')
             srcDirs += getDirectoryInActiveComponentsIfExists('config')
             srcDirs += getDirectoryInActiveComponentsIfExists('dtd')
-            exclude excludedConfigFiles
         }
     }
 
@@ -309,7 +285,7 @@ checkstyle {
     // the sum of errors that were present before introducing the
     // ‘checkstyle’ tool present in the framework and in the official
     // plugins.
-    tasks.checkstyleMain.maxErrors = 37779
+    tasks.checkstyleMain.maxErrors = 37713
     // Currently there are a lot of errors so we need to temporarily
     // hide them to avoid polluting the terminal output.
     showViolations = false
@@ -987,13 +963,6 @@ tasks.addRule('Pattern: ofbiz <Commands>: Execute OFBiz startup commands') { Str
     }
 }
 
-tasks.addRule('Pattern: ofbizDebug <Commands>: Execute OFBiz startup commands in remote debug mode') { String taskName ->
-    if (taskName ==~ /^ofbizDebug\s.*/ || taskName == 'ofbizDebug') {
-        def arguments = (taskName - 'ofbizDebug').tokenize(' ')
-        createOfbizCommandTask(taskName, arguments).with { debug = true }
-    }
-}
-
 tasks.addRule('Pattern: ofbizBackground <Commands>: Execute OFBiz startup commands in background and output to console.log') { String taskName ->
     if (taskName ==~ /^ofbizBackground\s.*/ || taskName == 'ofbizBackground') {
         createOfbizBackgroundCommandTask(taskName)
@@ -1020,11 +989,10 @@ def createOfbizBackgroundCommandTask(taskName) {
     def sourceTask = taskName.tokenize().first()
     def arguments = (taskName - sourceTask)
     def serverCommand = "ofbiz ${arguments}".toString()
-    def gradleRunner = os.contains('windows') ? 'gradlew.bat' : './gradlew'
 
     task (taskName) {
         doLast {
-            spawnProcess([gradleRunner, "--no-daemon", serverCommand])
+            spawnProcess([gradlew, "--no-daemon", serverCommand])
         }
     }
 }
@@ -1083,7 +1051,5 @@ def taskExistsInproject(fullyQualifiedProject, taskName) {
 }
 
 def gradlewSubprocess(commandList) {
-    def gradlew = os.contains('windows') ? 'gradlew.bat' : './gradlew'
     exec { commandLine(gradlew, "--no-daemon", *commandList) }
 }
-

@@ -55,13 +55,13 @@ import org.apache.ofbiz.base.util.UtilMisc;
 import org.apache.ofbiz.base.util.UtilObject;
 import org.apache.ofbiz.base.util.UtilProperties;
 import org.apache.ofbiz.base.util.UtilValidate;
-import org.apache.ofbiz.base.util.collections.MultivaluedMapContext;
 import org.apache.ofbiz.entity.Delegator;
 import org.apache.ofbiz.entity.GenericEntityException;
 import org.apache.ofbiz.entity.GenericValue;
 import org.apache.ofbiz.entity.util.EntityQuery;
 import org.apache.ofbiz.entity.util.EntityUtilProperties;
 import org.apache.ofbiz.webapp.OfbizUrlBuilder;
+import org.apache.ofbiz.webapp.control.ConfigXMLReader.ControllerConfig;
 import org.apache.ofbiz.webapp.control.ConfigXMLReader.RequestMap;
 import org.apache.ofbiz.webapp.event.EventFactory;
 import org.apache.ofbiz.webapp.event.EventHandler;
@@ -80,74 +80,12 @@ import org.apache.ofbiz.widget.model.ThemeFactory;
 public class RequestHandler {
 
     public static final String module = RequestHandler.class.getName();
-    private final static String defaultStatusCodeString =
-            UtilProperties.getPropertyValue("requestHandler", "status-code", "302");
     private final ViewFactory viewFactory;
     private final EventFactory eventFactory;
     private final URL controllerConfigURL;
     private final boolean trackServerHit;
     private final boolean trackVisit;
     private ControllerConfig ccfg;
-
-    static class ControllerConfig {
-        private final MultivaluedMapContext<String, RequestMap> requestMapMap;
-        private final Map<String, ConfigXMLReader.ViewMap> viewMapMap;
-        private String statusCodeString;
-        private final String defaultRequest;
-        private final Map<String, ConfigXMLReader.Event> firstVisitEventList;
-        private final Map<String, ConfigXMLReader.Event> preprocessorEventList;
-        private final Map<String, ConfigXMLReader.Event> postprocessorEventList;
-        private final String protectView;
-
-        ControllerConfig(ConfigXMLReader.ControllerConfig ccfg) throws WebAppConfigurationException {
-            preprocessorEventList = ccfg.getPreprocessorEventList();
-            postprocessorEventList = ccfg.getPostprocessorEventList();
-            requestMapMap = ccfg.getRequestMapMultiMap();
-            viewMapMap = ccfg.getViewMapMap();
-            defaultRequest = ccfg.getDefaultRequest();
-            firstVisitEventList = ccfg.getFirstVisitEventList();
-            protectView = ccfg.getProtectView();
-
-            String status = ccfg.getStatusCode();
-            statusCodeString = UtilValidate.isEmpty(status) ? defaultStatusCodeString : status;
-        }
-
-        public MultivaluedMapContext<String, RequestMap> getRequestMapMap() {
-            return requestMapMap;
-        }
-
-        public Map<String, ConfigXMLReader.ViewMap> getViewMapMap() {
-            return viewMapMap;
-        }
-
-        public String getStatusCodeString() {
-            return statusCodeString;
-        }
-
-        public String getDefaultRequest() {
-            return defaultRequest;
-        }
-
-        public void setStatusCodeString(String statusCodeString) {
-            this.statusCodeString = statusCodeString;
-        }
-
-        public Map<String, ConfigXMLReader.Event> getFirstVisitEventList() {
-            return firstVisitEventList;
-        }
-
-        public Map<String, ConfigXMLReader.Event> getPreprocessorEventList() {
-            return preprocessorEventList;
-        }
-
-        public Map<String, ConfigXMLReader.Event> getPostprocessorEventList() {
-            return postprocessorEventList;
-        }
-
-        public String getProtectView() {
-            return protectView;
-        }
-    }
 
     public static RequestHandler getRequestHandler(ServletContext servletContext) {
         RequestHandler rh = (RequestHandler) servletContext.getAttribute("_REQUEST_HANDLER_");
@@ -193,7 +131,7 @@ public class RequestHandler {
      * @return a collection of request maps which might be empty
      */
     static Collection<RequestMap> resolveURI(ControllerConfig ccfg, HttpServletRequest req) {
-        Map<String, List<RequestMap>> requestMapMap = ccfg.getRequestMapMap();
+        Map<String, List<RequestMap>> requestMapMap = ccfg.getRequestMapMultiMap();
         Collection<RequestMap> rmaps = resolveTemplateURI(requestMapMap, req);
         if (rmaps.isEmpty()) {
             Map<String, ConfigXMLReader.ViewMap> viewMapMap = ccfg.getViewMapMap();
@@ -277,7 +215,7 @@ public class RequestHandler {
 
         // Parse controller config.
         try {
-            ccfg = new ControllerConfig(getControllerConfig());
+            ccfg = ConfigXMLReader.getControllerConfig(controllerConfigURL);
         } catch (WebAppConfigurationException e) {
             Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
             throw new RequestHandlerException(e);
@@ -342,7 +280,7 @@ public class RequestHandler {
         // Check for chained request.
         if (chain != null) {
             String chainRequestUri = RequestHandler.getRequestUri(chain);
-            requestMap = ccfg.getRequestMapMap().getFirst(chainRequestUri);
+            requestMap = ccfg.getRequestMapMap().get(chainRequestUri);
             if (requestMap == null) {
                 throw new RequestHandlerException("Unknown chained request [" + chainRequestUri + "]; this request does not exist");
             }
@@ -366,11 +304,11 @@ public class RequestHandler {
             // Check to make sure we are allowed to access this request directly. (Also checks if this request is defined.)
             // If the request cannot be called, or is not defined, check and see if there is a default-request we can process
             if (!requestMap.securityDirectRequest) {
-                if (ccfg.getDefaultRequest() == null || !ccfg.getRequestMapMap().getFirst(ccfg.getDefaultRequest()).securityDirectRequest) {
+                if (ccfg.getDefaultRequest() == null || !ccfg.getRequestMapMap().get(ccfg.getDefaultRequest()).securityDirectRequest) {
                     // use the same message as if it was missing for security reasons, ie so can't tell if it is missing or direct request is not allowed
                     throw new RequestHandlerException(requestMissingErrorMessage);
                 } else {
-                    requestMap = ccfg.getRequestMapMap().getFirst(ccfg.getDefaultRequest());
+                    requestMap = ccfg.getRequestMapMap().get(ccfg.getDefaultRequest());
                 }
             }
             // Check if we SHOULD be secure and are not.
@@ -412,7 +350,7 @@ public class RequestHandler {
                     String newUrl = RequestHandler.makeUrl(request, response, urlBuf.toString());
                     if (newUrl.toUpperCase().startsWith("HTTPS")) {
                         // if we are supposed to be secure, redirect secure.
-                        callRedirect(newUrl, response, request, ccfg.getStatusCodeString());
+                        callRedirect(newUrl, response, request, ccfg.getStatusCode());
                         return;
                     }
                 }
@@ -497,7 +435,7 @@ public class RequestHandler {
             // Invoke the security handler
             // catch exceptions and throw RequestHandlerException if failed.
             if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler]: AuthRequired. Running security check. " + showSessionId(request), module);
-            ConfigXMLReader.Event checkLoginEvent = ccfg.getRequestMapMap().getFirst("checkLogin").event;
+            ConfigXMLReader.Event checkLoginEvent = ccfg.getRequestMapMap().get("checkLogin").event;
             String checkLoginReturnString = null;
 
             try {
@@ -510,9 +448,9 @@ public class RequestHandler {
                 eventReturn = checkLoginReturnString;
                 // if the request is an ajax request we don't want to return the default login check
                 if (!"XMLHttpRequest".equals(request.getHeader("X-Requested-With"))) {
-                    requestMap = ccfg.getRequestMapMap().getFirst("checkLogin");
+                    requestMap = ccfg.getRequestMapMap().get("checkLogin");
                 } else {
-                    requestMap = ccfg.getRequestMapMap().getFirst("ajaxCheckLogin");
+                    requestMap = ccfg.getRequestMapMap().get("ajaxCheckLogin");
                 }
             }
         }
@@ -521,9 +459,7 @@ public class RequestHandler {
         // we know this is the case if the _PREVIOUS_PARAM_MAP_ attribute is there, but the _PREVIOUS_REQUEST_ attribute has already been removed
         if (request.getSession().getAttribute("_PREVIOUS_PARAM_MAP_FORM_") != null && request.getSession().getAttribute("_PREVIOUS_REQUEST_") == null) {
             Map<String, Object> previousParamMap = UtilGenerics.checkMap(request.getSession().getAttribute("_PREVIOUS_PARAM_MAP_FORM_"), String.class, Object.class);
-            for (Map.Entry<String, Object> previousParamEntry: previousParamMap.entrySet()) {
-                request.setAttribute(previousParamEntry.getKey(), previousParamEntry.getValue());
-            }
+            previousParamMap.forEach(request::setAttribute);
 
             // to avoid this data being included again, now remove the _PREVIOUS_PARAM_MAP_ attribute
             request.getSession().removeAttribute("_PREVIOUS_PARAM_MAP_FORM_");
@@ -644,7 +580,7 @@ public class RequestHandler {
                     redirectTarget += "?" + queryString;
                 }
                 
-                callRedirect(makeLink(request, response, redirectTarget), response, request, ccfg.getStatusCodeString());
+                callRedirect(makeLink(request, response, redirectTarget), response, request, ccfg.getStatusCode());
                 return;
             }
         }
@@ -702,31 +638,32 @@ public class RequestHandler {
                 }
             }
 
-            String responseStatusCode  = nextRequestResponse.statusCode;
-            if(UtilValidate.isNotEmpty(responseStatusCode))
-                ccfg.setStatusCodeString(responseStatusCode);
-            
+            // The status code used to redirect the HTTP client.
+            String redirectSC = UtilValidate.isNotEmpty(nextRequestResponse.statusCode)
+                    ? nextRequestResponse.statusCode
+                    : ccfg.getStatusCode();
+
             if ("url".equals(nextRequestResponse.type)) {
                 if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler.doRequest]: Response is a URL redirect." + showSessionId(request), module);
-                callRedirect(nextRequestResponse.value, response, request, ccfg.getStatusCodeString());
+                callRedirect(nextRequestResponse.value, response, request, redirectSC);
             } else if ("url-redirect".equals(nextRequestResponse.type)) {
                 // check for a cross-application redirect
                 if (Debug.verboseOn())
                     Debug.logVerbose("[RequestHandler.doRequest]: Response is a URL redirect with redirect parameters."
                             + showSessionId(request), module);
                 callRedirect(nextRequestResponse.value + this.makeQueryString(request, nextRequestResponse), response,
-                        request, ccfg.getStatusCodeString());
+                        request, redirectSC);
             } else if ("cross-redirect".equals(nextRequestResponse.type)) {
                 // check for a cross-application redirect
                 if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler.doRequest]: Response is a Cross-Application redirect." + showSessionId(request), module);
                 String url = nextRequestResponse.value.startsWith("/") ? nextRequestResponse.value : "/" + nextRequestResponse.value;
-                callRedirect(url + this.makeQueryString(request, nextRequestResponse), response, request, ccfg.getStatusCodeString());
+                callRedirect(url + this.makeQueryString(request, nextRequestResponse), response, request, redirectSC);
             } else if ("request-redirect".equals(nextRequestResponse.type)) {
                 if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler.doRequest]: Response is a Request redirect." + showSessionId(request), module);
-                callRedirect(makeLinkWithQueryString(request, response, "/" + nextRequestResponse.value, nextRequestResponse), response, request, ccfg.getStatusCodeString());
+                callRedirect(makeLinkWithQueryString(request, response, "/" + nextRequestResponse.value, nextRequestResponse), response, request, redirectSC);
             } else if ("request-redirect-noparam".equals(nextRequestResponse.type)) {
                 if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler.doRequest]: Response is a Request redirect with no parameters." + showSessionId(request), module);
-                callRedirect(makeLink(request, response, nextRequestResponse.value), response, request, ccfg.getStatusCodeString());
+                callRedirect(makeLink(request, response, nextRequestResponse.value), response, request, redirectSC);
             } else if ("view".equals(nextRequestResponse.type)) {
                 if (Debug.verboseOn()) Debug.logVerbose("[RequestHandler.doRequest]: Response is a view." + showSessionId(request), module);
 
@@ -827,7 +764,7 @@ public class RequestHandler {
         try {
             String errorPageLocation = getControllerConfig().getErrorpage();
             errorPage = FlexibleLocation.resolveLocation(errorPageLocation);
-        } catch (WebAppConfigurationException | MalformedURLException e) {
+        } catch (MalformedURLException e) {
             Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
         }
         if (errorPage == null) {
@@ -838,14 +775,8 @@ public class RequestHandler {
 
     /** Returns the default status-code for this request. */
     public String getStatusCode(HttpServletRequest request) {
-        String statusCode = null;
-        try {
-            statusCode = getControllerConfig().getStatusCode();
-        } catch (WebAppConfigurationException e) {
-            Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
-        }
-        if (UtilValidate.isNotEmpty(statusCode)) return statusCode;
-        return null;
+        String statusCode = getControllerConfig().getStatusCode();
+        return UtilValidate.isNotEmpty(statusCode) ? statusCode : null;
     }
 
     /** Returns the ViewFactory Object. */
@@ -987,13 +918,7 @@ public class RequestHandler {
             req.getSession().removeAttribute("_SAVED_VIEW_PARAMS_");
         }
 
-        ConfigXMLReader.ViewMap viewMap = null;
-        try {
-            viewMap = (view == null ? null : getControllerConfig().getViewMapMap().get(view));
-        } catch (WebAppConfigurationException e) {
-            Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
-            throw new RequestHandlerException(e);
-        }
+        ConfigXMLReader.ViewMap viewMap = (view == null) ? null : getControllerConfig().getViewMapMap().get(view);
         if (viewMap == null) {
             throw new RequestHandlerException("No definition found for view with name [" + view + "]");
         }
@@ -1141,6 +1066,10 @@ public class RequestHandler {
     }
 
     public String makeLink(HttpServletRequest request, HttpServletResponse response, String url, boolean fullPath, boolean secure, boolean encode) {
+        return makeLink(request, response, url, fullPath, secure, encode, "");
+    }
+
+    public String makeLink(HttpServletRequest request, HttpServletResponse response, String url, boolean fullPath, boolean secure, boolean encode, String targetControlPath) {
         WebSiteProperties webSiteProps = null;
         try {
             webSiteProps = WebSiteProperties.from(request);
@@ -1152,13 +1081,7 @@ public class RequestHandler {
         String requestUri = RequestHandler.getRequestUri(url);
         ConfigXMLReader.RequestMap requestMap = null;
         if (requestUri != null) {
-            try {
-                requestMap = getControllerConfig().getRequestMapMap().get(requestUri);
-            } catch (WebAppConfigurationException e) {
-                // If we can't read the controller.xml file, then there is no point in continuing.
-                Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
-                return null;
-            }
+            requestMap = getControllerConfig().getRequestMapMap().get(requestUri);
         }
         boolean didFullSecure = false;
         boolean didFullStandard = false;
@@ -1190,8 +1113,12 @@ public class RequestHandler {
                 return null;
             }
         }
-        // create the path to the control servlet
-        String controlPath = (String) request.getAttribute("_CONTROL_PATH_");
+
+        String controlPath = targetControlPath;
+        if (UtilValidate.isEmpty(controlPath)){
+            // create the path to the control servlet
+            controlPath = (String) request.getAttribute("_CONTROL_PATH_");
+        }
 
         //If required by webSite parameter, surcharge control path
         if (webSiteProps.getWebappPath() != null) {
@@ -1314,20 +1241,15 @@ public class RequestHandler {
         if (uriString == null) {
             uriString= "";
         }
-        try {
-            Map<String, RequestMap> rmaps = getControllerConfig().getRequestMapMap();
-            RequestMap requestMap = rmaps.get(uriString);
+        Map<String, RequestMap> rmaps = getControllerConfig().getRequestMapMap();
+        RequestMap requestMap = rmaps.get(uriString);
+        if (requestMap == null) {
+            requestMap = rmaps.get(getControllerConfig().getDefaultRequest());
             if (requestMap == null) {
-                requestMap = rmaps.get(getControllerConfig().getDefaultRequest());
-                if (requestMap == null) {
-                    return false;
-                }
+                return false;
             }
-            return pred.test(requestMap);
-        } catch (WebAppConfigurationException e) {
-            Debug.logError(e, "Exception thrown while parsing controller.xml file: ", module);
-            return false;
         }
+        return pred.test(requestMap);
     }
 
     /**

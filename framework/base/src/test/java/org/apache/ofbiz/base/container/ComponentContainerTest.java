@@ -22,8 +22,6 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -35,7 +33,6 @@ import org.apache.ofbiz.base.component.ComponentConfig;
 import org.apache.ofbiz.base.start.StartupException;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 
@@ -44,7 +41,8 @@ public class ComponentContainerTest {
     private static final Path ACCOUNTING_CONFIG = Paths.get("applications", "accounting", "config");
     private static final Path[] CONFIGS = {ORDER_CONFIG, ACCOUNTING_CONFIG};
 
-    private Path ofbizHome = Paths.get("testsdata", "ComponentContainerTest").toAbsolutePath().normalize();
+    private Path ofbizHome = Paths.get(ComponentContainerTest.class.getResource("testsdata").getFile())
+            .toAbsolutePath().normalize();
 
     @Before
     public void setUp() throws IOException {
@@ -61,7 +59,6 @@ public class ComponentContainerTest {
         }
     }
 
-    @Ignore("Dependency declarations do not impact the components order")
     @Test
     public void testCheckDependencyForComponent() throws ContainerException, StartupException, MalformedURLException {
         ComponentContainer containerObj = new ComponentContainer();
@@ -70,15 +67,6 @@ public class ComponentContainerTest {
         List<String> loadedComponents = ComponentConfig.components()
                 .map(c -> c.getGlobalName())
                 .collect(Collectors.toList());
-        // we can cast ContextClassLoader since ComponentContainer.loadClassPathForAllComponents has called
-        // setContextClassLoader with an URLClassLoader instance
-        URL[] classpath = ((URLClassLoader) Thread.currentThread().getContextClassLoader()).getURLs();
-        List<URL> actualClasspath = Arrays.asList(classpath);
-        List<URL> expectedClasspath = Arrays.asList(
-                ofbizHome.resolve(ORDER_CONFIG).toUri().toURL(),
-                ofbizHome.resolve(ACCOUNTING_CONFIG).toUri().toURL());
-
-        assertEquals(expectedClasspath, actualClasspath);
         assertEquals(Arrays.asList("order", "accounting"), loadedComponents);
     }
 }
