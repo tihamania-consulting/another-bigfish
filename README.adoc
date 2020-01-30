@@ -53,15 +53,15 @@ That's why the produced code is made publicly avaiable with Apache license too.
 
 [[Special notice]]
 == Special notice
-Bigfish base code make usage of obsolete code no longer existing in Ofbiz. We tried  our most to let the Ofbiz framework code untouched.
-But to accelerate the launch of the project, we put back some methods in place.
-A next effort step would be to remove those, and let Bigfish module be a real plugin.
+Bigfish base code make usage of deprecated methods which no longer exist. An effort was made to port them
+to the new methods implementations.
+We made osafe and osafe-admin as stand alone plugins that depend on the existing SOLR plugin.
 
 === Big fish XLS catalog
 The catalog has been adapted to add extra columns for multi lingual translations AR/FR/NL.
 
 === Big fish admin module
-Only services which made interest for us had a spacial attention from us, to make them functional like catalog Feeds import and Solr indexing. We are not sure that other functions are ok.
+Only services which made interest for us had a special attention from us, to make them functional like catalog Feeds import and Solr indexing. We are not sure that other functions are ok.
 
 === Inventory management
 We added the implementation of inventory managemetn using Ofbiz method. Hence, products inventory can be received through the Facility module in Ofbiz.
