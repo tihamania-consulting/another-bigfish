@@ -66,6 +66,13 @@
        </relation>
     </extend-entity>
 
+    <extend-entity entity-name="Product">
+        <field name="manufacturerPartyId" type="id"></field>
+        <relation type="one-nofk" title="Manufacturer" rel-entity-name="Party">
+            <key-map field-name="manufacturerPartyId" rel-field-name="partyId"/>
+        </relation>
+    </extend-entity>
+
     <entity entity-name="XPixelTracking"
             package-name="org.apache.ofbiz.osafe.admin"
             title="Merchant Pixel Tracking" >
