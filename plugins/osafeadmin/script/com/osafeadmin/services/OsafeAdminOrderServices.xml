@@ -1227,7 +1227,7 @@
         </if-compare>
         
         <call-class-method class-name="org.apache.ofbiz.base.util.UtilValidate" method-name="isNotEmpty" ret-field="isNotEmpty">
-            <field field="enteredNote" type="String"/>
+            <field field="enteredNote" type="java.lang.CharSequence"/>
         </call-class-method>
         <if-compare field="isNotEmpty" operator="equals" value="true">
             <string-append field="insertNote" string="Comment:  ${enteredNote}"/>

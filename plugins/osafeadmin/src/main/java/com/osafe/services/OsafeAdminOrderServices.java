@@ -724,15 +724,17 @@ public class OsafeAdminOrderServices
         }
 
         List<GenericValue> orderItems = orh.getValidOrderItems();
+        List<GenericValue>  keptOrderItems = new ArrayList<>();
         if (UtilValidate.isNotEmpty(cancelOrderItemSequenceIds))
         {
             for(GenericValue orderItem : orderItems)
             {
-            	if (cancelOrderItemSequenceIds.contains(orderItem.getString("orderItemSeqId")))
+            	if (!cancelOrderItemSequenceIds.contains(orderItem.getString("orderItemSeqId")))
             	{
-            		orderItems.remove(orderItem);
+					keptOrderItems.add(orderItem);
             	}
             }
+            orderItems = keptOrderItems;
         	
         }
         

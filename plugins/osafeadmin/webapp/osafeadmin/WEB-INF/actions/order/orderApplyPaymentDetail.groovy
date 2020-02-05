@@ -140,7 +140,7 @@ if (UtilValidate.isNotEmpty(orderId))
 		}
 		context.orderOpenAmount = orderOpenAmount;
 		
-		notes = orderHeader.getRelatedOrderBy("OrderHeaderNoteView", ["-noteDateTime"]);
+		notes = orderHeader.getRelated("OrderHeaderNote", null, null);
 		context.notesCount = notes.size();
 	}
 }

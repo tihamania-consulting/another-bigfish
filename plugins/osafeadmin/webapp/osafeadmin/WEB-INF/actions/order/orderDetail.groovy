@@ -183,7 +183,7 @@ if (UtilValidate.isNotEmpty(orderId))
 	    context.orderPaymentPreferences = orderPaymentPreferences;
 	
 	    // ship groups
-	    shipGroups = orderHeader.getRelatedOrderBy("OrderItemShipGroup", ["-shipGroupSeqId"]);
+	    shipGroups = orderHeader.getRelated("OrderItemShipGroup", null, ["-shipGroupSeqId"]);
 	    context.shipGroups = shipGroups;
 	    shipGroupsSize = shipGroups.size();
 	    context.shipGroupsSize = shipGroupsSize;
@@ -213,7 +213,7 @@ if (UtilValidate.isNotEmpty(orderId))
 	    adjustmentTypes = delegator.findList("OrderAdjustmentType", null, null, ["description"], null, false);
 	    context.orderAdjustmentTypes = adjustmentTypes;
 	
-	    notes = orderHeader.getRelatedOrderBy("OrderHeaderNoteView", ["-noteDateTime"]);
+	    notes = orderHeader.getRelated("OrderHeaderNote", null, null);
 	    context.orderNotes = notes;
 	    orderNotes = notes;
 	    
@@ -291,7 +291,7 @@ if (UtilValidate.isNotEmpty(orderId))
 			}
 		
 			storeId = "";
-			orderDeliveryOptionAttr = orderHeader.getRelated("OrderAttribute", [attrName : "DELIVERY_OPTION"]);
+			orderDeliveryOptionAttr = orderHeader.getRelated("OrderAttribute", [attrName : "DELIVERY_OPTION"], null);
 			orderDeliveryOptionAttr = EntityUtil.getFirst(orderDeliveryOptionAttr);
 			
 			if (UtilValidate.isNotEmpty(orderDeliveryOptionAttr) && orderDeliveryOptionAttr.attrValue == "STORE_PICKUP")

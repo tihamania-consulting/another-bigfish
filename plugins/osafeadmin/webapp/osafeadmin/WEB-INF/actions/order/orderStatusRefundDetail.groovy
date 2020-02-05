@@ -87,7 +87,10 @@ if (UtilValidate.isNotEmpty(orderHeader))
 		for(GenericValue orderAdjustment : orderAdjustments)
 		{
 			String orderAdjustmentTypeId=orderAdjustment.getString("orderAdjustmentTypeId");
-			if (!orderAdjustmentTypeId.equalsIgnoreCase("PROMOTION_ADJUSTMENT") && !orderAdjustmentTypeId.equalsIgnoreCase("SALES_TAX") && !orderAdjustmentTypeId.equalsIgnoreCase("SHIPPING_CHARGES"))
+			if (!orderAdjustmentTypeId.equalsIgnoreCase("PROMOTION_ADJUSTMENT")
+					&& !orderAdjustmentTypeId.equalsIgnoreCase("SALES_TAX")
+					&& !orderAdjustmentTypeId.equalsIgnoreCase("SHIPPING_CHARGES")
+					&& orderAdjustment.get("amount") != null)
 			{
 				if(orderAdjustmentTypeId.equalsIgnoreCase("PROMOTION_ADJUSTMENT"))
 				{

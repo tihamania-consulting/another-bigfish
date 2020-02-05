@@ -23,7 +23,7 @@ if (UtilValidate.isNotEmpty(orderId))
 		orderAdjustments = orderReadHelper.getAdjustments();
 		
 	    // ship groups
-	    shipGroups = orderHeader.getRelatedOrderBy("OrderItemShipGroup", ["-shipGroupSeqId"]);
+	    shipGroups = orderHeader.getRelated("OrderItemShipGroup", null, ["-shipGroupSeqId"]);
 	    context.shipGroups = shipGroups;
 	    shipGroupsSize = shipGroups.size();
 	    

@@ -41,7 +41,7 @@ if (UtilValidate.isNotEmpty(orderId))
 		}
 		context.productStoreName = productStoreName;
 		
-		notes = orderHeader.getRelatedOrderBy("OrderHeaderNoteView", ["-noteDateTime"]);
+		notes = orderHeader.getRelated("OrderHeaderNote", null, null);
 		if(UtilValidate.isNotEmpty(notes))
 		{
 			context.orderNotes = notes;
@@ -154,7 +154,7 @@ if (UtilValidate.isNotEmpty(orderId))
 
 	    //is it a store pickup?
 	    storeId = "";
-	    orderDeliveryOptionAttr = orderHeader.getRelated("OrderAttribute", [attrName : "DELIVERY_OPTION"]);
+	    orderDeliveryOptionAttr = orderHeader.getRelated("OrderAttribute", [attrName : "DELIVERY_OPTION"], null);
 	    orderDeliveryOptionAttr = EntityUtil.getFirst(orderDeliveryOptionAttr);
 	    if (UtilValidate.isNotEmpty(orderDeliveryOptionAttr) && orderDeliveryOptionAttr.attrValue == "STORE_PICKUP") 
 	    {
@@ -171,7 +171,7 @@ if (UtilValidate.isNotEmpty(orderId))
 	    context.returnReasons = returnReasons;
 
 	    // ship groups
-	    shipGroups = orderHeader.getRelatedOrderBy("OrderItemShipGroup", ["shipGroupSeqId"]);
+	    shipGroups = orderHeader.getRelated("OrderItemShipGroup", null, ["shipGroupSeqId"]);
 	    context.orderHeader = orderHeader;
 	}
 	context.orderId = orderId;
